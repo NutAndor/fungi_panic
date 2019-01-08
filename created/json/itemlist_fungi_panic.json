@@ -1,0 +1,10 @@
+[
+    {
+        "id":"bogsten_key",
+        "iconID":"items_misc:21",
+        "name":"Bogsten's key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The key to Bogsten's backyard."
+    }
+]

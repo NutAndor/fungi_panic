@@ -1,0 +1,234 @@
+[
+    {
+        "id":"sign_bogsten_nokey",
+        "message":"The door is closed"
+    },
+    {
+        "id":"bogsten_start_0",
+        "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave !",
+        "replies":[
+            {
+                "text":"What's going on ?",
+                "nextPhraseID":"bogsten_start_1"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_1",
+        "message":"No. I shouldn't be telling you. It's too dangerous.",
+        "replies":[
+            {
+                "text":"I'm sure I can help",
+                "nextPhraseID":"bogsten_start_2"
+            },
+            {
+                "text":"I'm way stronger than I look",
+                "nextPhraseID":"bogsten_start_2"
+            },
+            {
+                "text":"Ok. Nevermind.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_2",
+        "message":"My family has used this place to grow mushrooms for five generations. Our mushrooms are famous from Feygard to Nor City, loved by gourmets and potion makers alike.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_start_3"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_3",
+        "message":"Last month, I went to Nor City to sell an excellent batch and decided to stay a little longer.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_start_4"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_4",
+        "message":"You see, my son is studying across the country to become a Shadow priest and he is currently in the Valanyr temple of Shadow. I had not seen him for so long so I decided to visit him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_start_5"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_5",
+        "message":"Anyway, when I came back here, I felt something strange happened. I couldn't tell what, but I knew evil was around as soon as I touched the door knob.",
+        "replies":[
+            {
+                "text":"Dealing with evil is my favorite hobby.",
+                "nextPhraseID":"bogsten_start_6"
+            },
+            {
+                "text":"Get to the point.",
+                "nextPhraseID":"bogsten_start_6"
+            },
+            {
+                "text":"I will never help a worshipper of the Shadow !",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_6",
+        "message":"When I got to my mushrooms' cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've since locked all access to my cave to prevent anyone from being hurt.",
+        "replies":[
+            {
+                "text":"How can I help ?",
+                "nextPhraseID":"bogsten_start_7"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_7",
+        "message":"I know this potion maker in Fallhaven. Could you go ask him for a cure ?",
+        "replies":[
+            {
+                "text":"Sure. I'll go there right now.",
+                "nextPhraseID":"bogsten_start_8"
+            },
+            {
+                "text":"You fool ! I'm not here to run your errands !",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_8",
+        "message":"Thank you ! I'll be waiting for you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bogsten",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"bogsten_start_select",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_ask_cure_second_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bogsten",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_ask_cure_first_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bogsten",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_start_0"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_ask_cure_first_0",
+        "message":"Have you gotten the cure ?",
+        "replies":[
+            {
+                "text":"Not yet. The potion merchant needs some spore sample to prepare it.",
+                "nextPhraseID":"bogsten_ask_cure_first_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bogsten",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_ask_cure_first_1",
+        "message":"I'm sorry to have dragged you into this, boy. Take this key. It will open the way to my mushrooms cave.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bogsten",
+                "value":30
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bogsten_key_droplist"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_ask_cure_second_0",
+        "message":"Have you collected the spores already ?",
+        "replies":[
+            {
+                "text":"Yes. I have them with me.",
+                "nextPhraseID":"bogsten_ask_cure_second_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bogsten",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"bogsten_ask_cure_second_1"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_ask_cure_second_1",
+        "message":"Please get them for me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_ask_cure_second_2",
+        "message":"Thank you ! Please go give them to the potion merchant.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

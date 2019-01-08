@@ -1,0 +1,52 @@
+[
+    {
+        "id":"bogsten",
+        "name":"Bogsten",
+        "iconID":"monsters_rltiles1:77",
+        "unique":1,
+        "spawnGroup":"bogsten",
+        "phraseID":"bogsten_start_select"
+    },
+    {
+        "id":"zuul_khan",
+        "name":"Zuul'khan",
+        "iconID":"monsters_rltiles2:88",
+        "unique":1,
+        "spawnGroup":"zuul_khan"
+    },
+    {
+        "id":"weak_fungi",
+        "name":"Weak Fungi",
+        "iconID":"monsters_ld2:30",
+        "monsterClass":"animal",
+        "spawnGroup":"weak_fungi"
+    },
+    {
+        "id":"fungi",
+        "name":"Fungi",
+        "iconID":"monsters_ld2:30",
+        "monsterClass":"animal",
+        "spawnGroup":"mid_fungi"
+    },
+    {
+        "id":"dangerous_fungi",
+        "name":"Dangerous Fungi",
+        "iconID":"monsters_ld2:31",
+        "monsterClass":"animal",
+        "spawnGroup":"dangerous_fungi"
+    },
+    {
+        "id":"lombric_ball",
+        "name":"Lombric Ball",
+        "iconID":"monsters_rltiles1:138",
+        "monsterClass":"animal",
+        "spawnGroup":"lombric_ball"
+    },
+    {
+        "id":"lombric_beast",
+        "name":"Lombric Beast",
+        "iconID":"monsters_rltiles1:57",
+        "monsterClass":"animal",
+        "spawnGroup":"lombric_beast"
+    }
+]
