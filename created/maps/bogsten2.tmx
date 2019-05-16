@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="16" height="21" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -122,26 +123,26 @@
  </tileset>
  <layer name="Ground" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJyNkzEOwjAMRaMOldoBrsQF6RWacAPoEUrFxAADUxGCHbgCiWIL87Epw1Pa2N91vxNfOOcjGwNvxL2gi2wNWiO+Jm2IDJGTwcqI91Q76XdlZlZnzpVzy3nusxNxBPWJfZXXnvocKH6I+8dqWn+nnNRD6vNC79e43v7Qc40H8RSakUjPjfC/gRqL+rsm50kdonlkzRzRvGYP5cy1OuGH1zhzrU6gOH9X85qRdVqhH5Vc9BzroB5z2TdNP5ZvPc8G9eyb1Zc2B+s/tLni/Kz7gudJ8497HYrPHq1+0D+e8ZT3fDakf0Hxju8Ig2dD81+iedvAv6W9F4WA+1M=
+   eJyNkzEOwjAMRasOSO3AmThhr9CUG1COUComBhiYihDswBVIVH/hfmzK8JQ2znec7yTkWRYirUNw4kGxjewcaie+EW0T6SNnh7UT7yR30u8XI8tySit7I86wPnEoxrGTOnuJH+P8qZjXP2TNpRjrvMr/LY73P/TI8RReSjMI6btS/leUY1V+58Q6rWMsj7yeM5bX8FD33MrT/PCae27laSSOfS2vgc5TK/1grGXPOQ/reS18s/TD4qNHb1gP37y6rD5457D6yv3z3gvfJ8s/1Nrn0xq9etg/9HjOe9wN7V9jeIc3AvhuWP5rLG8rOluaewOwovoB
   </data>
  </layer>
  <layer name="Objects" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJytVMsNwjAMjUKOlGYZFgC2oDPAiRMC7ggEi8AGnBAjlC7BEPSRPtUxEQWJJ0VV/fezk1VmIqzUv4bULzpsf0HZi/9PuTHn/HvfSvg/+sZc8rbWygabVw4XTmmDHj1Antey8Rf9IDYwdHH+gYv1iM/chIw/yVr+KtV7Csc6zs6Hs7fv+oMNMTVGWbDvmhW4ONi2NmCZyIP+/rUDKd+RkJWJ/J98JddrrXef4819mI/kELzNfNABQ7E7uo5tMxvakjvopz7OBf5mSgaAf9peRY6bmgs4Knw7B34xG/qjxntzKtW3rK0TrttEg3WSO94J7r/kT7830Qxr343iiftRiLgEex8ndh7cyvkWjS1jpN49KaMd7wj8Ef8JQF1ENg==
+   eJyVVEtuwjAQjVwvm8aX4QLQO3TR7NmFFSsE3SMQvUh7g3ZT9Qghl+AQ5DF5ynhwkvZJlhPP/83Y2zyLsDX/Flq+Vt/LEOt9FFn2WQzLLeqH2O6rXd/FuI22bTp7bcdcGyc6txheVu1EjhpwXrRni4nagcuj7DMfx3/ysRz+GZvQ/p/znj/mPob31s8hyDq6e/nJiU+LeS766z/09eT63IBNIg7qG5qB/yI1P3N1VifiD8V9CTHXO5uXH/e3CtIfzSF4q4LIgJmaHZvHvusNdckd5K9m9sFflbgP4J+6PyrGr+kLOCpD3wfu6A3tkeO5W42pW+c2CT+tYsE8yR3vBOdf82ffm6iHre2b4YnzUSq/BGtfJGYe3Or+lp0ufaTePX1GPd4R2MP/FQqFSOk=
   </data>
  </layer>
  <layer name="Above" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYCAM3vAQoQgIZjIi2NMYcaubhSaXLsDAEC6A4M/FIz8Hi7kguTQgTkUyo5oJUx4XCEfTi00eH8ClvxPqVnx2E2M/rQCx8UoKSKfQH9jCei4R6Qqmj1BYk2IvCPQzYRdHT4f40kgtDjOIAV1Qe9DDtReHmcjuBYXbLCLTIDKgRRyig04s4TeXDLfCALnxTi6AhT8AOpsafw==
+   eJxjYCAM3vAQoQgIZjIi2Gv5caubxYjKTxdgYAgXQOhbB8R7gXgfP6b8HDS9IACSSwPiVAGIvmomBoYaJkx5XCAcqhcGDjOh+iUcj15s+q8C9V8D4k6oGfjsxqafXoDYeCUFpFPoD2xhPRcpLqZhiX9kQCisSbEXBPqZsIujp0N8aaQWhxnEgC6oPejh2ovDTGT3gsJtFpFpEBmQE4fIegjlFxDoxBJ+c8lwKwyQG+/kAlj4AwDZASGA
   </data>
  </layer>
  <layer name="Walkable" width="16" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB2EGAbI0UOOXnT9+MzFZTYp+olVg6yWkL+IsYfcMBiK+kkxC58eYswgZB+xbiJWPyG3UBKu6GpJsZvYtEyJfmzmEGMHqe4gJnwBWvZJtw==
+   eJxzFWBgcKUBhgFy9ZGjn1w7CenHBijVj66OECDGf8TYQ0r4UxKGg0E/KWbh00OMGYTsI9ZNxOon5BZKwhVdLSl2E5uWKdGPzRxi7CDVHcSELwCc+0m3
   </data>
  </layer>
- <objectgroup name="Mapevents" width="16" height="21" visible="0">
-  <object name="exit" type="mapchange" x="224" y="64" width="32" height="32">
+ <objectgroup name="Mapevents">
+  <object name="exit" type="mapchange" x="224" y="32" width="32" height="32">
    <properties>
     <property name="map" value="bogsten0"/>
     <property name="place" value="cave_entrance"/>
@@ -154,28 +155,31 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" width="16" height="21" visible="0">
+ <objectgroup name="Spawn" visible="0">
   <object name="weak_fungi" type="spawn" x="320" y="96" width="160" height="128">
    <properties>
-    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
   <object name="weak_fungi" type="spawn" x="64" y="352" width="448" height="128">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
   <object name="mid_fungi" type="spawn" x="32" y="416" width="224" height="224">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
   <object name="mid_fungi" type="spawn" x="320" y="544" width="160" height="96">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" width="16" height="21"/>
- <objectgroup name="Replace" width="16" height="21" visible="0"/>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace" visible="0"/>
 </map>
