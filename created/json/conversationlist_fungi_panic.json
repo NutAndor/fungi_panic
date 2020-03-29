@@ -4,6 +4,54 @@
         "message":"The door is closed"
     },
     {
+        "id":"bogsten_start_select",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_50_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_40_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_30_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bogsten",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_10_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bogsten",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_start_0"
+            }
+        ]
+    },
+    {
         "id":"bogsten_start_0",
         "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave !",
         "replies":[
@@ -53,7 +101,7 @@
     },
     {
         "id":"bogsten_start_4",
-        "message":"You see, my son is studying across the country to become a Shadow priest and he is currently in the Valanyr temple of Shadow. I had not seen him for so long so I decided to visit him.",
+        "message":"You see, my son is studying across the country to become a Shadow priest, and he is currently in the Valanyr temple of Shadow. I had not seen him for so long, so I decided to visit him.",
         "replies":[
             {
                 "text":"N",
@@ -63,7 +111,7 @@
     },
     {
         "id":"bogsten_start_5",
-        "message":"Anyway, when I came back here, I felt something strange happened. I couldn't tell what, but I knew evil was around as soon as I touched the door knob.",
+        "message":"Anyway, when I came back here, I felt something strange had happened. I couldn't tell what, but I knew evil was around as soon as I touched the door knob.",
         "replies":[
             {
                 "text":"Dealing with evil is my favorite hobby.",
@@ -74,38 +122,38 @@
                 "nextPhraseID":"bogsten_start_6"
             },
             {
-                "text":"I will never help a worshipper of the Shadow !",
+                "text":"I will never help a worshipper of the Shadow!",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"bogsten_start_6",
-        "message":"When I got to my mushrooms' cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've since locked all access to my cave to prevent anyone from being hurt.",
+        "message":"When I got to my mushrooms' cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've locked all access to my cave to prevent anyone from being hurt.",
         "replies":[
             {
-                "text":"How can I help ?",
+                "text":"you really look bad. How can I help?",
                 "nextPhraseID":"bogsten_start_7"
             }
         ]
     },
     {
         "id":"bogsten_start_7",
-        "message":"I know this potion maker in Fallhaven. Could you go ask him for a cure ?",
+        "message":"I know this potion maker in Fallhaven. Could you go ask him for a cure?",
         "replies":[
             {
                 "text":"Sure. I'll go there right now.",
                 "nextPhraseID":"bogsten_start_8"
             },
             {
-                "text":"You fool ! I'm not here to run your errands !",
+                "text":"You fool! I'm not here to run your errands!",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"bogsten_start_8",
-        "message":"Thank you ! I'll be waiting for you.",
+        "message":"Thank you! I'll be waiting for you. Be quick!",
         "replies":[
             {
                 "text":"N",
@@ -115,46 +163,18 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"bogsten",
+                "rewardID":"fungi_panic",
                 "value":10
             }
         ]
     },
     {
-        "id":"bogsten_start_select",
-        "replies":[
-            {
-                "nextPhraseID":"bogsten_ask_cure_second_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bogsten",
-                        "value":30
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"bogsten_ask_cure_first_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bogsten",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"bogsten_start_0"
-            }
-        ]
-    },
-    {
-        "id":"bogsten_ask_cure_first_0",
-        "message":"Have you gotten the cure ?",
+        "id":"bogsten_10_10",
+        "message":"Have you got the cure ?",
         "replies":[
             {
                 "text":"Not yet. The potion merchant needs some spore sample to prepare it.",
-                "nextPhraseID":"bogsten_ask_cure_first_1",
+                "nextPhraseID":"bogsten_20_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -170,18 +190,18 @@
         ]
     },
     {
-        "id":"bogsten_ask_cure_first_1",
-        "message":"I'm sorry to have dragged you into this, boy. Take this key. It will open the way to my mushrooms cave.",
+        "id":"bogsten_20_10",
+        "message":"I'm sorry to have dragged you into this, boy. Take this key. It will open the way to my mushrooms cave. You will certainly find what you need.",
         "replies":[
             {
-                "text":"N",
+                "text":"I will have a look.",
                 "nextPhraseID":"X"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"bogsten",
+                "rewardID":"fungi_panic",
                 "value":30
             },
             {
@@ -191,28 +211,28 @@
         ]
     },
     {
-        "id":"bogsten_ask_cure_second_0",
-        "message":"Have you collected the spores already ?",
+        "id":"bogsten_30_10",
+        "message":"Have you collected the spores already?",
         "replies":[
             {
                 "text":"Yes. I have them with me.",
-                "nextPhraseID":"bogsten_ask_cure_second_2",
+                "nextPhraseID":"bogsten_30_20",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"bogsten",
-                        "value":40
+                        "requireType":"inventoryKeep",
+                        "requireID":"fungi_panic_spores",
+                        "value":1
                     }
                 ]
             },
             {
                 "text":"No, not yet.",
-                "nextPhraseID":"bogsten_ask_cure_second_1"
+                "nextPhraseID":"bogsten_30_12"
             }
         ]
     },
     {
-        "id":"bogsten_ask_cure_second_1",
+        "id":"bogsten_30_12",
         "message":"Please get them for me.",
         "replies":[
             {
@@ -222,12 +242,67 @@
         ]
     },
     {
-        "id":"bogsten_ask_cure_second_2",
-        "message":"Thank you ! Please go give them to the potion merchant.",
+        "id":"bogsten_30_20",
+        "message":"These spores would do. Please go and give them to Fallhaven's potion merchant.",
         "replies":[
             {
-                "text":"N",
+                "text":"I'll hurry.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"bogsten_40_10",
+        "message":"Quick, I am dying! The potion maker is the only one who could help me!",
+        "replies":[
+            {
+                "text":"I'll hurry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_50_10",
+        "message":"I hope you have good news for me.",
+        "replies":[
+            {
+                "text":"Yes, I have got a potion for you.",
+                "nextPhraseID":"bogsten_50_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"fungi_panic_cure",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_50_20",
+        "message":"Finally! * He poured down the liquid greedily *",
+        "replies":[
+            {
+                "text":"And here goes 150 coins again...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":60
             }
         ]
     }

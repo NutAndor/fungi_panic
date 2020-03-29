@@ -6,5 +6,32 @@
         "displaytype":"quest",
         "category":"other",
         "description":"The key to Bogsten's backyard."
+    },
+    {
+        "id":"fungi_panic_cure",
+        "iconID":"items_consumables:62",
+        "name":"Cure potion against mushroom wounding",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":150,
+        "category":"pot",
+        "description":"Ask your potion maker about risks and side effects",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"foodp",
+                    "magnitude":22,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+		}
+    },
+    {
+        "id":"fungi_panic_spores",
+        "iconID":"items_misc:1",
+        "name":"Spores of the giant mushrum.",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]

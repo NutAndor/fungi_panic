@@ -1,0 +1,61 @@
+[
+    {
+        "id":"fallhaven_potions",
+        "message":"Welcome to my shop. Please browse my fine selection of everyday potions.",
+        "replies":[
+            {
+                "text":"Let me see what potions you have available.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Do you have anything to help against food-poisoning?",
+                "nextPhraseID":"fallhaven_pot_antifoodp1"
+            },
+            {
+                "text":"I was told that I can get some Spotted Hornbeam fungus from you.",
+                "nextPhraseID":"fallhaven_potions1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lodar_pots",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Bogsten is sick after encountering a giant mushroom. He aked me to get a cure for him.",
+                "nextPhraseID":"fungi_panic_potioner_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":20,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here are the samples of mushroom spores. Can you help Bogsten now?",
+                "nextPhraseID":"fungi_panic_potioner_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":60,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

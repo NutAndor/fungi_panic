@@ -163,14 +163,14 @@
   <object name="bogsten" type="spawn" x="96" y="96" width="96" height="96"/>
  </objectgroup>
  <objectgroup name="Keys" width="12" height="7" visible="0">
-  <object name="bogsten:30" type="key" x="224" y="64" width="32" height="32">
+  <object name="fungi_panic:30" type="key" x="224" y="64" width="32" height="32">
    <properties>
     <property name="phrase" value="sign_bogsten_nokey"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Replace" width="12" height="7">
-  <object name="bogsten:35" type="replace" x="224" y="32" width="32" height="64">
+  <object name="fungi_panic_nondisplayed:35" type="replace" x="224" y="32" width="32" height="64">
    <properties>
     <property name="Objects" value="Objects_after"/>
    </properties>

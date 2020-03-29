@@ -127,7 +127,7 @@
  </layer>
  <layer name="Objects" width="10" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg+CvAwPAPiGEAxofRpbyE1cDEQKANqP4ND1Qhkt7rAtj1/YGqvQ2kH/Bg2vVAAFMM3R243HSKB7+a30D5Wzz4zXuDRx7GPwNV858HVQzGVgSGgxIQv+LB725k8ddQtf+g9Csk89D9iQ14YYkfdH13YHYIoIYzjL7Dg9t9MPZ3LPoAo5lsAA==
+   eJxjYGBg+CvAwPAPiFl4GcAAxofRpbwINgygq4GJgUAbUP0bHqhCJL3XBbDr+wNVextIP+DBtOuBAKYYujtwuekUD341v4Hyt3jwm/cGjzyMfwaq5j8PqhiMrQgMByUgfsWD393I4q+BarOA7Fwo/xWSeej+RAYgPV5QTCh87kDdA+IjhzOMvsOD230w9ncs+gAq52zS
   </data>
  </layer>
  <layer name="Above" width="10" height="15">
@@ -135,7 +135,7 @@
    eJx7K8DA8A6IYeAtlP8WSfwtkjwygKk5LoBdHy71MHABj3p0+7GZTYwafGrxyROjhhR34wsXZLWEwpBUv4P4yOFMjPtICVdcAAD9203Z
   </data>
  </layer>
- <layer name="Walkable" width="10" height="15">
+ <layer name="Walkable" width="10" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxzFWBgcIViGHAVwI2JUYOsjljzyFVPqVuJMQ+bPLpaYtRgcxMxdpLiPlzq8bkFXxjhk8OHAeX+IOA=
   </data>
@@ -155,13 +155,13 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="6" name="forestwasp" type="spawn" x="64" y="96" width="224" height="192">
+  <object id="6" name="forestwasp" type="spawn" x="64" y="64" width="224" height="224">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwasp"/>
    </properties>
   </object>
-  <object id="7" name="forestboar2" type="spawn" x="64" y="288" width="192" height="160">
+  <object id="7" name="forestboar2" type="spawn" x="64" y="256" width="192" height="192">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwasp"/>
