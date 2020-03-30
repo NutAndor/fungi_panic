@@ -4,6 +4,7 @@
         "name":"Bogsten",
         "iconID":"monsters_rltiles1:77",
         "unique":1,
+        "dropList":"bogsten",
         "spawnGroup":"bogsten",
         "phraseID":"bogsten_start_select"
     },
@@ -12,28 +13,32 @@
         "name":"Zuul'khan",
         "iconID":"monsters_rltiles2:88",
         "unique":1,
-        "spawnGroup":"zuul_khan"
+        "spawnGroup":"zuul_khan",
+        "phraseID":"zuul_khan"
     },
     {
         "id":"weak_fungi",
         "name":"Weak Fungi",
         "iconID":"monsters_ld2:30",
         "monsterClass":"animal",
-        "spawnGroup":"weak_fungi"
+        "spawnGroup":"weak_fungi",
+		"dropList":"weak_fungi"
     },
     {
-        "id":"fungi",
+        "id":"mid_fungi",
         "name":"Fungi",
         "iconID":"monsters_ld2:30",
         "monsterClass":"animal",
-        "spawnGroup":"mid_fungi"
+        "spawnGroup":"mid_fungi",
+		"dropList":"mid_fungi"
     },
     {
         "id":"dangerous_fungi",
         "name":"Dangerous Fungi",
         "iconID":"monsters_ld2:31",
         "monsterClass":"animal",
-        "spawnGroup":"dangerous_fungi"
+        "spawnGroup":"dangerous_fungi",
+		"dropList":"dangerous_fungi"
     },
     {
         "id":"lombric_ball",

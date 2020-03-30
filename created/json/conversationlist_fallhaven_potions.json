@@ -29,7 +29,7 @@
         "replies":[
             {
                 "text":"A giant mushroom attacked him.",
-                "nextPhraseID":"fungi_panic_potioner_30"
+                "nextPhraseID":"fungi_panic_potioner_40"
             },
             {
                 "text":"This time? Did he ask for help before?",
@@ -90,7 +90,7 @@
         "message":"He came regularly for the snake antidote. Trying to tame snakes wasn't successful obviously...",
         "replies":[
             {
-                "text":"Taming ... snakes?!",
+                "text":"I can imagine.",
                 "nextPhraseID":"fungi_panic_potioner_32"
             }
         ]
@@ -100,7 +100,7 @@
         "message":"He even tried to get my receipt for this antidote. But of course I couldn't reveal it to him.",
         "replies":[
             {
-                "text":"Of course. Such things should be done by learned potion makers.",
+                "text":"Yes, such things should be done by learned potion makers.",
                 "nextPhraseID":"fungi_panic_potioner_34"
             }
         ]
@@ -131,14 +131,62 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":40
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"fungi_panic_spores",
+                        "value":1
                     }
                 ]
             }
         ]
     },
     {
+        "id":"fungi_panic_potioner_42",
+        "message":"There are lots of different mushrooms. Unfortunately the cure for one kind kills you when you are afflicted by another kind.",
+        "replies":[
+            {
+                "text":"Oh dear. So Bogsten can't be helped?",
+                "nextPhraseID":"fungi_panic_potioner_44"
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_44",
+        "message":"No need to dispare. Bring me some spores of the mushroom, then I will be able to choose the right antidote.",
+        "replies":[
+            {
+                "text":"I will be back with the spores in an instant.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Here are some samples of the mushroom spores",
+                "nextPhraseID":"fungi_panic_potioner_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":40
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"fungi_panic_spores",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":20
+            }
+        ]
+    },
+    {
         "id":"fungi_panic_potioner_50",
-        "message":"Let me see... Ah, yes. A fungus maximus, also known as 'Giant mushroom'. Its wounds are deadl if not cured properly.",
+        "message":"Let me see... Ah, yes. A fungus maximus, also known as 'Giant mushroom'. Its wounds are deadly if not cured properly.",
         "replies":[
             {
                 "text":"N",
@@ -148,7 +196,7 @@
     },
     {
         "id":"fungi_panic_potioner_52",
-        "message":"Here I have the right potion. You can have it for only 150 gold coins.",
+        "message":"I have the right potion for it. You can have it for only 150 gold coins.",
         "replies":[
             {
                 "text":"That much!",
@@ -207,6 +255,36 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":50
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_100",
+        "message":"Tank you.",
+        "replies":[
+            {
+                "text":"What? Bogsten told me you could give me some interesting for it!",
+                "nextPhraseID":"fungi_panic_potioner_110"
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_110",
+        "message":"I could, yes. But I won't.",
+        "replies":[
+            {
+                "text":"That's robbery! I won't let you get away with it!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_120",
+        "message":"Calm down. Shall I sell a sedative to you?",
+        "replies":[
+            {
+                "text":"NO! I DON'T NEED ANY SEDATIVE!!",
+                "nextPhraseID":"X"
             }
         ]
     }

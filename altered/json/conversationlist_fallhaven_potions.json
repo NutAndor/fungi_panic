@@ -55,6 +55,17 @@
 						"negate":true
                     }
                 ]
+            },
+            {
+                "text":"Here are some of Bogsten's mushrooms.",
+                "nextPhraseID":"fungi_panic_potioner_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"fungi_panic_bag",
+                        "value":1
+                    }
+                ]
             }
         ]
     }

@@ -165,74 +165,136 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" width="25" height="18">
-  <object name="lombric_ball" type="spawn" x="224" y="128" width="32" height="32"/>
-  <object name="lombric_ball" type="spawn" x="480" y="160" width="32" height="32"/>
-  <object name="lombric_ball" type="spawn" x="736" y="224" width="32" height="32"/>
-  <object name="lombric_ball" type="spawn" x="608" y="352" width="32" height="32"/>
-  <object name="lombric_ball" type="spawn" x="352" y="256" width="32" height="32"/>
-  <object name="lombric_ball" type="spawn" x="32" y="384" width="32" height="32"/>
-  <object name="lombric_ball" type="spawn" x="192" y="512" width="32" height="32"/>
-  <object name="lombric_beast" type="spawn" x="448" y="512" width="32" height="32"/>
-  <object name="lombric_beast" type="spawn" x="512" y="448" width="32" height="32"/>
-  <object name="lombric_beast" type="spawn" x="544" y="512" width="32" height="32"/>
+  <object name="lombric_ball" type="spawn" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball" type="spawn" x="480" y="160" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_1" type="spawn" x="736" y="224" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_2" type="spawn" x="608" y="352" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_3" type="spawn" x="352" y="256" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball_4" type="spawn" x="32" y="384" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_ball:5" type="spawn" x="192" y="512" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object name="lombric_beast" type="spawn" x="448" y="512" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_2" type="spawn" x="512" y="448" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object name="lombric_beast_3" type="spawn" x="544" y="512" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
   <object name="weak_fungi" type="spawn" x="32" y="96" width="160" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
-  <object name="weak_fungi" type="spawn" x="288" y="64" width="160" height="160">
+  <object name="weak_fungi_1" type="spawn" x="288" y="64" width="160" height="160">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
   <object name="mid_fungi" type="spawn" x="288" y="96" width="160" height="128">
    <properties>
     <property name="quantity" value="1"/>
+    <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object name="mid_fungi" type="spawn" x="544" y="96" width="128" height="160">
+  <object name="mid_fungi_1" type="spawn" x="544" y="96" width="128" height="160">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object name="weak_fungi" type="spawn" x="160" y="256" width="160" height="160">
+  <object name="weak_fungi_2" type="spawn" x="160" y="256" width="160" height="160">
    <properties>
     <property name="quantity" value="4"/>
+    <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
   <object name="dangerous_fungi" type="spawn" x="64" y="448" width="96" height="96">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
    </properties>
   </object>
-  <object name="dangerous_fungi" type="spawn" x="672" y="288" width="96" height="128">
+  <object name="dangerous_fungi_2" type="spawn" x="672" y="288" width="96" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
    </properties>
   </object>
-  <object name="dangerous_fungi" type="spawn" x="448" y="288" width="96" height="128">
+  <object name="dangerous_fungi_3" type="spawn" x="448" y="288" width="96" height="128">
    <properties>
     <property name="quantity" value="1"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
    </properties>
   </object>
-  <object name="mid_fungi" type="spawn" x="448" y="320" width="96" height="96">
+  <object name="mid_fungi_2" type="spawn" x="448" y="320" width="96" height="96">
    <properties>
     <property name="quantity" value="1"/>
+    <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object name="dangerous_fungi" type="spawn" x="256" y="416" width="192" height="128">
+  <object name="dangerous_fungi_4" type="spawn" x="256" y="416" width="192" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
    </properties>
   </object>
-  <object name="mid_fungi" type="spawn" x="256" y="448" width="192" height="96">
+  <object name="mid_fungi_3" type="spawn" x="256" y="448" width="192" height="96">
    <properties>
     <property name="quantity" value="1"/>
+    <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object name="dangerous_fungi" type="spawn" x="576" y="480" width="160" height="64">
+  <object name="dangerous_fungi_5" type="spawn" x="576" y="480" width="160" height="64">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
    </properties>
   </object>
  </objectgroup>
@@ -242,6 +304,9 @@
    <properties>
     <property name="Above" value="Above_after"/>
     <property name="Walkable" value="Walkable_after"/>
+    <property name="requireId" value="fungi_panic_necklace"/>
+    <property name="requireType" value="wear"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>

@@ -8,6 +8,29 @@
         "description":"The key to Bogsten's backyard."
     },
     {
+        "id":"bogsten_staff",
+        "iconID":"items_weapons_3:18",
+        "name":"Bogsten's staff",
+        "category":"staff",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":3,
+            "increaseBlockChance":-1
+        }
+    },
+    {
+        "id":"fungi_panic_bag",
+        "iconID":"items_japozero:334",
+        "name":"Bag with mushrooms",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This bag contains some mushrooms from Bogsten's backyard."
+    },
+    {
         "id":"fungi_panic_cure",
         "iconID":"items_consumables:62",
         "name":"Cure potion against mushroom wounding",
@@ -28,8 +51,16 @@
 		}
     },
     {
+        "id":"fungi_panic_necklace",
+        "iconID":"items_necklaces_1:7",
+        "name":"Bogsten's necklace",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The key to Bogsten's hidden caves."
+    },
+    {
         "id":"fungi_panic_spores",
-        "iconID":"items_misc:1",
+        "iconID":"items_misc_5:26",
         "name":"Spores of the giant mushrum.",
         "displaytype":"quest",
         "category":"other"

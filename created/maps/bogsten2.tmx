@@ -161,7 +161,7 @@
     <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
-  <object name="weak_fungi" type="spawn" x="64" y="352" width="448" height="128">
+  <object name="weak_fungi_1" type="spawn" x="64" y="352" width="448" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="weak_fungi"/>
@@ -173,7 +173,7 @@
     <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object name="mid_fungi" type="spawn" x="320" y="544" width="160" height="96">
+  <object name="mid_fungi_1" type="spawn" x="320" y="544" width="160" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="mid_fungi"/>

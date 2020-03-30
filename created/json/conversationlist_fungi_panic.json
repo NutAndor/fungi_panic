@@ -4,8 +4,73 @@
         "message":"The door is closed"
     },
     {
+        "id":"fungi_panic_check_key",
+        "replies":[
+            {
+                "nextPhraseID":"fungi_panic_check_key_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bogsten_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_check_key_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":35
+            }
+        ]
+    },
+    {
         "id":"bogsten_start_select",
         "replies":[
+            {
+                "nextPhraseID":"bogsten_115_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":115
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_100_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_90_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_60_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":60
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"bogsten_50_10",
                 "requires":[
@@ -31,7 +96,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"bogsten",
+                        "requireID":"fungi_panic",
                         "value":30
                     }
                 ]
@@ -41,7 +106,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"bogsten",
+                        "requireID":"fungi_panic",
                         "value":10
                     }
                 ]
@@ -53,10 +118,10 @@
     },
     {
         "id":"bogsten_start_0",
-        "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave !",
+        "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
         "replies":[
             {
-                "text":"What's going on ?",
+                "text":"What's going on?",
                 "nextPhraseID":"bogsten_start_1"
             }
         ]
@@ -132,7 +197,7 @@
         "message":"When I got to my mushrooms' cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've locked all access to my cave to prevent anyone from being hurt.",
         "replies":[
             {
-                "text":"you really look bad. How can I help?",
+                "text":"You really look bad. How can I help?",
                 "nextPhraseID":"bogsten_start_7"
             }
         ]
@@ -178,7 +243,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"bogsten",
+                        "requireID":"fungi_panic",
                         "value":20
                     }
                 ]
@@ -205,8 +270,9 @@
                 "value":30
             },
             {
-                "rewardType":"dropList",
-                "rewardID":"bogsten_key_droplist"
+                "rewardType":"giveItem",
+                "rewardID":"bogsten_key",
+                "value":1
             }
         ]
     },
@@ -291,11 +357,11 @@
     },
     {
         "id":"bogsten_50_20",
-        "message":"Finally! * He poured down the liquid greedily *",
+        "message":"Finally!\n* He poured down the liquid greedily *",
         "replies":[
             {
                 "text":"And here goes 150 coins again...",
-                "nextPhraseID":"X"
+                "nextPhraseID":"bogsten_60_10"
             }
         ],
         "rewards":[
@@ -305,5 +371,600 @@
                 "value":60
             }
         ]
-    }
+    },
+    {
+        "id":"bogsten_60_10",
+        "message":"Aaah. I feel much better. That was neat. You have my everlasting thanks, kid.",
+        "replies":[
+            {
+                "text":"I am glad I could help.",
+                "nextPhraseID":"bogsten_60_20"
+            },
+            {
+                "text":"I'd prefer to have my 150 gold coins back.",
+                "nextPhraseID":"bogsten_60_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_12",
+        "message":"No, no, no. The uplifting feeling of saving a life cannot be balanced with gold.",
+        "replies":[
+            {
+                "text":"Not?",
+                "nextPhraseID":"bogsten_60_20"
+            },
+            {
+                "text":"You are right.",
+                "nextPhraseID":"bogsten_60_20"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_20",
+        "message":"Now that I am restored again, I should go back to work.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_60_22"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_22",
+        "message":"I really should.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_60_24"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_24",
+        "message":"I should...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_60_26"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_26",
+        "message":"What? ... Ah, yes - work.",
+        "replies":[
+            {
+                "text":"You seem a bit distrackted.",
+                "nextPhraseID":"bogsten_60_30"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_30",
+        "message":"Indeed. I can't concentrate.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_60_32"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_32",
+        "message":"There seem to be an evil force near us. Yes, that must be it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_60_40"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_40",
+        "message":"Please go into my caves and check if everything is right.",
+        "replies":[
+            {
+                "text":"OK. Down again.",
+                "nextPhraseID":"bogsten_60_50"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_50",
+        "message":"There are hidden rooms. I'll give you my necklace so that you can find them. Wear it down in the caves. Never put it off.",
+        "replies":[
+            {
+                "text":"I'm curious what I will find there.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"fungi_panic_necklace",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"bogsten_70_10",
+        "message":"Now what has happened down there?",
+        "replies":[
+            {
+                "text":"I don't know yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I defeated Zuul'khan, but he is not dead. He just disappeared into the ground.",
+                "nextPhraseID":"bogsten_70_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bogsten_70_20",
+        "message":"Did he? Why was he alive still, I wonder.",
+        "replies":[
+            {
+                "text":"Your father seemed to have petrified him. But this spell has to be renewed every week.",
+                "nextPhraseID":"bogsten_90_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_10",
+        "message":"Zuul'khan is dead?",
+        "replies":[
+            {
+                "text":"I don't think so. He just disappeared into the ground.\nYour father seemed to have petrified him. But this spell has to be renewed every week.",
+                "nextPhraseID":"bogsten_90_30"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_30",
+        "message":"Every week? Yes, right. My father said something like that. I'll see to it now.\nPlease take this bag of mushrooms to the potion merchant. He shall produce something good for you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_90_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"fungi_panic_bag",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_32",
+        "message":"I thought that wasn't important.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_100_10"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_100_10",
+        "message":"Hi kid. Nice to meet you again."
+    },
+    {
+        "id":"bogsten_115_10",
+        "message":"Now what has happened down there?",
+        "replies":[
+            {
+                "text":"I met a sourcerer called Zuul'khan. He offered me something of value, so now I'll kill you.",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan",
+        "replies":[
+            {
+                "nextPhraseID":"zuul_khan_115_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":115
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"zuul_khan_70_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"zuul_khan_10"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_10",
+        "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
+        "replies":[
+            {
+                "text":"What's going on?",
+                "nextPhraseID":"zuul_khan_10"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_20",
+        "message":"Hahaha! AHAHAHAHA! I am free again!",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"zuul_khan_30"
+            },
+            {
+                "text":"What are you?",
+                "nextPhraseID":"zuul_khan_22"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_22",
+        "message":"Be nice, kid.",
+        "replies":[
+            {
+                "text":"OK. Who are you?",
+                "nextPhraseID":"zuul_khan_30"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_30",
+        "message":"I am widely known as the great Zuul'khan! Great and strong, yes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_40"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_40",
+        "message":"You are the first human I see after such a long time.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_42"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_42",
+        "message":"As well as I am the last human you will ever see.",
+        "replies":[
+            {
+                "text":"Wait.",
+                "nextPhraseID":"zuul_khan_50"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_50",
+        "message":"Well, you may have a last wish. What do you want?",
+        "replies":[
+            {
+                "text":"Tell me why you are here in Bogsten's caves?",
+                "nextPhraseID":"zuul_khan_60"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_60",
+        "message":"Bogsten's cave? Oh how I hate this name!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_62"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_62",
+        "message":"It was the Bogstens who had imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, expect ... Well, I did almost nothing evil to them.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_64"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_64",
+        "message":"Lotho Bogsten cought me unaware. I didn't expect petrifying. Who would use such a weak spell that has to be renewed every few weeks?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_66"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_66",
+        "message":"I could not move but I noticed everything that was happening around me. Lotho Bogsten visited me regularly and did the petrify again.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_70"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70",
+        "message":"Finally, after long, long years, Lotho Bogsten must have died.",
+        "replies":[
+            {
+                "text":"He had a son?",
+                "nextPhraseID":"zuul_khan_72"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_72",
+        "message":"Indeed he had. But that lazy bones didn't come as regularly as needed. The spell weared off, and I could move again.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_74"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_74",
+        "message":"AHAHAHAHA!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_80"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_80",
+        "message":"And you are wearing their family necklace. You must die now.",
+        "replies":[
+            {
+                "text":"You shouldn't. I could be of use.",
+                "nextPhraseID":"zuul_khan_90"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_90",
+        "message":"Hmm. Maybe.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_70_20"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_10",
+        "message":"Is Bogsten dead already?",
+        "replies":[
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have killed him.",
+                "nextPhraseID":"zuul_khan_115_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bogsten",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_20",
+        "message":"Go and kill Bogsten up there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_70_22"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_22",
+        "message":"Kill Bogsten and bring me his staff as a evidence.",
+        "replies":[
+            {
+                "text":"What would I gain of this?",
+                "nextPhraseID":"zuul_khan_70_40"
+            },
+            {
+                "text":"No. I rather kill you.",
+                "nextPhraseID":"zuul_khan_70_24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_24",
+        "message":"Then our little conversation is over now.",
+        "replies":[
+            {
+                "text":"Attack!",
+                "nextPhraseID":"zuul_khan_70_30"
+            },
+            {
+                "text":"Hm, wait. Let me think again.",
+                "nextPhraseID":"zuul_khan_70_22"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_30",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":80
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_70_40",
+        "message":"Ah. You are not as stupid as you look, kid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_70_42"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_42",
+        "message":"I'll give you two things.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_70_44"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_44",
+        "message":"I'll spare your life.",
+        "replies":[
+            {
+                "text":"Generously.",
+                "nextPhraseID":"zuul_khan_70_46"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_46",
+        "message":"And I'll provide you with a permanent immunity to the spore poison.",
+        "replies":[
+            {
+                "text":"Agreed. I go upstairs and finish Bogsten.",
+                "nextPhraseID":"zuul_khan_70_50"
+            },
+            {
+                "text":"Forget it. Attack!",
+                "nextPhraseID":"zuul_khan_70_30"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_70_50",
+        "message":"Do so.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":115
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_115_10",
+        "message":"Bogsten is dead. Finally.",
+        "replies":[
+            {
+                "text":"Yes. Now where is my reward?",
+                "nextPhraseID":"zuul_khan_115_20"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_115_20",
+        "message":"Give me the staff first.",
+        "replies":[
+            {
+                "text":"Here it is.",
+                "nextPhraseID":"zuul_khan_115_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bogsten",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No. I decided to keep Bogsten's staff.",
+                "nextPhraseID":"zuul_khan_115_30"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_115_30",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":135
+            }
+        ]
+	}
 ]
