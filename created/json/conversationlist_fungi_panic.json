@@ -29,6 +29,44 @@
         ]
     },
     {
+        "id":"bogsten_check_necklace",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_check_necklace_10",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"bogsten_necklace",
+                        "value":1
+                    }
+                ]
+            },
+			{
+                "nextPhraseID":"bogsten_check_necklace_20"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_check_necklace_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"bogsten_check_necklace_20",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":60
+            }
+        ]
+    },
+    {
         "id":"bogsten_start_select",
         "replies":[
             {
@@ -382,14 +420,7 @@
             },
             {
                 "text":"I'd prefer to have my 150 gold coins back.",
-                "nextPhraseID":"bogsten_60_12",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic_nondisplayed",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"bogsten_60_12"
             }
         ]
     },

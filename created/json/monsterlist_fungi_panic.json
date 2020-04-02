@@ -4,17 +4,40 @@
         "name":"Bogsten",
         "iconID":"monsters_rltiles1:77",
         "unique":1,
-        "dropList":"bogsten",
+        "droplistID":"bogsten",
         "spawnGroup":"bogsten",
-        "phraseID":"bogsten_start_select"
+        "phraseID":"bogsten_start_select",
+        "maxHP":35,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":30
     },
     {
         "id":"zuul_khan",
         "name":"Zuul'khan",
         "iconID":"monsters_rltiles2:88",
         "unique":1,
+        "droplistID":"zuul_khan",
         "spawnGroup":"zuul_khan",
-        "phraseID":"zuul_khan"
+        "phraseID":"zuul_khan",
+        "maxHP":175,
+        "maxAP":20,
+        "moveCost":6,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":40
     },
     {
         "id":"weak_fungi",
@@ -22,7 +45,14 @@
         "iconID":"monsters_ld2:30",
         "monsterClass":"animal",
         "spawnGroup":"weak_fungi",
-		"dropList":"weak_fungi"
+		"droplistID":"weak_fungi",
+        "maxHP":20,
+        "maxAP":10,
+        "moveCost":7,
+        "attackDamage":{ "min":1, "max":2 },
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":10
     },
     {
         "id":"mid_fungi",
@@ -30,7 +60,14 @@
         "iconID":"monsters_ld2:30",
         "monsterClass":"animal",
         "spawnGroup":"mid_fungi",
-		"dropList":"mid_fungi"
+		"droplistID":"mid_fungi",
+        "maxHP":35,
+        "maxAP":10,
+        "moveCost":5,
+        "attackDamage":{ "min":3, "max":6 },
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":20
     },
     {
         "id":"dangerous_fungi",
@@ -38,20 +75,41 @@
         "iconID":"monsters_ld2:31",
         "monsterClass":"animal",
         "spawnGroup":"dangerous_fungi",
-		"dropList":"dangerous_fungi"
+		"droplistID":"dangerous_fungi",
+        "maxHP":55,
+        "maxAP":10,
+        "moveCost":7,
+        "attackDamage":{ "min":3, "max":6 },
+        "attackCost":3,
+        "attackChance":110,
+        "blockChance":12
     },
     {
         "id":"lombric_ball",
         "name":"Lombric Ball",
         "iconID":"monsters_rltiles1:138",
         "monsterClass":"animal",
-        "spawnGroup":"lombric_ball"
+        "spawnGroup":"lombric_ball",
+        "maxHP":30,
+        "maxAP":10,
+        "moveCost":7,
+        "attackDamage":{ "min":1, "max":15 },
+        "attackCost":10,
+        "attackChance":50,
+        "blockChance":60
     },
     {
         "id":"lombric_beast",
         "name":"Lombric Beast",
         "iconID":"monsters_rltiles1:57",
         "monsterClass":"animal",
-        "spawnGroup":"lombric_beast"
+        "spawnGroup":"lombric_beast",
+        "maxHP":30,
+        "maxAP":10,
+        "moveCost":5,
+        "attackDamage":{ "min":3, "max":10 },
+        "attackCost":5,
+        "attackChance":70,
+        "blockChance":30
     }
 ]

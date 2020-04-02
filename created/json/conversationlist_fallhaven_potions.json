@@ -153,14 +153,14 @@
     },
     {
         "id":"fungi_panic_potioner_44",
-        "message":"No need to dispare. Bring me some spores of the mushroom, then I will be able to choose the right antidote.",
+        "message":"No need to dispare. Bring me four sample spores of the mushroom, then I will be able to choose the right antidote.",
         "replies":[
             {
                 "text":"I will be back with the spores in an instant.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Here are some samples of the mushroom spores",
+                "text":"Here are four samples of the mushroom spores",
                 "nextPhraseID":"fungi_panic_potioner_50",
                 "requires":[
                     {
@@ -171,7 +171,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"fungi_panic_spores",
-                        "value":1
+                        "value":4
                     }
                 ]
             }
@@ -217,10 +217,52 @@
     },
     {
         "id":"fungi_panic_potioner_54",
-        "message":"Take it or leave it. Poor Bogsten...",
+        "message":"Take it or leave it. Poor Bogsten ...",
         "replies":[
             {
                 "text":"Forget it.",
+                "nextPhraseID":"fungi_panic_potioner_56"
+            },
+            {
+                "text":"OK, here you are.",
+                "nextPhraseID":"fungi_panic_potioner_60",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":150
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_56",
+        "message":"I had always liked him ...",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"fungi_panic_potioner_58"
+            },
+            {
+                "text":"OK, here you are.",
+                "nextPhraseID":"fungi_panic_potioner_60",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":150
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_58",
+        "message":"Sigh.",
+        "replies":[
+            {
+                "text":"I said no.",
                 "nextPhraseID":"X"
             },
             {

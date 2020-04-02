@@ -40,13 +40,13 @@
                 ]
             },
             {
-                "text":"Here are the samples of mushroom spores. Can you help Bogsten now?",
-                "nextPhraseID":"fungi_panic_potioner_10",
+                "text":"Here are four samples of mushroom spores. Can you help Bogsten now?",
+                "nextPhraseID":"fungi_panic_potioner_50",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":40
+                        "requireType":"inventoryRemove",
+                        "requireID":"fungi_panic_spores",
+                        "value":4
                     },
                     {
                         "requireType":"questProgress",
