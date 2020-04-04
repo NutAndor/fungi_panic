@@ -525,7 +525,7 @@
             },
             {
                 "rewardType":"giveItem",
-                "rewardID":"fungi_panic_necklace",
+                "rewardID":"bogsten_necklace",
                 "value":1
             }
         ]
@@ -654,11 +654,49 @@
     },
     {
         "id":"zuul_khan_10",
-        "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
+        "message":"Oh kid, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
         "replies":[
             {
                 "text":"What's going on?",
-                "nextPhraseID":"zuul_khan_10"
+                "nextPhraseID":"zuul_khan_12"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_12",
+        "message":"Give me your hand! ... No don't! ... Give me ... ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_14"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_14",
+        "message":"I'm hurt ... I'll hurt ... Never do! ... Help! ... Kill! ... your hand - pleease ...",
+        "replies":[
+            {
+                "text":"* Reach out your hand *",
+                "nextPhraseID":"zuul_khan_20"
+            },
+            {
+                "text":"Attack!",
+                "nextPhraseID":"zuul_khan_16"
+            },
+            {
+                "text":"I better go.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_16",
+        "message":"No! Don't do me wrong!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_12"
             }
         ]
     },
@@ -711,7 +749,7 @@
         "message":"As well as I am the last human you will ever see.",
         "replies":[
             {
-                "text":"Wait.",
+                "text":"Wait!",
                 "nextPhraseID":"zuul_khan_50"
             }
         ]
@@ -758,7 +796,7 @@
     },
     {
         "id":"zuul_khan_66",
-        "message":"I could not move but I noticed everything that was happening around me. Lotho Bogsten visited me regularly and did the petrify again.",
+        "message":"I could not move but I noticed everything that was happening around me. Lotho Bogsten visited me regularly and renewed the spell.",
         "replies":[
             {
                 "text":"N",
@@ -771,14 +809,14 @@
         "message":"Finally, after long, long years, Lotho Bogsten must have died.",
         "replies":[
             {
-                "text":"He had a son?",
+                "text":"He had children?",
                 "nextPhraseID":"zuul_khan_72"
             }
         ]
     },
     {
         "id":"zuul_khan_72",
-        "message":"Indeed he had. But that lazy bones didn't come as regularly as needed. The spell weared off, and I could move again.",
+        "message":"Indeed he had a son. But that lazy bones didn't come as regularly as needed. The spell weared off, and I could move again.",
         "replies":[
             {
                 "text":"N",
@@ -801,7 +839,11 @@
         "message":"And you are wearing their family necklace. You must die now.",
         "replies":[
             {
-                "text":"You shouldn't. I could be of use.",
+                "text":"Come and get me!",
+                "nextPhraseID":"zuul_khan_70_24"
+            },
+            {
+                "text":"You shouldn't kill me. I could be of use.",
                 "nextPhraseID":"zuul_khan_90"
             }
         ]
@@ -878,7 +920,7 @@
             },
             {
                 "text":"Hm, wait. Let me think again.",
-                "nextPhraseID":"zuul_khan_70_22"
+                "nextPhraseID":"zuul_khan_70_20"
             }
         ]
     },
@@ -932,7 +974,7 @@
         "message":"And I'll provide you with a permanent immunity to the spore poison.",
         "replies":[
             {
-                "text":"Agreed. I go upstairs and finish Bogsten.",
+                "text":"Agreed. I'll go upstairs and finish Bogsten.",
                 "nextPhraseID":"zuul_khan_70_50"
             },
             {
@@ -968,7 +1010,7 @@
         "replies":[
             {
                 "text":"Here it is.",
-                "nextPhraseID":"zuul_khan_115_30",
+                "nextPhraseID":"zuul_khan_115_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -978,13 +1020,27 @@
                 ]
             },
             {
-                "text":"No. I decided to keep Bogsten's staff.",
-                "nextPhraseID":"zuul_khan_115_30"
+                "text":"No, I have changed my mind. I'll rather keep Bogsten's staff.",
+                "nextPhraseID":"zuul_khan_115_22"
             }
         ]
     },
     {
-        "id":"zuul_khan_115_30",
+        "id":"zuul_khan_115_22",
+        "message":"You won't betray me, you little fool!",
+        "replies":[
+            {
+                "text":"Who is betraying here? Where is my dearly earned reward!",
+                "nextPhraseID":"zuul_khan_115_20"
+            },
+            {
+                "text":"Little in height - but strong! Attack!",
+                "nextPhraseID":"zuul_khan_115_24"
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_115_24",
         "replies":[
             {
                 "nextPhraseID":"F"
@@ -995,6 +1051,33 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":135
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_115_50",
+        "message":"Finally I got the staff back!",
+        "replies":[
+            {
+                "nextPhraseID":"zuul_khan_150"
+                "text":"My reward...",
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":150
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_150",
+        "message":"Finally I got the staff back!",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+                "text":"My reward...?",
             }
         ]
 	}

@@ -51,11 +51,13 @@
 		}
     },
     {
-        "id":"fungi_panic_necklace",
+        "id":"bogsten_necklace",
         "iconID":"items_necklaces_1:7",
         "name":"Bogsten's necklace",
         "displaytype":"quest",
-        "category":"other",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"neck",
         "description":"The key to Bogsten's hidden caves."
     },
     {
