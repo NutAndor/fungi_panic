@@ -157,8 +157,6 @@
     <map id="wild13" x="293" y="436"/>
     <map id="wild14" x="314" y="441"/>
     <map id="wild14_clearing" x="314" y="458"/>
-    <map id="bogsten0" x="293" y="452"/>
-    <map id="bogsten5" x="282" y="447"/>
     <map id="wild15" x="335" y="448"/>
     <map id="wild16" x="74" y="469"/>
     <map id="wild17" x="32" y="469"/>
@@ -229,17 +227,15 @@
     <map id="waytolake12" x="678" y="174"/>
     <map id="arulirmountain1" x="817" y="94"/>
     <map id="arulirmountain2" x="848" y="96"/>
+    <map area="brimhaven_area" id="brimhaven1" x="426" y="259"/>
+    <map id="brimhaven4" x="395" y="259"/>
+    <map id="brimhaven2" x="395" y="290"/>
+    <map id="brimhaven3" x="457" y="265"/>
+    <map id="brimhaven7" x="457" y="259"/>
+    <map id="brimhaven8" x="426" y="290"/>
+    <map id="bogsten0" x="293" y="452"/>
+    <map id="bogsten5" x="282" y="447"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
-    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
-    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
-    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
-    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
-    <namedarea id="loneford" name="Loneford" type="settlement"/>
-    <namedarea id="remgard" name="Remgard" type="settlement"/>
-    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
-    <namedarea id="prim" name="Prim" type="settlement"/>
-    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
-    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
   </segment>
 </worldmap>
