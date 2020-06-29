@@ -1,0 +1,199 @@
+[
+  {
+    "id": "gison_soup",
+    "name": "Delicious Soup",
+    "stages": [
+      {
+        "progress": 10,
+        "logText": "In a hut southwest from Fallhaven I met Alaun.\nHe pleased me to bring him some of the delicious soup made by Gison with forest mushrooms.\nGisons house lays to the south."
+      },
+      {
+        "progress": 20,
+        "logText": "I found Gisons house and should deliver the soup to Alaun as long as it is hot."
+      },
+      {
+        "progress": 22,
+        "logText": "Gison gave me a new soup for 5 gold."
+      },
+      {
+        "progress": 24,
+        "logText": "Gison gave me a new soup for 50 gold."
+      },
+      {
+        "progress": 26,
+        "logText": "Gison gave me a new soup for 500 gold."
+      },
+      {
+        "progress": 28,
+        "logText": "Gison gave me a new soup for 5000 gold. I should really go to Alaun now."
+      },
+      {
+        "progress": 30,
+        "logText": "Alaun receieved the soup.\nI shall bring the empty bottle back to Gison."
+      },
+      {
+        "progress": 40,
+        "logText": "I brought the empty bottle to Gison.",
+        "finishesQuest": 1,
+        "rewardExperience": 100
+      },
+      {
+        "progress": 50,
+        "logText": "I spended 5555 gold on buying mushroom soup.There is nothing left for Alaun.",
+        "finishesQuest": 1
+      }
+    ],
+    "showInLog": 1
+  },
+  {
+    "id": "gison_book",
+    "name": "A raid for a cookbook",
+    "stages": [
+      {
+        "progress": 10,
+        "logText": "Gison, the man with the mushroom soup in the forest south of Fallhaven, got raided.Only his cookbook was stolen and I shall bring it back to him."
+      },
+      {
+        "progress": 15,
+        "logText": "I accepted to help him."
+      },
+      {
+        "progress": 20,
+        "logText": "Gison said the thieves cam from the south. I should begin my search there"
+      },
+      {
+        "progress": 30,
+        "logText": "Ich habe eine verborgene Grotte entdeckt. Eventuell verstecken sich die Diebe dort."
+      },
+      {
+        "progress": 40,
+        "logText": "Ich habe die Diebe gefunden. Einer von ihnen führte gerade eine Art Ritual durch als ich in die Höhle kam."
+      },
+      {
+        "progress": 50,
+        "logText": "Ich habe dem Anführer das Buch aus seinen toten Händen genommen. Nachdem sie mich bemerkt hatten wollten sie mich wohl tot sehen."
+      },
+      {
+        "progress": 60,
+        "logText": "Ich habe Gison sein Kochbuch zurückgebracht, leider sind die Seiten mit der seltsamen Schrift während des Kampfes unleserlich zerstört worden, aber immerhin kann Gison jetzt wieder seine Suppe kochen."
+      },
+      {
+        "progress": 70,
+        "logText": "Gison wird mir zum Dank Pilzsuppe geben, wenn ich ihm 50 Gold, 2 von Bigerts Pilzen und eine leere Flasche bringe.",
+        "finishesQuest": 1
+      }
+    ],
+    "showInLog": 1
+  },
+  {
+    "id": "mushroomcave_pathblock",
+    "name": "mushroomcave_pahblock",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "mushroomcave_trap",
+    "name": "mushroomcave_trap",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "alaun_soup_reward",
+    "name": "Alaun soup rewards",
+    "stages": [
+      {
+        "progress": 10,
+        "logText": "10 gold"
+      },
+      {
+        "progress": 11,
+        "rewardExperience": 500
+      },
+      {
+        "progress": 15,
+        "logText": "15 gold"
+      },
+      {
+        "progress": 16,
+        "rewardExperience": 450
+      },
+      {
+        "progress": 20,
+        "logText": "20 gold"
+      },
+      {
+        "progress": 21,
+        "rewardExperience": 400
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_1",
+    "name": "Gison bottle 1",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_2",
+    "name": "Gison bottle 2",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_3",
+    "name": "Gison bottle 3",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_4",
+    "name": "Gison bottle 4",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_5",
+    "name": "Gison bottle 5",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_6",
+    "name": "Gison bottle 6",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  },
+  {
+    "id": "gison_bottle_7",
+    "name": "Gison bottle 7",
+    "stages": [
+      {
+        "progress": 10
+      }
+    ]
+  }
+]

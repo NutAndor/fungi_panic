@@ -1,0 +1,83 @@
+[
+    {
+        "id":"alaun",
+        "message":"Hello. I'm Alaun. How can I help you?",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor? He looks similar to me.",
+                "nextPhraseID":"alaun_2"
+            },
+            {
+                "text":"Do you have a job for me?",
+                "nextPhraseID":"alaun_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the soup...",
+                "nextPhraseID":"alaun_return_blindstart",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"gison_soup",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"About the soup...",
+                "nextPhraseID":"alaun_return_blindstart",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Gison gave me some of his soup.",
+                "nextPhraseID":"alaun_return",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"alaun_2",
+        "message":"You are looking for your brother you say? Looks like you? Hm.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alaun_3"
+            }
+        ]
+    },
+    {
+        "id":"alaun_3",
+        "message":"No, I cannot recall seeing anyone by that description. Maybe you should try in Crossglen village west of here."
+    }
+]
