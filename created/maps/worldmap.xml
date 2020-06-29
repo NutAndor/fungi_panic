@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="mywildcave" x="1136" y="526">
+    <map id="mywildcave1a" x="1170" y="540"/>
+    <map id="mywildcave1" x="1136" y="564"/>
+    <map id="mywildcave3" x="1145" y="526"/>
+    <map id="mywildcave2" x="1136" y="543"/>
+  </segment>
+</worldmap>
