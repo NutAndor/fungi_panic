@@ -6,4 +6,15 @@
     <map id="mywildcave3" x="1145" y="526"/>
     <map id="mywildcave2" x="1136" y="543"/>
   </segment>
+  <segment id="bogsten" x="-90" y="-161">
+    <map id="bogsten2" x="-90" y="-112"/>
+    <map id="bogsten3" x="-81" y="-90"/>
+    <map id="bogsten4" x="-55" y="-87"/>
+    <map id="mushroom_m2_1" x="-55" y="-101"/>
+    <map id="mushroom_m2_2" x="-65" y="-122"/>
+    <map id="mushroom_m2_3" x="-54" y="-144"/>
+    <map id="mushroom_m2_4" x="-31" y="-144"/>
+    <map id="mushroom_m2_5" x="-35" y="-161"/>
+    <map id="mushroom_m2_6" x="-54" y="-161"/>
+  </segment>
 </worldmap>
