@@ -126,5 +126,33 @@
         "attackCost":5,
         "attackChance":70,
         "blockChance":30
+    },
+    {
+        "id":"lombric_ball",
+        "name":"Lombric Ball",
+        "iconID":"monsters_rltiles1:138",
+        "monsterClass":"animal",
+        "spawnGroup":"lombric_ball",
+        "maxHP":30,
+        "maxAP":10,
+        "moveCost":7,
+        "attackDamage":{ "min":1, "max":15 },
+        "attackCost":10,
+        "attackChance":50,
+        "blockChance":60
+    },
+    {
+        "id":"lombric_beast",
+        "name":"Lombric Beast",
+        "iconID":"monsters_rltiles1:57",
+        "monsterClass":"animal",
+        "spawnGroup":"lombric_beast",
+        "maxHP":30,
+        "maxAP":10,
+        "moveCost":5,
+        "attackDamage":{ "min":3, "max":10 },
+        "attackCost":5,
+        "attackChance":70,
+        "blockChance":30
     }
 ]

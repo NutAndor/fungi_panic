@@ -143,7 +143,7 @@
     },
     {
         "id":"fungi_panic_potioner_42",
-        "message":"There are lots of different mushrooms. Unfortunately the cure for one kind kills you when you are afflicted by another kind.",
+        "message":"There are lots of different mushrooms. A spore infection can be nasty, deadly even. Unfortunately the cure for one kind kills you, when you are afflicted by another kind.",
         "replies":[
             {
                 "text":"Oh dear. So Bogsten can't be helped?",
@@ -153,7 +153,17 @@
     },
     {
         "id":"fungi_panic_potioner_44",
-        "message":"No need to dispare. Bring me four sample spores of the mushroom, then I will be able to choose the right antidote.",
+        "message":"No need to dispare. To make a cure, I will need a sample of these spores. Can you get some?",
+        "replies":[
+            {
+                "text":"I could try.",
+                "nextPhraseID":"fungi_panic_potioner_46"
+            }
+        ]
+    },
+    {
+        "id":"fungi_panic_potioner_46",
+        "message":"Good. Bring me four sample spores of the mushroom, then I will be able to choose the right antidote.",
         "replies":[
             {
                 "text":"I will be back with the spores in an instant.",
@@ -196,7 +206,7 @@
     },
     {
         "id":"fungi_panic_potioner_52",
-        "message":"I have the right potion for it. You can have it for only 150 gold coins.",
+        "message":"I'm glad that I have the right potion for it. You can have it for only 150 gold coins.",
         "replies":[
             {
                 "text":"That much!",

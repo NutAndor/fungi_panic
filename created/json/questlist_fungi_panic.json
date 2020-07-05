@@ -66,6 +66,18 @@
                 "progress":135,
                 "logText":"I decided to keep Bogsten's staff for me, so I had to kill Zuul'khan.",
                 "finishesQuest":1
+            },
+            {
+                "progress":145,
+                "logText":"I defeated Zuul'khan, but he was not dead. He disappeared into the ground.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            },
+            {
+                "progress":155,
+                "logText":"I gave Bogsten's staff to Zuul'khan. He rewarded me with permanent immunity to Spore Infection",
+                "rewardExperience":2000,
+                "finishesQuest":1
             }
         ]
     },

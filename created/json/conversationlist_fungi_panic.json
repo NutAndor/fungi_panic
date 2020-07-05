@@ -494,17 +494,43 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"bogsten_60_34"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_34",
+        "message":"I remember my father warned me about this kind of thing before passing away. But I was just a kid and I forgot his advices on how to deal with it.",
+        "replies":[
+            {
+                "text":"Don't worry. I deal with evil every day. Whatever lurks down there, I can handle it.",
                 "nextPhraseID":"bogsten_60_40"
+            },
+            {
+                "text":"How can you forget something that important! I guess I have no choice but to go.",
+                "nextPhraseID":"bogsten_60_40"
+            },
+            {
+                "text":"Stupid old man. You really think I'm here to clean up your own mess!",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"bogsten_60_40",
-        "message":"Please go into my caves and check if everything is right.",
+        "message":"Very good. Please go into my caves and check if everything is right.",
         "replies":[
+            {
+                "text":"You're getting on my nerves now.",
+                "nextPhraseID":"X"
+            },
             {
                 "text":"OK. Down again.",
                 "nextPhraseID":"bogsten_60_50"
+            },
+            {
+                "text":"No way ! You've bored me more than enough!",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -726,10 +752,30 @@
     },
     {
         "id":"zuul_khan_30",
-        "message":"I am widely known as the great Zuul'khan! Great and strong, yes.",
+        "message":"I am Archmancer of the underground. Widely known as Master of the Fungis and commander to all that crawls.",
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"zuul_khan_32"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_32",
+        "message":"I am the great Zuul'khan!",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"zuul_khan_34"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_34",
+        "message":"Great and strong, yes.",
+        "replies":[
+            {
+                "text":"Aha.",
                 "nextPhraseID":"zuul_khan_40"
             }
         ]
@@ -751,6 +797,10 @@
             {
                 "text":"Wait!",
                 "nextPhraseID":"zuul_khan_50"
+            },
+            {
+                "text":"You threaten me?",
+                "nextPhraseID":"zuul_khan_70_24"
             }
         ]
     },
@@ -780,13 +830,33 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"zuul_khan_63"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_63",
+        "message":"More than a century ago, I found the way to command the crawling species of the underground and to bend the fungi to my will.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"zuul_khan_64"
             }
         ]
     },
     {
         "id":"zuul_khan_64",
-        "message":"Lotho Bogsten cought me unaware. I didn't expect petrifying. Who would use such a weak spell that has to be renewed every few weeks?",
+        "message":"I choose this place to practice my arts and prepare an army of Fungis.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_65"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_65",
+        "message":"The Bogstens must have heard about my activities in the caves under their house and became suspicious.",
         "replies":[
             {
                 "text":"N",
@@ -796,6 +866,26 @@
     },
     {
         "id":"zuul_khan_66",
+        "message":"Lotho Bogsten sneaked down here and cought me unaware.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_67"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_67",
+        "message":"I didn't expect petrifying. Who would use such a weak spell that has to be renewed every few weeks?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_68"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_68",
         "message":"I could not move but I noticed everything that was happening around me. Lotho Bogsten visited me regularly and renewed the spell.",
         "replies":[
             {
@@ -839,14 +929,22 @@
         "message":"And you are wearing their family necklace. You must die now.",
         "replies":[
             {
-                "text":"Come and get me!",
+                "text":"I'll have to thank Bogsten: This sounds like a fun fight.",
                 "nextPhraseID":"zuul_khan_70_24"
             },
             {
                 "text":"You shouldn't kill me. I could be of use.",
                 "nextPhraseID":"zuul_khan_90"
+            },
+            {
+                "text":"Please. I will crawl before you. Don't hurt me.",
+                "nextPhraseID":"zuul_khan_82"
             }
         ]
+    },
+    {
+        "id":"zuul_khan_82",
+        "message":"Disgusting. Away with you!"
     },
     {
         "id":"zuul_khan_90",
@@ -921,6 +1019,10 @@
             {
                 "text":"Hm, wait. Let me think again.",
                 "nextPhraseID":"zuul_khan_70_20"
+            },
+            {
+                "text":"I wish we talk a little more.",
+                "nextPhraseID":"zuul_khan_50"
             }
         ]
     },
@@ -1059,25 +1161,35 @@
         "message":"Finally I got the staff back!",
         "replies":[
             {
-                "nextPhraseID":"zuul_khan_150"
-                "text":"My reward...",
+                "nextPhraseID":"zuul_khan_155",
+                "text":"My reward...?"
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_155",
+        "message":"Zuul'khan towered over you and started muttering strange words.",
+        "replies":[
+            {
+                "nextPhraseID":"zuul_khan_155_10",
+                "text":"I'm feeling dizzy..."
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan_155_10",
+        "message":"Done. You will never fear any of these fungi spores anymore.",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"Oh wow."
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
-                "value":150
-            }
-        ]
-	},
-    {
-        "id":"zuul_khan_150",
-        "message":"Finally I got the staff back!",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-                "text":"My reward...?",
+                "value":155
             }
         ]
 	}
