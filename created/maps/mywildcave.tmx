@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -197,7 +198,7 @@
    eJzFlMENxTAIQztF91+hG379Q6WqAvs5QSoShyZgGwK9zuO4Av9bEj/ht7mzCdzneWcq3mlTMatG34VgPHFcfFU7nR2iQ51Rzu69k7omOAled5fyq7gOk2pc3SU1L6rWCrfKJ70neqpvh5n8B5SpXqr7DmN1DlVfnValTXGRfwV5WzLrZFdpr1VOWreqxe212iXX6yS2i0nqXOFU/Ug4k9z3fZWzw53ModOfaKhykpp2+VRPp7iJJb2g+ig/jaHzoHqUanlj7b6zqtdpTPaK1Dsxz1P+BafzHy+MlEg=
   </data>
  </layer>
- <objectgroup name="Mapevents" width="30" height="30">
+ <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="384" y="0" width="32" height="32">
    <properties>
     <property name="map" value="mywild19"/>
@@ -206,72 +207,94 @@
   </object>
   <object name="cave" type="mapchange" x="448" y="544" width="32" height="32">
    <properties>
-    <property name="map" value="mywildcave1"/>
+    <property name="map" value="mushroom_m_3"/>
     <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" width="30" height="30">
+ <objectgroup name="Spawn">
   <object name="forestwolf1" type="spawn" x="96" y="64" width="544" height="288">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
   <object name="stoneworm1" type="spawn" x="608" y="160" width="192" height="320">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="stoneworm1"/>
    </properties>
   </object>
   <object name="stoneworm2" type="spawn" x="288" y="352" width="256" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stoneworm2"/>
    </properties>
   </object>
-  <object name="stoneworm3" type="spawn" x="320" y="448" width="224" height="96"/>
+  <object name="stoneworm3" type="spawn" x="320" y="448" width="224" height="96">
+   <properties>
+    <property name="spawngroup" value="stoneworm3"/>
+   </properties>
+  </object>
   <object name="stoneworm2" type="spawn" x="544" y="448" width="320" height="224">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stoneworm2"/>
    </properties>
   </object>
   <object name="stoneworm2" type="spawn" x="288" y="640" width="288" height="224">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="stoneworm2"/>
    </properties>
   </object>
   <object name="stoneworm3" type="spawn" x="416" y="608" width="128" height="96">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stoneworm3"/>
    </properties>
   </object>
   <object name="stoneworm1" type="spawn" x="128" y="320" width="128" height="256">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stoneworm1"/>
    </properties>
   </object>
   <object name="stoneworm1" type="spawn" x="320" y="224" width="256" height="192">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="stoneworm1"/>
    </properties>
   </object>
   <object name="forestwolf1" type="spawn" x="32" y="416" width="256" height="448">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
   <object name="forestwolf1" type="spawn" x="704" y="736" width="192" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object name="stoneworm1" type="spawn" x="544" y="768" width="224" height="96"/>
-  <object name="stoneworm1" type="spawn" x="224" y="672" width="128" height="160"/>
+  <object name="stoneworm1" type="spawn" x="544" y="768" width="224" height="96">
+   <properties>
+    <property name="spawngroup" value="stoneworm1"/>
+   </properties>
+  </object>
+  <object name="stoneworm1" type="spawn" x="224" y="672" width="128" height="160">
+   <properties>
+    <property name="spawngroup" value="stoneworm1"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Keys" width="30" height="30">
+ <objectgroup name="Keys">
   <object name="cookbook:20" type="key" x="416" y="576" width="64" height="32">
    <properties>
     <property name="phrase" value="cavekey"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace" width="30" height="30"/>
+ <objectgroup name="Replace"/>
 </map>
