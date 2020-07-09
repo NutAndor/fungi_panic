@@ -6,7 +6,7 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_book",
+            "requireID": "gison_cookbook",
             "value": 15
           }
         ],
@@ -334,7 +334,7 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "cookbook",
+        "rewardID": "gison_cookbook",
         "value": 10
       }
     ]
@@ -406,7 +406,7 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_book",
+        "rewardID": "gison_cookbook",
         "value": 15
       }
     ],
@@ -430,7 +430,7 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_book",
+        "rewardID": "gison_cookbook",
         "value": 20
       }
     ]
@@ -482,13 +482,13 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "cookbook",
+            "requireID": "gison_cookbook",
             "value": 10
           },
           {
             "requireType": "questProgress",
             "negate": true,
-            "requireID": "cookbook",
+            "requireID": "gison_cookbook",
             "value": 60
           }
         ],
@@ -540,7 +540,7 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_book",
+            "requireID": "gison_cookbook",
             "value": 20
           }
         ],
