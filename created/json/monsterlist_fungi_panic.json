@@ -154,5 +154,19 @@
         "attackCost":5,
         "attackChance":70,
         "blockChance":30
+    },
+    {
+        "id":"bogsten4_blocker",
+        "name":"Black fog",
+        "iconID":"monsters_rltiles1:57",
+        "monsterClass":"animal",
+        "spawnGroup":"bogsten4_blocker",
+        "maxHP":30,
+        "maxAP":10,
+        "moveCost":5,
+        "attackDamage":{ "min":3, "max":10 },
+        "attackCost":5,
+        "attackChance":70,
+        "blockChance":30
     }
 ]

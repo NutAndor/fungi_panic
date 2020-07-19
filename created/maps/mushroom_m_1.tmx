@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="3">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,22 +182,22 @@
  </tileset>
  <layer name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJyNVEtSwkAUpOLKqtGFK93h2p1n8AwcyQVn4AohIiULXQQwuqFcJOECQQ7ivMprp3kZAosuSGZe9/t1pslgMD2C4UXAYw+OxZ8D8N97PPUgP5Mv86gUudERjVEPSo1ZGsQ09gqJSY3Gcw9ubtuYyiCNaMwvA3LKxWpcK/D86dqYfXKIUxol5TIkXu7FSuD5vzxeDeYuPqcS+VBeueHkXtSqsVY8JOG/1FaaWlYaw7VwPeDkXsg5awCVR63/U8O/dl0N7rN9P/P335QTmCSHwBzAP9MaU+xZRFPe/brDGpjvmC/A/60aOJskXX75faE+2d0BlkaD+a2fpI+FcqO2UxrYDd4r2aeFC3tu51y4oDtWDtSWmtwxW+vlTHewcPE5F66razUycwYuzkGea9LYuYCFzja2XznlL2fv/t6Hx9ZooPcTk8NYe4OdX6inY/5B/ndX7cwQG/veZkm3Nzntu/UQ6tu4lrsxsf8+oBmtVYN7g12Lfddq5f5xoU88T2g06ivh3apGo7OA30qqE15hP+PuhmJ3tNvW/32ARswXsfvy/g+DomGI
+   eJyNVEtSwkAUpOLKqtGFK93h2p1n8AwcyQVnyBUCIiULXQQwuqFcJOECQQ7ivMpr56UZAosuSGZe9/v0yyQZDCZHMLwIeOzBsfhzAP57j6ce5GfyTT0qRU46ojHqQakxS0JMY6+QmIw0nntwc9vGVIQsojG/DMhNLqxxrcDzp2tj9kkXpzRKk8vQ8NperASe/8vjlTB38TmVyMfklROn7UWtGmvFQxL+S20l1bLSGFuLrQecthdybjWAyqPW/xnxr92hhu0zv5/5+2/KCaRJF5gD+GdaYwafRTTl3a/r1mD5ju0F+L9VA2dpcsgvvy+mT+wdYEkalp/3SfpYKDdqO6UBb1hfiZ8WLvic51y4oDtWDtSWUe6YLe/yVD1YuPicC3eoyxpTOgOXzUGea6OxcwELnW3MX7nJX87e/b0Pjy1poPcp5TDW3sDzC93p2P4g/7urdmaI5e8tPMu9yY3feYdQ38a13A3F/u9BEr5ha9WwvYHXYt+1Wrl/XOiTnSc0Gt0r4dqqRqOzwL5BBxp72mnc3ZjYnfE2738foBHbi9h9ef8HQ5BhVw==
   </data>
  </layer>
  <layer name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJydVL1KA0EQXjakMCLhLuQuiimMhZ2gr+Br2ATfQB8i3BsoQSEPoEJiaaWNRUr/UBv/Av40NoF0zrA77GRu94J+MNzezs7PNzO7SoWRpUol2kkIp2mBEwHppwO2B6k/xkVUbCv3inLMbI5RQ6laY1rXj/LnZ2EZYm0FuIzr5v8Y1iceKQLnsB4rdVtV6lVwJC5Yn4WSUvupkWrJ7P+kRhADOFPx1EjW6k7UoJM6v9hf8oGcWlC/VZAHWD+CPIG8YK6Bfl3Fbg+5tAM9W2Jr5I04tzyG9lsv4II5fNhYZ1H+HK2bIO8gowTOg3yC7y+Qb5AbiLtdnq45YsfaILrwPdSOT2zXqH8DHyOb6xr4GoP/SeLsJHhuaI/5Iw/a75UdN44jZtfVeY7yPiUsf0QmzhCfSWx84zyQ7t7WcgX+WzPeg6HIc07kUNYmBoJ6zLEB+k0RYyB6eZm4umD9FwO5cB/PsekN368wfdMzVzhrKMiJzwPVcbfgvSEfNNNo02NzRTlg3am3NLu8tnQ+Fv3jIB3Wsy9qxYV6nHn26jYPenN9d0va+mYs9EbzePiNtJkr4ufj1mZ28544aLs3Y+65joPXldvomtFd6/zcyXcY0dX+GvMzdJ//I3+1/QXTtHP0
+   eJydVL1KA0EQXjakMCLhLtxdFFMYCztBX8HXsAm+gT5EuDdQgkIeQIXE0krblP6hNv4FojY2gXTOsDvcZG73Dv1g2L3dndn5vplbpfxIE6VinZkP54kZr+OCYBYyThd8jxL3HVdBsa9cK8oxtTkGTaUazfm9QZA/X4ZVuGvHw2Uame9TmJ85rAicw2ao1F1dqTfBkbigPksVpQ4TY/WKWf9JjCGGcKbm0EhqdS806CZZXKwvxUBObdBvHewR5k9gz2CvmKunXrwvkEvHU7MVNkfeiEvLY2THqIAL5jAJzfwiyJ+jeQvsA2wMeU3APiH2F9g32C3cu1ud1xyxZ30QPRiPdcYntHPcf4cYY5vrBsSaQvxZnPlJ8NzQH/NHHrTer2bcOE6YX0/nOcr/KWb5I1JxhvjMQhMb+4H2HqyWa/DdLnkPRiLPBZFDVZs7EFRjji3Y3xZ3DEUtsZ9IF9R/2ZMLj/ESmtrw9Rrbbzn6CnsNDTnxfiAd9wveG4pBPY0+fdZXlAPqTrWl3uXa0vlQ1I+D9lDPgdCKG9U4daxFNg96c13/lvR19Zjvjeb34Rho01fEz8Wtw/wWHfeg70FJ3/M9Dq4r99ENM97ofN/JdxjR026N+Rn6n/9jf/X9BYVCc+c=
   </data>
  </layer>
  <layer name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIxnsEBpoF4yCUTAKRsEooAYAAJ4aAMs=
+   eJxjYBg84LAY7c0ZtYNycy6TqKebiXR3kOoukJsIuQvdzEsk2AEyG6SfkB5SzCTGfFLDGh8gxv3Y3EWqHYTMm82EajYhPejycwmkJ2zm4bMDFvakAGzhiM9ecsKeVHupYT4uQEpZRG6axed+UssHctxAqh3UKoOpaQcAaZsw5g==
   </data>
  </layer>
- <layer name="Walkable" width="25" height="20">
+ <layer name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUUxUTAqSaQ4ocuXaQq4dYv9HTDmLtItcObGxKzMQXTvjMIsVcYtMUOnsw2kEoTLGJ09IfxNqBzyxcgFQ3keMGYuwmJfwIqYPJk2IHNrXEphFiwhWfe3DpwWcOMfZRIyzRMQAl5BvL
+   eJzbKMbAsHEUUxUTAqSaQ4ocuXaQq4dYv9HTDmLtItcObGxKzMQXTvjMIsVcYtMUOnuo20Fu+qOFHfjMwhfPpLiJHDcQYzcp4UdIHUyeFDuwqSUm7ogNV3zuwaUHnznE2EeNsETHAJCwHJI=
   </data>
  </layer>
  <layer name="possible ways" width="25" height="20" visible="0">
@@ -205,7 +205,7 @@
    eJxjYBgFo2AUjALqgo1i2DGtzaeFHbQEtDZ/1I7BZQet0xQAUkERGw==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="down" type="mapchange" x="320" y="96" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave3"/>
@@ -218,6 +218,10 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object id="3" name="gison_bottle_4" type="script" x="384" y="352" width="32" height="32"/>
+  <object id="4" name="gison_bottle_5" type="script" x="704" y="416" width="32" height="32"/>
+  <object id="6" name="gison_bottle_6" type="script" x="256" y="576" width="32" height="32"/>
+  <object id="5" name="gison_bottle_7" type="script" x="704" y="224" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

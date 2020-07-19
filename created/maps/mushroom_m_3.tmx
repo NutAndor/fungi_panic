@@ -182,12 +182,12 @@
  </tileset>
  <layer name="Ground" width="16" height="12">
   <data encoding="base64" compression="zlib">
-   eJyVkcsNgzAQRJFvkWgjSEmp1EALQA65g90BnxJSCLuSRwyLI8zhyZa8b+0dd64oukxGQ66neGE2tBf9QS8sws/Afp/oDz5CKM+w7xP9Qcjw9X3fR7puJb+WfRPht6vLfmPu1LMpzjOY3KyPLL3bXaDzTIns2MVfLe7oMtZHHvxX/9wrHzUv2b/dvt7x1XkKFa3owdlv5muJlw==
+   eJyVkcENgzAMRVEOSEhdA6QyamfICgUO3EtYAKV0BAbBFrH4uEGEw5MjJc9xfhqTZU0igyLVYxzxVbwv+gstMRNLYMq3in4b6S90xPj4B30H/TVjgs/z9UX83A/8F61tAGdnF32r7uQ9H97zUblpX7J0ZncFfo+PZIeu/NVsji6ifckD/+rMvfLlzJPWtdnrHZ+dkqigSg/MfgW/W4mG
   </data>
  </layer>
  <layer name="Objects" width="16" height="12">
   <data encoding="base64" compression="zlib">
-   eJwTY2JgEKMT/sjGwPANiL8D8Vc20vRKATEjOwMDGxCrADErO37zv6DZ8xSImYEYBJoFGBhchTH1w8xnB2IWKA2zZ4sgRO8tKH1IEFVvMBBvE2dgCAOaK8kEsQMEQoUZ4KATj/+eQvU7A+nZULG5UPc+A9kvDjEXBLDpvwKUPyoOcQeyOAiA9D4DYk4gPxGHGSC9s5H4yVB1T6F6Qf4G2f9IiIHhMRb7kc0EgWKon24C9XEB6YdAfc/EGBheAvF1QUz91wRRw0KECRFuMPY3oN6fYhB/oOs/IYhqPwhEAd0dI46gRZhQ/QjCALNpOGM=
+   eJwTY2JgEKMT/sjGwPANiL8D8Vc20vRKATEjOwMDGxB/EmVgYGXHb/4XNHueAjEzEINAswADg6swpn6Y+exAzAKlYfZsEYTovQWlDwmi6g0G4m3iDAxhQHMlmSB2gECoMAMcdOLx31OofmcgPRsqNhfq3mcg+8Uh5oIANv1XgPJHxSHuQBYHAZDeZ0DMCeQn4jADpHc2Ej8Zqu4pVC/I3yD7HwkxMDzGYj+ymSBQDPXTTaA+LiD9EKjvmRgDw0sgvi6Iqf+aIGpYiDAhwg3G/gbU+1MM4g90/ScEUe0HgSigu2PEEbQIE6ofQRgArMk5Pw==
   </data>
  </layer>
  <layer name="Above" width="16" height="12">
@@ -195,7 +195,7 @@
    eJxjYKAvEGZnYBABYlF28vQrQ/Wpkql/FIwCZAAAlrAAqA==
   </data>
  </layer>
- <layer name="Walkable" width="16" height="12">
+ <layer name="Walkable" width="16" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHGIYRAgVx8yoEQvNv24ALFuxmYusfpxuYtY/+KSJzasyI2TgdYPAOAbe5o=
   </data>
@@ -205,17 +205,17 @@
    eJxjYEAFG8UQGBcgJE+MWcSYAZPHZwaxbkRn47OfkJupETaDSS9MPy4ziY1rXO4hVz8+t2HTj8tOfH4AAKyOJVE=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="64" y="352" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave"/>
     <property name="place" value="cave"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="416" y="64" width="32" height="32">
+  <object id="2" name="down" type="mapchange" x="416" y="64" width="32" height="32">
    <properties>
     <property name="map" value="mushroom_m_2"/>
-    <property name="place" value="south"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>

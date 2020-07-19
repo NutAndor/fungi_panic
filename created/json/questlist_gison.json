@@ -39,7 +39,7 @@
       },
       {
         "progress": 50,
-        "logText": "I spended 5555 gold on buying mushroom soup.There is nothing left for Alaun.",
+        "logText": "I spended 5555 gold on buying mushroom soup. There is nothing left for Alaun.",
         "finishesQuest": 1
       }
     ],
@@ -59,27 +59,27 @@
       },
       {
         "progress": 20,
-        "logText": "Gison said the thieves cam from the south. I should begin my search there"
+        "logText": "Gison said the thieves came from the south. I should begin my search there"
       },
       {
         "progress": 30,
-        "logText": "Ich habe eine verborgene Grotte entdeckt. Eventuell verstecken sich die Diebe dort."
+        "logText": "I discovered a hidden cave. The thieves may be hiding there."
       },
       {
         "progress": 40,
-        "logText": "Ich habe die Diebe gefunden. Einer von ihnen führte gerade eine Art Ritual durch als ich in die Höhle kam."
+        "logText": "I found the thieves. One of them was doing some kind of ritual when I came into the cave."
       },
       {
         "progress": 50,
-        "logText": "Ich habe dem Anführer das Buch aus seinen toten Händen genommen. Nachdem sie mich bemerkt hatten wollten sie mich wohl tot sehen."
+        "logText": "I took the book from the leader's dead hands. After they noticed me they wanted to see me dead."
       },
       {
         "progress": 60,
-        "logText": "Ich habe Gison sein Kochbuch zurückgebracht, leider sind die Seiten mit der seltsamen Schrift während des Kampfes unleserlich zerstört worden, aber immerhin kann Gison jetzt wieder seine Suppe kochen."
+        "logText": "I brought his cookbook back to Gison. Unfortunately the pages with the strange writing were illegibly destroyed during the fight. At least the mushroomreceipt was unharmed, so that Gison can now cook his soup again."
       },
       {
         "progress": 70,
-        "logText": "Gison wird mir zum Dank Pilzsuppe geben, wenn ich ihm 50 Gold, 2 von Bigerts Pilzen und eine leere Flasche bringe.",
+        "logText": "Gison will give me mushroom soup in thanks if I bring him 50 gold, 2 of Bogsen's mushrooms and an empty bottle.",
         "finishesQuest": 1
       }
     ],
@@ -134,65 +134,36 @@
     ]
   },
   {
-    "id": "gison_bottle_1",
-    "name": "Gison bottle 1",
+    "id": "gison_bottle",
+    "name": "Gison bottle",
     "stages": [
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_2",
-    "name": "Gison bottle 2",
-    "stages": [
+        "progress": 1,
+        "logText": "1. Bottle"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_3",
-    "name": "Gison bottle 3",
-    "stages": [
+        "progress": 2,
+        "logText": "2. Bottle"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_4",
-    "name": "Gison bottle 4",
-    "stages": [
+        "progress": 3,
+        "logText": "3. Bottle"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_5",
-    "name": "Gison bottle 5",
-    "stages": [
+        "progress": 4,
+        "logText": "4. Bottle"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_6",
-    "name": "Gison bottle 6",
-    "stages": [
+        "progress": 5,
+        "logText": "5. Bottle"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_7",
-    "name": "Gison bottle 7",
-    "stages": [
+        "progress": 6,
+        "logText": "6. Bottle"
+      },
       {
-        "progress": 10
+        "progress": 7,
+        "logText": "7. Bottle"
       }
     ]
   }

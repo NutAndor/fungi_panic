@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextobjectid="3">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,22 +182,22 @@
  </tileset>
  <layer name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJyNlMFOw0AMRFe9IZb/v/QXmgJFPRSJEAhICIHUppw4NeQnuGETG6aDN+IwWmV3n13bs61mKVWiW1IVaClanaS0oL0dqQ7iNaJN/ssOpG0QryvkvZB4K9FzHs9VHK+VsyHI+yh798YOxq9hT79bW2ti9d65rO92rvxW1Ile8ljntZ1pPQtgG/stB1l70AfUgPU42wCr3/PZ7x0Us0vrX0s98Bgl4byZ5dlGvvH5dPm4fp4tCu9576e8gqqJ5Xnf5WMN0CefkbPo38ZYvXegOXksZ9U76F/3rea6Cjhm0b+nZynd2N4+T89oJ+eXprc8sk/g3al33RvTQ44fTxfm4x5oCr3eGIvzwTveG2TnwL5aDSp+9xrrM/Dkt1et5hLr/d8X/OH1Ryz3HdkoFr+10v8psw//ZKNYnPcLq5QUvQ==
+   eJyVVEFOw0AMXPWGWD7OG/hCE6CIQ5EICykSQhzalBOnhnyCG7Ziw3RwInEYbbLrsdeeSapFSpXggVAFqAWrk5SWtLcjNEG+Iljnv9yBsA3ydRN1ryTfSvCax3MF52vlbAjqPsvek3EH49/Cnr63tjbE1bhLWT/sXPlbQSd4y2Ofd3am/SyBW+wuB1l7wCf0gP04twBX3y8WvzEI5tY2v5Zm4DmmgHozl7WNfOP6dPm4f9YWgXE++zmvIBrist6P+RgDzMk1ci76txhX4w6kk+dyrnoH/eu+1Vo3AY+56N/Ts5TubW+f5zXayfm14T2P3Bfw7tx33Runhxo/np7Qxz1QJma9Ni7qgzE+m4ird9f6uvozxmiur8CTtd393BBxff774FsogW4Yw3PHuh30uQFdo38og325+Qc38gRyvwFBqhXz
   </data>
  </layer>
  <layer name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJwTY2JgECMBq/NjiqEDXHqxycEAyNznAqj8MDYGhjQ2CP+hEKbeZgGIOAh8B7IfA8WEoGbC9D3FY+88NLc/Apr1HmjONX7i/ANSr46mFuYeXP6F4blMCLUwcANotzkrgv+YQFyAzLgsAHEHcriB3J/DihnGpMQzDOMKP2LwIyFMvSAgiSUuOLHon40nnSHzsZmHbtYzMQaGhcAweQGkX4tB0k4akL8H6MZiAnpB6mHxDEsbIL/dAor/FMOdD5LRxF4KQdwA07dZEKEXlBZA8c0FxFsEIeG+GJoW0MOBUN5CDyd8+LAYxC/IdnwF5p0bQDd8B9Jf2CA0CJOSp9nZGRhY2CE0COOLRxjeCY0XZICcjkF4uxAkbB5hKQ9A4bWQFbf5x4F6TgDxVSxl2GGkeJxLQZoH4dti5Ov9RoFedDcDAMIgVIU=
+   eJwTY2JgECMBq/NjiqEDXHqxycEAyNznAqj8MDYGhjQ2CP+hEKbeZgGIOAh8B7IfA8WEoGbC9D3FY+88NLc/Apr1HmjONX7i/ANSr46mFuYeXP6F4cNiCLUwcANotzkrgv+YQFzMBeLLAhB3IIcbyP05rJhhTEo8wzCu8CMGPxLC1AsCkljighOL/tl40hkyH5t56GY9A4b3QmCYvADSr8UgaScNyN8DdGMxAb0g9bB4hqUNkN9uAcV/iuHOB8loYi+FIG6A6dssiNALSgug+OYC4i2CkHBfDE0L6OFAKG+hhxM+DEqHIL8g2/EVmHduAN3wHUh/YYPQIExKnmZnZ2BgYYfQIIwvHmF4pxjEzwuR8gByOgbh7UKQsHmEpTxAxt1Y3HYcqOcEEF/FUobBMJMY4byLjNcjsYXEIG67LUa83qdQthJUzzci9RKDAYjQVtE=
   </data>
  </layer>
  <layer name="Above" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYCANHBYjTmww6b1EgV5i3TJc9YL0YQs/cu0c7GllMOklNtwpSRe0AJeJdA82dQOVp6kJiPU/NkDNPA4A4tgeGA==
+   eJxjYCANHBYjTmww6b1EgV58brlMhhkwvXOZyNdLDiBXL0gftvAj187BnlYGk15iw52SdIENkJM2kQGx+QKbOkryNKUA2W5S8jZILbJeUtxGSf4iBADBLiL4
   </data>
  </layer>
  <layer name="Walkable" width="15" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEEDAKkqKelXmRAjl50M/CJEaMXG8DnFlxqidGLKxxI1UvLeMPlloFOK/jcRaxeXPFGC73EhjOxfiTGDmL04nM3teKJnnFMy/Q3EHoB5+7Vxg==
+   eJzbKMbAsJEEDAKkqKelXmRAjl50M/CJEaMXG8DnFlxqidGLKxxI1UvLeMPlloFOK/jcRaxeXPFGC73EhjOxfiTGDmL04nM3teKJkvSBSw0x5hLrB2roJTXOiMUAAfHWjQ==
   </data>
  </layer>
  <layer name="possible ways" width="15" height="25" visible="0">
@@ -212,12 +212,15 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="south" type="mapchange" x="352" y="768" width="32" height="32">
+  <object id="2" name="up" type="mapchange" x="288" y="672" width="32" height="32">
    <properties>
     <property name="map" value="mushroom_m_3"/>
-    <property name="place" value="north"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
+  <object id="3" name="gison_bottle_1" type="script" x="352" y="608" width="32" height="32"/>
+  <object id="4" name="gison_bottle_2" type="script" x="352" y="384" width="32" height="32"/>
+  <object id="5" name="gison_bottle_3" type="script" x="416" y="224" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

@@ -768,9 +768,11 @@
         "text": "Give me one."
       },
       {
-        "nextPhraseID": "gison_catchsoup_nonew"
+        "nextPhraseID": "gison_catchsoup_nonew",
+        "text": "Give me one."
       }
-    ]
+    ],
+    "message": "How many bottles with my soup do you want?"
   },
   {
     "id": "gison_catchsoup_new",
@@ -1214,27 +1216,17 @@
     ]
   },
   {
-    "id": "gison_bottle_blank",
-    "replies": [
-      {
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
     "id": "gison_bottle_1",
     "replies": [
       {
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_1",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 1,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_1_1"
       }
     ]
@@ -1244,8 +1236,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_1",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 1
       },
       {
         "rewardType": "giveItem",
@@ -1268,13 +1260,11 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_2",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 2,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_2_1"
       }
     ]
@@ -1284,8 +1274,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_2",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 2
       },
       {
         "rewardType": "giveItem",
@@ -1295,11 +1285,11 @@
     ],
     "replies": [
       {
-        "text": "Great.",
+        "text": "Oh, an empty bottle.",
         "nextPhraseID": "X"
       }
     ],
-    "message": "You find an empty bottle."
+    "message": "You find a bottle."
   },
   {
     "id": "gison_bottle_3",
@@ -1308,13 +1298,11 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_3",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 3,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_3_1"
       }
     ]
@@ -1324,8 +1312,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_3",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 3
       },
       {
         "rewardType": "giveItem",
@@ -1348,13 +1336,11 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_4",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 4,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_4_1"
       }
     ]
@@ -1364,8 +1350,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_4",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 4
       },
       {
         "rewardType": "giveItem",
@@ -1388,13 +1374,11 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_5",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 5,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_5_1"
       }
     ]
@@ -1404,8 +1388,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_5",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 5
       },
       {
         "rewardType": "giveItem",
@@ -1428,13 +1412,11 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_6",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 6,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_6_1"
       }
     ]
@@ -1444,8 +1426,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_6",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 6
       },
       {
         "rewardType": "giveItem",
@@ -1468,13 +1450,11 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "requireID": "gison_bottle_7",
-            "value": 10
+            "requireID": "gison_bottle",
+            "value": 7,
+			"negate":true
           }
         ],
-        "nextPhraseID": "gison_bottle_blank"
-      },
-      {
         "nextPhraseID": "gison_bottle_7_1"
       }
     ]
@@ -1484,8 +1464,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "gison_bottle_7",
-        "value": 10
+        "rewardID": "gison_bottle",
+        "value": 7
       },
       {
         "rewardType": "giveItem",
@@ -1495,7 +1475,7 @@
     ],
     "replies": [
       {
-        "text": "Great.",
+        "text": "Wow - three bottles at once!",
         "nextPhraseID": "X"
       }
     ],
