@@ -182,22 +182,22 @@
  </tileset>
  <layer name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJyNVEtSwkAUpOLKqtGFK93h2p1n8AwcyQVnyBUCIiULXQQwuqFcJOECQQ7ivMpr56UZAosuSGZe9/v0yyQZDCZHMLwIeOzBsfhzAP57j6ce5GfyTT0qRU46ojHqQakxS0JMY6+QmIw0nntwc9vGVIQsojG/DMhNLqxxrcDzp2tj9kkXpzRKk8vQ8NperASe/8vjlTB38TmVyMfklROn7UWtGmvFQxL+S20l1bLSGFuLrQecthdybjWAyqPW/xnxr92hhu0zv5/5+2/KCaRJF5gD+GdaYwafRTTl3a/r1mD5ju0F+L9VA2dpcsgvvy+mT+wdYEkalp/3SfpYKDdqO6UBb1hfiZ8WLvic51y4oDtWDtSWUe6YLe/yVD1YuPicC3eoyxpTOgOXzUGea6OxcwELnW3MX7nJX87e/b0Pjy1poPcp5TDW3sDzC93p2P4g/7urdmaI5e8tPMu9yY3feYdQ38a13A3F/u9BEr5ha9WwvYHXYt+1Wrl/XOiTnSc0Gt0r4dqqRqOzwL5BBxp72mnc3ZjYnfE2738foBHbi9h9ef8HQ5BhVw==
+   eJyNVDtOw0AQjUyFtFBQQRdqOs7AGXIkipwhV3BMiHABxTrG0EQUtnMBBx+EHXkeOx6vnUR6SuLdeW9+z+toNluPYH7h8TiBsfhzAP57h6cJ2DP5EoeKYZUOaSwmUHJMphDSaBkUEyuN5wnc3HYxlUIc0NheeliRi9a4ZuD/p+li2qiPUxqlyGUueGUvdgTH/+XwqrA14TmVyEfkZRWn7EXNGjnjIfK/qbZS1bLjGFmLrAecshd0LjWAyqHm37Hiz81QQ/ZZP9+4+2/MCayiPjAH8G+4xhh7FtCkZ7+mX4PkG/MF+L9ZA2eraMhP3y+iT3p3gExpSH7tJ+pjwdyo7ZQGdsMKDdqn1Pg913MujNddMgdqi1XumK30csL7RyhMeM6FGepqjUSdgUtr1ELjaDxSnm1ov6zIn87e3b0Ph4Pp50CfTMwYOSy5N9j5lD0d8g/yv7vqZoZY1Ig6UZfujRX7rj2E+vam425U7L8PIv8Oy1lD9ga7Fnqv1cz9Y3yf5Dyh0bCviOvAGg3PAn6DDjRa5Wnc3YvYo9ht7f8pQCPki9B9ev4HVJBgvw==
   </data>
  </layer>
  <layer name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJydVL1KA0EQXjakMCLhLtxdFFMYCztBX8HXsAm+gT5EuDdQgkIeQIXE0krblP6hNv4FojY2gXTOsDvcZG73Dv1g2L3dndn5vplbpfxIE6VinZkP54kZr+OCYBYyThd8jxL3HVdBsa9cK8oxtTkGTaUazfm9QZA/X4ZVuGvHw2Uame9TmJ85rAicw2ao1F1dqTfBkbigPksVpQ4TY/WKWf9JjCGGcKbm0EhqdS806CZZXKwvxUBObdBvHewR5k9gz2CvmKunXrwvkEvHU7MVNkfeiEvLY2THqIAL5jAJzfwiyJ+jeQvsA2wMeU3APiH2F9g32C3cu1ud1xyxZ30QPRiPdcYntHPcf4cYY5vrBsSaQvxZnPlJ8NzQH/NHHrTer2bcOE6YX0/nOcr/KWb5I1JxhvjMQhMb+4H2HqyWa/DdLnkPRiLPBZFDVZs7EFRjji3Y3xZ3DEUtsZ9IF9R/2ZMLj/ESmtrw9Rrbbzn6CnsNDTnxfiAd9wveG4pBPY0+fdZXlAPqTrWl3uXa0vlQ1I+D9lDPgdCKG9U4daxFNg96c13/lvR19Zjvjeb34Rho01fEz8Wtw/wWHfeg70FJ3/M9Dq4r99ENM97ofN/JdxjR026N+Rn6n/9jf/X9BYVCc+c=
+   eJydVM1KA0EMHqbswYqUXeluFXuwHrwJ+gq+Ri/FN9CHKPsGyqLQB1Ch9ehJrz36h3rxr1D14qXQmwkzYdPszBYNhJ2dTJLvSzKjlF/SRKlY5+qT88R8r+OSYFZknC74HiXuHFdhua/cK8OYWoxhQ6nlxqytHxbPz5M1yLXr4TKpm/9TWJ8JfSvBiMI5bEVK3dVmfdBOXLA+SxWlDhOjtYrZ/2F5BnCm6qiRrNW9qEE3yeNifykGcmpB/TZAH2H9BPoM+opYPf3ic4G4Op6erbI18ka5tFyH9lsv4YIYxpFZX4TFc7Rugn6AjgDXGPQTYn+BfoPeQt52UOzTnvVByeB7rHM+kV2j/R1ijCzWTYg1gfjTOPeTwrGhP+JHHrTfC3JuXE6YX6aLHOV9ihl+lFScIT7TyMTGeSDbg63lOvy35rwHQ4FzQWAItMmB0g6K/ttg3xE5Bo5eUl2w/iseLDzGS2R6w/erzN50zBXOGipy4vNAddwvucsUg2YafXpsrtCO9xdrTb2l2eW1pfOR6B8XsuGd6YtacaUep469usVBb67rbklf14z53mieD7+hNnNF/FzcOsxv0ZEHfQ/mzD23ceF15T40kzd6du7km0DnM+2uMT9D9/k/+lffX0UKc9g=
   </data>
  </layer>
  <layer name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBg84LAY7c0ZtYNycy6TqKebiXR3kOoukJsIuQvdzEsk2AEyG6SfkB5SzCTGfFLDGh8gxv3Y3EWqHYTMm82EajYhPejycwmkJ2zm4bMDFvakAGzhiM9ecsKeVHupYT4uQEpZRG6axed+UssHctxAqh3UKoOpaQcAaZsw5g==
+   eJxjYBg84LAY7c0ZtYNycy6TqKebiXR3kOoukJsIuQvdzEsk2AEyG6SfkB5SzCTGfFLDGh8gxv3Y3EWqHYTMm82EajYhPaSmDWzy+PTAwp4UO7CFIz57sYU9OXkPn73Y5OYQkfeIAaSUReSmWXxpk9T4IccN1Ehn1Aak2gEAl1czcA==
   </data>
  </layer>
  <layer name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUUxUTAqSaQ4ocuXaQq4dYv9HTDmLtItcObGxKzMQXTvjMIsVcYtMUOnuo20Fu+qOFHfjMwhfPpLiJHDcQYzcp4UdIHUyeFDuwqSUm7ogNV3zuwaUHnznE2EeNsETHAJCwHJI=
+   eJzbKMbAsHEUUxUTAqSaQ4ocuXaQq4dYv9HTDmLtItcObGxKzMQXTvjMIsVcYtMUOnsw2kEoTLGJDwY70OXQ/Y8NkBq26PK47CQmzZITp7jswOVvWtpBSrjicw8uPfjMIcY+YtMhKeoBhBsYrw==
   </data>
  </layer>
  <layer name="possible ways" width="25" height="20" visible="0">
@@ -205,7 +205,7 @@
    eJxjYBgFo2AUjALqgo1i2DGtzaeFHbQEtDZ/1I7BZQet0xQAUkERGw==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object id="1" name="down" type="mapchange" x="320" y="96" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave3"/>
@@ -221,7 +221,7 @@
   <object id="3" name="gison_bottle_4" type="script" x="384" y="352" width="32" height="32"/>
   <object id="4" name="gison_bottle_5" type="script" x="704" y="416" width="32" height="32"/>
   <object id="6" name="gison_bottle_6" type="script" x="256" y="576" width="32" height="32"/>
-  <object id="5" name="gison_bottle_7" type="script" x="704" y="224" width="32" height="32"/>
+  <object id="5" name="gison_bottle_7" type="script" x="64" y="576" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

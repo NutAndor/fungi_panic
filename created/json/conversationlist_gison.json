@@ -567,7 +567,7 @@
       {
         "rewardType": "questProgress",
         "rewardID": "cavekey",
-        "value": 10
+        "value": 30
       }
     ]
   },
@@ -619,7 +619,7 @@
         "nextPhraseID": "gison_startedq"
       }
     ],
-    "message": "Oh ja ich bin Gison. Ich lebe hier im Wald mit meiner Frau Nimael, sie ist dort drüben."
+    "message": "Oh yes, I'm Gison. I live here in the forest with my wife Nimael, she is over there."
   },
   {
     "id": "gison_visited_2",
