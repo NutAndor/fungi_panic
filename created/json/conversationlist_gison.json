@@ -330,7 +330,7 @@
         "nextPhraseID": "gison_p2_start_6"
       }
     ],
-    "message": "I obtained the book some years ago. It was a present of Bogsten - you know him? - and Instantly took a fancy for the receipts Please return it to me.",
+    "message": "I obtained the book some years ago. It was a present of Bogsten - you know him? - and instantly I took a fancy for these fabulous receipts.\nPlease find it and return it to me.",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -443,7 +443,7 @@
         "nextPhraseID": "nimael_evaluation"
       }
     ],
-    "message": "Hello boy."
+    "message": "Hello kid."
   },
   {
     "id": "nimael_1",
@@ -566,7 +566,7 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "cavekey",
+        "rewardID": "gison_cookbook",
         "value": 30
       }
     ]

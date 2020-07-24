@@ -63,9 +63,31 @@
     {
         "id":"fungi_panic_spores",
         "iconID":"items_misc_5:26",
-        "name":"Spores of the giant mushrum.",
+        "name":"Spores of the giant mushroom.",
         "displaytype":"quest",
         "category":"other"
+    },
+    {
+        "id":"mushroom_bogsten",
+        "iconID":"items_consumables:19",
+        "name":"Bogsten's mushroom.",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"50"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"widowmaker",

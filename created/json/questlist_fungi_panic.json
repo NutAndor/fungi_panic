@@ -59,10 +59,6 @@
                 "logText":"Zuul'khan's offer seemed interesting. I have to go kill Bogsten."
             },
             {
-                "progress":125,
-                "logText":"I killed Bogsten and found his staff. He was using it as a walking stick!"
-            },
-            {
                 "progress":135,
                 "logText":"I decided to keep Bogsten's staff for me, so I had to kill Zuul'khan.",
                 "finishesQuest":1

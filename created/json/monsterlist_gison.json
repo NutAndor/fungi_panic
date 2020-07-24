@@ -314,5 +314,26 @@
         "attackCost":3,
         "attackChance":150,
         "blockChance":80
-    }
+    },
+	{
+		"id":"gison_thiefboss",
+		"name":"Mushroom master",
+		"iconID":"monsters_liches:0",
+		"maxHP":57,
+		"unique":1,
+		"monsterClass":"undead",
+		"attackDamage":{
+			"min":4,
+			"max":8
+		},
+		"spawnGroup":"gison_thiefboss",
+		"phraseID":"gison_thiefboss",
+		"droplistID":"gison_thiefboss",
+		"attackCost":5,
+		"attackChance":120,
+		"criticalSkill":20,
+		"criticalMultiplier":2.0,
+		"blockChance":60,
+		"damageResistance":1
+	}
 ]

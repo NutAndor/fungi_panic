@@ -294,7 +294,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys">
-  <object id="16" name="cookbook:30" type="key" x="448" y="576" width="32" height="32">
+  <object id="16" name="gison_cookbook:30" type="key" x="448" y="576" width="32" height="32">
    <properties>
     <property name="phrase" value="gison_cavekey"/>
    </properties>

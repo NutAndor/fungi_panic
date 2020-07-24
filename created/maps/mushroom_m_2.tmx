@@ -182,17 +182,17 @@
  </tileset>
  <layer name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJyVlEFOw0AMRUfdIYaLcwau0BRoxaJIhIEUCSEWbdpVVw05CLZiw+/HicTia5oZPzvj77SapVSJnklVoIVoeZHSnPZ2pDrIV0Tr/JftSdsgXztS907yLUUfeThXcb5Gzvqg7pvsvRrbG/8Ae/rc2FoTq3G3sh7tXPmtqBV95uGej3am95kDW+xdTrJ2oC+4A97H2QKsPt/MfmNQzC6sfw31wHOMCf1mlr2N5sb9afP5/dlbFMZ576dmBVUTy36/5HP10Cf3yFmc32Ksxp3IJ8/lrM4Ozq/PrdZaBRyzOL+XVyk92d4+T3u0k/N70yEP7DvM7tR33RnTQY2fmR7xx2egjPR6bSz6gzHem4jVd9f6uvpvjNFc6kPE6rtfmyLW+78PvoUS+IYx3Hes28I9N+Br9B/K4rnc/IONZgLZbylfFd4=
+   eJyVVEFOw0AMXPWGWD7OG/hCU6AVhyIRFlIkhDi0aU89NeQh2IoN08GJxGG0za7HXntmW81SqgTPhCrAQrC8SGlOeztCHeQrgnX+y+0J2yBfO1L3TvItBR95OFdwvkbO+qDum+y9Grc3/gPs6Xdja01cjbuV9Wjnyt8KWsFnHvp8tDPtZw7cYnc5ydoBvqAH7Me5Bbj6fTP7jUEwd2Hza2gGnmMMqDdzWdvIN65Pm8/7Z20RGOezn/IKoiYu6/2Sz9HDnFwj56J/i3E17kQ6eS7nqnfQv+5brbUKeMxF/15epfRke/s8rdFOzu8Nhzxw38G7U++6M04HNX48PaKPe0DrRbNeGxf1wRifTcTVu2t9Xf03xvT2diKu3v3aEHF9/vvgLZRAN4zhuWPdFvrcgK7RfyiDfbn5BzfyBHK/ASE1Fdk=
   </data>
  </layer>
  <layer name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJwTY2JgECMBq/NjiqEDXHqxycEAyNznAqj8MDYGhjQ2CP+hEKbeZgGIOAh8B7IfA8WEoGbC9D3FY+88NLc/Apr1HmjONX7i/ANSr46mFuYeXP6F4cNiCLUwcANotzkrA8NFMQj/MYG4mAvElwUg7kAON5D7c1gxw5iUeIZhXOFHDH4khKkXBCSxxAUnFv2z8aQzZD4289DNegYM04XAMHkBpF+LQdJOGpC/B+jGYgJ6Qeph8QxLGyC/3QKK/xTDnQ+S0cReCkHcANO3WRChF5QWQPHNBcRbBCHhvpgVog89HAjlLfRwwodB6RDkF2Q7vgLzzg2gG74D6S9sEBqEScnT7OwMDCzsEBqE8cUjDO8Ug/h5IStCHjkdg/B2IUjYPMJSHiDjbixuOw7UcwKIr2Ipw2CYSYxw3kXG65HYQmIQt90WI17vUyhbCarnG5F6icEAZe5XuA==
+   eJwTY2JgECMBq/NjiqEDXHqxycEAyNznAqj8MDYGhjQ2CP+hEKbeZgGIOAh8B7IfA8WEoGbC9D3FY+88NLc/Apr1HmjONX7i/ANSr46mFuYeXP6F4cNiCLUwcANotzkrA8NFMQj/MYG4mAvElwUg7kAON5D7c1gxw5iUeIZhXOFHDH4khKkXBCSxxAUnFv2z8aQzZD4289DNegYM04XAMHkBpF+LQdJOGpC/B+jGYgJ6Qeph8QxLGyC/3QKK/xTDnQ+S0cReCkHcANO3WRChF5QWQPHNBcRbBCHhvpgVog89HAjlLfRwwodB6RDkF2Q7vgLzzg2gG74D6S9sEBqEsenFZgcIsLMzMLCwQ2gQxhePMLxTDOLnhawIeeR0DMLbhSBh8whLeYCMu7HE5XGgnhNAfBVLGQbDTGKE8y4yXo/EFhKDuO22GPF6n0LZSlA934jUSwwGAJ+JWHk=
   </data>
  </layer>
  <layer name="Above" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYCANHBYjTmww6b1EgV58brlMhhkwvXOZyNdLKgC5k1y9IH3Ywo9YvcSIjerFro7YcKckLWMD5KRNZEBsvsCmjhi/bBMiP03iA8h2k5K30fMXKW6jJH8RAgBFSSSp
+   eJxjYCANHBYjTmww6b1EgV58brlMhhkwvXOZyNdLKgC5k1y9IH3Ywo9YvcSIjerFro7YcKckLWMDxKbNbhzqiM0X2NQR8st2IQaGHULkpcnjQH0nhHDLI9tNSt5Gz1+kuI2S/EUIAACsoie0
   </data>
  </layer>
  <layer name="Walkable" width="15" height="25" visible="0">

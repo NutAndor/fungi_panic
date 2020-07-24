@@ -47,5 +47,15 @@
         "displaytype":"quest",
         "category":"pot",
         "description":"Eine Flasche mit unbekanntem Elexir aus den Höhlen südlich von Fallhaven."
+    },
+    {
+        "id":"gison_cookbook",
+        "iconID":"items_books:0",
+        "name":"Fabulous cookings",
+        "category":"other",
+        "iconID":"items_misc_3:98",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Fabulous Receipts gathered by the Bogsten family\n\n(1) Ed's pancakes\n\n200g Wheat flour\n1 packet of baking powder\n50g Powdered sugar\n2 Eggs\n1 quarter of milk\n50g Butter\n\n(2) \n(3) \n(4) \n(5) \n(6) \n(7) \n(8) \n"
     }
 ]

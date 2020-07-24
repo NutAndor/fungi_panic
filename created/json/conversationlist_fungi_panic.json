@@ -156,7 +156,7 @@
     },
     {
         "id":"bogsten_start_0",
-        "message":"Oh young boy, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
+        "message":"Oh young kid, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
         "replies":[
             {
                 "text":"What's going on?",
@@ -294,7 +294,7 @@
     },
     {
         "id":"bogsten_20_10",
-        "message":"I'm sorry to have dragged you into this, boy. Take this key. It will open the way to my mushrooms cave. You will certainly find what you need.",
+        "message":"I'm sorry to have dragged you into this, kid. Take this key. It will open the way to my mushrooms cave. You will certainly find what you need.",
         "replies":[
             {
                 "text":"I will have a look.",
@@ -657,9 +657,19 @@
                 "nextPhraseID":"zuul_khan_115_10",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":115
+                        "requireType":"inventoryKeep",
+                        "requireID":"bogsten_staff",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"zuul_khan_115_10",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"bogsten_staff",
+                        "value":1
                     }
                 ]
             },
@@ -826,7 +836,7 @@
     },
     {
         "id":"zuul_khan_62",
-        "message":"It was the Bogstens who had imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, expect ... Well, I did almost nothing evil to them.",
+        "message":"It was the Bogstens who had imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, except ... Well, I did almost nothing evil to them.",
         "replies":[
             {
                 "text":"N",
@@ -1116,6 +1126,17 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
+                        "requireID":"bogsten",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Here it is.",
+                "nextPhraseID":"zuul_khan_115_50",
+                "requires":[
+                    {
+                        "requireType":"wearRemove",
                         "requireID":"bogsten",
                         "value":1
                     }
