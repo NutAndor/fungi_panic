@@ -77,6 +77,49 @@
           {
             "requireType": "questProgress",
             "requireID": "gison_soup",
+            "value": 50
+          }
+        ],
+        "nextPhraseID": "gison_p1_50"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 40
+          }
+        ],
+        "nextPhraseID": "gison_p1_40"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 30
+          }
+        ],
+        "nextPhraseID": "gison_p1_30"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 20
+          }
+        ],
+        "nextPhraseID": "gison_p1_20"
+      },
+      {
+        "nextPhraseID": "gison_firsttime"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
             "value": 20
           },
           {
@@ -92,7 +135,7 @@
             "value": 50
           }
         ],
-        "nextPhraseID": "gison_visited"
+        "nextPhraseID": "gison_p1_20"
       },
       {
         "requires": [
@@ -159,7 +202,7 @@
       {
         "requires": [
           {
-            "requireType": "questLatestProgress",
+            "requireType": "questProgress",
             "requireID": "gison_soup",
             "value": 10
           }
@@ -268,82 +311,6 @@
       }
     ],
     "message": "Give him my regards and hurry up. He likes his soup hot."
-  },
-  {
-    "id": "gison_visited",
-    "replies": [
-      {
-        "text": "Yes, he was not able to bare any longer.",
-        "requires": [
-          {
-            "requireType": "questLatestProgress",
-            "requireID": "gison_soup",
-            "value": 30
-          }
-        ],
-        "nextPhraseID": "gison_visited_2"
-      },
-      {
-        "text": "No, I still have it with me.",
-        "nextPhraseID": "gison_visited_1",
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_soup",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_soup",
-            "negate": true,
-            "value": 1
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 30,
-            "negate": true
-          }
-        ],
-        "text": "No ... ehm ... May you could give me a new one?",
-        "nextPhraseID": "gison_visited_nosoup"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "timerElapsed",
-            "requireID": "gison_soup",
-            "value": 10
-          },
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_soup",
-            "value": 1
-          }
-        ],
-        "text": "Could you make it hot again?",
-        "nextPhraseID": "gison_visited_warmup"
-      }
-    ],
-    "message": "Hello you. Did your bring the soup to Alaun?"
-  },
-  {
-    "id": "gison_visited_1",
-    "replies": [
-      {
-        "text": "I'm on the way.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yes, yes. He'll get it soon.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "Then hurry up. An hungry Alaun is getting soon a bad mood."
   },
   {
     "id": "gison_p2_start",
@@ -519,6 +486,454 @@
         "value": 20
       }
     ]
+  },
+  {
+    "id": "gison_p1_10",
+    "message": "gison_p1_10"
+  },
+  {
+    "id": "gison_p1_20",
+    "replies": [
+      {
+        "text": "Yes, he was not able to bare any longer.",
+        "requires": [
+          {
+            "requireType": "questLatestProgress",
+            "requireID": "gison_soup",
+            "value": 30
+          }
+        ],
+        "nextPhraseID": "gison_p1_20_2"
+      },
+      {
+        "text": "No, I still have it with me.",
+        "nextPhraseID": "gison_p1_20_1",
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "gison_soup",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "gison_soup",
+            "negate": true,
+            "value": 1
+          },
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 30,
+            "negate": true
+          }
+        ],
+        "text": "No ... ehm ... May you could give me a new one?",
+        "nextPhraseID": "gison_p1_20_nosoup"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "timerElapsed",
+            "requireID": "gison_soup",
+            "value": 10
+          },
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "gison_soup",
+            "value": 1
+          }
+        ],
+        "text": "Could you make it hot again?",
+        "nextPhraseID": "gison_p1_20_warmup"
+      }
+    ],
+    "message": "Hello you. Did your bring the soup to Alaun?"
+  },
+  {
+    "id": "gison_p1_20_1",
+    "replies": [
+      {
+        "text": "I'm on the way.",
+        "nextPhraseID": "X"
+      },
+      {
+        "text": "Yes, yes. He'll get it soon.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "Then hurry up. An hungry Alaun is getting soon a bad mood."
+  },
+  {
+    "id": "gison_p1_20_2",
+    "replies": [
+      {
+        "requires": [
+          {
+            "requireType": "inventoryRemove",
+            "requireID": "bottle_empty",
+            "value": 1
+          }
+        ],
+        "text": "Yes I have. Here is it. \n[Give empty bottle]",
+        "nextPhraseID": "gison_p1_20_3"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "bottle_empty",
+            "value": 1,
+            "negate": true
+          }
+        ],
+        "text": "No. I forgot it. I'm sorry.",
+        "nextPhraseID": "gison_p1_20_nobottle"
+      }
+    ],
+    "message": "Good. Alaun will be very satisfied .\nYou didn't perchancely bring the empty bottle back?"
+  },
+  {
+    "id": "gison_p1_20_nobottle",
+    "replies": [
+      {
+        "text": "I do. Bye",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "Oh no, to bad. Please bring me an empty bottle once you found one."
+  },
+  {
+    "id": "gison_p1_20_3",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_soup",
+        "value": 40
+      }
+    ],
+    "replies": [
+      {
+        "text": "With pleasure. Good bye.",
+        "nextPhraseID": "X"
+      },
+      {
+        "text": "I won't do this whole stupid running again just for an empty bottle. Bye.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "Oh good. Thanks."
+  },
+  {
+    "id": "gison_p1_20_nosoup",
+    "replies": [
+      {
+        "text": "N",
+        "nextPhraseID": "gison_p1_20_nosoup_eva"
+      }
+    ],
+    "message": "Ate it yourself, what? Haha, I hope it tasted well."
+  },
+  {
+    "id": "gison_p1_20_nosoup_eva",
+    "replies": [
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 28
+          }
+        ],
+        "nextPhraseID": "gison_p1_20_nosoup_endquest"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 26
+          }
+        ],
+        "nextPhraseID": "gison_p1_20_nosoup_5000"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 24
+          }
+        ],
+        "nextPhraseID": "gison_p1_20_nosoup_500"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 22
+          }
+        ],
+        "nextPhraseID": "gison_p1_20_nosoup_50"
+      },
+      {
+        "nextPhraseID": "gison_p1_20_nosoup_5",
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gison_p1_20_nosoup_5",
+    "replies": [
+      {
+        "text": "Let's adjourn it to another day, old man.",
+        "nextPhraseID": "X"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryRemove",
+            "requireID": "gold",
+            "value": 5
+          }
+        ],
+        "text": "Yes, ok. Here are 5 gold pieces.",
+        "nextPhraseID": "gison_p1_20_nosoup_5go"
+      }
+    ],
+    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 5 gold for it."
+  },
+  {
+    "id": "gison_p1_20_nosoup_5go",
+    "rewards": [
+      {
+        "rewardType": "giveItem",
+        "rewardID": "gison_soup",
+        "value": 1
+      },
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_soup",
+        "value": 22
+      }
+    ],
+    "replies": [
+      {
+        "text": "Thanks. Good bye.",
+        "nextPhraseID": "X"
+      },
+      {
+        "text": "Yum! more soup.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "[Gison gives you a new bottle with hot soup]\nHere you go."
+  },
+  {
+    "id": "gison_p1_20_nosoup_50",
+    "replies": [
+      {
+        "text": "Let's adjourn it to another day, old man.",
+        "nextPhraseID": "X"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryRemove",
+            "requireID": "gold",
+            "value": 50
+          }
+        ],
+        "text": "Yes, ok. Here are 50 gold pieces.",
+        "nextPhraseID": "gison_p1_20_nosoup_50go"
+      }
+    ],
+    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 50 gold for it."
+  },
+  {
+    "id": "gison_p1_20_nosoup_50go",
+    "rewards": [
+      {
+        "rewardType": "giveItem",
+        "rewardID": "gison_soup",
+        "value": 1
+      },
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_soup",
+        "value": 24
+      }
+    ],
+    "replies": [
+      {
+        "text": "Thanks. Good bye.",
+        "nextPhraseID": "X"
+      },
+      {
+        "text": "Yum! more soup.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "[Gison gives you a new bottle with hot soup]\nHere you go."
+  },
+  {
+    "id": "gison_p1_20_nosoup_500",
+    "replies": [
+      {
+        "text": "Let's adjourn it to another day, old man.",
+        "nextPhraseID": "X"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryRemove",
+            "requireID": "gold",
+            "value": 500
+          }
+        ],
+        "text": "Yes, ok. Here are 500 gold pieces.",
+        "nextPhraseID": "gison_p1_20_nosoup_500go"
+      }
+    ],
+    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 500 gold for it."
+  },
+  {
+    "id": "gison_p1_20_nosoup_500go",
+    "rewards": [
+      {
+        "rewardType": "giveItem",
+        "rewardID": "gison_soup",
+        "value": 1
+      },
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_soup",
+        "value": 26
+      }
+    ],
+    "replies": [
+      {
+        "text": "Thanks. Good bye.",
+        "nextPhraseID": "X"
+      },
+      {
+        "text": "Yum! more soup.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "[Gison gives you a new bottle with hot soup]\nHere you go."
+  },
+  {
+    "id": "gison_p1_20_nosoup_5000",
+    "replies": [
+      {
+        "text": "Let's adjourn it to another day, old man.",
+        "nextPhraseID": "X"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryRemove",
+            "requireID": "gold",
+            "value": 5000
+          }
+        ],
+        "text": "Yes, ok. Here are 5000 gold pieces.",
+        "nextPhraseID": "gison_p1_20_nosoup_5000go"
+      }
+    ],
+    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 5000 gold for it."
+  },
+  {
+    "id": "gison_p1_20_nosoup_5000go",
+    "rewards": [
+      {
+        "rewardType": "giveItem",
+        "rewardID": "gison_soup",
+        "value": 1
+      },
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_soup",
+        "value": 28
+      }
+    ],
+    "replies": [
+      {
+        "text": "Thanks. Good bye.",
+        "nextPhraseID": "X"
+      },
+      {
+        "text": "Yum! more soup.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "[Gison gives you a new bottle with hot soup]\nHere you go.\nI cant give you more. Bring this one to Alaun now, hoggish lad!"
+  },
+  {
+    "id": "gison_p1_20_nosoup_endquest",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_soup",
+        "value": 50
+      }
+    ],
+    "replies": [
+      {
+        "text": "Oops.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "I'm sorry for Alaun. Though he has to come himself"
+  },
+  {
+    "id": "gison_p1_20_warmup",
+    "replies": [
+      {
+        "text": "N",
+        "nextPhraseID": "gison_p1_20_warmup_1"
+      }
+    ],
+    "message": "I told you to not linger. But i can make it hot. Give me a moment.\n[Gison pours the soup back in the bowl and fills the bottle up again with hot soup]"
+  },
+  {
+    "id": "gison_p1_20_warmup_1",
+    "rewards": [
+      {
+        "rewardType": "createTimer",
+        "rewardID": "gison_soup"
+      }
+    ],
+    "replies": [
+      {
+        "text": "Thanks.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "Here you go."
+  },
+  {
+    "id": "gison_p1_30",
+    "message": "gison_p1_30"
+  },
+  {
+    "id": "gison_p1_40",
+    "message": "gison_p1_40"
+  },
+  {
+    "id": "gison_p1_50",
+    "message": "gison_p1_50"
   },
   {
     "id": "gison_p2_10",
@@ -737,66 +1152,6 @@
     "message": "Oh yes, I'm Gison. I live here in the forest with my wife Nimael, she is over there."
   },
   {
-    "id": "gison_visited_2",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "bottle_empty",
-            "value": 1
-          }
-        ],
-        "text": "Yes I have. Here is it. \n[Give empty bottle]",
-        "nextPhraseID": "gison_visited_3"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "bottle_empty",
-            "value": 1,
-            "negate": true
-          }
-        ],
-        "text": "No. I forgot it. I'm sorry.",
-        "nextPhraseID": "gison_visited_nobottle"
-      }
-    ],
-    "message": "Good. Alaun will be very satisfied .\nYou didn't perchancely bring the empty bottle back?"
-  },
-  {
-    "id": "gison_visited_nobottle",
-    "replies": [
-      {
-        "text": "I do. Bye",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "Oh no, to bad. Please bring me an empty bottle once you found one."
-  },
-  {
-    "id": "gison_visited_3",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 40
-      }
-    ],
-    "replies": [
-      {
-        "text": "With pleasure. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "I won't do this whole stupid running again just for an empty bottle. Bye.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "Oh good. Thanks."
-  },
-  {
     "id": "gison_catchsoup",
     "replies": [
       {
@@ -948,302 +1303,6 @@
       }
     ],
     "message": "Whoah. Your hungry, arent you?\nHere you go."
-  },
-  {
-    "id": "gison_visited_nosoup",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_visited_nosoup_eva"
-      }
-    ],
-    "message": "Ate it yourself, what? Haha, I hope it tasted well."
-  },
-  {
-    "id": "gison_visited_nosoup_eva",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 28
-          }
-        ],
-        "nextPhraseID": "gison_visited_nosoup_endquest"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 26
-          }
-        ],
-        "nextPhraseID": "gison_visited_nosoup_5000"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 24
-          }
-        ],
-        "nextPhraseID": "gison_visited_nosoup_500"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 22
-          }
-        ],
-        "nextPhraseID": "gison_visited_nosoup_50"
-      },
-      {
-        "nextPhraseID": "gison_visited_nosoup_5",
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 20
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gison_visited_nosoup_5",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 5
-          }
-        ],
-        "text": "Yes, ok. Here are 5 gold pieces.",
-        "nextPhraseID": "gison_visited_nosoup_5go"
-      }
-    ],
-    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 5 gold for it."
-  },
-  {
-    "id": "gison_visited_nosoup_5go",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 22
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "[Gison gives you a new bottle with hot soup]\nHere you go."
-  },
-  {
-    "id": "gison_visited_nosoup_50",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 50
-          }
-        ],
-        "text": "Yes, ok. Here are 50 gold pieces.",
-        "nextPhraseID": "gison_visited_nosoup_50go"
-      }
-    ],
-    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 50 gold for it."
-  },
-  {
-    "id": "gison_visited_nosoup_50go",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 24
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "[Gison gives you a new bottle with hot soup]\nHere you go."
-  },
-  {
-    "id": "gison_visited_nosoup_500",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 500
-          }
-        ],
-        "text": "Yes, ok. Here are 500 gold pieces.",
-        "nextPhraseID": "gison_visited_nosoup_500go"
-      }
-    ],
-    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 500 gold for it."
-  },
-  {
-    "id": "gison_visited_nosoup_500go",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 26
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "[Gison gives you a new bottle with hot soup]\nHere you go."
-  },
-  {
-    "id": "gison_visited_nosoup_5000",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 5000
-          }
-        ],
-        "text": "Yes, ok. Here are 5000 gold pieces.",
-        "nextPhraseID": "gison_visited_nosoup_5000go"
-      }
-    ],
-    "message": "No Problem I'll give you a new.\nHowever, this time you have to pay 5000 gold for it."
-  },
-  {
-    "id": "gison_visited_nosoup_5000go",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 28
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "[Gison gives you a new bottle with hot soup]\nHere you go.\nI cant give you more. Bring this one to Alaun now, hoggish lad!"
-  },
-  {
-    "id": "gison_visited_nosoup_endquest",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 50
-      }
-    ],
-    "replies": [
-      {
-        "text": "Oops.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "I'm sorry for Alaun. Though he has to come himself"
-  },
-  {
-    "id": "gison_visited_warmup",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_visited_warmup_1"
-      }
-    ],
-    "message": "I told you to not linger. But i can make it hot. Give me a moment.\n[Gison pours the soup back in the bowl and fills the bottle up again with hot soup]"
-  },
-  {
-    "id": "gison_visited_warmup_1",
-    "rewards": [
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "Here you go."
   },
   {
     "id": "gison_p2_start_8_1",

@@ -100,6 +100,16 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_70_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":70
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"bogsten_60_10",
                 "requires":[
                     {
@@ -536,6 +546,34 @@
     },
     {
         "id":"bogsten_60_50",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_60_52",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_60_54"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_52",
+        "message":"Don't forget that there are hidden rooms. I gave you my necklace so that you can find them. Wear it down in the caves. Never put it off.",
+        "replies":[
+            {
+                "text":"I'm curious what I will find there.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_60_54",
         "message":"There are hidden rooms. I'll give you my necklace so that you can find them. Wear it down in the caves. Never put it off.",
         "replies":[
             {
@@ -558,7 +596,7 @@
     },
     {
         "id":"bogsten_70_10",
-        "message":"Now what has happened down there?",
+        "message":"It took you long to come back here. What has happened down there?",
         "replies":[
             {
                 "text":"I don't know yet.",
