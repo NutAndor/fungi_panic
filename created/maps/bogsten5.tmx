@@ -120,9 +120,6 @@
  <tileset firstgid="4917" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="5045" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="10" height="15">
   <data encoding="base64" compression="zlib">
    eJw7ysbAcHQUj2IqYwBYhHbz

@@ -7,10 +7,70 @@
           {
             "requireType": "questProgress",
             "requireID": "gison_cookbook",
+            "value": 70
+          }
+        ],
+        "nextPhraseID": "gison_p2_70"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_cookbook",
+            "value": 62
+          }
+        ],
+        "nextPhraseID": "gison_p2_62"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "gison_cookbook",
+            "value": 1
+          }
+        ],
+        "nextPhraseID": "gison_p2_50"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_cookbook",
+            "value": 60
+          }
+        ],
+        "nextPhraseID": "gison_p2_60"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_cookbook",
+            "value": 40
+          }
+        ],
+        "nextPhraseID": "gison_p2_40"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_cookbook",
             "value": 15
           }
         ],
-        "nextPhraseID": "gison_p2_blindstart"
+        "nextPhraseID": "gison_p2_15"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_cookbook",
+            "value": 10
+          }
+        ],
+        "nextPhraseID": "gison_p2_10"
       },
       {
         "requires": [
@@ -20,13 +80,13 @@
             "value": 20
           },
           {
-            "requireType": "questLatestProgress",
+            "requireType": "questProgress",
             "negate": true,
             "requireID": "gison_soup",
             "value": 30
           },
           {
-            "requireType": "questLatestProgress",
+            "requireType": "questProgress",
             "negate": true,
             "requireID": "gison_soup",
             "value": 50
@@ -38,18 +98,41 @@
         "requires": [
           {
             "requireType": "questProgress",
-            "negate": true,
             "requireID": "gison_soup",
-            "value": 30
+            "value": 40
+            "negate": true
           },
           {
             "requireType": "questProgress",
             "requireID": "gison_soup",
-            "value": 50,
+            "value": 50
             "negate": true
           }
         ],
-        "nextPhraseID": "gison_fisttime"
+        "nextPhraseID": "gison_firsttime"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 90
+            "negate": true
+          },
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 145
+            "negate": true
+          },
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 155
+            "negate": true
+          }
+        ],
+        "nextPhraseID": "gison_firsttime"
       },
       {
         "nextPhraseID": "gison_p2_start"
@@ -57,17 +140,17 @@
     ]
   },
   {
-    "id": "gison_fisttime",
+    "id": "gison_firsttime",
     "replies": [
       {
         "text": "N",
-        "nextPhraseID": "gison_fisttime_1"
+        "nextPhraseID": "gison_firsttime_1"
       }
     ],
     "message": "Oh hello. What are you doing here? You got lost?"
   },
   {
-    "id": "gison_fisttime_1",
+    "id": "gison_firsttime_1",
     "replies": [
       {
         "text": "Okay. Thanks for the desciption.",
@@ -107,12 +190,12 @@
       {
         "requires": [
           {
-            "requireType": "questLatestProgress",
+            "requireType": "questProgress",
             "requireID": "gison_soup",
             "value": 10
           },
           {
-            "requireType": "questLatestProgress",
+            "requireType": "questProgress",
             "requireID": "gison_soup",
             "value": 20,
             "negate": true
@@ -142,7 +225,8 @@
         "nextPhraseID": "gison_startedq_3"
       }
     ],
-    "message": "[Gison goes to a big bowl, fills up some of the soup and returns to you]"
+    "switchToNPC":"none",
+    "message": "Gison goes to a big bowl, fills up some of the soup and returns to you."
   },
   {
     "id": "gison_startedq_3",
@@ -168,6 +252,7 @@
         "nextPhraseID": "gison_startedq_4"
       }
     ],
+    "switchToNPC":"gison",
     "message": "Here you go.\n[He's giving you the pot with the soup]"
   },
   {
@@ -224,7 +309,7 @@
             "negate": true
           }
         ],
-        "text": "No...ehm...May you could give me a new one?",
+        "text": "No ... ehm ... May you could give me a new one?",
         "nextPhraseID": "gison_visited_nosoup"
       },
       {
@@ -268,7 +353,7 @@
         "nextPhraseID": "gison_p2_start_1"
       }
     ],
-    "message": "Oh, you're back.You have to help me."
+    "message": "Oh, you're back. You have to help me."
   },
   {
     "id": "gison_p2_start_1",
@@ -436,6 +521,30 @@
     ]
   },
   {
+    "id": "gison_p2_10",
+    "message": "gison_p2_10"
+  },
+  {
+    "id": "gison_p2_40",
+    "message": "gison_p2_40"
+  },
+  {
+    "id": "gison_p2_60",
+    "message": "gison_p2_60"
+  },
+  {
+    "id": "gison_p2_50",
+    "message": "Did you find my precious cooking book?"
+  },
+  {
+    "id": "gison_p2_62",
+    "message": "Thank you that you tried to help earlier. "
+  },
+  {
+    "id": "gison_p2_70",
+    "message": "gison_p2_70"
+  },
+  {
     "id": "nimael",
     "replies": [
       {
@@ -463,7 +572,7 @@
         "nextPhraseID": "nimael_3"
       }
     ],
-    "message": "I don't know exactly. Everything went so fast. Alack... I'm too upset and my head hurts that much."
+    "message": "I don't know exactly. Everything went so fast ... I'm too upset and my head hurts that much."
   },
   {
     "id": "nimael_3",
@@ -490,6 +599,12 @@
             "negate": true,
             "requireID": "gison_cookbook",
             "value": 60
+          },
+          {
+            "requireType": "questProgress",
+            "negate": true,
+            "requireID": "gison_cookbook",
+            "value": 62
           }
         ],
         "nextPhraseID": "nimael_4"
@@ -558,7 +673,7 @@
     "id": "gison_cavekey_unlock",
     "replies": [
       {
-        "text": "Go inside.",
+        "text": "The gap is big enough that you could squeeze through it.",
         "nextPhraseID": "X"
       }
     ],
@@ -1141,7 +1256,7 @@
     "message": "Yes, what is it?"
   },
   {
-    "id": "gison_p2_blindstart",
+    "id": "gison_p2_15",
     "replies": [
       {
         "text": "Not yet.",
@@ -1149,6 +1264,50 @@
       }
     ],
     "message": "Have you found my book?"
+  },
+  {
+    "id": "gison_thiefboss",
+    "replies": [
+      {
+        "text": "Hi!",
+        "nextPhraseID": "gison_thiefboss_10"
+      }
+    ],
+    "message": "[muttering ominous words]"
+  },
+  {
+    "id": "gison_thiefboss_10",
+    "replies": [
+      {
+        "text": "I have come to retrieve a book that does not belong to you.",
+        "nextPhraseID": "gison_thiefboss_20"
+      }
+    ],
+    "message": "What ...? Who are you? How did you get in here?"
+  },
+  {
+    "id": "gison_thiefboss_20",
+    "replies": [
+      {
+        "text": "So?",
+        "nextPhraseID": "gison_thiefboss_30"
+      }
+    ],
+    "message": "Ha! You did a serious error to come here. I have just learned a new, dreadful spell."
+  },
+  {
+    "id": "gison_thiefboss_30",
+    "replies": [
+      {
+        "text": "Only if you will live to do so - attack!",
+        "nextPhraseID": "F"
+      },
+      {
+        "text": "Sorry for the disturbance - I will leave immediatly.",
+        "nextPhraseID": "X"
+      }
+    ],
+    "message": "And I will try this spell now - on you."
   },
   {
     "id": "mushroomcave_trap",
@@ -1480,5 +1639,22 @@
       }
     ],
     "message": "You find three empty bottles."
+  },
+  {
+    "id": "gison_thief1",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_cookbook",
+        "value": 40
+      }
+    ],
+    "replies": [
+      {
+        "text": "Attack!",
+        "nextPhraseID": "F"
+      }
+    ],
+    "message": "Let's pretend that you have not seen my master over there practicing dark magic with the old spell in this book we had stolen. Go away!"
   }
 ]

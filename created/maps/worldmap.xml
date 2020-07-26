@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
   <segment id="mywildcave" x="1135" y="526">
-    <map id="mywildcave3" x="1145" y="526"/>
-    <map id="mushroom_m_1" x="1136" y="543"/>
-    <map id="mushroom_m_2" x="1137" y="564"/>
-    <map id="mushroom_m_3" x="1135" y="590"/>
+    <map id="mywildcave1" x="1135" y="590"/>
+    <map id="mywildcave2" x="1137" y="564"/>
+    <map id="mywildcave3" x="1136" y="543"/>
+    <map id="mywildcave4" x="1145" y="526"/>
   </segment>
   <segment id="bogsten" x="-90" y="-161">
     <map id="bogsten2" x="-90" y="-112"/>
