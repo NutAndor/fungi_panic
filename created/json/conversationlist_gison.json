@@ -1059,7 +1059,7 @@
             "requireType": "killedMonster",
             "requireID": "gison_thiefboss",
             "value": 1,
-			"negate",true
+			"negate": true
           }
         ],
         "text": "I found the robbers, but they had destroyed your precious book.",
