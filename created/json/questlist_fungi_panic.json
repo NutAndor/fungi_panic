@@ -29,8 +29,12 @@
                 "logText":"The potion merchant gave me the cure. I could give it to Bogsten now."
             },
             {
+                "progress":52,
+                "logText":"Bogsten got cured."
+            },
+            {
                 "progress":60,
-                "logText":"Bogsten got cured, but he said the evil forces in his cave was preventing him from working. He asked me to check his cave and gave me his necklace."
+                "logText":"But he said the evil forces in his cave was preventing him from working. He asked me to check his cave and gave me his necklace."
             },
             {
                 "progress":70,

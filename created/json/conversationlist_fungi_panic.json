@@ -110,12 +110,22 @@
                 ]
             },
             {
-                "nextPhraseID":"bogsten_60_10",
+                "nextPhraseID":"bogsten_60_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_52_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":52
                     }
                 ]
             },
@@ -409,19 +419,19 @@
         "replies":[
             {
                 "text":"And here goes 150 coins again...",
-                "nextPhraseID":"bogsten_60_10"
+                "nextPhraseID":"bogsten_52_10"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
-                "value":60
+                "value":52
             }
         ]
     },
     {
-        "id":"bogsten_60_10",
+        "id":"bogsten_52_10",
         "message":"Aaah. I feel much better. That was neat. You have my everlasting thanks, kid.",
         "replies":[
             {
@@ -430,12 +440,12 @@
             },
             {
                 "text":"I'd prefer to have my 150 gold coins back.",
-                "nextPhraseID":"bogsten_60_12"
+                "nextPhraseID":"bogsten_52_12"
             }
         ]
     },
     {
-        "id":"bogsten_60_12",
+        "id":"bogsten_52_12",
         "message":"No, no, no. The uplifting feeling of saving a life cannot be balanced with gold.",
         "replies":[
             {
@@ -667,6 +677,16 @@
     {
         "id":"bogsten_90_32",
         "message":"I thought that wasn't important.",
+        "replies":[
+            {
+                "text":"What???",
+                "nextPhraseID":"bogsten_100_10"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_34",
+        "message":"Anyway. The evil force is not gone, so you'll have to go down again.",
         "replies":[
             {
                 "text":"N",
@@ -1249,6 +1269,66 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":155
+            }
+        ]
+	},
+    {
+        "id":"bogsten4_blocker",
+        "message":"You shall not pass.",
+        "replies":[
+            {
+                "text":"Your foul master is gone.",
+                "nextPhraseID":"bogsten4_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Your foul master is gone.",
+                "nextPhraseID":"bogsten4_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":145
+                    }
+                ]
+            },
+            {
+                "text":"Your master has told me to go here. Out of my way now!",
+                "nextPhraseID":"bogsten4_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":155
+                    }
+                ]
+            },
+            {
+                "text":"For now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten4_blocker_10",
+        "message":"The black fog hisses and instantly vanishes.",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"That was easy."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bogsten4_blocker",
+                "mapName":"bogsten4"
             }
         ]
 	}

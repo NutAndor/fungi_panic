@@ -68,6 +68,11 @@
             "requireType": "questProgress",
             "requireID": "gison_soup",
             "value": 50
+          },
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 70
           }
         ],
         "nextPhraseID": "gison_p1_50"
@@ -78,6 +83,11 @@
             "requireType": "questProgress",
             "requireID": "gison_soup",
             "value": 40
+          },
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 70
           }
         ],
         "nextPhraseID": "gison_p1_40"
@@ -276,7 +286,7 @@
     "replies": [
       {
         "text": "N",
-        "nextPhraseID": "gison_startedq"
+        "nextPhraseID": "gison_p1_10_0"
       }
     ]
   },
@@ -809,6 +819,22 @@
         ],
         "text": "I want to return your bottle.",
         "nextPhraseID": "gison_p1_30_1"
+      },
+      {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "gison_soup",
+            "value": 50
+          },
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 70
+          }
+        ],
+        "text": "I just want to say hello.",
+        "nextPhraseID": "gison_p1_40"
       }
     ]
   },
@@ -817,8 +843,19 @@
     "message": "Thank you.",
     "replies": [
       {
+        "requires": [
+          {
+            "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 70
+          }
+        ],
         "text": "You look worried. What's up with you?",
         "nextPhraseID": "gison_p1_40"
+      },
+      {
+        "text": "I have to go again. Bye.",
+        "nextPhraseID": "X"
       }
     ],
     "rewards": [
@@ -1008,7 +1045,6 @@
     "id": "gison_p1_50",
     "replies": [
       {
-        "text": "N",
         "nextPhraseID": "gison_p1_40"
       }
     ]
@@ -1032,11 +1068,11 @@
   },
   {
     "id": "gison_p2_40",
-    "message": "gison_p2_40"
-  },
-  {
-    "id": "gison_p2_60",
-    "message": "gison_p2_60"
+    "replies": [
+      {
+        "nextPhraseID": "gison_p2_50"
+      }
+    ]
   },
   {
     "id": "gison_p2_50",
@@ -1062,8 +1098,8 @@
 			"negate": true
           }
         ],
-        "text": "I found the robbers, but they had destroyed your precious book.",
-        "nextPhraseID": "gison_p2_62"
+        "text": "I found the robbers, but they had destroyed the book.",
+        "nextPhraseID": "gison_p2_50_5"
       },
       {
         "text": "Not yet.",
@@ -1112,6 +1148,31 @@
         "rewardType": "questProgress",
         "rewardID": "gison_cookbook",
         "value": 60
+      }
+    ]
+  },
+  {
+    "id": "gison_p2_50_5",
+    "message": "Noo!",
+    "replies": [
+      {
+        "text": "N",
+        "nextPhraseID": "gison_p2_62"
+      }
+    ],
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_cookbook",
+        "value": 62
+      }
+    ]
+  },
+  {
+    "id": "gison_p2_60",
+    "replies": [
+      {
+        "nextPhraseID": "gison_p2_70"
       }
     ]
   },
@@ -1188,8 +1249,13 @@
         "requires": [
           {
             "requireType": "questProgress",
+            "requireID": "fungi_panic",
+            "value": 70
+          },
+          {
+            "requireType": "questProgress",
             "requireID": "gison_soup",
-            "value": 20
+            "value": 40
           }
         ],
         "nextPhraseID": "nimael_1"
@@ -1292,16 +1358,6 @@
     ]
   },
   {
-    "id": "gison_started",
-    "message": "Oh yes, I'm Gison. I live here in the forest with my wife Nimael, she is over there.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_startedq"
-      }
-    ]
-  },
-  {
     "id": "gison_catchsoup",
     "message": "Aaah. Welcome back my friend.",
     "replies": [
@@ -1343,7 +1399,7 @@
             "value": 500
           }
         ],
-        "nextPhraseID": "bogsten_catchsoup_10new",
+        "nextPhraseID": "gison_catchsoup_10new",
         "text": "Give me ten."
       },
       {
@@ -1364,7 +1420,7 @@
             "value": 250
           }
         ],
-        "nextPhraseID": "bogsten_catchsoup_5new",
+        "nextPhraseID": "gison_catchsoup_5new",
         "text": "Give me five."
       },
       {
@@ -1422,7 +1478,7 @@
     ]
   },
   {
-    "id": "bogsten_catchsoup_5new",
+    "id": "gison_catchsoup_5new",
     "message": "You brought all ingredients needed for 5 portions. Here you go.",
     "rewards": [
       {
@@ -1439,7 +1495,7 @@
     ]
   },
   {
-    "id": "bogsten_catchsoup_10new",
+    "id": "gison_catchsoup_10new",
     "message": "Whoah. Your hungry, arent you?\nHere you go.",
     "rewards": [
       {
@@ -1494,6 +1550,10 @@
     ]
   },
   {
+    "id": "gison_thief1_20",
+    "message": "We agreed that there was nothing to see here. So get out of here."
+  },
+  {
     "id": "gison_thief1_12",
     "message": "Do that. And now be gone!"
   },
@@ -1509,7 +1569,7 @@
   },
   {
     "id": "gison_thiefboss_10",
-    "message": "What ...? Who are you? How did you get in here?",
+    "message": "What ...? You again? How did you get in here?",
     "replies": [
       {
         "text": "I have come to retrieve a book that does not belong to you.",

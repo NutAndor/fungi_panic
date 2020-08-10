@@ -131,12 +131,15 @@
         "id":"lombric_ball",
         "name":"Lombric Ball",
         "iconID":"monsters_rltiles1:138",
-        "monsterClass":"animal",
-        "spawnGroup":"lombric_ball",
         "maxHP":30,
         "maxAP":10,
         "moveCost":7,
-        "attackDamage":{ "min":1, "max":15 },
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":1,
+            "max":15
+        },
+        "spawnGroup":"lombric_ball",
         "attackCost":10,
         "attackChance":50,
         "blockChance":60
@@ -145,12 +148,15 @@
         "id":"lombric_beast",
         "name":"Lombric Beast",
         "iconID":"monsters_rltiles1:57",
-        "monsterClass":"animal",
-        "spawnGroup":"lombric_beast",
         "maxHP":30,
         "maxAP":10,
         "moveCost":5,
-        "attackDamage":{ "min":3, "max":10 },
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":10
+        },
+        "spawnGroup":"lombric_beast",
         "attackCost":5,
         "attackChance":70,
         "blockChance":30
@@ -158,13 +164,17 @@
     {
         "id":"bogsten4_blocker",
         "name":"Black fog",
-        "iconID":"monsters_rltiles1:57",
-        "monsterClass":"animal",
-        "spawnGroup":"bogsten4_blocker",
+        "iconID":"monsters_tometik3:44",
         "maxHP":30,
         "maxAP":10,
         "moveCost":5,
-        "attackDamage":{ "min":3, "max":10 },
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":10
+        },
+        "phraseID":"bogsten4_blocker",
+        "spawnGroup":"bogsten4_blocker",
         "attackCost":5,
         "attackChance":70,
         "blockChance":30
