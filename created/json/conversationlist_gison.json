@@ -163,9 +163,9 @@
             "negate": true
           },
           {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 145,
+            "requireType": "killedMonster",
+            "requireID": "zuul_khan3",
+            "value": 1,
             "negate": true
           },
           {
@@ -828,9 +828,9 @@
             "value": 50
           },
           {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 70
+            "requireType": "killedMonster",
+            "requireID": "zuul_khan3",
+            "value": 1
           }
         ],
         "text": "I just want to say hello.",

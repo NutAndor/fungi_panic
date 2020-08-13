@@ -1273,6 +1273,46 @@
         ]
 	},
     {
+        "id":"zuul_khan2",
+        "message":"You again! How did you get into here?",
+        "replies":[
+            {
+                "text":"I could ask you the same.",
+                "nextPhraseID":"zuul_khan2_10"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan2_10",
+        "message":"Well, no need to talk any more.",
+        "replies":[
+            {
+                "text":"Obviously not...",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan3",
+        "message":"You again! How did you get into here?",
+        "replies":[
+            {
+                "text":"I could ask you the same.",
+                "nextPhraseID":"zuul_khan3_10"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan3_10",
+        "message":"May I finally practice my black magic in peace?",
+        "replies":[
+            {
+                "text":"No, not if I can help it.",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
         "id":"bogsten4_blocker",
         "message":"You shall not pass.",
         "replies":[
@@ -1281,20 +1321,9 @@
                 "nextPhraseID":"bogsten4_blocker_10",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "text":"Your foul master is gone.",
-                "nextPhraseID":"bogsten4_blocker_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":145
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan",
+                        "value":1
                     }
                 ]
             },
@@ -1317,6 +1346,7 @@
     },
     {
         "id":"bogsten4_blocker_10",
+		"switchToNPC":"none",
         "message":"The black fog hisses and instantly vanishes.",
         "replies":[
             {
@@ -1329,6 +1359,89 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"bogsten4_blocker",
                 "mapName":"bogsten4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"zuul_khan",
+                "mapName":"bogsten4"
+            }
+        ]
+	},
+    {
+        "id":"mushroom_m2_3_blocker",
+        "message":"You shall not pass.",
+        "replies":[
+            {
+                "text":"Your foul master is gone again...",
+                "nextPhraseID":"mushroom_m2_3_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Haven't I seen you before"
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mushroom_m2_3_blocker_10",
+		"switchToNPC":"none",
+        "message":"The black fog hisses and instantly vanishes.",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"Yes, I remember this."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mushroom_m2_3_blocker",
+                "mapName":"mushroom_m2_3"
+            }
+        ]
+	},
+    {
+        "id":"mushroom_m2_6_blocker",
+        "message":"You shall not pass.",
+        "replies":[
+            {
+                "text":"Oh my. How often?",
+                "nextPhraseID":"mushroom_m2_6_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan3",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Sigh."
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mushroom_m2_6_blocker_10",
+        "message":"The black fog hisses and instantly vanishes.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"You could be a little more varied."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mushroom_m2_6_blocker",
+                "mapName":"mushroom_m2_6"
             }
         ]
 	}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="22" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="3">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="22" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,22 +182,22 @@
  </tileset>
  <layer name="Ground" width="22" height="21">
   <data encoding="base64" compression="zlib">
-   eJyllb1OAkEUhVeJJBtnNlFioY3S0wClpfAKvqeCJsYK4QUQLIyVPyUNEE3QxHhP5t7s2WETMRZfZGf2njlz5u7YqiRJWzhXzoSmcFJCi0DNh0uSbZ/z7vKxjsx3hTuXA+3jSBM6HQI1W76oWxH2fNBGTaa6V8K90oy8dWlPIPXrujvCQmqrvlg3kbHT7STppcEze8MY1rsWhi7owtu+EmfCdSuZ+xS+XHg2bzaH8YHqHkrtkfLt8v2brtVBL/Pht/fhmcHcrjBWz5dKT9eANueCPMBSPc5dPsZzby6sB89jOoeJ1pXlbWeJeZtDz1huOA9o913wzLn0SZfzzrQfTNdywnODPOB5RJ5TzQVjK8rQsP6sV0JG5pl7Bt5r8neq/qCdkS7WmFNmc1fsfVvL9mPnC68Xek4Pwovw6oq6ti/4gRfWheeZvPes9ZzBQL/FofpZqu400rVzie8A8zxSXcvA+muo41iLs2YPM7eu29acp1R/I79vtb8mLs/fPMe6j654T9n3nFLP2XtPLj+bKmnYGXK+eKdecg9Aty4c0HvcG9zXi2gto15ZvwesF7nPjRrthe9bw74H6Np9w3fEb1jGVdKKeyvdUMvqmbL/K7Fuw/+9fhNd/q7/yw+cr7o2
+   eJyllb1KA0EUhTcGA4szCxoMaKPbp0ksLdVX8Gl8BF9EC0GN9mpeICYWYuVPabMRhSiI9zD3smcnASMWH7oze8+cOXN30q0nyZawr+wIHWFzBl0CNR8uSRZ8ybsrx3Zlfk+4diXQ3og0obNLoKbmq7p1YdkHbdRkqnsh3CqdyNse7Qmkflp3URhLbcNX64Yytr2QJOdp8MzeMIb1LoUbF3ThbUWJM+G6icx9Cl8uPJs3m8P4lequSe268u3K/Zuu1UEv8+F/78Mzg7klYaCez5RzXQPanAvyAG/qsXDlGM+9uLAePA/oHIZaF+f97sqzxHyNxi03nAe0ey545lx6pMt5ox6YruWE5zZ5wHOfPKeaC8YmlKFh/VnXjMwz9wzWbcrfkfqDdka6WKOgzApX7X1by/bzQRmd6jndCU/Cs6vq2r7gB15YNxde5b1HrecM0F8HrdBjhfpa0j2wrp1LfAeY577qWgbogUPVrelanDV7eHXTuvj2kPOI6o9E71g4aYW+svzNc6x776r3lH3PKfWcvffgyrNpkIadIeeLd/IZ9wB0c2GV3uPe4L4eR2sZeX36HrBe5D43mrQXvm+NTO9H6Np9w3fEb1jGDdKKeyudU8vqmVm/K7Fu2/+9fh5d/q7/yw+xU7xy
   </data>
  </layer>
  <layer name="Objects" width="22" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYICAzYIMDOJMDFQDh8QgtKoEhA5lxq1WCmrvIUHizT8shmBjM3sT1KzNUDocj/34QDDQbexQDDNnISvp5qDbD3LzIQrdhqxPXwi3uk14whWfPlIActy9EaCOmcwkpEd+PGmAHuAGGXYhp2F8gNr+0CExzl8iqQe5mVL3bCZBP0llApLaG2j5nxRAjP+Q8943cdLtQAbiSGULCHwgM3x50fKAAVo8w/I6yH/IefQllvQAMgubOLluIVf/QzxuICXPgdIRupso8R8Afo0jHA==
+   eJxjYICAzYIMDOJMDFQDh8QgtKoEhA5lxq1WCmrvIUFUcQtBTLUwcFgMwcZm9iao3s1QOhyqhlEYt5nYQDDQbexQDDNnISuEfVOIeHPC0dwIcvMhQexy+ABymCDr00dyyyM0d23CEo5PhTD1UQKQ4+6NAKY8zN2GQPoF0E4jPHELA8xEpEd+PGEH8ze+dIQNPEYKE3TzcZl1A00cPQ6wAeQ0jA9giz9aAnQ/vkTyC8jN2NyTJohK4wObaeSfw0jm3kDL/8igg4WBoZMFVQzZz8SEN3Le+yZOWhpDVyuOVLaAwAcCZr3GkbZ40dKqAZo6WF4H+Q85j77EYh7ILGzixAJ0t5Cr/yEeN6DnOWSAnv9A5RO6mwj57wkeeQDIMi/u
   </data>
  </layer>
  <layer name="Above" width="22" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYICAw2IMJAN8eviZGRgui0HUqEkwMBwSJN4cYtzylwm/PMxuZHCJCHNB+i5jUZfDhHAbMeagA1z6apiIdxs62CRInr5RQBrAlh6oAUB5hFYAn5v1hcg3d6DcTImZ5JRt2ACyOeSWA7jMdaagHMBnLi3AqLkMDABNrR+s
+   eJxjYICAw2IMJAN8eviZGRgui0HUqEkwMBwSJN4cYtzylwm/PMxuZHCJCHNB+i5jUZfDhHAbMeagA1z6apiIdxs62CRInr5RMDgAKI/QCmBLwyBgLohKkwro6eYKFgaGShbKzSSnbMMGkM0htxzAZa4zBeUAPnNpAUbNZWAAACE7IAs=
   </data>
  </layer>
  <layer name="Walkable" width="22" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVkjEOACAIA32F//8CP3QycUBoCw42YVDCAQ02x7CHsfUT+1SWZ/pHNZkQpqqIrfRFalGfuuZlvWLuTJk1m1n1ILu1/T7/Ge7ND49R5UY7d3DR3dR7UwLxjN3b0y1f5TIcZfcKt5O5AEQx9Bc=
+   eJzVkjEOACAIA32F//+CP3QiYRBoKw6SMEjwKNU1x1gP0+Into9qLjM/41aBMNXI2Mpc5C7qU5de1ivmnylaK82qB9Vfs7OvM9zMj8g3lZvt3KG3oxfpY5L1DGWdvIzqN9wb7Z27q2+K5gYmg/jB
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -214,6 +214,42 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn" visible="0">
+  <object id="3" name="zuul_khan2" type="spawn" x="288" y="416" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="zuul_khan2"/>
+   </properties>
+  </object>
+  <object id="4" name="dangerous_fungi_1" type="spawn" x="64" y="32" width="128" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object id="8" name="dangerous_fungi_1b" type="spawn" x="416" y="96" width="160" height="384">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object id="5" name="lombric_ball_1" type="spawn" x="192" y="160" width="128" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object id="6" name="lombric_ball_2" type="spawn" x="96" y="192" width="128" height="320">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object id="7" name="mushroom_m2_3_blocker" type="spawn" x="640" y="256" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="mushroom_m2_3_blocker"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
