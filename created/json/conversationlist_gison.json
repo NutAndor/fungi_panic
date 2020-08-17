@@ -25,16 +25,6 @@
       {
         "requires": [
           {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_cookbook",
-            "value": 1
-          }
-        ],
-        "nextPhraseID": "gison_p2_50"
-      },
-      {
-        "requires": [
-          {
             "requireType": "questProgress",
             "requireID": "gison_cookbook",
             "value": 60
@@ -164,7 +154,7 @@
           },
           {
             "requireType": "killedMonster",
-            "requireID": "zuul_khan3",
+            "requireID": "zuul_khan9",
             "value": 1,
             "negate": true
           },
@@ -825,11 +815,11 @@
           {
             "requireType": "questProgress",
             "requireID": "gison_soup",
-            "value": 50
+            "value": 40
           },
           {
             "requireType": "killedMonster",
-            "requireID": "zuul_khan3",
+            "requireID": "zuul_khan9",
             "value": 1
           }
         ],
@@ -1002,7 +992,7 @@
   },
   {
     "id": "gison_p2_10_9",
-    "message": "Well, are you helping me?",
+    "message": "Well, will you help me?",
     "replies": [
       {
         "text": "Clear thing. I'll search for your book.",
@@ -1248,14 +1238,26 @@
       {
         "requires": [
           {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 70
+            "requireType": "killedMonster",
+            "requireID": "zuul_khan9",
+            "value": 1
           },
           {
             "requireType": "questProgress",
             "requireID": "gison_soup",
             "value": 40
+          },
+          {
+            "requireType": "questProgress",
+            "negate": true,
+            "requireID": "gison_cookbook",
+            "value": 60
+          },
+          {
+            "requireType": "questProgress",
+            "negate": true,
+            "requireID": "gison_cookbook",
+            "value": 62
           }
         ],
         "nextPhraseID": "nimael_1"

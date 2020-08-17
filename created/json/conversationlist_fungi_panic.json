@@ -67,6 +67,38 @@
         ]
     },
     {
+        "id":"bogsten_check_zuulkhan",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_check_zuulkhan_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":90,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bogsten_check_zuulkhan_10",
+		"message":"You have the impression that Zuul'khan is not dead. He just disappeared into the ground.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":90
+            }
+        ]
+    },
+    {
         "id":"bogsten_start_select",
         "replies":[
             {
@@ -676,23 +708,72 @@
     },
     {
         "id":"bogsten_90_32",
-        "message":"I thought that wasn't important.",
+        "message":"I thought that spell wasn't important.",
         "replies":[
             {
                 "text":"What???",
-                "nextPhraseID":"bogsten_100_10"
+                "nextPhraseID":"bogsten_90_40"
             }
         ]
     },
     {
-        "id":"bogsten_90_34",
+        "id":"bogsten_90_40",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_90_50",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_90_42"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_42",
         "message":"Anyway. The evil force is not gone, so you'll have to go down again.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"bogsten_100_10"
+                "text":"Honestly now?",
+                "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"bogsten_90_50",
+        "message":"Ah, I feel much better now. The evil force must have gone away.",
+        "replies":[
+            {
+                "text":"Good.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_52",
+        "message":"It is moved probably to another place. But that is an other people's problem.",
+        "replies":[
+            {
+                "text":"What??",
+                "nextPhraseID":"bogsten_90_54"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":102
+            }
+        ]
+    },
+    {
+        "id":"bogsten_90_54",
+        "message":"Leave now. I need to rest."
     },
     {
         "id":"bogsten_100_10",
@@ -1293,17 +1374,17 @@
         ]
     },
     {
-        "id":"zuul_khan3",
+        "id":"zuul_khan9",
         "message":"You again! How did you get into here?",
         "replies":[
             {
                 "text":"I could ask you the same.",
-                "nextPhraseID":"zuul_khan3_10"
+                "nextPhraseID":"zuul_khan9_10"
             }
         ]
     },
     {
-        "id":"zuul_khan3_10",
+        "id":"zuul_khan9_10",
         "message":"May I finally practice my black magic in peace?",
         "replies":[
             {
@@ -1416,7 +1497,7 @@
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"zuul_khan3",
+                        "requireID":"zuul_khan9",
                         "value":1
                     }
                 ]

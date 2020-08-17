@@ -60,7 +60,7 @@
         "blockChance":40
     },
     {
-        "id":"zuul_khan3",
+        "id":"zuul_khan9",
         "name":"Zuul'khan",
         "iconID":"monsters_rltiles2:88",
         "maxHP":175,
@@ -72,9 +72,9 @@
             "min":3,
             "max":6
         },
-        "spawnGroup":"zuul_khan3",
-        "phraseID":"zuul_khan3",
-        "droplistID":"zuul_khan3",
+        "spawnGroup":"zuul_khan9",
+        "phraseID":"zuul_khan9",
+        "droplistID":"zuul_khan9",
         "attackCost":5,
         "attackChance":110,
         "blockChance":40

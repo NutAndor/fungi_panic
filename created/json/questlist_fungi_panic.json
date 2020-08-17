@@ -46,12 +46,16 @@
             },
             {
                 "progress":90,
-                "logText":"I defeated Zuul'khan, but he was not dead. He disappeared into the ground. I told Bogsten about what happened."
+                "logText":"I defeated Zuul'khan, but he was not dead. He disappeared into the ground. I should tell Bogsten about what happened."
             },
             {
                 "progress":100,
                 "logText":"Bogsten then remembered the petrifying spell. This time he would make sure that Zuul'khan cannot come back. He gave me a bag of mushrooms and told me I should bring them to the potion merchant.",
                 "rewardExperience":2000
+            },
+            {
+                "progress":102,
+                "logText":"Zuul'Khan seemed to have moved away from the Bogsten's caves to another hiding."
             },
             {
                 "progress":110,

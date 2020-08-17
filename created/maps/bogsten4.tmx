@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="14">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="17">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -127,17 +127,27 @@
  </layer>
  <layer name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVVTtShEAQpSiyFeUGxh7BVPYOBm5uGYiRga5AZGIthYnnWANv4BlYOISpudPFvOLR1bOFr6oLmJ7ufv2ZIYomPKaRiZ+T6b1Ue7QN62GnbUJYui9kd4hH6ePxu3PPT7/GAC9Z3ys9fMDuoPS5kR/Q+X1ck+csil68CIRbRWsitZOrdLSDbeN97ZzuwestiD+xB5dB5Sq10TzBndfffJz/QDi2FC/EEbjO5vtRL/QLfMTPltYkhzbQQ0av9oAParJeMF+Igz7zTKI3NwvqBH4dzY/Yf8ejDnHgX9dOYgxGbQvfpy+VK8fS887gfJCH+H4nm8rP5EC1EH1OHHaBGlh9kbwRV/dRcwI22cSpp1pxj61YQBtP+pzOlHAB/8bncKtyETvdjyJxdXdy7+Q1mccBGn7Pxhnmu0D4HzvHlfNbOymdfCTT+dDc4Ks80md9L4v/U/9+uZrrOI71D5Bzy/dq7msIPtDdOb9nyjffP1Y+7BeQ/YXvD2zP3XNrzQnNAGqLc7A3fK9phhvV91/HvU7n+54o5sVqyl8Da6zbGGckdD4A6/9pIfRP/gO1e302
+   eJyVVTtOw0AQtSx3weAbUHMEWpw7pCA9osBUFBBiV2lQLNNwjlBwA87g2IegpWdH3ic/j2Yj86SR7Z2dmTefXUfRiKc0MvFzNr5v1R5tw3rYaZsQ5u4L2R3jQbp4+G7d89OvMcBL1g9KDx+wOyp9buQHtH4f1+Qli6JXLwLhVtKaSOXkJh3sYFt7X3une/R6C+JP7MGlV7lKbTRPcOf1Nx/nPxCODcULcQRW2XQ/6oV+gY/42dCa5NAEesjo1B7wQU2WM+YLcdBnnkn05nZGncCvpfkR++940CEO/OvaSYzeqG3h+/SlcuVYet4ZnA/yEN/vZFP6meypFqLPicM+UAOrL5I34uo+ak7AOhs5dVQr7rEVC2jiUZ/TmRIu4F/7HO5ULmKn+1Ekru5OHpzskmkcoOb3bJhhvguE/6lzXDq/lZOtk49kPB+aG3ytTsyhvpfF/7l/v15MdRzH+gdIHL5Xc19D8IHu3vm9UL75/rHyYb+A7C98f2B76Z4ba05oBlBbnIOD4XtJM1yr+v067lU63fdMMa8WY/4aWGPd2uhP6HwA1v/TQuif/AeDjX0e
   </data>
  </layer>
  <layer name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzNVTsOwjAMbToz9GDsnID2EJygRQI2BAJxo25ITNwAOAGfWMRS6tqOWwmJJ2WoY78nxy9plnUxK7KfAHhb19W4OT1fi9W+9uH6+9cQK0Pu06BxDDlV8Y0d/PfWr51fb79Wrl9jAfJRzTLBEdes83Qu5UvxUw1AJdRwPVgR1wHPgukF5mg5E4sG1UPAHCX+O/GkRePs+zg5uWZD+nwRT1o0EFqNNDMpR9KQ0CjnFvMjV62ciRVcT7E/uFkO1aT5lzx9zkP9yd17jZ/bnxs1G8XDGBtzx3AW4Pe94mHUoHvTST8XPNIy7+mQNzEF8Aj8B5aGezdW41/xAdzeNyg=
+   eJxjYEAF4QIMNAEgc88xotrxlhG/enxinUC97xkx5e9BxdKgav8SYcdcqJp0AYjYHCB/OhDPBOL/QNzHiKmHGAAzD93ONAJmIOvpZyKsFt08Quaj2wEC6Tj0YPMDsQBZH8icaix+AcUjMWFCjB3o9sEAKB5xmf8OLU0SY8dVoD/mM+LWMwHNn//Q0iQxdsAAPj244gybmoVMuO3ABbrwhBuy+eE47CAHYPMTcvrAZgepdqKrv8GE6k90O9LJSJ+E3DgfKY3gymOpBOyshZrRhScNw8TIyWOwuACl91l40jDMDnQ5Hx5MtaD8fg5LeUpKmUgIgPI7qB7oJiLfkWvHYAUA9lQ6CA==
+  </data>
+ </layer>
+ <layer name="Above_after" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAQQLjD07ZjJyMCQRgd/jIJRMBQBAFFdAd8=
   </data>
  </layer>
  <layer name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVksENwCAMAxmBpbL/SlV/FcI5B4VHLeUDUc6YxBwjPvUq5t36MyMT9dMM5Z04653jscJwZjmMtb/yxixLpzfzT/4chpK7o7s8KHuHRQya5/AyRiU39ccnDPKrztR+OhzlN3tXZzkMlXsHg3S6E+SdOFVPnbr116oeq8lkRw==
+   eJzVksENwCAMAxmBpbL/SlV/FcI5B4VHLeUDUc6YxBwjPvUq5t36MyMT9dMM5Z04653jscJwZjmMtb/yxixLpzfzT/4chpK7o7s8KHuHRQya5/AyRiU39ccnDPKrzqqMbJ9pd7vLYajcOxik050g78SpeurUrb9W9QCUNGSc
+  </data>
+ </layer>
+ <layer name="Walkable_after" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHfgKjBqx2ACIH8MF7+MgsEDABVjAao=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -151,6 +161,12 @@
    <properties>
     <property name="map" value="mushroom_m2_1"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="15" name="bogsten_check_necklace" type="script" x="32" y="352" width="32" height="96"/>
+  <object id="16" name="bogsten_check_zuulkhan" type="script" x="96" y="480" width="160" height="128">
+   <properties>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
@@ -220,5 +236,15 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0"/>
+ <objectgroup name="Replace" visible="0">
+  <object id="14" name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+   <properties>
+    <property name="Above" value="Above_after"/>
+    <property name="Walkable" value="Walkable_after"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
