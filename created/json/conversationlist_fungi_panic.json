@@ -813,6 +813,16 @@
                 ]
             },
             {
+                "nextPhraseID":"zuul_khan_115",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":115
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"zuul_khan_70_10",
                 "requires":[
                     {
@@ -1107,22 +1117,15 @@
     },
     {
         "id":"zuul_khan_70_10",
-        "message":"Is Bogsten dead already?",
+        "message":"Did you make up your mind at last?",
         "replies":[
             {
                 "text":"No, not yet.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I have killed him.",
-                "nextPhraseID":"zuul_khan_115_10",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"bogsten",
-                        "value":1
-                    }
-                ]
+                "text":"Let's talk again.",
+                "nextPhraseID":"zuul_khan_74"
             }
         ]
     },
@@ -1245,6 +1248,27 @@
             }
         ]
 	},
+    {
+        "id":"zuul_khan_115",
+        "message":"Is Bogsten dead already?",
+        "replies":[
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have killed him.",
+                "nextPhraseID":"zuul_khan_115_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bogsten",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
     {
         "id":"zuul_khan_115_10",
         "message":"Bogsten is dead. Finally.",
@@ -1369,6 +1393,46 @@
         "replies":[
             {
                 "text":"Obviously not...",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan3",
+        "message":"You again!",
+        "replies":[
+            {
+                "text":"Coocoo!",
+                "nextPhraseID":"zuul_khan3_10"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan3_10",
+        "message":"I will teach you...",
+        "replies":[
+            {
+                "text":"We'll see.",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan4",
+        "message":"I get weary of you.",
+        "replies":[
+            {
+                "text":"Why only?",
+                "nextPhraseID":"zuul_khan4_10"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan4_10",
+        "message":"I have been kind to you, but now you will die!",
+        "replies":[
+            {
+                "text":"Oh - no, I don't think so.",
                 "nextPhraseID":"F"
             }
         ]

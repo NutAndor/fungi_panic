@@ -209,7 +209,7 @@
   </object>
   <object id="2" name="north" type="mapchange" x="384" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="mushroom_m2_3"/>
+    <property name="map" value="mushroom_m2_4"/>
     <property name="place" value="south"/>
    </properties>
   </object>

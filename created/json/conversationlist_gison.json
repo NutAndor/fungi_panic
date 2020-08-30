@@ -954,7 +954,7 @@
   },
   {
     "id": "gison_p2_10_6",
-    "message": "That's the clue. I don't know that language, therefore I ignored the pages for ages. Maybe the people who raided us know what's about that chapter.",
+    "message": "That's the clue. I don't know that language, therefore I ignored the pages for ages. Maybe the robbers know what's about that chapter.",
     "replies": [
       {
         "text": "N",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": "gison_p2_15",
-    "message": "The people who raided us came from the south. Maybe you should start your search in that direction. Take care!",
+    "message": "The robbers came from the south. Maybe you should start your search in that direction. Take care!",
     "replies": [
       {
         "text": "I will. Thank you.",
@@ -1083,7 +1083,7 @@
         "requires": [
           {
             "requireType": "killedMonster",
-            "requireID": "gison_thiefboss",
+            "requireID": "gison_thief1",
             "value": 1,
 			"negate": true
           }
@@ -1447,6 +1447,38 @@
         "text": "Give me one."
       },
       {
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "bottle_empty",
+            "value": 1,
+			"negate": true
+          }
+        ],
+        "nextPhraseID": "gison_catchsoup_nonew",
+        "text": "Give me one."
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "mushroom_bogsten",
+            "value": 2,
+			"negate": true
+          }
+        ],
+        "nextPhraseID": "gison_catchsoup_nonew",
+        "text": "Give me one."
+      },
+      {
+        "requires": [
+          {
+            "requireType": "inventoryKeep",
+            "requireID": "gold",
+            "value": 50,
+			"negate": true
+          }
+        ],
         "nextPhraseID": "gison_catchsoup_nonew",
         "text": "Give me one."
       }
@@ -1464,8 +1496,8 @@
     ],
     "replies": [
       {
-        "text": "Thanks, good bye",
-        "nextPhraseID": "X"
+        "text": "Thank you.",
+        "nextPhraseID": "gison_catchsoup_eva"
       }
     ]
   },
@@ -1491,8 +1523,8 @@
     ],
     "replies": [
       {
-        "text": "Thanks a lot. Good bye.",
-        "nextPhraseID": "X"
+        "text": "Thanks a lot.",
+        "nextPhraseID": "gison_catchsoup_eva"
       }
     ]
   },

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="mywildcave" x="1135" y="526">
-    <map id="mywildcave1" x="1135" y="590"/>
-    <map id="mywildcave2" x="1137" y="564"/>
-    <map id="mywildcave3" x="1136" y="543"/>
-    <map id="mywildcave4" x="1145" y="526"/>
-  </segment>
-  <segment id="bogsten" x="-90" y="-161">
-    <map id="bogsten2" x="-90" y="-112"/>
-    <map id="bogsten3" x="-81" y="-90"/>
-    <map id="bogsten4" x="-55" y="-87"/>
-    <map id="mushroom_m2_1" x="-55" y="-101"/>
-    <map id="mushroom_m2_2" x="-65" y="-122"/>
-    <map id="mushroom_m2_3" x="-54" y="-144"/>
-    <map id="mushroom_m2_4" x="-31" y="-144"/>
-    <map id="mushroom_m2_5" x="-35" y="-161"/>
-    <map id="mushroom_m2_6" x="-54" y="-161"/>
+  <segment id="fungi_panic" x="193" y="403">
+    <map id="mywildcave1" x="193" y="517"/>
+    <map id="mywildcave2" x="197" y="491"/>
+    <map id="mywildcave3" x="196" y="470"/>
+    <map id="mywildcave4" x="205" y="453"/>
+    <map id="bogsten2" x="298" y="452"/>
+    <map id="bogsten3" x="307" y="474"/>
+    <map id="bogsten4" x="333" y="477"/>
+    <map id="mushroom_m2_1" x="333" y="463"/>
+    <map id="mushroom_m2_2" x="323" y="442"/>
+    <map id="mushroom_m2_3" x="306" y="420"/>
+    <map id="mushroom_m2_4" x="329" y="420"/>
+    <map id="mushroom_m2_5" x="325" y="403"/>
+    <map id="mushroom_m2_6" x="306" y="403"/>
+    <map id="mushroom_m2_7" x="298" y="403"/>
+    <map id="mushroom_m2_8" x="287" y="403"/>
+    <map id="mushroom_m2_9" x="256" y="423"/>
+    <map id="mushroom_m2_10" x="245" y="423"/>
   </segment>
 </worldmap>

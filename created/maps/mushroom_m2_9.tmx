@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="22" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="9" tilewidth="32" tileheight="32" infinite="0" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,70 +180,40 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="22" height="21">
+ <layer name="Ground" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJyVlT1Ow0AQhZ1YRLLYtQQRSNCAe5pASUlyBU7DEbgIFEiQQM/PBUJCgaj4KdMkKJEACTFPOyM/OyaC4hN4d+ft89vxZjeOoj3hUDkQWsJ2BbsEamYuiuo+Z+rysbbMd4QblwPtrZImdNoEamq+qBsLKz5ooyZV3UvhXmmVvHXonUDi53WXhInUNnyxbiBj+/Uo6ibBM3vDGPa7Em5d0IW3VaWcCdd9yNyn8OXCs3mzOYxfq+6G1G4q3y5/f9O1OuilPvzvfXhmMLcs9NXzhdLVPaDNuSAP8K4exy4f47k3F/aD5z6dw0DrynlPXX6WmK/RuOWG84B2zwXPnEuPdDlv1APTtZzwvEMe8HxHnhPNBWMflKFh/RlrRuaZewb7NuXvUP1BOyVd7DGmzMau2Pu2l73PjDI613N6EF6EV1fUtfeCH3hh3UwYybpnrecM0F9H66HHxuprWd+Bde1cyneAeb5TXcsAPXCsujXdi7NmDyM3r4tvDzkPqf5E9E6Fs/XQV5a/eS7rPrriPWXfc0I9Z+ueXH42DdKwM+R8sSaruAegmwlrtI57g/t6UtrL+jeL5+8B60Xuc6NZMWffmM0B6Np9w3fEf1gpaZpu8ketNC6yaB3r7vjq+vSX3yVj0bq/1P+HH+mnwkI=
+   eJybwczAMGMA8KoBwnsGCG/mhGBFXgYGZV4Enxj8hYc09aTgj0CzP+MwX4SAO0F+USLDPyAsCNQjTKQ+FRLMT2IeGDzS0jMAYCCxEA==
   </data>
  </layer>
- <layer name="Objects" width="22" height="21">
+ <layer name="Objects" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYICAzYIMDOJMDFQDh8QgtKoEhA5lxq1WCmrvIUFUcQtBTLUwcFgMwcZm9iao3s1QOhyqhlEYt5nYQDDQbexQDDNnISuEfVOIeHPC0dwIcvMhQexy+ABymCDr00dyyyM0d23CEo5PhTD1UQKQ4+6NAKY8zN2GQPoF0E4jPHELA8xEpEd+PGEH8ze+dIQNPEYKE3TzcZl1A00cPQ6wAeQ0jA9giz9aA2R/vkTyC8jN2NyTJohK4wObaeSfw0jm3kDL/8igg4WBoZMFVQzZv8SkG+S8902c9DSGDMSRyhYQ+EDArNdE5lkDNHWwvA7yH3IefUmlMgAZ8BJZpuFSBxN/iMdt6HkOGcDynwIzAqPbRcjfT/DIAwCNBC55
+   eJxjYBh4YCFIX/5gAJuIdBM2dTeI0AvTR4xafOr0hYjTjwtg00+s3wnpodRto4B8AAA9VAlN
   </data>
  </layer>
- <layer name="Above" width="22" height="21">
+ <layer name="Above" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYICAw2IMJAN8eviZGRgui0HUqEkwMBwSJN4cYtzylwm/PMxuZHCJCHNB+i5jUZfDhHAbMeagA1z6apiIdxs62CRInr5RMDgAKI/QCmBLwyBgLohKkwro6eYKFgaGShbKzSSnbMMGkM0htxzAZa4zBeUAPnNpAcg1F1va4UUSo4V7FZghmNoAAAttH5o=
+   eJxjYBgFo2AUjALSAAAEOAAB
   </data>
  </layer>
- <layer name="Walkable" width="22" height="21" visible="0">
+ <layer name="Walkable" width="30" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVUkEKACAI6xX9/wv9sJPgpbkNgxp4SHRbwzXHWBcr8BN3RqWr6CPeCgynC8Tt6DK7bE5dftWslDtzvFae3QyqW4t37iu8KI9Tbi4v+nOH345ZZk4pNTPkH0G5MXUPeUdzzP4rtQH7NfD7
+   eJzbKMbAsHEU0xzDADqfGECqelLNxmU+IXux+Y8a9pLqDlxuGsW0wwAvRJVB
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
-  <object id="2" name="east" type="mapchange" x="672" y="256" width="32" height="320">
+  <object id="10" name="east" type="mapchange" x="928" y="96" width="32" height="96">
    <properties>
-    <property name="map" value="mushroom_m2_4"/>
+    <property name="map" value="mushroom_m2_8"/>
     <property name="place" value="west"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object id="3" name="zuul_khan2" type="spawn" x="288" y="416" width="64" height="32">
+  <object id="11" name="west" type="mapchange" x="0" y="96" width="32" height="96">
    <properties>
-    <property name="spawngroup" value="zuul_khan2"/>
-   </properties>
-  </object>
-  <object id="4" name="dangerous_fungi_1" type="spawn" x="64" y="32" width="128" height="160">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="dangerous_fungi"/>
-   </properties>
-  </object>
-  <object id="8" name="dangerous_fungi_1b" type="spawn" x="416" y="96" width="160" height="384">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="dangerous_fungi"/>
-   </properties>
-  </object>
-  <object id="5" name="lombric_ball_1" type="spawn" x="192" y="160" width="128" height="32">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="lombric_ball"/>
-   </properties>
-  </object>
-  <object id="6" name="lombric_ball_2" type="spawn" x="96" y="192" width="128" height="320">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="lombric_ball"/>
-   </properties>
-  </object>
-  <object id="7" name="mushroom_m2_3_blocker" type="spawn" x="640" y="256" width="32" height="32">
-   <properties>
-    <property name="quantity" value="1"/>
-    <property name="spawngroup" value="mushroom_m2_3_blocker"/>
+    <property name="map" value="mushroom_m2_10"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Spawn" visible="0"/>
  <objectgroup name="Keys"/>
 </map>
