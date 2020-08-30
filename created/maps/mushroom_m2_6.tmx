@@ -238,10 +238,10 @@
     <property name="spawngroup" value="lombric_ball"/>
    </properties>
   </object>
-  <object id="8" name="mushroom_m2_6_blocker" type="spawn" x="96" y="96" width="32" height="32">
+  <object id="8" name="zuul_khan3_blocker" type="spawn" x="96" y="96" width="32" height="32">
    <properties>
     <property name="quantity" value="1"/>
-    <property name="spawngroup" value="mushroom_m2_6_blocker"/>
+    <property name="spawngroup" value="zuul_khan3_blocker"/>
    </properties>
   </object>
  </objectgroup>

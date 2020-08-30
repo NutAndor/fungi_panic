@@ -228,10 +228,10 @@
     <property name="spawngroup" value="lombric_beast"/>
    </properties>
   </object>
-  <object id="13" name="bogsten4_blocker" type="spawn" x="128" y="64" width="32" height="32">
+  <object id="13" name="zuul_khan1_blocker" type="spawn" x="128" y="64" width="32" height="32">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="bogsten4_blocker"/>
+    <property name="spawngroup" value="zuul_khan1_blocker"/>
    </properties>
   </object>
  </objectgroup>

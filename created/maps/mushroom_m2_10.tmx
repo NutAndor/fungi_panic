@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="32" tileheight="32" infinite="0" nextobjectid="14">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="32" tileheight="32" infinite="0" nextobjectid="15">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,24 +187,24 @@
  </layer>
  <layer name="Objects" width="10" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYKAesBAkTW4vMwPDJTEIexNUfjczqjgykASKSWERh4HDWOSKgWaVMuPWQy8AAAqOB4o=
+   eJxjYKAesBAkLHeAAyG2l5mB4ZIYhL0JKr+bGSL+gIMBA0gC1UqJ4bbjMBa5YqBZpcyo9g4EAAAwWwka
   </data>
  </layer>
  <layer name="Above" width="10" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCANXBYjLA5iH8ahDlkclxpceg6JQTAuUMpMnHkDAQDITAhI
+   eJxjYCANXBYjLA5iH8ahDlkclxoQuIRF3SExCMYFSplxyw00AACExQkw
   </data>
  </layer>
  <layer name="Walkable" width="10" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEAMTpAF8fFJqQPn3kDgQHYgjZr
+   eJzbKMbAsHEAMTpAl0NWg009uj5izBsIDADdlTf5
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
   <object id="11" name="down" type="mapchange" x="128" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="mushroom_m2_10"/>
-    <property name="place" value="east"/>
+    <property name="map" value="mushroom_m3_1"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
   <object id="12" name="east" type="mapchange" x="288" y="96" width="32" height="96">
@@ -223,6 +223,11 @@
   <object id="13" name="zuul_khan9" type="spawn" x="64" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="zuul_khan9"/>
+   </properties>
+  </object>
+  <object id="14" name="lombric_ball2" type="spawn" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lombric_ball2"/>
    </properties>
   </object>
  </objectgroup>

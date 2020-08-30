@@ -60,6 +60,46 @@
         "blockChance":40
     },
     {
+        "id":"zuul_khan3",
+        "name":"Zuul'khan",
+        "iconID":"monsters_rltiles2:88",
+        "maxHP":175,
+        "maxAP":20,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"zuul_khan3",
+        "phraseID":"zuul_khan3",
+        "droplistID":"zuul_khan3",
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":40
+    },
+    {
+        "id":"zuul_khan4",
+        "name":"Zuul'khan",
+        "iconID":"monsters_rltiles2:88",
+        "maxHP":175,
+        "maxAP":20,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"zuul_khan4",
+        "phraseID":"zuul_khan4",
+        "droplistID":"zuul_khan4",
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":40
+    },
+    {
         "id":"zuul_khan9",
         "name":"Zuul'khan",
         "iconID":"monsters_rltiles2:88",
@@ -185,6 +225,40 @@
         "blockChance":60
     },
     {
+        "id":"lombric_ball2",
+        "name":"Lombric Ball",
+        "iconID":"monsters_rltiles1:139",
+        "maxHP":50,
+        "maxAP":10,
+        "moveCost":7,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":5,
+            "max":20
+        },
+        "spawnGroup":"lombric_ball2",
+        "attackCost":10,
+        "attackChance":70,
+        "blockChance":65
+    },
+    {
+        "id":"lombric_ball3",
+        "name":"Lombric Ball",
+        "iconID":"monsters_rltiles2:167",
+        "maxHP":30,
+        "maxAP":10,
+        "moveCost":2,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":20
+        },
+        "spawnGroup":"lombric_ball3",
+        "attackCost":5,
+        "attackChance":60,
+        "blockChance":65
+    },
+    {
         "id":"lombric_beast",
         "name":"Lombric Beast",
         "iconID":"monsters_rltiles1:57",
@@ -202,57 +276,39 @@
         "blockChance":30
     },
     {
-        "id":"bogsten4_blocker",
+        "id":"zuul_khan1_blocker",
         "name":"Black fog",
         "iconID":"monsters_tometik3:44",
-        "maxHP":30,
-        "maxAP":10,
         "moveCost":5,
-        "monsterClass":"animal",
-        "attackDamage":{
-            "min":3,
-            "max":10
-        },
-        "phraseID":"bogsten4_blocker",
-        "spawnGroup":"bogsten4_blocker",
-        "attackCost":5,
-        "attackChance":70,
-        "blockChance":30
+        "monsterClass":"animal"
+        "phraseID":"zuul_khan1_blocker",
+        "spawnGroup":"zuul_khan1_blocker"
     },
     {
-        "id":"mushroom_m2_3_blocker",
+        "id":"zuul_khan2_blocker",
         "name":"Black fog",
         "iconID":"monsters_tometik3:44",
-        "maxHP":30,
-        "maxAP":10,
         "moveCost":5,
         "monsterClass":"animal",
-        "attackDamage":{
-            "min":3,
-            "max":10
-        },
-        "phraseID":"mushroom_m2_3_blocker",
-        "spawnGroup":"mushroom_m2_3_blocker",
-        "attackCost":5,
-        "attackChance":70,
-        "blockChance":30
+        "phraseID":"zuul_khan2_blocker",
+        "spawnGroup":"zuul_khan2_blocker"
     },
     {
-        "id":"mushroom_m2_6_blocker",
+        "id":"zuul_khan3_blocker",
         "name":"Black fog",
         "iconID":"monsters_tometik3:44",
-        "maxHP":30,
-        "maxAP":10,
         "moveCost":5,
         "monsterClass":"animal",
-        "attackDamage":{
-            "min":3,
-            "max":10
-        },
-        "phraseID":"mushroom_m2_6_blocker",
-        "spawnGroup":"mushroom_m2_6_blocker",
-        "attackCost":5,
-        "attackChance":70,
-        "blockChance":30
+        "phraseID":"zuul_khan3_blocker",
+        "spawnGroup":"zuul_khan3_blocker"
+    },
+    {
+        "id":"zuul_khan4_blocker",
+        "name":"Black fog",
+        "iconID":"monsters_tometik3:44",
+        "moveCost":5,
+        "monsterClass":"animal",
+        "phraseID":"zuul_khan4_blocker",
+        "spawnGroup":"zuul_khan4_blocker"
     }
 ]

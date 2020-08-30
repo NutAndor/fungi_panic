@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="29" tilewidth="32" tileheight="32" infinite="0" nextobjectid="12">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="29" tilewidth="32" tileheight="32" infinite="0" nextobjectid="15">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,17 +187,17 @@
  </layer>
  <layer name="Objects" width="10" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBjeYC8zaeJPhTDViDGhqnFG4xMCxUh2vRbCrQ4GDouRZj4IlKL5pxiH/9BBKx51wUzEm0VIDa7wxiWXy8/A0MuPXb2YMIK9G6h3LhZ1yOHBCfTHGqAaF0GIenzgCTB+1gLV9uCwGwQSgWaUMGOGOQgg+2UlEhtZLbp/8bnpKRHphRMtPf4WQsQHul2PkcwjNo3AAL44JEeNuyBCDADVFx1e
+   eJxjYBjeYC8zaeJPhTDViDGhqnFG4xMCxUh2vRbCrQ4GDouRZj4IlKL5pxiH/9BBKx51wUzEm0VIDa7wxiWXy8/A0MuPXb2YMIK9G6h3LhZ1yOHBCfTHGqAaF0GIenzgCTB+1gLV9uCwGwQSgWaUMGOGOQgg+2UlEhtZLbp/sbkJ5OYHHPjdigv8FkLEB7JdB4DmPUZKf8SmERjAF4fkqHEXRIgBAEb0Hhc=
   </data>
  </layer>
  <layer name="Above" width="10" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBh84LIYceKHsagDqUEXvySGXQ26ODogRg0ud1CirpSZOHXkAlzhiw7wuRfZDFzq0OMCV1hSEs5z+BkYTAQJ64WBNfyYYtjCw1wQUw0x8UesX/CpISZ+qOkeYsyidp5BVwMAeegnew==
+   eJxjYBh84LIYceKHsagDqUEXvySGXQ26ODogRg0ud1CirpSZOHXkAlzhiw7wuRfZDFzq0OMCV1hSEs5z+BkYTAQJ68UHsIWHuSCmGmLijxi/HODAr4aY+KGme4gxi9p5Bl0NACeHJ4g=
   </data>
  </layer>
  <layer name="Walkable" width="10" height="29" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGYY2SASxwdoKvBpYcY85H5yDQudcS6jVh/UqqOmPAlNh6IcRMuddjCnFh/kmI3MfZTGm7E2kXIbaS6nZjwGAgMAAydoOo=
+   eJzbKMbAsHGYY2SASxwdoKvBpYcY85H5yDQudcS6jVh/UqqOmPAlNh6IcRMuddjCnFh/kmI3MfZTGm7E2EWM20hxOylxT28MAD04ong=
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -216,6 +216,23 @@
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="11" name="zuul_khan3" type="spawn" x="224" y="608" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="zuul_khan3"/>
+   </properties>
+  </object>
+  <object id="12" name="dangerous_fungi_1" type="spawn" x="32" y="192" width="192" height="544">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object id="13" name="lombric_ball_1" type="spawn" x="160" y="448" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object id="14" name="zuul_khan3_blocker" type="spawn" x="32" y="768" width="32" height="32">
    <properties>
     <property name="spawngroup" value="zuul_khan3"/>
    </properties>
