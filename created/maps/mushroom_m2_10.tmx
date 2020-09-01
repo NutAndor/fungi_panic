@@ -215,16 +215,6 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="13" name="zuul_khan4" type="spawn" x="64" y="160" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="zuul_khan4"/>
-   </properties>
-  </object>
-  <object id="13" name="zuul_khan9" type="spawn" x="64" y="96" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="zuul_khan9"/>
-   </properties>
-  </object>
   <object id="14" name="lombric_ball2" type="spawn" x="224" y="128" width="32" height="32">
    <properties>
     <property name="spawngroup" value="lombric_ball2"/>

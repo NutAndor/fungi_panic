@@ -215,9 +215,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="4" name="zuul_khan9" type="spawn" x="224" y="384" width="64" height="32">
+  <object id="4" name="zuul_khan3" type="spawn" x="224" y="384" width="64" height="32">
    <properties>
-    <property name="spawngroup" value="zuul_khan9"/>
+    <property name="spawngroup" value="zuul_khan3"/>
    </properties>
   </object>
   <object id="5" name="dangerous_fungi_1" type="spawn" x="160" y="96" width="64" height="64">

@@ -1561,7 +1561,7 @@
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"zuul_khan9",
+                        "requireID":"zuul_khan3",
                         "value":1
                     }
                 ]
@@ -1586,7 +1586,46 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan3_blocker",
-                "mapName":"mushroom_m2_6"
+                "mapName":"mushroom_m2_8"
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan4_blocker",
+        "message":"You shall not pass.",
+        "replies":[
+            {
+                "text":"Oh my. How often?",
+                "nextPhraseID":"zuul_khan4_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan4",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Sigh."
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan4_blocker_10",
+        "message":"The black fog hisses and instantly vanishes.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"You could be a little more varied."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"zuul_khan4_blocker",
+                "mapName":"mushroom_m3_1"
             }
         ]
 	}

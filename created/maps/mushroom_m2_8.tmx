@@ -215,9 +215,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="11" name="zuul_khan3" type="spawn" x="224" y="608" width="32" height="32">
+  <object id="11" name="zuul_khan4" type="spawn" x="224" y="608" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="zuul_khan3"/>
+    <property name="spawngroup" value="zuul_khan4"/>
    </properties>
   </object>
   <object id="12" name="dangerous_fungi_1" type="spawn" x="32" y="192" width="192" height="544">
@@ -232,9 +232,9 @@
     <property name="spawngroup" value="lombric_ball"/>
    </properties>
   </object>
-  <object id="14" name="zuul_khan3_blocker" type="spawn" x="32" y="768" width="32" height="32">
+  <object id="14" name="zuul_khan4_blocker" type="spawn" x="32" y="768" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="zuul_khan3"/>
+    <property name="spawngroup" value="zuul_khan4_blocker"/>
    </properties>
   </object>
  </objectgroup>
