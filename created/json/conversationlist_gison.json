@@ -1381,7 +1381,7 @@
   },
   {
     "id": "gison_catchsoup_eva",
-    "message": "How many bottles with my soup do you want?",
+    "message": "How many bottles of my soup do you want?",
     "replies": [
       {
         "requires": [
@@ -1402,7 +1402,7 @@
           }
         ],
         "nextPhraseID": "gison_catchsoup_10new",
-        "text": "Give me ten."
+        "text": "I need soup! At least ten bottles! Quick!!"
       },
       {
         "requires": [
@@ -1423,7 +1423,7 @@
           }
         ],
         "nextPhraseID": "gison_catchsoup_5new",
-        "text": "Give me five."
+        "text": "Give me five bottles."
       },
       {
         "requires": [
@@ -1444,7 +1444,7 @@
           }
         ],
         "nextPhraseID": "gison_catchsoup_new",
-        "text": "Give me one."
+        "text": "Just one, please."
       },
       {
         "requires": [
@@ -1530,17 +1530,12 @@
   },
   {
     "id": "gison_catchsoup_10new",
-    "message": "Whoah. Your hungry, arent you?\nHere you go.",
+    "message": "Whoah. You are hungry, aren't you?\nHere you go.",
     "rewards": [
       {
         "rewardType": "giveItem",
         "rewardID": "gison_soup",
         "value": 10
-      }
-    ],
-    "replies": [
-      {
-        "text": "N"
       }
     ]
   },

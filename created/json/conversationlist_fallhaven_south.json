@@ -1,7 +1,7 @@
 [
     {
         "id":"alaun_1",
-        "message":"Oh, how suprising. How nice from you. Indeed there is something you could do for me.",
+        "message":"Oh, how suprising. How nice of you. Indeed there is something you could do for me.",
         "replies":[
             {
                 "text":"Tell me what it is.",
@@ -101,7 +101,7 @@
     },
     {
         "id":"alaun_startquest15",
-        "message":"Thats nice from you.",
+        "message":"Thats nice of you.",
         "replies":[
             {
                 "text":"N",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="17">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="19">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -135,9 +135,14 @@
    eJxjYEAF4QIMNAEgc88xotrxlhG/enxinUC97xkx5e9BxdKgav8SYcdcqJp0AYjYHCB/OhDPBOL/QNzHiKmHGAAzD93ONAJmIOvpZyKsFt08Quaj2wEC6Tj0YPMDsQBZH8icaix+AcUjMWFCjB3o9sEAKB5xmf8OLU0SY8dVoD/mM+LWMwHNn//Q0iQxdsAAPj244gybmoVMuO3ABbrwhBuy+eE47CAHYPMTcvrAZgepdqKrv8GE6k90O9LJSJ+E3DgfKY3gymOpBOyshZrRhScNw8TIyWOwuACl91l40jDMDnQ5Hx5MtaD8fg5LeUpKmUgIgPI7qB7oJiLfkWvHYAUA9lQ6CA==
   </data>
  </layer>
- <layer name="Above_after" width="25" height="20" visible="0">
+ <layer name="Above_1" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjAQQLjD07ZjJyMCQRgd/jIJRMBQBAFFdAd8=
+  </data>
+ </layer>
+ <layer name="Above_0" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHewkImBIVxg1I7BYsd8JtqaPwpGJgAASB8Eyg==
   </data>
  </layer>
  <layer name="Walkable" width="25" height="20" visible="0">
@@ -145,12 +150,17 @@
    eJzVksENwCAMAxmBpbL/SlV/FcI5B4VHLeUDUc6YxBwjPvUq5t36MyMT9dMM5Z04653jscJwZjmMtb/yxixLpzfzT/4chpK7o7s8KHuHRQya5/AyRiU39ccnDPKrzqqMbJ9pd7vLYajcOxik050g78SpeurUrb9W9QCUNGSc
   </data>
  </layer>
- <layer name="Walkable_after" width="25" height="20" visible="0">
+ <layer name="Walkable_1" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDHfgKjBqx2ACIH8MF7+MgsEDABVjAao=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <layer name="Walkable_0" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHfgKjBqx2Czgx72jIKRBQD9vwH/
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="416" width="32" height="32">
    <properties>
     <property name="map" value="bogsten3"/>
@@ -236,12 +246,22 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0">
-  <object id="14" name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+ <objectgroup name="Replace">
+  <object id="17" name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
    <properties>
-    <property name="Above" value="Above_after"/>
-    <property name="Walkable" value="Walkable_after"/>
+    <property name="Above" value="Above_1"/>
+    <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+  <object id="18" name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="60"/>
    </properties>

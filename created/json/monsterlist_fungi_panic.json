@@ -153,7 +153,17 @@
         "droplistID":"mid_fungi",
         "attackCost":5,
         "attackChance":110,
-        "blockChance":20
+        "blockChance":20,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spore_poison",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"dangerous_fungi",
@@ -171,7 +181,17 @@
         "droplistID":"dangerous_fungi",
         "attackCost":3,
         "attackChance":110,
-        "blockChance":12
+        "blockChance":12,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spore_poison",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"worm_ball",

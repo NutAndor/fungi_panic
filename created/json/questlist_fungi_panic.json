@@ -79,8 +79,12 @@
                 "finishesQuest":1
             },
             {
+                "progress":150,
+                "logText":"I gave Bogsten's staff to Zuul'khan."
+            },
+            {
                 "progress":155,
-                "logText":"I gave Bogsten's staff to Zuul'khan. He rewarded me with permanent immunity to Spore Infection",
+                "logText":"He rewarded me with permanent immunity to Spore Infection.",
                 "rewardExperience":2000,
                 "finishesQuest":1
             }

@@ -447,7 +447,7 @@
     },
     {
         "id":"bogsten_50_20",
-        "message":"Finally!\n* He poured down the liquid greedily *",
+        "message":"Finally!\n[He poured down the liquid greedily]",
         "replies":[
             {
                 "text":"And here goes 150 coins again...",
@@ -482,10 +482,20 @@
         "replies":[
             {
                 "text":"Not?",
-                "nextPhraseID":"bogsten_60_20"
+                "nextPhraseID":"bogsten_52_14"
             },
             {
                 "text":"You are right.",
+                "nextPhraseID":"bogsten_60_20"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_52_14",
+        "message":"No.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"bogsten_60_20"
             }
         ]
@@ -574,7 +584,7 @@
         "replies":[
             {
                 "text":"You're getting on my nerves now.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"bogsten_60_40"
             },
             {
                 "text":"OK. Down again.",
@@ -793,6 +803,26 @@
         "id":"zuul_khan",
         "replies":[
             {
+                "nextPhraseID":"zuul_khan_155",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":155
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"zuul_khan_150",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":150
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"zuul_khan_115_10",
                 "requires":[
                     {
@@ -911,7 +941,7 @@
     },
     {
         "id":"zuul_khan_30",
-        "message":"I am Archmancer of the underground. Widely known as Master of the Fungis and commander to all that crawls.",
+        "message":"I am the Archmancer of the underground. Widely known as Master of the Fungis and commander to all that crawls.",
         "replies":[
             {
                 "text":"N",
@@ -1085,7 +1115,7 @@
     },
     {
         "id":"zuul_khan_80",
-        "message":"And you are wearing their family necklace. You must die now.",
+        "message":"And you have their family necklace. So you must die now.",
         "replies":[
             {
                 "text":"I'll have to thank Bogsten: This sounds like a fun fight.",
@@ -1289,7 +1319,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
-                        "requireID":"bogsten",
+                        "requireID":"bogsten_staff",
                         "value":1
                     }
                 ]
@@ -1300,7 +1330,7 @@
                 "requires":[
                     {
                         "requireType":"wearRemove",
-                        "requireID":"bogsten",
+                        "requireID":"bogsten_staff",
                         "value":1
                     }
                 ]
@@ -1345,27 +1375,36 @@
         "message":"Finally I got the staff back!",
         "replies":[
             {
-                "nextPhraseID":"zuul_khan_155",
+                "nextPhraseID":"zuul_khan_150",
                 "text":"My reward...?"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":150
             }
         ]
 	},
     {
-        "id":"zuul_khan_155",
+        "id":"zuul_khan_150",
+		"switchToNPC":"none",
         "message":"Zuul'khan towered over you and started muttering strange words.",
         "replies":[
             {
-                "nextPhraseID":"zuul_khan_155_10",
+                "nextPhraseID":"zuul_khan_150_10",
                 "text":"I'm feeling dizzy..."
             }
         ]
 	},
     {
-        "id":"zuul_khan_155_10",
+        "id":"zuul_khan_150_10",
+		"switchToNPC":"zuul_khan",
         "message":"Done. You will never fear any of these fungi spores anymore.",
         "replies":[
             {
-                "nextPhraseID":"X",
+                "nextPhraseID":"zuul_khan_150_20",
                 "text":"Oh wow."
             }
         ],
@@ -1374,8 +1413,21 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":155
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"spore_poison",
+                "value":-99
             }
         ]
+	},
+    {
+        "id":"zuul_khan_150_20",
+        "message":"Leave me now! I have to regain my practice of spells."
+	},
+    {
+        "id":"zuul_khan_155",
+        "message":"Don't disturb me! I am practicing dangerous spells."
 	},
     {
         "id":"zuul_khan2",
@@ -1473,7 +1525,7 @@
                 ]
             },
             {
-                "text":"Your master has told me to go here. Out of my way now!",
+                "text":"[Lie] Your master has told me to go here. Out of my way now!",
                 "nextPhraseID":"zuul_khan1_blocker_10",
                 "requires":[
                     {
@@ -1496,7 +1548,7 @@
         "replies":[
             {
                 "nextPhraseID":"X",
-                "text":"That was easy."
+                "text":"Oh, that was easy."
             }
         ],
         "rewards":[
@@ -1528,7 +1580,7 @@
                 ]
             },
             {
-                "text":"Haven't I seen you before"
+                "text":"I think I have seen you before...",
                 "nextPhraseID":"X"
             }
         ]
@@ -1540,7 +1592,7 @@
         "replies":[
             {
                 "nextPhraseID":"X",
-                "text":"Yes, I remember this."
+                "text":"Yes, now I remember."
             }
         ],
         "rewards":[
@@ -1556,7 +1608,7 @@
         "message":"You shall not pass.",
         "replies":[
             {
-                "text":"Oh my. How often?",
+                "text":"Your foul master is once more gone...",
                 "nextPhraseID":"zuul_khan3_blocker_10",
                 "requires":[
                     {
@@ -1567,7 +1619,7 @@
                 ]
             },
             {
-                "text":"Sigh."
+                "text":"Sigh.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1579,14 +1631,14 @@
         "replies":[
             {
                 "nextPhraseID":"X",
-                "text":"You could be a little more varied."
+                "text":"Great."
             }
         ],
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan3_blocker",
-                "mapName":"mushroom_m2_8"
+                "mapName":"mushroom_m2_6"
             }
         ]
 	},
@@ -1606,7 +1658,7 @@
                 ]
             },
             {
-                "text":"Sigh."
+                "text":"Sigh.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1625,7 +1677,7 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan4_blocker",
-                "mapName":"mushroom_m3_1"
+                "mapName":"mushroom_m2_8"
             }
         ]
 	}
