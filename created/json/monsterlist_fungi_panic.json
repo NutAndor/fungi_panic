@@ -330,5 +330,14 @@
         "monsterClass":"animal",
         "phraseID":"zuul_khan4_blocker",
         "spawnGroup":"zuul_khan4_blocker"
+    },
+    {
+        "id":"zuul_khan9_blocker",
+        "name":"Black fog",
+        "iconID":"monsters_tometik3:44",
+        "moveCost":5,
+        "monsterClass":"animal",
+        "phraseID":"zuul_khan9_blocker",
+        "spawnGroup":"zuul_khan9_blocker"
     }
 ]

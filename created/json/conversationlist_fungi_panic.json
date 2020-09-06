@@ -1680,5 +1680,70 @@
                 "mapName":"mushroom_m2_8"
             }
         ]
+	},
+    {
+        "id":"zuul_khan9_blocker",
+        "message":"You shall not pass.",
+        "replies":[
+            {
+                "text":"Your master is dead. Begone!",
+                "nextPhraseID":"zuul_khan9_blocker_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gison_thiefboss",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Your master is dead for ever now. Begone!",
+                "nextPhraseID":"zuul_khan9_blocker_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gison_thiefboss",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Why me? What have I done to deserve this?",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan9_blocker_10",
+        "message":"The black fog hisses and instantly vanishes.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"At last."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"zuul_khan9_blocker",
+                "mapName":"mywildcave4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"zuul_khan9_blocker",
+                "mapName":"mushroom_m3_2"
+            }
+        ]
+	},
+    {
+        "id":"zuul_khan9_blocker_20",
+        "message":"No. We are expecting you to say so. We are told not to leave."
 	}
 ]
