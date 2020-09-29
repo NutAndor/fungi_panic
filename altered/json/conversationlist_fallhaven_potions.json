@@ -23,6 +23,17 @@
                 ]
             },
             {
+                "text":"Can you sell me a special crystal vial?",
+                "nextPhraseID":"fallhaven_potions_offer_crystal_vial",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":78
+                    }
+                ]
+            },
+            {
                 "text":"Bogsten is sick after encountering a giant mushroom. He aked me to get a cure for him.",
                 "nextPhraseID":"fungi_panic_potioner_10",
                 "requires":[
