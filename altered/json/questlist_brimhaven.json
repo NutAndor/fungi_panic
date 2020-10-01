@@ -1,0 +1,55 @@
+[
+    {
+        "id":"brv_blackjack",
+        "name":"Fair play?",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I heard noices from the back room but I was not allowed to enter because I didn't know the password."
+            },
+            {
+                "progress":20,
+                "logText":"Zimsko told me about gambling in the back room and that he lost a lot of money. He thinks that they are cheating."
+            },
+            {
+                "progress":30,
+                "logText":"I told Zimsko that I want to find out more about the gambling and he told me the password to access the back room."
+            },
+            {
+                "progress":31,
+                "logText":"I have to win and lose a few times until they trust me and play for higher amounts. Then they start cheating."
+            },
+            {
+                "progress":40,
+                "logText":"With the password, I was allowed to enter the back room.",
+                "rewardExperience":300
+            },
+            {
+                "progress":45,
+                "logText":"They trust me and now and are playing for higher amounts",
+                "rewardExperience":500
+            },
+            {
+                "progress":50,
+                "logText":"After I accused the dealer of cheating a tavern brawl started."
+            },
+            {
+                "progress":60,
+                "logText":"All the people involved in the tavern brawl survived, but I am no longer allowed to enter the back room."
+            },
+            {
+                "progress":70,
+                "logText":"I told Zimsko that I believe the gamblers are cheating.",
+                "rewardExperience":500,
+                "finishesQuest":1
+            },
+            {
+                "progress":80,
+                "logText":"I told Zimsko that I believe the gamblers are not cheating.",
+                "rewardExperience":1150,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
