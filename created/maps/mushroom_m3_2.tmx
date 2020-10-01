@@ -179,17 +179,17 @@
  </tileset>
  <layer name="Ground" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJy1lT0OwyAMhaOydWDsCs0NGo5AcoT0/gfp0KBgyXp9/IiowzeAnWfjPIQ30+QPFuB58LifOBLXeCB9uwIz6GFc8yJ6b0DrzSSuiURTvhXwvBhHkqa7oGfJnoMzy37qPVTWLudvpk8vQi6uHeS39Fr8Q4/NHH3Yq6e9zHrTWMP/nc3xAF6WuaIe3h30i2ht4GXtAU9q6v3U0+d21gnm1x/Mz1hT7s4CdWpa+hyYt2fNFer03g9WZy9o6FlJ/z16LWJhBqN6CdZ/yefM82xetfthCSW/l7zO3o1eki/Fm5rauzBC7V0Y4QukLFMn
+   eJy1lTsOwyAQRK3QpaBMC/ENYo5AfIXc/yApYmSvtJrMrhFRilfA4tmPB5HDNOWNBbhv3K47icQ1GWjfPoEZ9DCueRC9F6D1ZhLXVKIp3wrYL8aRppl+0ItkL0HPst9qL846HefX0KdX4SyuE5w/0zvjH3ps5ujDXj3tZVabJgb+7+IRL+BlmSvq4d1Bv4jWCl7WHsgkp95vNb0ve54Svv3B/Iw55e4skMfT0n2wc1VpYF9n98PKxTT0rKT+Xj2PasxgVM+q3/I58zybl3c/IsHyu+V19m700nwp3tR478II3rswwgeCb1K3
   </data>
  </layer>
  <layer name="Objects" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBi64KUQ7cx+jcPsh0DxUGZMcX4kMV488q+EEPJ/mRDy2Mx8iMUNT2joZ3QQzkycnSC3g9TC4gPGf0GGW5+ToIfYMMcFQHr40NSA4uQpEW4Amf1YCLfdtALhFNqFrJ+UsMZn1mMs5iCnZ2LcHI4lLrHFH7K6Z0K45ahVNhCTFkBAWhhC86Ole/Q8APIbP1q4wcIKVzjhSsfo6Q6XupdClKVRQvlsJAEAnN4d7g==
+   eJxjYBi64KUQ7cx+jcPsh0DxUGZM8cNiCDYvHvlXQgj5v0wIeWxmPsTihic09DM6CGcmzk6Q20FqYfEB478gw63PSdBDbJjjAiA9fGj6QHHylAg38AP1PRbCbTetQDiFdiHrJyWs8Zn1GIs5yOkZ2U5s6RxdDSw8+bGoRVb3DCm9octRq2wgJi2AgLQwhOZHS/foeQDkN360cMPmfmSALRxgZhGj7qUQZWmUH0vcjFQAAE4CIbo=
   </data>
  </layer>
  <layer name="Above" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYICAp0IMFIGHJOh/QaFdgwk8p5NfnpFoz2Yk9dRw4+FBFmeE/ESNNAay4xGR5pCS/mkNKM3LIwFwCw+0C6gDSE132PIFOenlMRl6cOXJwZR3CAEAUx8TFw==
+   eJzFlMENgzAMRSNx7AEplbr/DozABjABVAXGQBGxZJkfvsOhvFsc+//EMYRw8IvhRP85x0pMph7VSmyLddpMr7T/D70137ttrvXQPmNU9Qvo2QjWEuvUe8gZbb1nPeRY75iPgaxZT2vecAXn0aQZu9Nz6zETH0HPP3unEigvxVifrSf6lrUWqmeeyMejxfK0nkeL5Xnulni9fV6M2v8Ow9sDwf53GRvIL83LFd8bNcg7UXuHJ9kBoKo+9A==
   </data>
  </layer>
  <layer name="Top" width="20" height="23">
@@ -216,14 +216,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object id="9" name="zuul_khan9_blocker" type="spawn" x="224" y="160" width="64" height="32">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="zuul_khan9_blocker"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Spawn" visible="0"/>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

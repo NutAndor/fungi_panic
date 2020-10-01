@@ -800,6 +800,67 @@
         ]
     },
     {
+        "id":"mushroom_m3_1_chains",
+        "message":"You hear a sudden sharp click! What is this? Help!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":10
+            },
+			{
+				"rewardType": "createTimer",
+				"rewardID": "mushroom_m3_1_chains"
+			},
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":8
+            }
+
+        ]
+    },
+    {
+        "id":"mushroom_m3_1_chains_10",
+        "message":"The chains have slung around your arms. You can not move any more!",
+		"replies": [
+			{
+				"text": "At last! The chains seem to let go of me.",
+				"requires": [
+					{
+						"requireType": "timerElapsed",
+						"requireID": "mushroom_m3_1_chains",
+						"value": 3
+					}
+				],
+				"nextPhraseID": "mushroom_m3_1_chains_20"
+			},
+			{
+				"text": "Why only have I touched these cursed chains!",
+				"requires": [
+					{
+						"requireType": "timerElapsed",
+						"requireID": "mushroom_m3_1_chains",
+						"value": 3,
+						"negate":true
+					}
+				],
+				"nextPhraseID": "X"
+			}
+		]
+    },
+    {
+        "id":"mushroom_m3_1_chains_20",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":10
+            }
+        ],
+		"text":"Oof. I already thought that this was the end."
+    },
+    {
         "id":"zuul_khan",
         "replies":[
             {
@@ -941,7 +1002,7 @@
     },
     {
         "id":"zuul_khan_30",
-        "message":"I am the Archmancer of the underground. Widely known as Master of the Fungis and commander to all that crawls.",
+        "message":"I am the Archmancer of the underground. Widely known as Master of the Fungis and Commander to anything that crawls.",
         "replies":[
             {
                 "text":"N",
@@ -1738,7 +1799,7 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan9_blocker",
-                "mapName":"mushroom_m3_2"
+                "mapName":"mushroom_m3_1"
             }
         ]
     },

@@ -187,7 +187,7 @@
     "message": "Just walk around the fence and head to the north. Soon you'll be in Fallhaven.",
     "replies": [
       {
-        "text": "Okay. Thanks for the desciption.",
+        "text": "Okay. Thanks for the description.",
         "nextPhraseID": "X"
       },
       {
@@ -205,7 +205,7 @@
   },
   {
     "id": "gison_p1_10",
-    "message": "Oh yes, I am Gison. I live in this woods with my wife Nimael. She's over there.",
+    "message": "Oh yes, I am Gison. I live in this wood with my wife Nimael. She's over there.",
     "replies": [
       {
         "text": "N",
@@ -242,10 +242,10 @@
   },
   {
     "id": "gison_talk",
-    "message": "We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of this woods rather than the hectic life in a city.",
+    "message": "We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city.",
     "replies": [
       {
-        "text": "What's in this woods?",
+        "text": "What's in the wood here?",
         "nextPhraseID": "gison_talk_1"
       }
     ]
@@ -835,9 +835,9 @@
       {
         "requires": [
           {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 70
+            "requireType": "killedMonster",
+            "requireID": "zuul_khan9",
+            "value": 1
           }
         ],
         "text": "You look worried. What's up with you?",
@@ -878,7 +878,7 @@
   },
   {
     "id": "gison_p1_40_2",
-    "message": "Strangely they only took my old cookbook with them.\n Please help me finding my book, otherwise Alaun has to give up his delicious soup.",
+    "message": "Strangely they only took my old cookbook with them.\nPlease help me to get back my book, otherwise Alaun has to give up his delicious soup.",
     "replies": [
       {
         "text": "A raid of an old cookbook?",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "gison_catchsoup_eva",
-    "message": "How many bottles of my soup do you want?",
+    "message": "I still have some of my delicious soup. How many bottles of soup do you want?",
     "replies": [
       {
         "requires": [
@@ -1456,7 +1456,7 @@
           }
         ],
         "nextPhraseID": "gison_catchsoup_nonew",
-        "text": "Give me one."
+        "text": "I don't have an empty bottle."
       },
       {
         "requires": [
@@ -1468,7 +1468,7 @@
           }
         ],
         "nextPhraseID": "gison_catchsoup_nonew",
-        "text": "Give me one."
+        "text": "I have to get more of Bogsten's mushrooms."
       },
       {
         "requires": [
@@ -1480,7 +1480,7 @@
           }
         ],
         "nextPhraseID": "gison_catchsoup_nonew",
-        "text": "Give me one."
+        "text": "I just noticed that my gold fund is low."
       }
     ]
   },
