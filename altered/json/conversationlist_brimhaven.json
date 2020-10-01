@@ -1,0 +1,48 @@
+[
+    {
+        "id":"brv_richman_20",
+        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I did.\n\n[The handwriting looks like that of my brother.]",
+        "replies":[
+            {
+                "text":"You were honest to me so I will not kill you, but I will tell the guard captain. (And you can't escape from Brimhaven without me seeing you.)",
+                "nextPhraseID":"brv_richman_25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I stopped the two brothers from destroying the dam. Who else could have done it?",
+                "nextPhraseID":"brv_richman_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":80
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":150
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"alkapoans_letters",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":65
+            }
+        ]
+    }
+]

@@ -41,7 +41,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"bogsten_check_necklace_20"
             }
         ]
@@ -81,7 +81,7 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":90,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -89,7 +89,7 @@
     },
     {
         "id":"bogsten_check_zuulkhan_10",
-		"message":"You have the impression that Zuul'khan is not dead. He just disappeared into the ground.",
+        "message":"You have the impression that Zuul'khan is not dead. He just disappeared into the ground.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1222,7 +1222,7 @@
                 "value":80
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_70_40",
         "message":"Ah. You are not as stupid as you look, kid.",
@@ -1277,7 +1277,7 @@
                 "value":115
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_115",
         "message":"Is Bogsten dead already?",
@@ -1354,7 +1354,7 @@
                 "nextPhraseID":"zuul_khan_115_24"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_115_24",
         "replies":[
@@ -1369,14 +1369,14 @@
                 "value":135
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_115_50",
         "message":"Finally I got the staff back!",
         "replies":[
             {
-                "nextPhraseID":"zuul_khan_150",
-                "text":"My reward...?"
+                "text":"My reward...?",
+                "nextPhraseID":"zuul_khan_150"
             }
         ],
         "rewards":[
@@ -1386,26 +1386,26 @@
                 "value":150
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_150",
-		"switchToNPC":"none",
         "message":"Zuul'khan towered over you and started muttering strange words.",
+        "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"zuul_khan_150_10",
-                "text":"I'm feeling dizzy..."
+                "text":"I'm feeling dizzy...",
+                "nextPhraseID":"zuul_khan_150_10"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_150_10",
-		"switchToNPC":"zuul_khan",
         "message":"Done. You will never fear any of these fungi spores anymore.",
+        "switchToNPC":"zuul_khan",
         "replies":[
             {
-                "nextPhraseID":"zuul_khan_150_20",
-                "text":"Oh wow."
+                "text":"Oh wow.",
+                "nextPhraseID":"zuul_khan_150_20"
             }
         ],
         "rewards":[
@@ -1420,15 +1420,15 @@
                 "value":-99
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan_150_20",
         "message":"Leave me now! I have to regain my practice of spells."
-	},
+    },
     {
         "id":"zuul_khan_155",
         "message":"Don't disturb me! I am practicing dangerous spells."
-	},
+    },
     {
         "id":"zuul_khan2",
         "message":"You again! How did you get into here?",
@@ -1543,12 +1543,12 @@
     },
     {
         "id":"zuul_khan1_blocker_10",
-		"switchToNPC":"none",
         "message":"The black fog hisses and instantly vanishes.",
+        "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"X",
-                "text":"Oh, that was easy."
+                "text":"Oh, that was easy.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1563,7 +1563,7 @@
                 "mapName":"bogsten4"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan2_blocker",
         "message":"You shall not pass.",
@@ -1587,12 +1587,12 @@
     },
     {
         "id":"zuul_khan2_blocker_10",
-		"switchToNPC":"none",
         "message":"The black fog hisses and instantly vanishes.",
+        "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"X",
-                "text":"Yes, now I remember."
+                "text":"Yes, now I remember.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1602,7 +1602,7 @@
                 "mapName":"mushroom_m2_3"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan3_blocker",
         "message":"You shall not pass.",
@@ -1627,11 +1627,11 @@
     {
         "id":"zuul_khan3_blocker_10",
         "message":"The black fog hisses and instantly vanishes.",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"X",
-                "text":"Great."
+                "text":"Great.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1641,7 +1641,7 @@
                 "mapName":"mushroom_m2_6"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan4_blocker",
         "message":"You shall not pass.",
@@ -1666,11 +1666,11 @@
     {
         "id":"zuul_khan4_blocker_10",
         "message":"The black fog hisses and instantly vanishes.",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"X",
-                "text":"You could be a little more varied."
+                "text":"You could be a little more varied.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1680,7 +1680,7 @@
                 "mapName":"mushroom_m2_8"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan9_blocker",
         "message":"You shall not pass.",
@@ -1698,7 +1698,7 @@
                         "requireType":"killedMonster",
                         "requireID":"gison_thiefboss",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1722,11 +1722,11 @@
     {
         "id":"zuul_khan9_blocker_10",
         "message":"The black fog hisses and instantly vanishes.",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"X",
-                "text":"At last."
+                "text":"At last.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1741,9 +1741,36 @@
                 "mapName":"mushroom_m3_2"
             }
         ]
-	},
+    },
     {
         "id":"zuul_khan9_blocker_20",
         "message":"No. We are expecting you to say so. We are told not to leave."
-	}
+    },
+    {
+        "id":"buceth_story_7_1",
+        "message":"The boy told me he had some business with a rich man in Brimhaven. Maybe he went there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"buceth_story_8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_richman_21",
+        "message":"I don't know. Maybe it was the deliverer of the letters.\n\n[Oh no, it could have been Andor, who destroyed the dam!]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_richman_25"
+            }
+        ]
+    }
 ]

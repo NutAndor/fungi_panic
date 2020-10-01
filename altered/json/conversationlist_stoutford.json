@@ -1,0 +1,61 @@
+[
+    {
+        "id":"stoutford_gateguard_andor_0",
+        "message":"I do recall some kid that looked a bit like you a while ago. He stayed here a couple of days, and never came back as far as I can tell.",
+        "replies":[
+            {
+                "text":"What did he do here?",
+                "nextPhraseID":"stoutford_gateguard_andor_1"
+            },
+            {
+                "text":"Do you know where he was going?",
+                "nextPhraseID":"stoutford_gateguard_andor_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":85
+            }
+        ]
+    },
+    {
+        "id":"yolgen_rumblings10_2",
+        "message":"To his credit, I have to admit you do look a bit like him. I don't know his name.",
+        "replies":[
+            {
+                "text":"That must be my brother Andor!",
+                "nextPhraseID":"yolgen_rumblings10_3"
+            },
+            {
+                "text":"Go on.",
+                "nextPhraseID":"yolgen_rumblings10_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":85
+            }
+        ]
+    },
+    {
+        "id":"glasforn_rumblings60_2",
+        "message":"When he came, he asked me for a \"private\" place where he could do his weird stuff undisturbed. It had to be underground, and it had to be in the city. I have no idea why.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"glasforn_rumblings60_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":86
+            }
+        ]
+    }
+]
