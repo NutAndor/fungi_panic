@@ -822,10 +822,8 @@
     },
     {
         "id":"mushroom_m3_1_chains_10",
-        "message":"The chains have slung around your arms. You can not move any more!",
 		"replies": [
 			{
-				"text": "At last! The chains seem to let go of me.",
 				"requires": [
 					{
 						"requireType": "timerElapsed",
@@ -833,32 +831,39 @@
 						"value": 3
 					}
 				],
-				"nextPhraseID": "mushroom_m3_1_chains_20"
+				"nextPhraseID": "mushroom_m3_1_chains_30"
 			},
 			{
-				"text": "Why only have I touched these cursed chains!",
-				"requires": [
-					{
-						"requireType": "timerElapsed",
-						"requireID": "mushroom_m3_1_chains",
-						"value": 3,
-						"negate":true
-					}
-				],
-				"nextPhraseID": "X"
+				"nextPhraseID": "mushroom_m3_1_chains_20"
 			}
 		]
     },
     {
         "id":"mushroom_m3_1_chains_20",
+        "message":"The chains have slung around your arms. You can not move any more!",
+		"replies": [
+			{
+				"text": "Why only have I touched these cursed chains!",
+				"nextPhraseID": "X"
+			}
+		]
+    },
+    {
+        "id":"mushroom_m3_1_chains_30",
+        "message":"The chains seem to soften their grip.",
+		"replies": [
+			{
+				"text": "Oof, at last I can move again! I already thought that this was the end.",
+				"nextPhraseID": "X"
+			}
+		],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"fungi_panic_nondisplayed",
                 "value":10
             }
-        ],
-		"text":"Oof. I already thought that this was the end."
+        ]
     },
     {
         "id":"zuul_khan",
