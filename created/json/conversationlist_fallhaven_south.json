@@ -1,7 +1,7 @@
 [
     {
         "id":"alaun_1",
-        "message":"Oh, how suprising. How nice of you. Indeed there is something you could do for me.",
+        "message":"Oh, how surprising. How nice of you. Indeed there is something you could do for me.",
         "replies":[
             {
                 "text":"Tell me what it is.",
@@ -12,7 +12,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Lets talk about payment first.",
+                "text":"Let's talk about payment first.",
                 "nextPhraseID":"alaun_4"
             }
         ]
@@ -29,7 +29,7 @@
     },
     {
         "id":"alaun_5",
-        "message":"I give you 10 gold coins if you do this little job for me: Bring me some of that delicious soup which Gison is cooking out of mushrooms and wild herbs.",
+        "message":"I'll give you 10 gold coins if you do this little job for me: Bring me some of that delicious soup which Gison is cooking out of mushrooms and wild herbs.",
         "replies":[
             {
                 "text":"Sounds easy, I'll do it!",
@@ -44,7 +44,7 @@
                 "nextPhraseID":"alaun_more2"
             },
             {
-                "text":"No way, im not your gofer.",
+                "text":"No way, I'm not your gopher.",
                 "nextPhraseID":"X"
             }
         ]
@@ -73,7 +73,7 @@
     },
     {
         "id":"alaun_more1",
-        "message":"15? Let me reckon...erm...\n\nOkay I'll give you 15.",
+        "message":"15? Let me reckon...erm...\n\nOkay, I'll give you 15.",
         "replies":[
             {
                 "text":"Sounds good. I will do it.",
@@ -87,7 +87,7 @@
     },
     {
         "id":"alaun_more2",
-        "message":"20? Let me reckon...erm...\n\nOkay I'll give you 20. But please, bring it hot or i wont pay you",
+        "message":"20? Let me reckon...erm...\n\nOkay I'll give you 20. But please, bring it hot or I won't pay you.",
         "replies":[
             {
                 "text":"Sounds good. I will do it.",
@@ -101,7 +101,7 @@
     },
     {
         "id":"alaun_startquest15",
-        "message":"Thats nice of you.",
+        "message":"That's nice of you.",
         "replies":[
             {
                 "text":"N",
@@ -155,7 +155,7 @@
     },
     {
         "id":"alaun_return",
-        "message":"Aah, you are back. Wonderful. I will stop working for now and make a little break.",
+        "message":"Aah, you are back. Wonderful. I will stop working for now and take a little break.",
         "replies":[
             {
                 "text":"N",
@@ -233,7 +233,7 @@
     },
     {
         "id":"alaun_return10",
-        "message":"Here is the money i promised to you.\n\nAnd on top I will give you some of this bread.",
+        "message":"Here is the money I promised to you.\n\nAnd on top I will give you some of this bread.",
         "replies":[
             {
                 "text":"N",
@@ -270,7 +270,7 @@
     },
     {
         "id":"alaun_return15",
-        "message":"Here is the money i promised to you.",
+        "message":"Here is the money I promised to you.",
         "replies":[
             {
                 "text":"N",
@@ -302,7 +302,7 @@
     },
     {
         "id":"alaun_return20",
-        "message":"Here is the money i promised to you.",
+        "message":"Here is the money I promised to you.",
         "replies":[
             {
                 "text":"N",
@@ -347,7 +347,7 @@
         "message":"Where is it?",
         "replies":[
             {
-                "text":"Ooops, i forgot that there is a hole in my bag.",
+                "text":"Ooops, I forgot that there is a hole in my bag.",
                 "nextPhraseID":"alaun_return_nosoup_1"
             },
             {
@@ -358,24 +358,24 @@
     },
     {
         "id":"alaun_return_nosoup_1",
-        "message":"What are you waiting for? Go on, bring my some soup. Hurry im hungry!",
+        "message":"What are you waiting for? Go on, bring my some soup. Hurry, I'm hungry!",
         "replies":[
             {
-                "text":"Yes, i will return quickly.",
+                "text":"Yes, I will return quickly.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"alaun_return_blindstart",
-        "message":"Yes. I assigned you to bring me some of that delicious Mushroomsoup from Gison.",
+        "message":"Yes. I assigned you to bring me some of that delicious mushroom soup from Gison.",
         "replies":[
             {
                 "text":"Can you explain the way again?",
                 "nextPhraseID":"alaun_startquest_go"
             },
             {
-                "text":"Yes im on my way.",
+                "text":"Yes, I'm on my way.",
                 "nextPhraseID":"X"
             },
             {
@@ -407,7 +407,7 @@
     },
     {
         "id":"alaun_return_fail",
-        "message":"That can't be. Go out of my way!\n\n[Alaun starts throwing things at you]",
+        "message":"That can't be. Get out of here!\n\n[Alaun starts throwing things at you]",
         "replies":[
             {
                 "text":"But...",

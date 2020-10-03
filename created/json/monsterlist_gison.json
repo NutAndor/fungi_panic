@@ -329,7 +329,7 @@
             "max":8
         },
         "spawnGroup":"gison_thief1",
-        "phraseID":"gison_thief1"
+        "phraseID":"gison_thief1",
         "droplistID":"gison_thief",
         "attackCost":5,
         "attackChance":105,

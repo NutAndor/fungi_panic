@@ -5,7 +5,7 @@
         "name":"Gison's mushroom soup",
         "displaytype":"rare",
         "category":"food",
-        "description":"Eine heiße, lecker riechende Köstlichkeit.",
+        "description":"Eine heiï¿½e, lecker riechende Kï¿½stlichkeit.",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -46,7 +46,7 @@
         "name":"Strange elixir",
         "displaytype":"quest",
         "category":"pot",
-        "description":"Eine Flasche mit unbekanntem Elexir aus den Höhlen südlich von Fallhaven."
+        "description":"Eine Flasche mit unbekanntem Elexir aus den Hï¿½hlen sï¿½dlich von Fallhaven."
     },
     {
         "id":"gison_cookbook",
@@ -55,6 +55,6 @@
         "category":"other",
         "displaytype":"quest",
         "category":"other",
-        "description":"Fabulous Receipts gathered by the Bogsten family\n\n(1) Ed's pancakes\n\n200g Wheat flour\n1 packet of baking powder\n50g Powdered sugar\n2 Eggs\n1 quarter of milk\n50g Butter\n\n(2) \n(3) \n(4) \n(5) \n(6) \n(7) \n(8) \n"
+        "description":"Fabulous recipes gathered by the Bogsten family\n\n(1) Ed's pancakes\n\n200g Wheat flour\n1 packet of baking powder\n50g Powdered sugar\n2 Eggs\n1 quarter of milk\n50g Butter\n\n(2) \n(3) \n(4) \n(5) \n(6) \n(7) \n(8) \n"
     }
 ]

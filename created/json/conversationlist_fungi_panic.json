@@ -1,7 +1,7 @@
 [
     {
         "id":"sign_bogsten_nokey",
-        "message":"The door is closed"
+        "message":"The door is locked."
     },
     {
         "id":"fungi_panic_check_key",
@@ -221,11 +221,11 @@
         "message":"No. I shouldn't be telling you. It's too dangerous.",
         "replies":[
             {
-                "text":"I'm sure I can help",
+                "text":"I'm sure I can help.",
                 "nextPhraseID":"bogsten_start_2"
             },
             {
-                "text":"I'm way stronger than I look",
+                "text":"I'm way stronger than I look.",
                 "nextPhraseID":"bogsten_start_2"
             },
             {
@@ -325,7 +325,7 @@
     },
     {
         "id":"bogsten_10_10",
-        "message":"Have you got the cure ?",
+        "message":"Have you got the cure?",
         "replies":[
             {
                 "text":"Not yet. The potion merchant needs some spore sample to prepare it.",
@@ -535,7 +535,7 @@
         "message":"What? ... Ah, yes - work.",
         "replies":[
             {
-                "text":"You seem a bit distrackted.",
+                "text":"You seem a bit distracted.",
                 "nextPhraseID":"bogsten_60_30"
             }
         ]
@@ -552,7 +552,7 @@
     },
     {
         "id":"bogsten_60_32",
-        "message":"There seem to be an evil force near us. Yes, that must be it.",
+        "message":"There seems to be an evil force near us. Yes, that must be it.",
         "replies":[
             {
                 "text":"N",
@@ -562,7 +562,7 @@
     },
     {
         "id":"bogsten_60_34",
-        "message":"I remember my father warned me about this kind of thing before passing away. But I was just a kid and I forgot his advices on how to deal with it.",
+        "message":"I remember my father warned me about this kind of thing before passing away. But I was just a kid and I forgot his advice on how to deal with it.",
         "replies":[
             {
                 "text":"Don't worry. I deal with evil every day. Whatever lurks down there, I can handle it.",
@@ -591,7 +591,7 @@
                 "nextPhraseID":"bogsten_60_50"
             },
             {
-                "text":"No way ! You've bored me more than enough!",
+                "text":"No way! You've bored me more than enough!",
                 "nextPhraseID":"X"
             }
         ]
@@ -616,7 +616,7 @@
     },
     {
         "id":"bogsten_60_52",
-        "message":"Don't forget that there are hidden rooms. I gave you my necklace so that you can find them. Wear it down in the caves. Never put it off.",
+        "message":"Don't forget that there are hidden rooms. I gave you my necklace so that you can find them. Wear it down in the caves. Never take it off.",
         "replies":[
             {
                 "text":"I'm curious what I will find there.",
@@ -626,7 +626,7 @@
     },
     {
         "id":"bogsten_60_54",
-        "message":"There are hidden rooms. I'll give you my necklace so that you can find them. Wear it down in the caves. Never put it off.",
+        "message":"There are hidden rooms. I'll give you my necklace so that you can find them. Wear it down in the caves. Never take it off.",
         "replies":[
             {
                 "text":"I'm curious what I will find there.",
@@ -648,7 +648,7 @@
     },
     {
         "id":"bogsten_70_10",
-        "message":"It took you long to come back here. What has happened down there?",
+        "message":"It took you a long time to get back here. What has happened down there?",
         "replies":[
             {
                 "text":"I don't know yet.",
@@ -669,7 +669,7 @@
     },
     {
         "id":"bogsten_70_20",
-        "message":"Did he? Why was he alive still, I wonder.",
+        "message":"Did he? Why was he still alive, I wonder?",
         "replies":[
             {
                 "text":"Your father seemed to have petrified him. But this spell has to be renewed every week.",
@@ -766,7 +766,7 @@
     },
     {
         "id":"bogsten_90_52",
-        "message":"It is moved probably to another place. But that is an other people's problem.",
+        "message":"It has moved probably to another place. But that is someone else's problem.",
         "replies":[
             {
                 "text":"What??",
@@ -801,7 +801,7 @@
     },
     {
         "id":"mushroom_m3_1_chains",
-        "message":"You hear a sudden sharp click! What is this? Help!",
+        "message":"[You hear a sudden sharp click.] What is this? Help!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -843,7 +843,7 @@
         "message":"The chains have slung around your arms. You can not move any more!",
 		"replies": [
 			{
-				"text": "Why only have I touched these cursed chains!",
+				"text": "Why have I touched these cursed chains!?",
 				"nextPhraseID": "X"
 			}
 		]
@@ -1037,7 +1037,7 @@
     },
     {
         "id":"zuul_khan_40",
-        "message":"You are the first human I see after such a long time.",
+        "message":"You are the first human I've seen in such a long time.",
         "replies":[
             {
                 "text":"N",
@@ -1047,7 +1047,7 @@
     },
     {
         "id":"zuul_khan_42",
-        "message":"As well as I am the last human you will ever see.",
+        "message":"And I am the last human you will ever see.",
         "replies":[
             {
                 "text":"Wait!",
@@ -1121,7 +1121,7 @@
     },
     {
         "id":"zuul_khan_66",
-        "message":"Lotho Bogsten sneaked down here and cought me unaware.",
+        "message":"Lotho Bogsten sneaked down here and caught me unaware.",
         "replies":[
             {
                 "text":"N",
@@ -1161,7 +1161,7 @@
     },
     {
         "id":"zuul_khan_72",
-        "message":"Indeed he had a son. But that lazy bones didn't come as regularly as needed. The spell weared off, and I could move again.",
+        "message":"Indeed he had a son. But that lazy bones didn't come as regularly as needed. The spell wore off, and I could move again.",
         "replies":[
             {
                 "text":"N",
@@ -1237,14 +1237,14 @@
     },
     {
         "id":"zuul_khan_70_22",
-        "message":"Kill Bogsten and bring me his staff as a evidence.",
+        "message":"Kill Bogsten and bring me his staff as evidence.",
         "replies":[
             {
-                "text":"What would I gain of this?",
+                "text":"What would I gain from this?",
                 "nextPhraseID":"zuul_khan_70_40"
             },
             {
-                "text":"No. I rather kill you.",
+                "text":"No. I'd rather kill you.",
                 "nextPhraseID":"zuul_khan_70_24"
             }
         ],
@@ -1269,7 +1269,7 @@
                 "nextPhraseID":"zuul_khan_70_20"
             },
             {
-                "text":"I wish we talk a little more.",
+                "text":"I wish we could talk a little more.",
                 "nextPhraseID":"zuul_khan_50"
             }
         ]
@@ -1537,7 +1537,7 @@
     },
     {
         "id":"zuul_khan4",
-        "message":"I get weary of you.",
+        "message":"I grow weary of you.",
         "replies":[
             {
                 "text":"Why only?",
@@ -1831,7 +1831,7 @@
     },
     {
         "id":"brv_richman_21",
-        "message":"I don't know. Maybe it was the deliverer of the letters.\n\n[Oh no, it could have been Andor, who destroyed the dam!]",
+        "message":"I don't know. Maybe it was the deliverer of the letters.\n\n[Oh no, it could have been Andor who destroyed the dam!]",
         "replies":[
             {
                 "text":"N",

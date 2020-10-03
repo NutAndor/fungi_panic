@@ -5,11 +5,11 @@
     "stages": [
       {
         "progress": 10,
-        "logText": "In a hut southwest from Fallhaven I met Alaun.\nHe asked me to bring him some of the delicious soup made by Gison with forest mushrooms.\nGisons house lays to the south."
+        "logText": "In a hut southwest from Fallhaven I met Alaun.\nHe asked me to bring him some of the delicious soup made by Gison with forest mushrooms.\nGison's house lays to the south."
       },
       {
         "progress": 20,
-        "logText": "I found Gisons house and should deliver the soup to Alaun as long as it is hot."
+        "logText": "I found Gison's house and should deliver the soup to Alaun while it is hot."
       },
       {
         "progress": 22,
@@ -29,7 +29,7 @@
       },
       {
         "progress": 30,
-        "logText": "Alaun receieved the soup.\nI shall bring the empty bottle back to Gison."
+        "logText": "Alaun received the soup.\nI shall bring the empty bottle back to Gison."
       },
       {
         "progress": 40,
@@ -39,7 +39,7 @@
       },
       {
         "progress": 50,
-        "logText": "I spended 5555 gold on buying mushroom soup! Am I crazy? \nThere is no soup left for Alaun now.",
+        "logText": "I spent 5555 gold on buying mushroom soup! Am I crazy? \nThere is no soup left for Alaun now.",
         "finishesQuest": 1
       }
     ],
@@ -55,11 +55,11 @@
       },
       {
         "progress": 15,
-        "logText": "I accepted to help him."
+        "logText": "I agreed to help him."
       },
       {
         "progress": 20,
-        "logText": "Gison said the thieves came from the south. I should begin my search there"
+        "logText": "Gison said the thieves came from the south. I should begin my search there."
       },
       {
         "progress": 30,
@@ -71,11 +71,11 @@
       },
       {
         "progress": 50,
-        "logText": "I took the book from the leader's dead hands. After they noticed me they wanted to see me dead."
+        "logText": "I took the book from the leader's dead hands. After they noticed me, they wanted to see me dead."
       },
       {
         "progress": 60,
-        "logText": "I brought his cookbook back to Gison. Unfortunately the pages with the strange writing were illegibly destroyed during the fight. At least the mushroom soup receipt was unharmed, so that Gison can now cook his soup again."
+        "logText": "I brought the cookbook back to Gison. Unfortunately, the pages with the strange writing were illegibly destroyed during the fight. At least the mushroom soup recipe was unharmed, so that Gison can now cook his soup again."
       },
       {
         "progress": 62,
