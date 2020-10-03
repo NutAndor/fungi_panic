@@ -97,7 +97,7 @@
     },
     {
         "id":"fungi_panic_potioner_32",
-        "message":"He even tried to get my receipt for this antidote. But of course I couldn't reveal it to him.",
+        "message":"He even tried to get my recipe for this antidote. But of course I couldn't reveal it to him.",
         "replies":[
             {
                 "text":"Yes, such things should be done by learned potion makers.",
@@ -124,7 +124,7 @@
                 "nextPhraseID":"fungi_panic_potioner_42"
             },
             {
-                "text":"Yes. Here are some samples of the mushroom spores",
+                "text":"Yes. Here are some samples of the mushroom spores.",
                 "nextPhraseID":"fungi_panic_potioner_50",
                 "requires":[
                     {
@@ -153,7 +153,7 @@
     },
     {
         "id":"fungi_panic_potioner_44",
-        "message":"No need to dispare. To make a cure, I will need a sample of these spores. Can you get some?",
+        "message":"No need to despair. To make a cure, I will need a sample of these spores. Can you get some?",
         "replies":[
             {
                 "text":"I could try.",
@@ -170,7 +170,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Here are four samples of the mushroom spores",
+                "text":"Here are four samples of the mushroom spores.",
                 "nextPhraseID":"fungi_panic_potioner_50",
                 "requires":[
                     {
@@ -312,10 +312,10 @@
     },
     {
         "id":"fungi_panic_potioner_100",
-        "message":"Tank you.",
+        "message":"Thank you.",
         "replies":[
             {
-                "text":"What? Bogsten told me you could give me some interesting for it!",
+                "text":"What? Bogsten told me you could give me something interesting for it!",
                 "nextPhraseID":"fungi_panic_potioner_110"
             }
         ]

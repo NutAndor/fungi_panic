@@ -34,7 +34,7 @@
                 ]
             },
             {
-                "text":"Bogsten is sick after encountering a giant mushroom. He aked me to get a cure for him.",
+                "text":"Bogsten is sick after encountering a giant mushroom. He asked me to get a cure for him.",
                 "nextPhraseID":"fungi_panic_potioner_10",
                 "requires":[
                     {
