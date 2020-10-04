@@ -5,7 +5,7 @@
         "name":"Gison's mushroom soup",
         "displaytype":"rare",
         "category":"food",
-        "description":"Eine hei�e, lecker riechende K�stlichkeit.",
+        "description":"A delicious smelling soup.",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -46,7 +46,7 @@
         "name":"Strange elixir",
         "displaytype":"quest",
         "category":"pot",
-        "description":"Eine Flasche mit unbekanntem Elexir aus den H�hlen s�dlich von Fallhaven."
+        "description":"A bottle of some unknown liquid from the caves south of Fallhaven."
     },
     {
         "id":"gison_cookbook",

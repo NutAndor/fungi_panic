@@ -194,6 +194,38 @@
         }
     },
     {
+        "id":"boss_fungi",
+        "name":"Great fungi",
+        "iconID":"monsters_bosses_2x2:0",
+        "maxHP":175,
+        "maxAP":20,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+		"spawnGroup":"boss_fungi",
+		"droplistID":"boss_fungi",
+        "attackCost":5,
+		"attackChance":120,
+		"criticalSkill":20,
+		"criticalMultiplier":2.0,
+		"blockChance":60,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spore_poison",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        },
+		"damageResistance":1
+    },
+    {
         "id":"worm_ball",
         "name":"Worm Ball",
         "iconID":"monsters_rltiles1:138",
