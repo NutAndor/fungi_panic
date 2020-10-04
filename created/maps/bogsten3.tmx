@@ -155,7 +155,7 @@
  </layer>
  <layer name="Walkable" width="25" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdUsENACEIcwSXYv+VLv6IKdCifq4JH8G2Fm2OYa4WbL6tP2h4oLO9F80w/AyYexX/iT7Do2SZZZVxdf5DpK1yqr7YTLw/RRPlpqDaH+ohfxG36it7c+SRnWE0buwVzXV8KxpR7tk/2/1V+b5CdwdqfRUlXqI=
+   eJzdUkEOwCAM8gl+qv//kvHWLFChc5eR9KItIDXmGJFqI+a39QeNDHT2vGM9Cr8CZe7E/0Zf4XGyrLKquDr/gWm7nK4vNZPsz9FEuTk47Q/dIX+M2/VVvZl5VHsUjRt77fahzJxZ9nYl52q++7dUdHfg1gKV6V73
   </data>
  </layer>
  <layer name="Walkable_1" width="25" height="18" visible="0">
