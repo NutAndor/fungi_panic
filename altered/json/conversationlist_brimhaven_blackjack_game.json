@@ -1,0 +1,282 @@
+[
+    {
+        "id":"blackjack_draw_2",
+        "message":"[You have 2 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_2"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_21",
+        "message":"[You have 21 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"I know what I am doing. Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_21"
+            },
+            {
+                "text":"Of course I am finished.",
+                "nextPhraseID":"blackjack_finish_21"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_20",
+        "message":"[You have 20 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Sounds stupid, but give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_20"
+            },
+            {
+                "text":"Of course I am finished.",
+                "nextPhraseID":"blackjack_finish_20"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_19",
+        "message":"[You have 19 points.] Was that your last card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_19"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_19"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_18",
+        "message":"[You have 18 points.] Do you want to stop?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_18"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_18"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_17",
+        "message":"[You have 17 points.] Do you risk to take another card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_17"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_17"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_16",
+        "message":"[You have 16 points.] Are you finished?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_16"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_15",
+        "message":"[You have 15 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_15"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_14",
+        "message":"[You have 14 points.] Do you want to stop now?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_14"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_13",
+        "message":"[You have 13 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_13"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_12",
+        "message":"[You have 12 points.] Was that your last card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_12"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_11",
+        "message":"[You have 11 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_11"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_10",
+        "message":"[You have 10 points.] Do you risk taking another card? [Laughs]",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_10"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_9",
+        "message":"[You have 9 points.] Are you finished?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_9"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_8",
+        "message":"[You have 8 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_8"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_7",
+        "message":"[You have 7 points.] Do you want one more card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_7"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_6",
+        "message":"[You have 6 points.] Was that your last card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_6"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_5",
+        "message":"[You have 5 points.] Are you finished [laughs]?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_5"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_4",
+        "message":"[You have 4 points.] Do you risk taking another card?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_4"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_draw_3",
+        "message":"[You have 3 points.] Are you finished?",
+        "replies":[
+            {
+                "text":"Give me one more card.",
+                "nextPhraseID":"blackjack_draw_at_3"
+            },
+            {
+                "text":"I am finished.",
+                "nextPhraseID":"blackjack_finish_below_16"
+            }
+        ]
+    }
+]

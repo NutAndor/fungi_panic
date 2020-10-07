@@ -44,5 +44,33 @@
                 "value":65
             }
         ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_50",
+        "message":"You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.",
+        "switchToNPC":"brv_guard_captain"
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_40",
+        "message":"It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.",
+        "switchToNPC":"brv_guard_captain",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_10",
+        "message":"[Laughs] You again. Welcome back, foolish child.",
+        "switchToNPC":"brv_richman",
+        "replies":[
+            {
+                "text":"Laugh while you can. The captain is here and now you will get your deserved punishment!",
+                "nextPhraseID":"brv_guard_captain_and_rich_man_20"
+            }
+        ]
     }
 ]

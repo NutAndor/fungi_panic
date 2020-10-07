@@ -1,0 +1,16 @@
+[
+    {
+        "id":"stn_colonel_82",
+        "message":"There I will have five of my more interesting fighters compete against you.",
+        "replies":[
+            {
+                "text":"Five?",
+                "nextPhraseID":"stn_colonel_84"
+            },
+            {
+                "text":"Well, it will be interesting.",
+                "nextPhraseID":"stn_colonel_86"
+            }
+        ]
+    }
+]
