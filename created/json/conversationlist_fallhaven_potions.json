@@ -135,7 +135,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"fungi_panic_spores",
-                        "value":1
+                        "value":4
                     }
                 ]
             }
