@@ -133,7 +133,7 @@
                         "value":40
                     },
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"fungi_panic_spores",
                         "value":4
                     }
@@ -179,7 +179,7 @@
                         "value":40
                     },
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"fungi_panic_spores",
                         "value":4
                     }
@@ -220,6 +220,11 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":150
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"fungi_panic_spores",
+                        "value":4
                     }
                 ]
             }

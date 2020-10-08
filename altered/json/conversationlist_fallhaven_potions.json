@@ -46,7 +46,7 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -55,7 +55,7 @@
                 "nextPhraseID":"fungi_panic_potioner_50",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"fungi_panic_spores",
                         "value":4
                     },
@@ -63,7 +63,7 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
