@@ -794,8 +794,8 @@
         "message":"Now what has happened down there?",
         "replies":[
             {
-                "text":"I met a sourcerer called Zuul'khan. He offered me something of value, so now I'll kill you.",
-                "nextPhraseID":"F"
+                "text":"I met a sorcerer called Zuul'khan. He offered me something of value, so now I'll kill you.",
+                "nextPhraseID":"bogsten_115_20"
             }
         ]
     },
@@ -808,55 +808,54 @@
                 "rewardID":"fungi_panic_nondisplayed",
                 "value":10
             },
-			{
-				"rewardType": "createTimer",
-				"rewardID": "mushroom_m3_1_chains"
-			},
+            {
+                "rewardType":"createTimer",
+                "rewardID":"mushroom_m3_1_chains"
+            },
             {
                 "rewardType":"actorCondition",
                 "rewardID":"fear",
                 "value":8
             }
-
         ]
     },
     {
         "id":"mushroom_m3_1_chains_10",
-		"replies": [
-			{
-				"requires": [
-					{
-						"requireType": "timerElapsed",
-						"requireID": "mushroom_m3_1_chains",
-						"value": 3
-					}
-				],
-				"nextPhraseID": "mushroom_m3_1_chains_30"
-			},
-			{
-				"nextPhraseID": "mushroom_m3_1_chains_20"
-			}
-		]
+        "replies":[
+            {
+                "nextPhraseID":"mushroom_m3_1_chains_30",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mushroom_m3_1_chains",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mushroom_m3_1_chains_20"
+            }
+        ]
     },
     {
         "id":"mushroom_m3_1_chains_20",
         "message":"The chains have slung around your arms. You can not move any more!",
-		"replies": [
-			{
-				"text": "Why have I touched these cursed chains!?",
-				"nextPhraseID": "X"
-			}
-		]
+        "replies":[
+            {
+                "text":"Why have I touched these cursed chains!?",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"mushroom_m3_1_chains_30",
         "message":"The chains seem to soften their grip.",
-		"replies": [
-			{
-				"text": "Oof, at last I can move again! I already thought that this was the end.",
-				"nextPhraseID": "X"
-			}
-		],
+        "replies":[
+            {
+                "text":"Oof, at last I can move again! I already thought that this was the end.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -1836,6 +1835,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"brv_richman_25"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_115_20",
+        "message":"You...what? After saving me, you would turn against me?",
+        "replies":[
+            {
+                "text":"Enough talk, time to die.",
+                "nextPhraseID":"F"
             }
         ]
     }
