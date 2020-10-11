@@ -1847,5 +1847,19 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"brv_churchman_mouse1",
+        "message":"What do you intend to do with the mouse?",
+        "replies":[
+            {
+                "text":"I'll give it to the cat. That should solve the problem.",
+                "nextPhraseID":"brv_churchman_trap3a"
+            },
+            {
+                "text":"I'll release it outside.",
+                "nextPhraseID":"brv_churchman_trap3b"
+            }
+        ]
     }
 ]
