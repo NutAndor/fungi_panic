@@ -108,5 +108,20 @@
                 "logText":"60=Cave wall open"
             }
         ]
+    },
+    {
+        "id":"achievements",
+        "name":"Unusual experiences and achievements",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Mikhail gave me a book in which I could put down my most unusual experiences and achievements."
+            },
+            {
+                "progress":100,
+                "logText":"Swimming along a raging river - done"
+            }
+        ]
     }
 ]
