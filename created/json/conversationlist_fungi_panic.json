@@ -1483,6 +1483,11 @@
                 "rewardType":"actorCondition",
                 "rewardID":"spore_poison",
                 "value":-99
+            },
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"sporeImmunity",
+                "value":1
             }
         ]
     },
