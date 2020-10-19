@@ -1,0 +1,16 @@
+[
+    {
+        "id":"trapped_mouse",
+        "iconID":"items_rijackson_1:15",
+        "name":"Trapped mouse",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"large_bottle",
+        "iconID":"items_consumables:58",
+        "name":"Large empty bottle",
+        "displaytype":"quest",
+        "category":"other"
+    }
+]
