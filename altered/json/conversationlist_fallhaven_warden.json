@@ -1,0 +1,33 @@
+[
+    {
+        "id":"fallhaven_warden_31",
+        "message":"Great. Thank you for your help. Here, take these coins as a token of our appreciation.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_warden_36"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"farrik",
+                "value":90
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold200"
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygardOverallCount",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"thievesOverallCount",
+                "value":-4
+            }
+        ]
+    }
+]

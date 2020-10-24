@@ -1,0 +1,24 @@
+[
+    {
+        "id":"sign_wild16_1",
+        "message":"You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its hints of mold and old parchment, fills your nose.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sign_wild16_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"kaverin",
+                "value":100
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"shadowOverallCount",
+                "value":4
+            }
+        ]
+    }
+]

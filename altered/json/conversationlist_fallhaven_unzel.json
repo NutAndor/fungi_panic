@@ -1,0 +1,32 @@
+[
+    {
+        "id":"unzel_30",
+        "message":"You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"vacor",
+                "value":61
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold200"
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"shadowOverallCount",
+                "value":4
+            }
+        ]
+    }
+]

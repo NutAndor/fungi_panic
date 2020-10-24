@@ -1,0 +1,18 @@
+[
+    {
+        "id":"kaverin_decline1",
+        "message":"That is unfortunate, you seemed like such a bright boy too.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"kaverin",
+                "value":21
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"shadowOverallCount",
+                "value":-4
+            }
+        ]
+    }
+]
