@@ -122,7 +122,7 @@
     {
         "id":"weak_fungi",
         "name":"Weak Fungi",
-        "iconID":"monsters_ld2:30",
+        "iconID":"monsters_gisons:3",
         "maxHP":20,
         "maxAP":10,
         "moveCost":7,
@@ -140,7 +140,7 @@
     {
         "id":"mid_fungi",
         "name":"Fungi",
-        "iconID":"monsters_ld2:30",
+        "iconID":"monsters_gisons:4",
         "maxHP":35,
         "maxAP":10,
         "moveCost":5,
@@ -168,7 +168,7 @@
     {
         "id":"dangerous_fungi",
         "name":"Dangerous Fungi",
-        "iconID":"monsters_ld2:31",
+        "iconID":"monsters_gisons:5",
         "maxHP":55,
         "maxAP":10,
         "moveCost":7,
