@@ -157,7 +157,20 @@
         ]
     },
     {
-        "id":"giant_boar",
+        "id":"boss_fungi",
+        "items":[
+            {
+                "itemID":"fungi_panic_spores",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            }
+        ]
+    },
+    {
+        "id":"giant_snake",
         "items":[
             {
                 "itemID":"gold",
@@ -171,8 +184,8 @@
                 "itemID":"meat",
                 "chance":"90",
                 "quantity":{
-                    "min":1,
-                    "max":5
+                    "min":3,
+                    "max":7
                 }
             }
         ]

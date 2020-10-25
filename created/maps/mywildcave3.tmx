@@ -192,7 +192,7 @@
  </layer>
  <layer name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJztksENgDAMA6sO0aFhBGZgCjaAhVAelSC4bg1F4oGfjXI2wSF8R0t6n/N7POds4s4Y+TzFaw41l2Wq5fLMVfAwtu3nnVT4JoXJ+Md3pJI/E+K35FI9arwpntm1HbUbaM528u0VD3RH5otub2/qf2S+aDYc+Hc64z1gJsdlnWEZfH7jzhH7t/RMVY+e9ZbqsQMRWzVs
+   eJztlNENgCAMRAlDsLM6gjM4hRvgQqYfJFDL4SEmftjPNvfuqI3Ofaf28D7n93jOOUjN4vE8+GsONpdkauXSzEh4CFv0SRMqb2KYiJ/3rar5o7L4d3KxHi3e6kt2S8PehjVHmrR7xsPaI/K1di899jsiX2s2Z/yem9Eek8GIqoduBmXQ+YW7+dJf56kVe7c9HqP+wSM9TvM5Nfc=
   </data>
  </layer>
  <layer name="Top" width="25" height="20">
@@ -200,9 +200,9 @@
    eJxjYBgFo2AUjIJRMAoGHxBjGmgXDC0AACROABk=
   </data>
  </layer>
- <layer name="Walkable" width="25" height="20" visible="0">
+ <layer name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUUxXjA+SYQ4ocqfaQ4zZy/EdPO4i1i1w7sLGpFffoavGZRYq5xKYpdPZgtINQmGITHwx2oMuh+x8bIDVs0eVx2UlMmiUnTnHZgcvf+OxA5pNjBz6AKz1i4+PyO77wIKSXlHRIinoAZm8WWg==
+   eJztklEKQCEIBDtF979CN3z/i/rGJaKPBKEynNZ2zTHWy61ZhdOnU+tynLc5+k4yKMtlROtdf693q16dvtRTur6R8TfT6PwGhtZUfxTd2Wo9YxLP0nkQRqabeN9lVJH5MdpT3RWb+o4ysvwAIxYVkw==
   </data>
  </layer>
  <layer name="possible ways" width="25" height="20" visible="0">
@@ -229,7 +229,7 @@
   <object id="5" name="gison_bottle_7" type="script" x="64" y="576" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object id="4" name="stoneworm1" type="spawn" x="608" y="448" width="160" height="96">
+  <object id="4" name="stoneworm1" type="spawn" x="608" y="416" width="128" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="stoneworm1"/>
@@ -250,7 +250,7 @@
   <object id="8" name="stoneworm31" type="spawn" x="704" y="224" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-	<property name="ignoreAreas" value="true"/>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="angry_stoneworm"/>
    </properties>
@@ -258,7 +258,7 @@
   <object id="9" name="stoneworm32" type="spawn" x="736" y="512" width="64" height="64">
    <properties>
     <property name="active" value="false"/>
-	<property name="ignoreAreas" value="true"/>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="angry_stoneworm"/>
    </properties>

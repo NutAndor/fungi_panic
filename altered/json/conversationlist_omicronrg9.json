@@ -95,5 +95,16 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"fanamor_guild_3",
+        "message":"In the blink of an eye, Fanamor starts attacking the scout.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_scout_2"
+            }
+        ]
     }
 ]

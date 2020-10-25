@@ -146,6 +146,19 @@
       }
     ]
   },
+    {
+        "id":"mushroom",
+        "items":[
+            {
+                "itemID":"mushroom",
+                "chance":"20",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
   {
     "id": "gison_thief",
     "items": [
