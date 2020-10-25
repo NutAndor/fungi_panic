@@ -1,0 +1,28 @@
+[
+    {
+        "id":"fulus_complete_1",
+        "message":"Oh wow, you actually managed to get the dagger? Thank you kid. This is worth a lot. Here, take these coins as compensation for your efforts!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fulus_complete_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bjorgur_grave",
+                "value":60
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"fulus_reward"
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygardOverallCount",
+                "value":-1
+            }
+        ]
+    }
+]
