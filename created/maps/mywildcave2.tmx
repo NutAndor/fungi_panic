@@ -182,12 +182,12 @@
  </tileset>
  <layer name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJyVVEFOw0AMXPWGWD7OG/hCU6AVhyIRFlIkhDi0aU89NeQh2IoN08GJxGG0za7HXntmW81SqgTPhCrAQrC8SGlOeztCHeQrgnX+y+0J2yBfO1L3TvItBR95OFdwvkbO+qDum+y9Grc3/gPs6Xdja01cjbuV9Wjnyt8KWsFnHvp8tDPtZw7cYnc5ydoBvqAH7Me5Bbj6fTP7jUEwd2Hza2gGnmMMqDdzWdvIN65Pm8/7Z20RGOezn/IKoiYu6/2Sz9HDnFwj56J/i3E17kQ6eS7nqnfQv+5brbUKeMxF/15epfRke/s8rdFOzu8Nhzxw38G7U++6M04HNX48PaKPe0DrRbNeGxf1wRifTcTVu2t9Xf03xvT2diKu3v3aEHF9/vvgLZRAN4zhuWPdFvrcgK7RfyiDfbn5BzfyBHK/ASE1Fdk=
+   eJyNlE1uAjEMhSN2FenFe4ZeYYa2oC5AYkg7VKqqLmBgxYohB8HW2PBwHdTFU5jEnx3/hHoUQk1aGdWOJqTpQwiV2dsaNY6/RJrHv2w22jj+ukLcV/I3Jf3E4Zxl/bV0lp24X7T3KWwW/h32+LuVtTEs273QepBz5jekjvQbhzwXcsb5VMAmucuR1h50ghwwH2UTsPz9PLraoCw7kfq1pgbqoyTst2Vtb7250f508TZ/21sU2mnt780KqjGs7fdHvFWGOmmPlMX5TcKy3dH0SX0py7OD86tzy7FmDmdZnN/xYwhL2dvF+z3a0vmbaB8H9htmt/Sume2F6SHGZaYL/dEZ4HherefCYn/QRmvjsXx3js+r/kabLG+nNM9PIo/V+u8cNjl9q4xvrDveuYM819BX7z/UsnYu1/9kS+8X2TMiYRXa
   </data>
  </layer>
  <layer name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJwTY2JgECMBq/NjiqEDXHqxycEAyNznAqj8MDYGhjQ2CP+hEKbeZgGIOAh8B7IfA8WEoGbC9D3FY+88NLc/Apr1HmjONX7i/ANSr46mFuYeXP6F4cNiCLUwcANotzkrA8NFMQj/MYG4mAvElwUg7kAON5D7c1gxw5iUeIZhXOFHDH4khKkXBCSxxAUnFv2z8aQzZD4289DNeiYGCZMXQPq1GCTtpAH5e4BuLCagF6QeFs+wtAHy2y2g+E8x3PkgGU3sJVDPQlaEvs2CCL2gtACKby4g3iIICffFrBB96OFAKG+hhxM+DEqHIL8g2/EVmHduAN3wHUh/YYPQIIxNLzY7QICdnYGBhR1CgzC+eIThnWIQPy9kRcgjp2MQ3i4ECZtHWMoDZNyNJS6PA/WcAOKrWMowGGYSI5x3kfF6JLaQGMRtt8WI1/sUylaC6vlGpF5iMAAD2VhE
+   eJyVVL1KBDEQDofZRZvbSzFga3OP4Jv4AsJVdj6CpY8gCoePoHAIdhbaiiiHVu5x/mBhox52zjA7bMxONrsDH9mZzTeZvwQGxkAPjIdNWygxrvZPhPy+Fv/1ncyYScb6s2tyDwq2k6zwe4E2V/kU3rLl3JMg9hJ9faKfh2G3fGj/ONgr8cTyFVxBvVdkjmdvW2NugfVFohfHiLuC4/DrRvHv2WaN+/RZEKtfF5SuySXZVHqxrvCPWubM1zV/oa8X4Jq84foBPDsT1C8xxv0El/ZLn2U2KLdHtP9C/B7sBrZ35ExtzTsb1VyaBer3BuJ8xHU/tcwL65C6W2Gd2kBzSLn4Z3zj3ZljDCtcvzJeCRpXO4Mkz41Zy3kltPVRcAGc89TW//05Jswc16ZU3gMfh0ovr5Fzg7hX3jDBANJ3NwYHHNsTdOcsq3Wr4vz04KbwB20uVxI=
   </data>
  </layer>
  <layer name="Above" width="15" height="25">
@@ -195,7 +195,7 @@
    eJxjYCANHBYjTmww6b1EgV58brlMhhkwvXOZyNdLKgC5k1y9IH3Ywo9YvcSIjerFro7YcKckLWMDxKbNbhzqiM0X2NQR8st2IQaGHULkpcnjQH0nhHDLI9tNSt5Gz1+kuI2S/EUIAACsoie0
   </data>
  </layer>
- <layer name="Walkable" width="15" height="25">
+ <layer name="Walkable" width="15" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJEEDAKkqKelXmRAjl50M/CJEaMXG8DnFlxqidGLKxxw2Y1LLy3jDZc/BjqtEBs/hPRiizda6CU2nInxH7F2EKMXn7upGU/kpg9y9MLkiPUDNfSSGmfEYgCw6tQ4
   </data>
@@ -205,7 +205,7 @@
    eJzbKMbAsBENEwvQ1ZKilxjz0OXwuQ+fOCF3ofuf1LBAV09qOGIzbyD0UsPugfT3UAtzSvSRqpeS8BlKYTOU9VLbbgC52Sbf
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="384" y="0" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave3"/>
@@ -222,7 +222,7 @@
   <object id="4" name="gison_bottle_2" type="script" x="352" y="384" width="32" height="32"/>
   <object id="5" name="gison_bottle_3" type="script" x="416" y="224" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="4" name="stoneworm1" type="spawn" x="32" y="416" width="32" height="32">
    <properties>
     <property name="quantity" value="1"/>
@@ -256,13 +256,13 @@
   <object id="9" name="stoneworm21" type="spawn" x="224" y="384" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-	<property name="ignoreAreas" value="true"/>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="angry_stoneworm"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object id="10" name="trap21" type="key" x="224" y="384" width="32" height="32">
    <properties>
     <property name="phrase" value="mywildcave_trap21"/>

@@ -182,12 +182,12 @@
  </tileset>
  <layer name="Ground" width="25" height="13">
   <data encoding="base64" compression="zlib">
-   eJydk8ENwjAMRUMjISGFToDUdISEEVpW6KIcERMgFoAVuMCBM7Zkq1ZwQsrhKWrr/ue4aW+NcVtjOlg9EAm/kD3wdMa8gDXkNYKeHIHqRiJUZkd672C/s6VjB+tAdROB110hN4qe8L0L9H/c5B34TCN1yNxR9IS1/zpCpmfeK+eeYb0vcLR2rh0yPWPmTeSyq8Yhzwg+w3uTyGZkpnatOR5unj2fkdz8kCvUn5Q5lRwN/R+9ko+zk6S9p3uocZTOFdPasgN5uzrHr/8PXXJukpXYB9d6q3//GrRZpg6fOHIzWgo7PkUcbk4=
+   eJytk9EJwjAQhkMDglA7gdBkhMYR2q7QRX0UJxAX0BV80Qm8gzt6xEtMxIefkObyf5e/ibfGtDtjehgdKJBcpQ6gZ2vMC7QBv0bIE2Oguok0FHoH2jfbT2/J2MM4Ut1Cwnmf8Q2iJ9x3gf6P2zQD1zTFDOk7iZ6w9lfGkOiZz8q+ZxjvFYzOrrVjomf0vAlfZpUw5B3BNfy2CG+W9NTmGuPRrtnzHUnlh7pC/UnJKcdo6H14xR+zk4p7j89QwsjdK1Zn/8f49v6QJXNLMbjWWf3/lyjOUmO4iJHKqJbJjDdmHmsy
   </data>
  </layer>
  <layer name="Objects" width="25" height="13">
   <data encoding="base64" compression="zlib">
-   eJytk02KwkAQhYv2ZxAJYtQ27nWWjugRxBOIuPYKHtGNc4TBXTZC3EfG3VSRFF1ddiTgPGhCJ1311XtJAAr99OFtfRiAwwRgietk3WJ1jH/2HWkOa2Icq1uDsTb+PPsGQD52z1cBxq5RnJsmADNcn0l1/3kMsBVzUB3pLhjSC2kR+z2+1L5K1FvWEuOKPTPrc+RsEdZsBgA9vF6ER1vOfDRuZq0h+m7humPdQ9SuBCNStTfr8rIvemelD844V16Ykals5mKfxsWMNvB+iM258hnK64z9vxXj1/q1PLP2RuoF7nFO7ZIh85JZyf51/kdipSonynaaPH/DIS3isIcqFnsZBTKVjFS8g7r9Q2oqTpWP/xJ5JMYfYe8z1g==
+   eJy1U01Lw0AQHTZWESnBVdf2bnuMwfwE8RdI8exf8Cd6sT+htKdchM09od6cIRl2dthIoPhgyNfOe/PeEIAeu2s4GRcG4H0J8IT16UIxLk189hRoHcbSBK2rCRrPJp7nLQNo78P3KqGxyfpzDwuAFdZ6Mc5fWIBXMQf1ETqhIb0QShtzPKrnMRC37CWNb+T0LtaRs82x5+UGIMfrXnh0w8wfJsyscYu+Z1gd9v2I3kpozFVv40Je7g9uP/jgjFvlhTW8yqYQz7XtZ3SJ/ZA258pnKK8v5N8qjaOLe3lm7Y2QJ95xTueDhsxLZiX5p/yPpFWrnChbuvcj+5AobdrDmBZ7uRvyahL7INRiB1P5UzhDjUNiH/8F8kgav7ZqN2k=
   </data>
  </layer>
  <layer name="Above" width="25" height="13">
@@ -197,7 +197,7 @@
  </layer>
  <layer name="Walkable" width="25" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMYABhvFaIuHox0wQI4ZyICQPCn2EKsXmzg+O4gFhMwj5F9i7CI3DAiZSak/qBlW1PIrIX2UpFtC+kk1nxwzqGEHOgYAW+qxPQ==
+   eJzbKMYABhvFaIuHox0wQI4Z+PThAqSYTUgvNnFy3ETIDmLFkM0g1R5y3IrNTFx2EOsPUu3HZx41/EpJGqRGuiTVfHLzCqV2oGMAD46yyw==
   </data>
  </layer>
  <objectgroup name="Mapevents">

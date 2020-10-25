@@ -200,7 +200,7 @@
    eJzbKMbAsJEEDAOk6BkK5sDMopY5hMxCB+SahQ1QGk74zCTVHFx8Ss0h1t+E7CPGHHLsweVmUtMQKebgU0+sOfj8ii5Gijpi3Uls+iHFv4TMISUvkGsOKekbGQMAUoDK5A==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="352" y="608" width="32" height="32">
    <properties>
     <property name="map" value="mushroom_m2_1"/>

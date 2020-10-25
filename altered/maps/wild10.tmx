@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJzbyMnAcE+SgWEjJ3H4nSREPYxGlyfFLGxmk6t3oDC13QwLW2q6j5I4GYruG+g0QUuM7D9K/Yoel+8ojFvksmGwpo9RTF0MAG2lKjw=

@@ -132,7 +132,7 @@
  </layer>
  <layer name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF4QIMNAEgc88xotrxlhG/enxinUC97xkx5e9BxdKgav8SYcdcqJp0AYjYHCB/OhDPBOL/QNzHiKmHGAAzD93ONAJmIOvpZyKsFt08Quaj2wEC6Tj0YPMDsQBZH8icaix+AcUjMWFCjB3o9sEAKB5xmf8OLU0SY8dVoD/mM+LWMwHNn//Q0iQxdsAAPj244gybmoVMuO3ABbrwhBuy+eE47CAHYPMTcvrAZgepdqKrv8GE6k90O9LJSJ+E3DgfKY3gymOpBOyshZrRhScNw8TIyWOwuACl91l40jDMDnQ5Hx5MtaD8fg5LeUpKmUgIgPI7qB7oJiLfkWvHYAUA9lQ6CA==
+   eJzNlU0KwjAQhZusXfRg7nsC20OIB7CCuhNFKV6oO8GVN9CewJ8MJpBMMsk0IPggi6Yz72OSmbYoXFVl8ROBby9cxl3E42N7S5U7CP/9Te/VOvbJYJx0TFN+947qeafWXq23Wmvh53Bk/DCzTnjYORuZjsV+KX/MADVETqgGruw88JkHaoF75JwJh4F5RnCPlP8D9SSHcVF1dILO2aI6X6gnOQyjWA51Z6GYs6QZlNrIudn+FcHIUagmuz9CjLFMHH+Vbp2YwTnnFAM/d1aPUDM2S3AX2qON9LDZy5kxUzf0+yHSw4aB300nfizMex/4no75JqYE8w7/gRVj7nIZ/6oPvOU5kg==
   </data>
  </layer>
  <layer name="Above_1" width="25" height="20" visible="0">
@@ -246,7 +246,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace">
+ <objectgroup name="Replace" visible="0">
   <object id="17" name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
    <properties>
     <property name="Above" value="Above_1"/>
