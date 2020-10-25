@@ -1866,5 +1866,71 @@
                 "nextPhraseID":"brv_churchman_trap3b"
             }
         ]
+    },,
+    {
+        "id":"dummy_key"
+    }
+    {
+        "id":"grownfood_init",
+        "rewards":[{ "rewardType":"createTimer", "rewardID":"grownfood01" },
+				   { "rewardType":"createTimer", "rewardID":"grownfood02" },
+				   { "rewardType":"createTimer", "rewardID":"grownfood03" }]
+    },
+    {
+        "id":"grownfood01",
+        "replies":[{ "nextPhraseID":"X", 
+					 "requires":[{ "requireType":"timerElapsed", "requireID":"grownfood01", "value":30, "negate":true }] },
+				   { "nextPhraseID":"grownfood01b", 
+				     "requires":[{ "requireType":"random", "requireID":"66" }] },
+				   { "nextPhraseID":"grownfood01c", 
+				     "requires":[{ "requireType":"random", "requireID":"33" }] }]
+    },
+    {
+        "id":"grownfood01b",
+        "message":"You find some wild mushrooms!",
+        "rewards":[{ "rewardType":"dropList", "rewardID":"grownfood01" },
+				   { "rewardType":"createTimer", "rewardID":"grownfood01" }]
+    },
+    {
+        "id":"grownfood01c",
+        "rewards":[{ "rewardType":"createTimer", "rewardID":"grownfood01" }]
+    },
+    {
+        "id":"grownfood02",
+        "replies":[{ "nextPhraseID":"X", 
+					 "requires":[{ "requireType":"timerElapsed", "requireID":"grownfood02", "value":30, "negate":true }] },
+				   { "nextPhraseID":"grownfood02b", 
+				     "requires":[{ "requireType":"random", "requireID":"66" }] },
+				   { "nextPhraseID":"grownfood02c", 
+				     "requires":[{ "requireType":"random", "requireID":"33" }] }]
+    },
+    {
+        "id":"grownfood02b",
+        "message":"You find some wild mushrooms!",
+        "rewards":[{ "rewardType":"dropList", "rewardID":"grownfood02" },
+				   { "rewardType":"createTimer", "rewardID":"grownfood02" }]
+    },
+    {
+        "id":"grownfood02c",
+        "rewards":[{ "rewardType":"createTimer", "rewardID":"grownfood02" }]
+    },
+    {
+        "id":"grownfood03",
+        "replies":[{ "nextPhraseID":"X", 
+					 "requires":[{ "requireType":"timerElapsed", "requireID":"grownfood03", "value":30, "negate":true }] },
+				   { "nextPhraseID":"grownfood03b", 
+				     "requires":[{ "requireType":"random", "requireID":"66" }] },
+				   { "nextPhraseID":"grownfood03c", 
+				     "requires":[{ "requireType":"random", "requireID":"33" }] }]
+    },
+    {
+        "id":"grownfood03b",
+        "message":"You find some wild mushrooms!",
+        "rewards":[{ "rewardType":"dropList", "rewardID":"grownfood03" },
+				   { "rewardType":"createTimer", "rewardID":"grownfood03" }]
+    },
+    {
+        "id":"grownfood03c",
+        "rewards":[{ "rewardType":"createTimer", "rewardID":"grownfood03" }]
     }
 ]
