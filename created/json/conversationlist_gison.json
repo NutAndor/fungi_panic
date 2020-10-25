@@ -1960,5 +1960,27 @@
       }
     ],
     "message": "You find three empty bottles."
+  },
+  {
+    "id": "mywildcave_trap31",
+    "rewards": [
+      {
+        "rewardType": "spawnAll",
+        "rewardID": "stoneworm31",
+        "mapName": "mywildcave3"
+      }
+    ],
+    "message": "Oh, what's this?"
+  },
+  {
+    "id": "mywildcave_trap32",
+    "rewards": [
+      {
+        "rewardType": "spawnAll",
+        "rewardID": "stoneworm32",
+        "mapName": "mywildcave3"
+      }
+    ],
+    "message": "Oops, there was something sleeping inside."
   }
 ]
