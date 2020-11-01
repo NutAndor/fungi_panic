@@ -1896,6 +1896,35 @@
         "id":"dummy_key"
     },
     {
+        "id":"algore_killed",
+        "replies":[
+            {
+                "nextPhraseID":"algore_killed_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"algore",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"algore_killed_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"sign_wdsetl0_grave3",
+        "message":"Here lies Hagale. Killed by greedy $playername, just when he wanted to start a new life."
+    },
+    {
         "id":"grownfood_init",
         "rewards":[{ "rewardType":"createTimer", "rewardID":"grownfood01" },
 				   { "rewardType":"createTimer", "rewardID":"grownfood02" },
