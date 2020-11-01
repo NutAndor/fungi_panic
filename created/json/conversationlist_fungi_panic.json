@@ -1853,6 +1853,16 @@
             }
         ]
     },
+	{
+		"id": "mushroom_m2_3_shower",
+		"rewards": [
+			{
+				"rewardType": "actorCondition",
+				"rewardID": "regen",
+				"value": 5
+			}
+		]
+	},
     {
         "id":"brv_churchman_mouse1",
         "message":"What do you intend to do with the mouse?",

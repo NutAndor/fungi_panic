@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="22" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="22" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -207,6 +207,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object id="9" name="mushroom_m2_3_shower" type="script" x="96" y="224" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="3" name="zuul_khan2" type="spawn" x="288" y="416" width="64" height="32">
