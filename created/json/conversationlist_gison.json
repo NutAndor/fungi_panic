@@ -1198,6 +1198,13 @@
         "text": "OK.",
         "nextPhraseID": "gison_catchsoup_eva"
       }
+    ],
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_cookbook",
+        "value": 70
+      }
     ]
   },
   {

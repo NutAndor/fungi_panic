@@ -412,27 +412,6 @@
         "blockChance":85,
         "damageResistance":1
     },
-	{
-		"id":"gison_thiefboss_old",
-		"name":"Mushroom master",
-		"iconID":"monsters_rltiles2:88",
-		"maxHP":57,
-		"unique":1,
-		"monsterClass":"undead",
-		"attackDamage":{
-			"min":4,
-			"max":8
-		},
-		"spawnGroup":"gison_thiefboss",
-		"phraseID":"gison_thiefboss",
-		"droplistID":"drp_gison_cookbook",
-		"attackCost":5,
-		"attackChance":120,
-		"criticalSkill":20,
-		"criticalMultiplier":2.0,
-		"blockChance":60,
-		"damageResistance":1
-	},
     {
         "id":"gison_thiefboss",
         "name":"Zuul'khan",
