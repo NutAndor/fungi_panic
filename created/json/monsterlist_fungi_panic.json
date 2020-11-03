@@ -122,7 +122,7 @@
     {
         "id":"weak_fungi",
         "name":"Weak Fungi",
-        "iconID":"monsters_ld2:30",
+        "iconID":"monsters_gisons:3",
         "maxHP":20,
         "maxAP":10,
         "moveCost":7,
@@ -140,7 +140,7 @@
     {
         "id":"mid_fungi",
         "name":"Fungi",
-        "iconID":"monsters_ld2:30",
+        "iconID":"monsters_gisons:4",
         "maxHP":35,
         "maxAP":10,
         "moveCost":5,
@@ -168,7 +168,7 @@
     {
         "id":"dangerous_fungi",
         "name":"Dangerous Fungi",
-        "iconID":"monsters_ld2:31",
+        "iconID":"monsters_gisons:5",
         "maxHP":55,
         "maxAP":10,
         "moveCost":7,
@@ -371,5 +371,32 @@
         "monsterClass":"animal",
         "phraseID":"zuul_khan9_blocker",
         "spawnGroup":"zuul_khan9_blocker"
+    },
+    {
+        "id":"giant_snake",
+        "name":"Giant snake",
+        "iconID":"monsters_rltiles2:21",
+        "maxHP":140,
+        "maxAP":10,
+        "moveCost":7,
+        "unique":1,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":8,
+            "max":22
+        },
+        "spawnGroup":"giant_snake",
+        "droplistID":"giant_snake",
+        "attackCost":7,
+        "attackChance":80,
+        "criticalSkill":40,
+        "criticalMultiplier":3.0,
+        "blockChance":30,
+        "damageResistance":8
+    },
+    {
+        "id":"none",
+        "name":"Dummy NPC",
+        "iconID":"monsters_guynmart:8"
     }
 ]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="3">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="5">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,15 +192,15 @@
  </layer>
  <layer name="Above" width="18" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCANHBYjUcMgNEeSCVOMnxlC6wlhyvkgqZfBohcdXIa6KZQZVTyGCL3Y3EQNcJnC8N4kCKGJDW+QfbjsNACG8SWonDOWMEG2A8S+hGYOMX4BqUE2B90MECAmfLHZj82dIPASS9rBpRYG0N2JLE5ILYjNzoTfnTD1IhKoYshqkcMBl1+xhRU2d/8lIX/gMxubOnQ+MeGGnNZg8YOuj9g0jRyGILPoUYYBANcYLYI=
+   eJxjYCANHBYjUcMgNEeSCVOMnxlC6wlhyvkgqZfBohcdXIa6KZQZVTyGCL3Y3IQP/MfiXnxuIhdsEoTQxIY3yD5cdhoA3XwJKueMJUyQ7QCxL6GZQ4xfQGqQzUE3AwSICV9s9mNzJwi8xBMXuMIN3Z3I4oTUgtjsTPjdCVMvIoEqhqwWORxw+RVbWGFz918S8gc+s7GpQ+cTE27IaQ0WP+j6iE3TyGEIMoseZRgA+SIukw==
   </data>
  </layer>
  <layer name="Walkable" width="18" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEEDAOk6BkK5sDMopY5hMxCB+SahQ1QGk74zCTVHFx8Ss0h1t+E7CPGHHLsweVmUtMQKebgU0+sOfj8ii5Gijpi3Uls+iHFv4TMISUvkGsOKekbGQMAUoDK5A==
+   eJzbKMbAsJEEDAOk6BkK5sDMopY5hMxCB7Q2i5RwwgbINQcXn1Jz8LmRFP8TYw459uByM6lpiBRz8Kkn1hx8fkUXI0Udse4kNv2Q4l9C5pCSF8g1h5T0jYwBVbfLqw==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="352" y="608" width="32" height="32">
    <properties>
     <property name="map" value="mushroom_m2_1"/>
@@ -213,7 +213,15 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object id="3" name="mushroomcave_trap" type="script" x="480" y="480" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object id="4" name="dangerous_fungi_1" type="spawn" x="416" y="128" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,12 +182,12 @@
  </tileset>
  <layer name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJyVVEFOw0AMXPWGWD7OG/hCU6AVhyIRFlIkhDi0aU89NeQh2IoN08GJxGG0za7HXntmW81SqgTPhCrAQrC8SGlOeztCHeQrgnX+y+0J2yBfO1L3TvItBR95OFdwvkbO+qDum+y9Grc3/gPs6Xdja01cjbuV9Wjnyt8KWsFnHvp8tDPtZw7cYnc5ydoBvqAH7Me5Bbj6fTP7jUEwd2Hza2gGnmMMqDdzWdvIN65Pm8/7Z20RGOezn/IKoiYu6/2Sz9HDnFwj56J/i3E17kQ6eS7nqnfQv+5brbUKeMxF/15epfRke/s8rdFOzu8Nhzxw38G7U++6M04HNX48PaKPe0DrRbNeGxf1wRifTcTVu2t9Xf03xvT2diKu3v3aEHF9/vvgLZRAN4zhuWPdFvrcgK7RfyiDfbn5BzfyBHK/ASE1Fdk=
+   eJyNlE1uAjEMhSN2FenFe4ZeYYa2oC5AYkg7VKqqLmBgxYohB8HW2PBwHdTFU5jEnx3/hHoUQk1aGdWOJqTpQwiV2dsaNY6/RJrHv2w22jj+ukLcV/I3Jf3E4Zxl/bV0lp24X7T3KWwW/h32+LuVtTEs273QepBz5jekjvQbhzwXcsb5VMAmucuR1h50ghwwH2UTsPz9PLraoCw7kfq1pgbqoyTst2Vtb7250f508TZ/21sU2mnt780KqjGs7fdHvFWGOmmPlMX5TcKy3dH0SX0py7OD86tzy7FmDmdZnN/xYwhL2dvF+z3a0vmbaB8H9htmt/Sume2F6SHGZaYL/dEZ4HherefCYn/QRmvjsXx3js+r/kabLG+nNM9PIo/V+u8cNjl9q4xvrDveuYM819BX7z/UsnYu1/9kS+8X2TMiYRXa
   </data>
  </layer>
  <layer name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJwTY2JgECMBq/NjiqEDXHqxycEAyNznAqj8MDYGhjQ2CP+hEKbeZgGIOAh8B7IfA8WEoGbC9D3FY+88NLc/Apr1HmjONX7i/ANSr46mFuYeXP6F4cNiCLUwcANotzkrA8NFMQj/MYG4mAvElwUg7kAON5D7c1gxw5iUeIZhXOFHDH4khKkXBCSxxAUnFv2z8aQzZD4289DNegYM04XAMHkBpF+LQdJOGpC/B+jGYgJ6Qeph8QxLGyC/3QKK/xTDnQ+S0cReCkHcANO3WRChF5QWQPHNBcRbBCHhvpgVog89HAjlLfRwwodB6RDkF2Q7vgLzzg2gG74D6S9sEBqEsenFZgcIsLMzMLCwQ2gQxhePMLxTDOLnhawIeeR0DMLbhSBh8whLeYCMu7HE5XGgnhNAfBVLGQbDTGKE8y4yXo/EFhKDuO22GPF6n0LZSlA934jUSwwGAJ+JWHk=
+   eJyVVL1KBDEQDofZRZvbSzFga3OP4Jv4AsJVdj6CpY8gCoePoHAIdhbaiiiHVu5x/mBhox52zjA7bMxONrsDH9mZzTeZvwQGxkAPjIdNWygxrvZPhPy+Fv/1ncyYScb6s2tyDwq2k6zwe4E2V/kU3rLl3JMg9hJ9faKfh2G3fGj/ONgr8cTyFVxBvVdkjmdvW2NugfVFohfHiLuC4/DrRvHv2WaN+/RZEKtfF5SuySXZVHqxrvCPWubM1zV/oa8X4Jq84foBPDsT1C8xxv0El/ZLn2U2KLdHtP9C/B7sBrZ35ExtzTsb1VyaBer3BuJ8xHU/tcwL65C6W2Gd2kBzSLn4Z3zj3ZljDCtcvzJeCRpXO4Mkz41Zy3kltPVRcAGc89TW//05Jswc16ZU3gMfh0ovr5Fzg7hX3jDBANJ3NwYHHNsTdOcsq3Wr4vz04KbwB20uVxI=
   </data>
  </layer>
  <layer name="Above" width="15" height="25">
@@ -205,7 +205,7 @@
    eJzbKMbAsBENEwvQ1ZKilxjz0OXwuQ+fOCF3ofuf1LBAV09qOGIzbyD0UsPugfT3UAtzSvSRqpeS8BlKYTOU9VLbbgC52Sbf
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="384" y="0" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave3"/>
@@ -222,7 +222,7 @@
   <object id="4" name="gison_bottle_2" type="script" x="352" y="384" width="32" height="32"/>
   <object id="5" name="gison_bottle_3" type="script" x="416" y="224" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="4" name="stoneworm1" type="spawn" x="32" y="416" width="32" height="32">
    <properties>
     <property name="quantity" value="1"/>
@@ -253,6 +253,23 @@
     <property name="spawngroup" value="stoneworm1"/>
    </properties>
   </object>
+  <object id="9" name="stoneworm21" type="spawn" x="224" y="384" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="angry_stoneworm"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys" visible="0">
+  <object id="10" name="trap21" type="key" x="224" y="384" width="32" height="32">
+   <properties>
+    <property name="phrase" value="mywildcave_trap21"/>
+    <property name="requireId" value="gison_cookbook"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="70"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

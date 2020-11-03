@@ -116,6 +116,36 @@
         }
     },
     {
+        "id":"angry_stoneworm",
+        "name":"Angry stone worm",
+        "iconID":"monsters_tometik9:33",
+        "maxHP":40,
+        "moveCost":2,
+        "monsterClass":"reptile",
+        "movementAggressionType":"wholeMap",
+        "unique":1,
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"angry_stoneworm",
+        "droplistID":"stoneworm2",
+        "attackCost":3,
+        "attackChance":112,
+        "blockChance":100,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"33"
+                }
+            ]
+        }
+    },
+    {
         "id":"living_jelly",
         "name":"Living jelly",
         "iconID":"monsters_tometik1:75",
@@ -382,27 +412,6 @@
         "blockChance":85,
         "damageResistance":1
     },
-	{
-		"id":"gison_thiefboss_old",
-		"name":"Mushroom master",
-		"iconID":"monsters_rltiles2:88",
-		"maxHP":57,
-		"unique":1,
-		"monsterClass":"undead",
-		"attackDamage":{
-			"min":4,
-			"max":8
-		},
-		"spawnGroup":"gison_thiefboss",
-		"phraseID":"gison_thiefboss",
-		"droplistID":"drp_gison_cookbook",
-		"attackCost":5,
-		"attackChance":120,
-		"criticalSkill":20,
-		"criticalMultiplier":2.0,
-		"blockChance":60,
-		"damageResistance":1
-	},
     {
         "id":"gison_thiefboss",
         "name":"Zuul'khan",

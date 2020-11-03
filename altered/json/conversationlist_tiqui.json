@@ -1,0 +1,24 @@
+[
+    {
+        "id":"tiqui_r1",
+        "message":"Yes! Yes! The smell is gone. You friend of Tiqui now! Tiqui help you when we meet again!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tiqui_r2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lodar13_rest",
+                "value":41
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygardOverallCount",
+                "value":-2
+            }
+        ]
+    }
+]

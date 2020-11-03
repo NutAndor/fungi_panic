@@ -1,0 +1,23 @@
+[
+    {
+        "id":"kuldan_bc_10",
+        "message":"For the glory of Feygard, the people of Loneford may live on thanks to your help.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"loneford",
+                "value":55
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygardOverallCount",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"shadowOverallCount",
+                "value":-1
+            }
+        ]
+    }
+]

@@ -100,6 +100,10 @@
                 "logText":"10=Chains."
             },
             {
+                "progress":20,
+                "logText":"20=Algore grave"
+            },
+            {
                 "progress":35,
                 "logText":"35=I opened Bogsten's backyard door."
             },

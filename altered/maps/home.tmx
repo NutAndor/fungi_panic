@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="12" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="7">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,71 +180,48 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="12" height="21">
+ <layer name="Ground" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJyNkjsOgkAQhlc2khhmSRRtpFBja6NX0DN4UUuPYmtJIz4aY+JMlgk/C0SLP7NkvmGekTPmScZkbAu2A7YRy7IS1sIaswSp78ZsyYr/4Ieu5iLI18eL/0XeTpxnT6Pf/5+x1hWr/JaZXcBHULNwH84z53fO2jNzsD6uj3ds31TnOVofJ7VJvaosqEXfKuH1XVDTpzk2ECf1lNTWndp1dfUb9oEzUh7rF8keZL6aJ3F1r8Kfq3xX8jcRB3m0b+Uv1L4dvAntQWsKOfz3g+oeuuaPPQg/dc1d4PxRY9id3EYOvHyL0p5Y3LPwKcx2ZZv3pjeH+w3VdTtpBxfGYA3o+wJObl6M
+   eJzj42Jg4CMS75bCj2HqTkvhxzB1JznxY0rU1XEzMNRDcQM3bnV9QLl+KJ6ApA7kH0LqdkP9g6xuHlBuPhQvgKoDqXnJicAnOVH5yBgA38ZAiQ==
   </data>
  </layer>
- <layer name="Objects" width="12" height="21">
+ <layer name="Objects" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcWAhSwRASwUshTDE2CQi9iQj34HKzJBMDQxwTcW7QB7ohlJmB4RAB+24gyb8RgNAgfdjMwwV4sahHBgtZcavF5lfkMLqBRd4Yh58+Ad0ohhY+B4FqnfGEATa/UgKw+SeYyDiDAWxu2kxEuhGRQIQvPxYzYGEpIoFdP7awBoFv4tjFD4sxMBggpQtC6YAQAAB9bRKr
+   eJxjYCAB8DMwLJRBcGFsAX5MpRuBcjdYGRj2s0LYj4BqHgIxowBCjTrIDBYGhhdANeeBuAKIP/EjMAyYE+m8razEqTvKCsEXxRgY3IH2FwLpYigbGdih8RuBapqxqItD4oPkJgLVTBaD8KuIdBMMAADVKhYu
   </data>
  </layer>
- <layer name="Above" width="12" height="21">
+ <layer name="Above" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C2QF9ooF2ACTYJDoy9l8Wwi/MyYxfnxyGOD+DTAwCnyQIi
+   eJxjYCAeXBYjTt1hJHX49CCru0SkOkL2bmUlTh0y2MhPvL0nsajFpu4LDjMJAQBSIQv/
   </data>
  </layer>
- <layer name="Walkable" width="12" height="21" visible="0">
+ <layer name="Walkable" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHBgFccvRWDwOkqCVGPTqgh3pkfcQCavqZHPXkYlLNJ9VNlKrHF9bYxNHtIjXOSFFLSVzhUg8AWv2L7Q==
+   eJzbKMbAsHGQY0KAWLW4zMXFRzePGupg4rj8CgDlrTZr
   </data>
  </layer>
- <objectgroup name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="224" y="0" width="32" height="32">
+ <objectgroup name="mapevents">
+  <object id="1" name="entrance" type="mapchange" x="96" y="288" width="32" height="32">
    <properties>
-    <property name="map" value="mushroom_m2_5"/>
-    <property name="place" value="south"/>
+    <property name="map" value="crossglen"/>
+    <property name="place" value="home"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="320">
+  <object id="2" name="rest" type="rest" x="32" y="128" width="32" height="32"/>
+  <object id="3" name="startitems2" type="container" x="256" y="256" width="32" height="32"/>
+  <object id="4" name="grownfood_init" type="script" x="192" y="128" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="keys">
+  <object id="5" name="andor:1" type="key" x="0" y="288" width="320" height="32">
    <properties>
-    <property name="map" value="mushroom_m2_3"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="3" name="south" type="mapchange" x="192" y="640" width="64" height="32">
-   <properties>
-    <property name="map" value="mushroom_m2_2"/>
-    <property name="place" value="north"/>
+    <property name="phrase" value="keyarea_andor1"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object id="4" name="mid_fungi_1" type="spawn" x="64" y="512" width="32" height="32">
-   <properties>
-    <property name="quantity" value="1"/>
-    <property name="spawngroup" value="mid_fungi"/>
-   </properties>
-  </object>
-  <object id="4" name="mid_fungi_2" type="spawn" x="160" y="128" width="160" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="mid_fungi"/>
-   </properties>
-  </object>
-  <object id="5" name="weak_fungi_1" type="spawn" x="128" y="416" width="192" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="weak_fungi"/>
-   </properties>
-  </object>
-  <object id="6" name="weak_fungi_2" type="spawn" x="128" y="64" width="128" height="128">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="weak_fungi"/>
-   </properties>
-  </object>
+ <objectgroup name="spawn">
+  <object id="6" name="mikhail" type="spawn" x="224" y="128" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Keys"/>
 </map>

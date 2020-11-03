@@ -15,5 +15,32 @@
                 "value":61
             }
         ]
+    },
+    {
+        "id":"buceth_story_14",
+        "message":"Thank you, my friend.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"buceth_story_15"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"loneford",
+                "value":60
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygardOverallCount",
+                "value":-4
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"shadowOverallCount",
+                "value":1
+            }
+        ]
     }
 ]

@@ -1198,6 +1198,13 @@
         "text": "OK.",
         "nextPhraseID": "gison_catchsoup_eva"
       }
+    ],
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "gison_cookbook",
+        "value": 70
+      }
     ]
   },
   {
@@ -1960,5 +1967,49 @@
       }
     ],
     "message": "You find three empty bottles."
+  },
+  {
+    "id": "mywildcave_trap21",
+    "rewards": [
+      {
+        "rewardType": "spawnAll",
+        "rewardID": "stoneworm21",
+        "mapName": "mywildcave2"
+      }
+    ],
+    "message": "What might be inside here?"
+  },
+  {
+    "id": "mywildcave_trap31",
+    "rewards": [
+      {
+        "rewardType": "spawnAll",
+        "rewardID": "stoneworm31",
+        "mapName": "mywildcave3"
+      }
+    ],
+    "message": "Oh, what's this?"
+  },
+  {
+    "id": "mywildcave_trap31",
+    "rewards": [
+      {
+        "rewardType": "spawnAll",
+        "rewardID": "stoneworm31",
+        "mapName": "mywildcave3"
+      }
+    ],
+    "message": "Oh, what's this?"
+  },
+  {
+    "id": "mywildcave_trap32",
+    "rewards": [
+      {
+        "rewardType": "spawnAll",
+        "rewardID": "stoneworm32",
+        "mapName": "mywildcave3"
+      }
+    ],
+    "message": "Oops, there was something sleeping inside."
   }
 ]

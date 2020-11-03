@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="16" tilewidth="32" tileheight="32" infinite="0" nextobjectid="10">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="16" tilewidth="32" tileheight="32" infinite="0" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,12 +187,12 @@
  </layer>
  <layer name="Objects" width="18" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEH8UZGJQlsEgQCQ4JQujdAuSbgWzWaSRzkpkQ5uMDShIQPzwSYmBQlEDw2YF6Q5kZGIqZIOp+AM3+CcSbBIl370MhCP0dqH4NKwPDWiDmAOo/JAYx+zSaOeHMmGb8ZcI0cx0rqthtAYh52PSDAMi9oLD4zYcqrs6PYIuh2QMCvEjmbYKG72Gg2/WBbrgG1CsIDCchKPYAuskTyV0CzJhmwPwIcq+EMML+z+IQWg8aX8wkpCkzqJ0gtzBB9V0QQE2bAkSkAzegOe6sELc0CkH0w9LCFSD7mjhm+KGDZqB+K1aIeuS0dJUfEn7bgOLHoOaA4us5DvNgcSEK1PdUHIKfAfFPqPonUD4PUlpCB6B4Qjari4WBoRuKe1ggbkWWvyGIECvCkhZwAWmoWn5mhHlv+LC7iRTAj6YfAPZ7QZw=
+   eJxjYMAEjBIMDMISWCSIBIcEIbSNOAMDMwXmwMwCmaMMNSeZCWE+PqAkAdHzSIiBQVECwWcH6g1lZmAoZoKo+yHAwPATiDcBxXcLEOemh0IQ+jtQ/RpWBoa1QMwB1H9IDGL2aTRzwpkxzfjLhGnmOlZUsdsCEPOw6QcBkHtBYfGbD1VcnR/BFkOzBwR4kcwD+Rvk3sNAt+sD3XANqFcQGE5CUOwBdJMnkrsEmDHNgPkR5F4JYYT9n8UhtB40vkhJC2ZQO0FuYYLquwA0/yNSWhAgIh24Ac1xZ4W4pVEIoh+WFq4A2dfEMcMPHTQD9VuxQtQjp6Wr/JDw2wYUPwY1BxRfz3GYB4sLUaC+p+IQ/AyIf0LVP4HyeZDSEjoAxROyWV0sDAzdUNzDAnErsvwNQYRYEZa0gAtIQ9XyMyPMe8OH3U2kAH40/QDi5z/z
   </data>
  </layer>
  <layer name="Above" width="18" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtuCxGHXMuUcGc2wIQ+jmQnsPKwDCXFVVeTRjBxuZufmbcZl8EqucUhNDI4DAJ7r7Gj6kfBrD5H+RGGEYHFkC/WUL9J8mE316QGzmEUe2QBfpFDojlgdiZCbe7OJHMxuZGXaD+A8Dw1hdEEhTEVIcOfvJhF8flDkIApE9fCFX/cwH8etDjG5fd36Hm/AHSf3GYiR5HVSwMDNVQXMOCqZ4XS1pCd1MSNH4XAtPNF34IezPQj1uEsLthMAIAwvolhg==
+   eJxjYKAd2C1AHXNOU8mc21BzngPpOawMDHNZcau9LIYpxs+MW/1FoHpOQQiNDA5jMQcXuMaPqR8GLmERB7kRhtGBBdBvllD/STLhtxfkRg5hVDtkgX6RA2J5IHZmwu0uTiSzsblRF6j/ADC89QWRBAUx1aGDn3zYxXG5gxAA6dMXQtX/nEC6Qo9vXHZ/h5rzB0j/xWEmehxVsTAwVENxDQumel4saQndTUnQ+F0ITDdf+CHszUA/bhHC7obBCABXFiUi
   </data>
  </layer>
  <layer name="Walkable" width="18" height="16" visible="0">
@@ -213,6 +213,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object id="10" name="mushroom_m2_6_chest" type="container" x="480" y="448" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="4" name="zuul_khan3" type="spawn" x="224" y="384" width="64" height="32">

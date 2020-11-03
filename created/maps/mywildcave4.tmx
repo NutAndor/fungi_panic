@@ -179,7 +179,7 @@
  </tileset>
  <layer name="Ground" width="18" height="16">
   <data encoding="base64" compression="zlib">
-   eJyt0rENgCAQhWEinYWlrTgCMAKwApM6oF5CIjl95ECLv6H4cgcYrZQDmY72qwiyHTY5GRSEtivOOuMkdiwzLVUtE9kZ7CmxeF+ceo9RZ2u8Hd27Z84x3UkcX+49AYfPY8Euqdw7N9BeQT+t0Tcia/vBedtv1OEz8X+N6v0DrbhNZyfe+DBZ
+   eJyt0rENgCAQhWEinQWlLTgCMAKwApM6oJKQSM48coDF31h8uTs0UggHMgOdTxFkB+ziZFBg2q46x47j2LHOpJp6JrIz2JNj0Vacdo9ZR3fertzdE+fa3jiOr3dPwKHzWLBLqnenBtoryK81+0bF0j84dL8Vh86kmI3+A72oXb7d1jwwSA==
   </data>
  </layer>
  <layer name="Objects" width="18" height="16">
@@ -189,7 +189,7 @@
  </layer>
  <layer name="Above" width="18" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeOCw2NMx5LoBdXE2YPHvmsDIwzAViTkEGhoskuP3yIA4vWaBf5IBYXpAyc3SB+g8Aw1sfyRwOAuEMCxdK/AUyA6QfZNclCswBmYFLP3o6+gPk/8WRtmB+qWJhYKgG4hoW/Pby4khLyGGykB+/GSDAT2aaphcAAGv3Gcg=
+   eJxjYKAeOCw2NMx5LkAd82FgDisDw1wg5hRkYLhIgtsvD+LwkgX6RQ6I5QUpM0cXqP8AMLz1kczhEMavHxYulPgLZAZIP8iuSxSYAzIDl370dPQHyP+LI23B/FLFwsBQDcQ1LPjt5cWRlpDDZCE/fjNAgJ9AWA80AACnJxmP
   </data>
  </layer>
  <layer name="Walkable" width="18" height="16" visible="0">
@@ -197,7 +197,7 @@
    eJzbKMbAsJFKGAQGmznogJrmorMpdSM+d+OzhxhADbdQ4idqmUWOGcSEETHpkVIz8Okj1RxSzaZWPqJG/kHGAGxpm3k=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="up" type="mapchange" x="32" y="32" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave3"/>
@@ -243,6 +243,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace" visible="0"/>
 </map>

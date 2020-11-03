@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="12" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="7">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="14" tilewidth="32" tileheight="32" infinite="0" nextobjectid="18">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,69 +183,114 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="12" height="21">
+ <layer name="Ground" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJyNkjsOgkAQhlc2khhmSRRtpFBja6NX0DN4UUuPYmtJIz4aY+JMlgk/C0SLP7NkvmGekTPmScZkbAu2A7YRy7IS1sIaswSp78ZsyYr/4Ieu5iLI18eL/0XeTpxnT6Pf/5+x1hWr/JaZXcBHULNwH84z53fO2jNzsD6uj3ds31TnOVofJ7VJvaosqEXfKuH1XVDTpzk2ECf1lNTWndp1dfUb9oEzUh7rF8keZL6aJ3F1r8Kfq3xX8jcRB3m0b+Uv1L4dvAntQWsKOfz3g+oeuuaPPQg/dc1d4PxRY9id3EYOvHyL0p5Y3LPwKcx2ZZv3pjeH+w3VdTtpBxfGYA3o+wJObl6M
+   eJzbyMnAsHGI4HuSCPYBYfyYFDPfSRJnJwhfEMaPQWpA5iHrQ2ajy6GL45LfL4UfY/PLOxxuIAWfl8KP0d2OzV/IfErjC1vcYfMbsfFGTbdhCwN88UWK24gJA2S78cUXKW4jhPHFPalpitg8SCiNEYoTcuOS2LBHz++EzEY3B5/duNSihxGxduAyB91MQuUTpRjmVgAkVFI1
   </data>
  </layer>
- <layer name="Objects" width="12" height="21">
+ <layer name="Objects" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcWAhSwRASwUshTDE2CQi9iQj34HKzJBMDQxwTcW7QB7ohlJmB4RAB+24gyb8RgNAgfdjMwwV4sahHBgtZcavF5lfkMLqBRd4Yh58+Ad0ohhY+B4FqnfGEATa/UgKw+SeYyDiDAWxu2kxEuhGRQIQvPxYzYGEpIoFdP7awBoFv4tjFD4sxMBggpQtC6YAQAAB9bRKr
+   eJyNVE9LQkEQH15YBlG+BZUXdesSBPlZutTVPEYEeYiI6Nzn6SMEmSlYBCVShwTNwnfqHDTj7jDjvvfMHywzuzv/Z3abIcA4AohxtZEHAxM0kL+J5I4pnb8hfY+s7FeYlJnYgeQ506a7J/SQrxixeY/7W6RdJ/Ps5OmeQPr1AkwhCpI8yzM+Q9EnkC8tw3ufss6asX6Xg2m7/n6sbMbR7DtdFx90vufyrCI9Rj/bm3L/swjwUJQzP5exil3b3MI6tDCXsxxM+uf3hnCI/l5R7hxlLgObYxnXBq6FJcmbztJi5zOmOysAA/T1YUSG+7TuaK1gZ4ug5YahnRHCXWjnLQ3xjHx96J6R36fS9ExGQVJnYCQnXa9WmKwB5UvzNli1e+oVgXt1Eohffis6Js33jcxuW9WikVEHRtnrFeEqsHP84nRLbqaOHOU4h8r2CPl+0caqkTW3FSOxEqiuXWXvOicxXbi4OE7CPtbloCC62h/Nazflb/Gx62LoeX7Z3i/SR3X3rfh2Sl3ZB9nrhFbf/18YI/XPsF41D3CKq46rlhfZ1j89JOh5z/LJIJ+dGbHNC/8NZf1P+s8gZP3381DGH1r9qyU=
   </data>
  </layer>
- <layer name="Above" width="12" height="21">
+ <layer name="Objects_1" width="30" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C2QF9ooF2ACTYJDoy9l8Wwi/MyYxfnxyGOD+DTAwCnyQIi
+   eJxjYBgFIw2ICjEwqAgOtCtGwSgYBaMAFQAArbgAXQ==
   </data>
  </layer>
- <layer name="Walkable" width="12" height="21" visible="0">
+ <layer name="Above" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHBgFccvRWDwOkqCVGPTqgh3pkfcQCavqZHPXkYlLNJ9VNlKrHF9bYxNHtIjXOSFFLSVzhUg8AWv2L7Q==
+   eJzFU0EOQDAQLBeOPUn6Iv7tBZzrwEtEZIM12+0iMZfKZtbMGHXuH0zh+e5c6Zyl2jViOLQiO60oap1TMg5pvcmbg765z97mzcHIdCeQl55TvW19DSCDBJRJypvqjfrSvFn85HRNfeV4s0DT5n0hbN5a71znr/PzXbJqa7uSt/N3Tf3H/K5zPtJGfHpPak/zgOaSJy0TymWBpvEFIvMpnZyPvK6fhkf8
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHEUD1oMAoPJXnLdAwPEqCEWUCsMCZlHrp3UtJfYMEAWx2U2LeylVB+6ewnpIdZuctMYrdI4qWlzpGEAXhoGBw==
+  </data>
+ </layer>
+ <layer name="Walkable_1" width="30" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxFsFBtoF4yCUTAKRgEqAACYzwDI
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="224" y="0" width="32" height="32">
+  <object id="1" name="east" type="mapchange" x="928" y="224" width="32" height="64">
    <properties>
-    <property name="map" value="mushroom_m2_5"/>
+    <property name="map" value="roadbeforecrossroads2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="2" name="woodhouse1" type="mapchange" x="608" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="woodhouse1"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="320">
+  <object id="3" name="woodhouse2" type="mapchange" x="640" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="mushroom_m2_3"/>
-    <property name="place" value="east"/>
+    <property name="map" value="woodhouse2"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="3" name="south" type="mapchange" x="192" y="640" width="64" height="32">
+  <object id="4" name="burhczyd_check8" type="script" x="608" y="160" width="96" height="32"/>
+  <object id="5" name="woodhouse0" type="mapchange" x="224" y="256" width="32" height="32">
    <properties>
-    <property name="map" value="mushroom_m2_2"/>
-    <property name="place" value="north"/>
+    <property name="map" value="woodhouse0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="6" name="sign_wdsetl0" type="sign" x="800" y="256" width="32" height="32"/>
+  <object id="7" name="sign_wdsetl0_grave1" type="sign" x="128" y="160" width="32" height="32"/>
+  <object id="8" name="sign_wdsetl0_grave2" type="sign" x="128" y="224" width="32" height="32"/>
+  <object id="16" name="sign_wdsetl0_grave3" type="sign" x="160" y="128" width="32" height="32"/>
+  <object id="17" name="algore_killed" type="script" x="896" y="224" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object id="9" name="pig" type="spawn" x="672" y="160" width="128" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="pig"/>
+   </properties>
+  </object>
+  <object id="10" name="smuggler6" type="spawn" x="512" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="smuggler6"/>
+   </properties>
+  </object>
+  <object id="11" name="vermin" type="spawn" x="256" y="288" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="vermin"/>
+   </properties>
+  </object>
+  <object id="12" name="vermin_1" type="spawn" x="128" y="160" width="64" height="160">
+   <properties>
+    <property name="spawngroup" value="vermin"/>
+   </properties>
+  </object>
+  <object id="13" name="vermin_2" type="spawn" x="416" y="160" width="64" height="160">
+   <properties>
+    <property name="spawngroup" value="vermin"/>
+   </properties>
+  </object>
+  <object id="14" name="vermin_3" type="spawn" x="480" y="160" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="vermin"/>
+   </properties>
+  </object>
+  <object id="15" name="algore" type="spawn" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="algore"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object id="4" name="mid_fungi_1" type="spawn" x="64" y="512" width="32" height="32">
+ <objectgroup name="Replace" visible="0">
+  <object id="17" name="fungi_panic_nondisplayed:20" type="replace" x="160" y="128" width="64" height="32">
    <properties>
-    <property name="quantity" value="1"/>
-    <property name="spawngroup" value="mid_fungi"/>
-   </properties>
-  </object>
-  <object id="4" name="mid_fungi_2" type="spawn" x="160" y="128" width="160" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="mid_fungi"/>
-   </properties>
-  </object>
-  <object id="5" name="weak_fungi_1" type="spawn" x="128" y="416" width="192" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="weak_fungi"/>
-   </properties>
-  </object>
-  <object id="6" name="weak_fungi_2" type="spawn" x="128" y="64" width="128" height="128">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="weak_fungi"/>
+    <property name="Objects" value="Objects_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="20"/>
    </properties>
   </object>
  </objectgroup>

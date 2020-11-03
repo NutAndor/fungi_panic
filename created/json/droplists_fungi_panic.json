@@ -155,5 +155,85 @@
                 }
             }
         ]
+    },
+    {
+        "id":"boss_fungi",
+        "items":[
+            {
+                "itemID":"fungi_panic_spores",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            }
+        ]
+    },
+    {
+        "id":"giant_snake",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":500,
+                    "max":3000
+                }
+            },
+            {
+                "itemID":"meat",
+                "chance":"90",
+                "quantity":{
+                    "min":3,
+                    "max":7
+                }
+            }
+        ]
+    },
+    {
+        "id":"mushroom_m2_1_chest",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":50,
+                    "max":200
+                }
+            },
+            {
+                "itemID":"gem1",
+                "chance":"50",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            }
+        ]
+    },
+    {
+        "id":"mushroom_m2_6_chest",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            }
+        ]
+    },
+    {
+        "id":"grownfood01",
+        "items":[{ "itemID":"mushroom", "chance":"100", "quantity":{ "min":1, "max":4 } }]
+    },
+    {
+        "id":"grownfood02",
+        "items":[{ "itemID":"mushroom", "chance":"100", "quantity":{ "min":1, "max":4 } }]
+    },
+    {
+        "id":"grownfood03",
+        "items":[{ "itemID":"mushroom", "chance":"100", "quantity":{ "min":1, "max":4 } }]
     }
 ]
