@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="21" height="16" tilewidth="32" tileheight="32" infinite="0" nextobjectid="12">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="21" height="16" tilewidth="32" tileheight="32" infinite="0" nextobjectid="14">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -189,7 +189,7 @@
  </layer>
  <layer name="Above" width="21" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdOCxGmTw6uAxU/5uJgeEvE2EzCanjZUaovwzV8xiHey6hiaOrA5nFx4zpBmLcQSzAFlaPKbSHn5mwGpg96Gbjs+8yDndxCGM3mxgxbPGKTR0p4YCuDlf8YzPXigW7ustiqP4nxm0we71wmAnyO3oaRDcPn9uxuRFX3ttIIC/gArjcSAiYCzIwVAH9XQ3ENSwQPrKZ6ABX2GIDa/khNC+OvEkNAAC5MDpT
+   eJxjYKAdOCxGmTw6uAxU/5uJgeEvE2EzCanjZUaovwzV8xiHey6hiaOrA5nFx4zpBmLcQSzAFlaPKbSHn5mwGpg96Gbjs+8yDndxCGM3mxgxbPGKTR0p4YCuDlf8YzPXigW7ustiqP4nxm0we71wmAnyO3oaRDcPn9uxuZFQ3iPFPBDA5UZCwFyQgaEK6O9qIK5hgfCRzUQHuMIWG1jLD6F5ceRNagAAzOc5jA==
   </data>
  </layer>
  <layer name="Top" width="21" height="16">
@@ -226,6 +226,24 @@
   <object id="9" name="zuul_khan9_blocker" type="spawn" x="64" y="416" width="32" height="32">
    <properties>
     <property name="spawngroup" value="zuul_khan9_blocker"/>
+   </properties>
+  </object>
+  <object id="4" name="dangerous_fungi_1" type="spawn" x="32" y="96" width="256" height="320">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object id="12" name="mid_fungi_1" type="spawn" x="352" y="288" width="128" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object id="13" name="weak_fungi_1" type="spawn" x="288" y="128" width="64" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
  </objectgroup>
