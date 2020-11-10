@@ -114,6 +114,23 @@
         ]
     },
     {
+        "id":"bela_gsnake",
+        "name":"A giant snake",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I heard rumours of a giant snake to the south of Fallhaven."
+            },
+            {
+                "progress":90,
+                "logText":"Bela was happy that I freed Fallhaven of the threat of this monstrous snake.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
         "id":"achievements",
         "name":"Unusual experiences and achievements",
         "showInLog":1,
@@ -123,8 +140,14 @@
                 "logText":"Mikhail gave me a book in which I could put down my most unusual experiences and achievements."
             },
             {
+                "progress":10,
+                "logText":"My first glance on the great Duleian Road!",
+                "rewardExperience":100
+            },
+            {
                 "progress":100,
-                "logText":"Swimming along a raging river - done"
+                "logText":"Swimming along a raging river - done",
+                "rewardExperience":1000
             }
         ]
     }

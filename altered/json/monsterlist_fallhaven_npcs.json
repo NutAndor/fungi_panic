@@ -1,0 +1,11 @@
+[
+    {
+        "id":"bela",
+        "name":"Bela",
+        "iconID":"monsters_men:7",
+        "monsterClass":"humanoid",
+        "spawnGroup":"bela",
+        "phraseID":"bela_gsnake",
+        "droplistID":"shop_bela"
+    }
+]

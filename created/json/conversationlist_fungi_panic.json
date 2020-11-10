@@ -1925,6 +1925,33 @@
         "message":"Here lies Hagale. Killed by greedy $playername, just when he wanted to start a new life."
     },
     {
+        "id":"achieve_road",
+        "replies":[
+			{
+				"nextPhraseID":"achieve_road_10", 
+				 "requires":[
+					{
+						"requireType":"questProgress", 
+						"requireID":"achievements", 
+						"value":10, 
+						"negate":true 
+					}
+				]
+			}
+		]
+    },
+    {
+        "id":"achieve_road_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":10
+            }
+        ],
+        "message":"This must be the great Duleian Road! I have heard so much of it - and now I am really here!"
+    },
+    {
         "id":"grownfood_init",
         "rewards":[{ "rewardType":"createTimer", "rewardID":"grownfood01" },
 				   { "rewardType":"createTimer", "rewardID":"grownfood02" },
