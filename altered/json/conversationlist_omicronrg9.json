@@ -36,6 +36,31 @@
         ]
     },
     {
+        "id":"fanamor_guild_7b",
+        "message":"I need a bandage quickly, or I will never return to the guild house. A priest might help ...",
+        "replies":[
+            {
+                "text":"Yeah, OK.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I will find a bandage for you, don't worry.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves01",
+                "value":45
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"Fanamorbleeding"
+            }
+        ]
+    },
+    {
         "id":"fanamor_guild_9a",
         "message":"(You help Fanamor put the bandage on the wound)\n\n... I think I will be able ... to move in a few minutes. See you at the Guild. Thank you kid.",
         "replies":[

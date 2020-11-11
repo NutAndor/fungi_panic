@@ -122,7 +122,7 @@
         "message":"What a waste of such a young, promising life! Don't forget to pay, before you leave my tavern.",
         "rewards":[
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"spawnAll",
                 "rewardID":"giant_snake",
                 "mapName":"gapfiller2"
             },

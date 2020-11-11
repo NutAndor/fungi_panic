@@ -1933,6 +1933,11 @@
 					{
 						"requireType":"questProgress", 
 						"requireID":"achievements", 
+						"value":1
+					},
+					{
+						"requireType":"questProgress", 
+						"requireID":"achievements", 
 						"value":10, 
 						"negate":true 
 					}
