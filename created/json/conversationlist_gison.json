@@ -1,2255 +1,2244 @@
 [
-  {
-    "id": "gison",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 70
-          }
-        ],
-        "nextPhraseID": "gison_p2_70"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 62
-          }
-        ],
-        "nextPhraseID": "gison_p2_62"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 60
-          }
-        ],
-        "nextPhraseID": "gison_p2_60"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 40
-          }
-        ],
-        "nextPhraseID": "gison_p2_40"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 15
-          }
-        ],
-        "nextPhraseID": "gison_p2_15"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 50
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 70
-          }
-        ],
-        "nextPhraseID": "gison_p1_50"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 40
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 70
-          }
-        ],
-        "nextPhraseID": "gison_p1_40"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 30
-          }
-        ],
-        "nextPhraseID": "gison_p1_30"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 20
-          }
-        ],
-        "nextPhraseID": "gison_p1_20"
-      },
-      {
-        "nextPhraseID": "gison_firsttime"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 20
-          },
-          {
-            "requireType": "questProgress",
-            "negate": true,
-            "requireID": "gison_soup",
-            "value": 30
-          },
-          {
-            "requireType": "questProgress",
-            "negate": true,
-            "requireID": "gison_soup",
-            "value": 50
-          }
-        ],
-        "nextPhraseID": "gison_p1_20"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 40,
-            "negate": true
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 50,
-            "negate": true
-          }
-        ],
-        "nextPhraseID": "gison_firsttime"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 90,
-            "negate": true
-          },
-          {
-            "requireType": "killedMonster",
-            "requireID": "zuul_khan9",
-            "value": 1,
-            "negate": true
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "fungi_panic",
-            "value": 155,
-            "negate": true
-          }
-        ],
-        "nextPhraseID": "gison_firsttime"
-      },
-      {
-        "nextPhraseID": "gison_p2_start"
-      }
-    ]
-  },
-  {
-    "id": "gison_firsttime",
-    "message": "Oh hello. What are you doing here? You got lost?",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_firsttime_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_firsttime_1",
-    "message": "Just walk around the fence and head to the north. Soon you'll be in Fallhaven.",
-    "replies": [
-      {
-        "text": "Okay. Thanks for the description.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 10
-          }
-        ],
-        "text": "Are you Gison?",
-        "nextPhraseID": "gison_p1_10"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_10",
-    "message": "Oh yes, I am Gison. I live in this wood with my wife Nimael. She's over there.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_10_0"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_10_0",
-    "message": "How can I help you?",
-    "replies": [
-      {
-        "text": "What are you doing here?",
-        "nextPhraseID": "gison_talk"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 10
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 20,
-            "negate": true
-          }
-        ],
-        "text": "Alaun send me to bring him some of your delicious soup.",
-        "nextPhraseID": "gison_p1_10_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_talk",
-    "message": "We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city.",
-    "replies": [
-      {
-        "text": "What's in the wood here?",
-        "nextPhraseID": "gison_talk_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_talk_1",
-    "message": "Herbs, animals and above all: Mushrooms. \n If you like to know more about mushrooms, I suggest you go to Bogsten. He's growing the best mushrooms you ever ate! But well, I don't want to spoil any more secrets of my soup.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_talk_2"
-      }
-    ]
-  },
-  {
-    "id": "gison_talk_2",
-    "message": "Next to my passion for mushrooms, we build here and there on our house and try to keep the wild animals out.",
-    "replies": [
-      {
-        "text": "I see. Let's talk about something else.",
-        "nextPhraseID": "gison_talk_3"
-      }
-    ]
-  },
-  {
-    "id": "gison_talk_3",
-    "message": "Well, all right. As you wish.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_10_0"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_10_1",
-    "message": "Hahaha. Alaun the old swashbuckler. Could not get enough. I will fix something up for him. Wait here.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_10_2"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_10_2",
-    "message": "Gison goes to a big bowl, fills up some of the soup and returns to you.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_10_3"
-      }
-    ],
-    "switchToNPC":"none"
-  },
-  {
-    "id": "gison_p1_10_3",
-    "message": "Here you go.\n[He gives you the pot with the soup.]",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 20
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_10_4"
-      }
-    ],
-    "switchToNPC":"gison"
-  },
-  {
-    "id": "gison_p1_10_4",
-    "message": "Give him my regards and hurry up. He likes his soup hot.",
-    "replies": [
-      {
-        "text": "Alaun will get his soup soon enough.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yes. I'm on my way.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20",
-    "message": "Hello you. Did your bring the soup to Alaun?",
-    "replies": [
-      {
-        "text": "Yes, he was not able to bear any longer.",
-        "requires": [
-          {
-            "requireType": "questLatestProgress",
-            "requireID": "gison_soup",
-            "value": 30
-          }
-        ],
-        "nextPhraseID": "gison_p1_20_2"
-      },
-      {
-        "text": "No, I still have it with me.",
-        "nextPhraseID": "gison_p1_20_1",
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_soup",
-            "value": 1
-          }
+    {
+        "id":"gison",
+        "replies":[
+            {
+                "nextPhraseID":"gison_p2_70",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p2_62",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":62
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p2_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p2_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p2_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_firsttime"
+            },
+            {
+                "nextPhraseID":"gison_p1_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_firsttime",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_firsttime",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":155,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p2_start"
+            }
         ]
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_soup",
-            "negate": true,
-            "value": 1
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 30,
-            "negate": true
-          }
-        ],
-        "text": "No ... ehm ... Maybe you could give me some more?",
-        "nextPhraseID": "gison_p1_20_nosoup"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "timerElapsed",
-            "requireID": "gison_soup",
-            "value": 10
-          },
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_soup",
-            "value": 1
-          }
-        ],
-        "text": "Could you make it hot again?",
-        "nextPhraseID": "gison_p1_20_warmup"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_1",
-    "message": "Then hurry up. A hungry Alaun is an angry Alaun.",
-    "replies": [
-      {
-        "text": "I'm on the way.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yes, yes. He'll get it soon.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_2",
-    "message": "Good. Alaun will be very satisfied.\nYou didn't perchance bring the empty bottle back, did you?",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "bottle_empty",
-            "value": 1
-          }
-        ],
-        "text": "Yes I have. Here is it.\n[You give Gison the empty bottle.]",
-        "nextPhraseID": "gison_p1_20_3"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "bottle_empty",
-            "value": 1,
-            "negate": true
-          }
-        ],
-        "text": "No. I forgot it. I'm sorry.",
-        "nextPhraseID": "gison_p1_20_nobottle"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nobottle",
-    "message": "Oh no, too bad. Please bring me an empty bottle once you've found one.",
-    "replies": [
-      {
-        "text": "I do. Bye",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_3",
-    "message": "Oh good. Thanks.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 40
-      }
-    ],
-    "replies": [
-      {
-        "text": "With pleasure. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "I won't do this whole stupid running again just for an empty bottle. Bye.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup",
-    "message": "Ate it yourself, have you? Haha, I hope it tasted well.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_20_nosoup_eva"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_eva",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 28
-          }
-        ],
-        "nextPhraseID": "gison_p1_20_nosoup_endquest"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 26
-          }
-        ],
-        "nextPhraseID": "gison_p1_20_nosoup_5000"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 24
-          }
-        ],
-        "nextPhraseID": "gison_p1_20_nosoup_500"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 22
-          }
-        ],
-        "nextPhraseID": "gison_p1_20_nosoup_50"
-      },
-      {
-        "nextPhraseID": "gison_p1_20_nosoup_5",
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 20
-          }
+    },
+    {
+        "id":"gison_firsttime",
+        "message":"Oh hello. What are you doing here? You got lost?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_firsttime_1"
+            }
         ]
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_5",
-    "message": "No problem, I'll give you more.\nHowever, this time you'll have to pay 5 gold for it.",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 5
-          }
+    },
+    {
+        "id":"gison_firsttime_1",
+        "message":"Just walk around the fence and head to the north. Soon you'll be in Fallhaven.",
+        "replies":[
+            {
+                "text":"Okay. Thanks for the description.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Are you Gison?",
+                "nextPhraseID":"gison_p1_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_10",
+        "message":"Oh yes, I am Gison. I live in this wood with my wife Nimael. She's over there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_10_0"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_10_0",
+        "message":"How can I help you?",
+        "replies":[
+            {
+                "text":"What are you doing here?",
+                "nextPhraseID":"gison_talk"
+            },
+            {
+                "text":"Alaun send me to bring him some of your delicious soup.",
+                "nextPhraseID":"gison_p1_10_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_talk",
+        "message":"We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city.",
+        "replies":[
+            {
+                "text":"What's in the wood here?",
+                "nextPhraseID":"gison_talk_1"
+            }
+        ]
+    },
+    {
+        "id":"gison_talk_1",
+        "message":"Herbs, animals and above all: Mushrooms. \n If you like to know more about mushrooms, I suggest you go to Bogsten. He's growing the best mushrooms you ever ate! But well, I don't want to spoil any more secrets of my soup.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_talk_2"
+            }
+        ]
+    },
+    {
+        "id":"gison_talk_2",
+        "message":"Next to my passion for mushrooms, we build here and there on our house and try to keep the wild animals out.",
+        "replies":[
+            {
+                "text":"I see. Let's talk about something else.",
+                "nextPhraseID":"gison_talk_3"
+            }
+        ]
+    },
+    {
+        "id":"gison_talk_3",
+        "message":"Well, all right. As you wish.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_10_0"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_10_1",
+        "message":"Hahaha. Alaun the old swashbuckler. Could not get enough. I will fix something up for him. Wait here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_10_2"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_10_2",
+        "message":"Gison goes to a big bowl, fills up some of the soup and returns to you.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_10_3"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_10_3",
+        "message":"Here you go.\n[He gives you the pot with the soup.]",
+        "switchToNPC":"gison",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_10_4"
+            }
         ],
-        "text": "Yes, ok. Here are 5 gold pieces.",
-        "nextPhraseID": "gison_p1_20_nosoup_5go"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_5go",
-    "message": "[Gison gives you a new bottle with hot soup.]\nHere you go.",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 22
-      },
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_50",
-    "message": "No problem, I'll give you more.\nHowever, this time you'll have to pay 50 gold for it.",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 50
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":20
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":1
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gison_soup"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_10_4",
+        "message":"Give him my regards and hurry up. He likes his soup hot.",
+        "replies":[
+            {
+                "text":"Alaun will get his soup soon enough.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes. I'm on my way.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20",
+        "message":"Hello you. Did your bring the soup to Alaun?",
+        "replies":[
+            {
+                "text":"Yes, he was not able to bear any longer.",
+                "nextPhraseID":"gison_p1_20_2",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"gison_soup",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"No, I still have it with me.",
+                "nextPhraseID":"gison_p1_20_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No ... ehm ... Maybe you could give me some more?",
+                "nextPhraseID":"gison_p1_20_nosoup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Could you make it hot again?",
+                "nextPhraseID":"gison_p1_20_warmup",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"gison_soup",
+                        "value":10
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_1",
+        "message":"Then hurry up. A hungry Alaun is an angry Alaun.",
+        "replies":[
+            {
+                "text":"I'm on the way.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, yes. He'll get it soon.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_2",
+        "message":"Good. Alaun will be very satisfied.\nYou didn't perchance bring the empty bottle back, did you?",
+        "replies":[
+            {
+                "text":"Yes I have. Here is it.\n[You give Gison the empty bottle.]",
+                "nextPhraseID":"gison_p1_20_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bottle_empty",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No. I forgot it. I'm sorry.",
+                "nextPhraseID":"gison_p1_20_nobottle",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bottle_empty",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nobottle",
+        "message":"Oh no, too bad. Please bring me an empty bottle once you've found one.",
+        "replies":[
+            {
+                "text":"I do. Bye",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_3",
+        "message":"Oh good. Thanks.",
+        "replies":[
+            {
+                "text":"With pleasure. Good bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I won't do this whole stupid running again just for an empty bottle. Bye.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "Yes, ok. Here are 50 gold pieces.",
-        "nextPhraseID": "gison_p1_20_nosoup_50go"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_50go",
-    "message": "[Gison gives you a new bottle with hot soup.]\nHere you go.",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 24
-      },
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_500",
-    "message": "No problem, I'll give you more.\nHowever, this time you'll have to pay 500 gold for it.",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 500
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup",
+        "message":"Ate it yourself, have you? Haha, I hope it tasted well.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_20_nosoup_eva"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_eva",
+        "replies":[
+            {
+                "nextPhraseID":"gison_p1_20_nosoup_endquest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":28
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_20_nosoup_5000",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":26
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_20_nosoup_500",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":24
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_20_nosoup_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":22
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_20_nosoup_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_5",
+        "message":"No problem, I'll give you more.\nHowever, this time you'll have to pay 5 gold for it.",
+        "replies":[
+            {
+                "text":"Let's adjourn it to another day, old man.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, ok. Here are 5 gold pieces.",
+                "nextPhraseID":"gison_p1_20_nosoup_5go",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_5go",
+        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.",
+        "replies":[
+            {
+                "text":"Thanks. Good bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yum! more soup.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "Yes, ok. Here are 500 gold pieces.",
-        "nextPhraseID": "gison_p1_20_nosoup_500go"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_500go",
-    "message": "[Gison gives you a new bottle with hot soup.]\nHere you go.",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 26
-      },
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_5000",
-    "message": "No problem, I'll give you more.\nHowever, this time you'll have to pay 5000 gold for it.",
-    "replies": [
-      {
-        "text": "Let's adjourn it to another day, old man.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 5000
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":22
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gison_soup"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_50",
+        "message":"No problem, I'll give you more.\nHowever, this time you'll have to pay 50 gold for it.",
+        "replies":[
+            {
+                "text":"Let's adjourn it to another day, old man.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, ok. Here are 50 gold pieces.",
+                "nextPhraseID":"gison_p1_20_nosoup_50go",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_50go",
+        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.",
+        "replies":[
+            {
+                "text":"Thanks. Good bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yum! more soup.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "Yes, ok. Here are 5000 gold pieces.",
-        "nextPhraseID": "gison_p1_20_nosoup_5000go"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_5000go",
-    "message": "[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Bring this one to Alaun now, hoggish lad!",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      },
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 28
-      },
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks. Good bye.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Yum! more soup.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_nosoup_endquest",
-    "message": "I'm sorry for Alaun. I guess he has to come himself.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 50
-      }
-    ],
-    "replies": [
-      {
-        "text": "Oops.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_warmup",
-    "message": "I told you to not linger. But I can make it hot. Give me a moment.\n[Gison pours the soup back in the bowl and fills the bottle up again with hot soup.]",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_20_warmup_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_20_warmup_1",
-    "message": "Here you go.",
-    "rewards": [
-      {
-        "rewardType": "createTimer",
-        "rewardID": "gison_soup"
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_30",
-    "message": "Oh, you are back!",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 30
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "bottle_empty",
-            "value": 1
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":24
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gison_soup"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_500",
+        "message":"No problem, I'll give you more.\nHowever, this time you'll have to pay 500 gold for it.",
+        "replies":[
+            {
+                "text":"Let's adjourn it to another day, old man.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, ok. Here are 500 gold pieces.",
+                "nextPhraseID":"gison_p1_20_nosoup_500go",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_500go",
+        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.",
+        "replies":[
+            {
+                "text":"Thanks. Good bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yum! more soup.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "I want to return your bottle.",
-        "nextPhraseID": "gison_p1_30_1"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 40
-          },
-          {
-            "requireType": "killedMonster",
-            "requireID": "zuul_khan9",
-            "value": 1
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":26
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gison_soup"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_5000",
+        "message":"No problem, I'll give you more.\nHowever, this time you'll have to pay 5000 gold for it.",
+        "replies":[
+            {
+                "text":"Let's adjourn it to another day, old man.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, ok. Here are 5000 gold pieces.",
+                "nextPhraseID":"gison_p1_20_nosoup_5000go",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_5000go",
+        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Bring this one to Alaun now, hoggish lad!",
+        "replies":[
+            {
+                "text":"Thanks. Good bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yum! more soup.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "I just want to say hello.",
-        "nextPhraseID": "gison_p1_40"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_30_1",
-    "message": "Thank you.",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "killedMonster",
-            "requireID": "zuul_khan9",
-            "value": 1
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":28
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gison_soup"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_nosoup_endquest",
+        "message":"I'm sorry for Alaun. I guess he has to come himself.",
+        "replies":[
+            {
+                "text":"Oops.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "You look worried. What's up with you?",
-        "nextPhraseID": "gison_p1_40"
-      },
-      {
-        "text": "I have to go again. Bye.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_soup",
-        "value": 40
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_40",
-    "message": "You have to help me.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_40_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_40_1",
-    "message": "Bandits raided my house. They even knocked me and Nimael unconscious.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p1_40_2"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_40_2",
-    "message": "Strangely they only took my old cookbook with them.\nPlease help me get back my book, otherwise Alaun has to give up his delicious soup.",
-    "replies": [
-      {
-        "text": "A raid for an old cookbook?",
-        "nextPhraseID": "gison_p2_10_3"
-      },
-      {
-        "text": "What's in it for me?",
-        "nextPhraseID": "gison_p2_10_7"
-      },
-      {
-        "text": "Search on your own, old man.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10",
-    "message": "The thieves took away my cookbook with the precious recipe for mushroom soup.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_10_3"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_3",
-    "message": "Yes, I don't know why they only took the book. Maybe it's because of the one chapter... *brooding*",
-    "replies": [
-      {
-        "text": "What about that chapter?",
-        "nextPhraseID": "gison_p2_10_4"
-      },
-      {
-        "text": "You'll do that. Good bye.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_4",
-    "message": "What? Yes, yes, the chapter... It contained several pages with strange letters written between the recipes.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_10_5"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_5",
-    "message": "I obtained the book some years ago. It was a present of Bogsten - you know him? - and instantly I took a fancy for these fabulous recipes.\nPlease find it and return it to me.",
-    "replies": [
-      {
-        "text": "What's written in that chapter?",
-        "nextPhraseID": "gison_p2_10_6"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_6",
-    "message": "That's the clue. I don't know that language, therefore I ignored the pages for ages. Maybe the robbers know what that chapter is about.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_10_9"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_7",
-    "message": "You want a reward?",
-    "replies": [
-      {
-        "text": "Yes.",
-        "nextPhraseID": "gison_p2_10_8"
-      },
-      {
-        "text": "No.",
-        "nextPhraseID": "gison_p2_10_10"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_8",
-    "message": "I don't have that much money. As a simple token of gratitude I can offer to make some soup for you. I don't own very much more.",
-    "replies": [
-      {
-        "text": "I guess it's not worth the trouble. I go.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "Sounds fair.",
-        "nextPhraseID": "gison_p2_10_11"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_9",
-    "message": "Well, will you help me?",
-    "replies": [
-      {
-        "text": "Sure thing. I'll search for your book.",
-        "nextPhraseID": "gison_p2_10_11"
-      },
-      {
-        "text": "Find somebody else.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_10",
-    "message": "Oh, well. I started to believe that I could not trust my knowledge of human nature anymore.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_10_9"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_10_11",
-    "message": "I really thank you.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 15
-      }
-    ],
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_15"
-      }
-    ]
-  },
-  {
-    "id": "gison_p1_50",
-    "replies": [
-      {
-        "nextPhraseID": "gison_p1_40"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_15",
-    "message": "The robbers came from the south. Maybe you should start your search in that direction. Take care!",
-    "replies": [
-      {
-        "text": "I will. Thank you.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 20
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_40",
-    "replies": [
-      {
-        "nextPhraseID": "gison_p2_50"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_50",
-    "message": "Did you find my precious cooking book?",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gison_cookbook",
-            "value": 2
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_warmup",
+        "message":"I told you to not linger. But I can make it hot. Give me a moment.\n[Gison pours the soup back in the bowl and fills the bottle up again with hot soup.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_20_warmup_1"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_20_warmup_1",
+        "message":"Here you go.",
+        "replies":[
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "Yes I have. Look here.",
-        "nextPhraseID": "gison_p2_50_1"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "killedMonster",
-            "requireID": "gison_thief1",
-            "value": 1,
-			"negate": true
-          }
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gison_soup"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_30",
+        "message":"Oh, you are back!",
+        "replies":[
+            {
+                "text":"I want to return your bottle.",
+                "nextPhraseID":"gison_p1_30_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":30
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bottle_empty",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I just want to say hello.",
+                "nextPhraseID":"gison_p1_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":40
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_30_1",
+        "message":"Thank you.",
+        "replies":[
+            {
+                "text":"You look worried. What's up with you?",
+                "nextPhraseID":"gison_p1_40",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have to go again. Bye.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "I found the robbers, but they had destroyed the book.",
-        "nextPhraseID": "gison_p2_50_5"
-      },
-      {
-        "text": "Not yet.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_50_1",
-    "message": "Is it really true? I can't believe it!",
-    "replies": [
-      {
-        "text": "Someone was reciting dark words from it. You were right, the robbers wanted these queer written lines.",
-        "nextPhraseID": "gison_p2_50_2"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_50_2",
-    "message": "But you have two similar looking books?",
-    "replies": [
-      {
-        "text": "Yes, the robbers have made a complete copy of the book, just without the spell.",
-        "nextPhraseID": "gison_p2_50_3"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_50_3",
-    "message": "Then give me the copy. I don't want to be raided again.",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gison_cookbook",
-            "value": 1
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_40",
+        "message":"You have to help me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_40_1"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_40_1",
+        "message":"Bandits raided my house. They even knocked me and Nimael unconscious.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p1_40_2"
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_40_2",
+        "message":"Strangely they only took my old cookbook with them.\nPlease help me get back my book, otherwise Alaun has to give up his delicious soup.",
+        "replies":[
+            {
+                "text":"A raid for an old cookbook?",
+                "nextPhraseID":"gison_p2_10_3"
+            },
+            {
+                "text":"What's in it for me?",
+                "nextPhraseID":"gison_p2_10_7"
+            },
+            {
+                "text":"Search on your own, old man.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "OK. Then I'll take the version with the spell. I can't read the dark words, but that doesn't bother me.",
-        "nextPhraseID": "gison_p2_70"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 60
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_50_5",
-    "message": "Noo!",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_62"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 62
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_60",
-    "replies": [
-      {
-        "nextPhraseID": "gison_p2_70"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_62",
-    "message": "Well, you tried to help. Thank you.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_p2_62_10"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_62_10",
-    "message": "It's a pity that I can't cook my delicious soup any more."
-  },
-  {
-    "id": "gison_p2_70",
-    "message": "Thank you for your help retrieving my precious cooking book. Would you like some soup as a small reward?",
-    "replies": [
-      {
-        "text": "Oh yes.",
-        "nextPhraseID": "gison_p2_70_10"
-      }
-    ]
-  },
-  {
-    "id": "gison_p2_70_10",
-    "message": "Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold.",
-    "replies": [
-      {
-        "text": "OK.",
-        "nextPhraseID": "gison_catchsoup_eva"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 70
-      }
-    ]
-  },
-  {
-    "id": "nimael",
-    "message": "Hello kid.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "nimael_evaluation"
-      }
-    ]
-  },
-  {
-    "id": "nimael_evaluation",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 10
-          },
-          {
-            "requireType": "questProgress",
-            "negate": true,
-            "requireID": "gison_cookbook",
-            "value": 60
-          },
-          {
-            "requireType": "questProgress",
-            "negate": true,
-            "requireID": "gison_cookbook",
-            "value": 62
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10",
+        "message":"The thieves took away my cookbook with the precious recipe for mushroom soup.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_10_3"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_3",
+        "message":"Yes, I don't know why they only took the book. Maybe it's because of the one chapter... *brooding*",
+        "replies":[
+            {
+                "text":"What about that chapter?",
+                "nextPhraseID":"gison_p2_10_4"
+            },
+            {
+                "text":"You'll do that. Good bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_4",
+        "message":"What? Yes, yes, the chapter... It contained several pages with strange letters written between the recipes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_10_5"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_5",
+        "message":"I obtained the book some years ago. It was a present of Bogsten - you know him? - and instantly I took a fancy for these fabulous recipes.\nPlease find it and return it to me.",
+        "replies":[
+            {
+                "text":"What's written in that chapter?",
+                "nextPhraseID":"gison_p2_10_6"
+            }
         ],
-        "nextPhraseID": "nimael_4"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "killedMonster",
-            "requireID": "zuul_khan9",
-            "value": 1
-          },
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 40
-          },
-          {
-            "requireType": "questProgress",
-            "negate": true,
-            "requireID": "gison_cookbook",
-            "value": 60
-          },
-          {
-            "requireType": "questProgress",
-            "negate": true,
-            "requireID": "gison_cookbook",
-            "value": 62
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_6",
+        "message":"That's the clue. I don't know that language, therefore I ignored the pages for ages. Maybe the robbers know what that chapter is about.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_10_9"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_7",
+        "message":"You want a reward?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"gison_p2_10_8"
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"gison_p2_10_10"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_8",
+        "message":"I don't have that much money. As a simple token of gratitude I can offer to make some soup for you. I don't own very much more.",
+        "replies":[
+            {
+                "text":"I guess it's not worth the trouble. I go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sounds fair.",
+                "nextPhraseID":"gison_p2_10_11"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_9",
+        "message":"Well, will you help me?",
+        "replies":[
+            {
+                "text":"Sure thing. I'll search for your book.",
+                "nextPhraseID":"gison_p2_10_11"
+            },
+            {
+                "text":"Find somebody else.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_10",
+        "message":"Oh, well. I started to believe that I could not trust my knowledge of human nature anymore.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_10_9"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_10_11",
+        "message":"I really thank you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_15"
+            }
         ],
-        "nextPhraseID": "nimael_1"
-      },
-      {
-        "nextPhraseID": "nimael_busy"
-      }
-    ]
-  },
-  {
-    "id": "nimael_1",
-    "message": "Please help us. We got raided.",
-    "replies": [
-      {
-        "text": "What happened?",
-        "nextPhraseID": "nimael_2"
-      }
-    ]
-  },
-  {
-    "id": "nimael_2",
-    "message": "I don't know exactly. Everything went so fast ... I'm too upset and my head hurts too much.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "nimael_3"
-      }
-    ]
-  },
-  {
-    "id": "nimael_3",
-    "message": "If you want to help us, please talk to Gison.",
-    "replies": [
-      {
-        "text": "Okay. Get well.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "nimael_busy",
-    "message": "I'm busy at the moment. Please talk to Gison. He's next door.",
-    "replies": [
-      {
-        "text": "Okay. Bye.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "nimael_4",
-    "message": "Thanks for helping us!",
-    "replies": [
-      {
-        "text": "With pleasure.",
-        "nextPhraseID": "X"
-      },
-      {
-        "text": "I only hope it'll be worth the trouble.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gael",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"gison_soup",
-            "value":1
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"gison_p1_50",
+        "replies":[
+            {
+                "nextPhraseID":"gison_p1_40"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_15",
+        "message":"The robbers came from the south. Maybe you should start your search in that direction. Take care!",
+        "replies":[
+            {
+                "text":"I will. Thank you.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gael_soup"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 20
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_40",
+        "replies":[
+            {
+                "nextPhraseID":"gison_p2_50"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_50",
+        "message":"Did you find my precious cooking book?",
+        "replies":[
+            {
+                "text":"Yes I have. Look here.",
+                "nextPhraseID":"gison_p2_50_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_cookbook",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"I found the robbers, but they had destroyed the book.",
+                "nextPhraseID":"gison_p2_50_5",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gison_thief1",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_50_1",
+        "message":"Is it really true? I can't believe it!",
+        "replies":[
+            {
+                "text":"Someone was reciting dark words from it. You were right, the robbers wanted these queer written lines.",
+                "nextPhraseID":"gison_p2_50_2"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_50_2",
+        "message":"But you have two similar looking books?",
+        "replies":[
+            {
+                "text":"Yes, the robbers have made a complete copy of the book, just without the spell.",
+                "nextPhraseID":"gison_p2_50_3"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_50_3",
+        "message":"Then give me the copy. I don't want to be raided again.",
+        "replies":[
+            {
+                "text":"OK. Then I'll take the version with the spell. I can't read the dark words, but that doesn't bother me.",
+                "nextPhraseID":"gison_p2_70",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gison_cookbook",
+                        "value":1
+                    }
+                ]
+            }
         ],
-        "nextPhraseID": "gael_20"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_soup",
-            "value": 10
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_50_5",
+        "message":"Noo!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_62"
+            }
         ],
-        "nextPhraseID": "gael_10"
-      },
-      {
-        "nextPhraseID": "gael_1"
-      }
-    ]
-  },
-  {
-    "id": "gael_1",
-    "message": "Shut the door, please!",
-    "replies": [
-      {
-        "text": "Sure.",
-        "nextPhraseID": "gael_2"
-      }
-    ]
-  },
-  {
-    "id": "gael_2",
-    "message": "From the outside.",
-    "replies": [
-      {
-        "text": "Very friendly.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gael_10",
-    "message": "No, I am not Gison!",
-    "replies": [
-      {
-        "text": "What?",
-        "nextPhraseID": "gael_10_1"
-      }
-    ]
-  },
-  {
-    "id": "gael_10_1",
-    "message": "And no, I have no soup for anyone!",
-    "replies": [
-      {
-        "text": "But...",
-        "nextPhraseID": "gael_1"
-      }
-    ]
-  },
-  {
-    "id": "gael_soup",
-    "message": "I hate this smell!",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_soup_1"
-      }
-    ]
-  },
-  {
-    "id": "gael_soup_1",
-    "message": "You have some of this disgusting soup in your bag! I smell it.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_soup_2"
-      }
-    ]
-  },
-  {
-    "id": "gael_soup_2",
-    "message": "Out with you!"
-  },
-  {
-    "id": "gael_bottle",
-    "message": "I hear these soup bottles clinging in your bag.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_bottle_1"
-      }
-    ]
-  },
-  {
-    "id": "gael_bottle_1",
-    "message": "Even though they are empty - I hate this sound!",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_soup_2"
-      }
-    ]
-  },
-  {
-    "id": "gael_20",
-    "message": "Hi kid. I am Gael, son of those people in the house over there.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_20_1"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_1",
-    "message": "I moved to here, because I couldn't stand the eternal smell of mushroom soup anymore.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_20_2"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_2",
-    "message": "I only live of meat. Wolve's meat, boars, dogs, puppies.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_20_3"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_3",
-    "message": "And snakes of course. They give the finest meat of all.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gael_20_4"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_4",
-    "message": "Cooked, griled, baken, fried, as stew... Snake meat - nothing compares to it!",
-    "replies": [
-      {
-        "text": "Yes, I love it too!",
-        "nextPhraseID": "gael_20_5"
-      },
-      {
-        "text": "Everyone to his own liking.",
-        "nextPhraseID": "gael_20_5"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_5",
-    "message": "Now that I mention it: I am running out of meat. I'll have to go out, hunting again.",
-    "replies": [
-      {
-        "text": "Would you like some meat, that I have hunted lately?",
-        "nextPhraseID": "gael_20_6"
-      },
-      {
-        "text": "Good luck! I am leaving then.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_6",
-    "message": "Really?",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"meat",
-            "value":10,
-			"negate":true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_60",
+        "replies":[
+            {
+                "nextPhraseID":"gison_p2_70"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_62",
+        "message":"Well, you tried to help. Thank you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_p2_62_10"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_62_10",
+        "message":"It's a pity that I can't cook my delicious soup any more."
+    },
+    {
+        "id":"gison_p2_70",
+        "message":"Thank you for your help retrieving my precious cooking book. Would you like some soup as a small reward?",
+        "replies":[
+            {
+                "text":"Oh yes.",
+                "nextPhraseID":"gison_p2_70_10"
+            }
+        ]
+    },
+    {
+        "id":"gison_p2_70_10",
+        "message":"Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold.",
+        "replies":[
+            {
+                "text":"OK.",
+                "nextPhraseID":"gison_catchsoup_eva"
+            }
         ],
-        "text": "Oh, I just notice that I don't have any meat with me. I will be back soon with 10 peaces of meat, just you wait.",
-        "nextPhraseID": "X"
-      },
-      {
-        "requires": [
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"meat",
-            "value":10
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"nimael",
+        "message":"Hello kid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nimael_evaluation"
+            }
+        ]
+    },
+    {
+        "id":"nimael_evaluation",
+        "replies":[
+            {
+                "nextPhraseID":"nimael_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":62,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"nimael_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":62,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"nimael_busy"
+            }
+        ]
+    },
+    {
+        "id":"nimael_1",
+        "message":"Please help us. We got raided.",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"nimael_2"
+            }
+        ]
+    },
+    {
+        "id":"nimael_2",
+        "message":"I don't know exactly. Everything went so fast ... I'm too upset and my head hurts too much.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nimael_3"
+            }
+        ]
+    },
+    {
+        "id":"nimael_3",
+        "message":"If you want to help us, please talk to Gison.",
+        "replies":[
+            {
+                "text":"Okay. Get well.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"nimael_busy",
+        "message":"I'm busy at the moment. Please talk to Gison. He's next door.",
+        "replies":[
+            {
+                "text":"Okay. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"nimael_4",
+        "message":"Thanks for helping us!",
+        "replies":[
+            {
+                "text":"With pleasure.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I only hope it'll be worth the trouble.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gael",
+        "replies":[
+            {
+                "nextPhraseID":"gael_soup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_1"
+            }
+        ]
+    },
+    {
+        "id":"gael_1",
+        "message":"Shut the door, please!",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"gael_2"
+            }
+        ]
+    },
+    {
+        "id":"gael_2",
+        "message":"From the outside.",
+        "replies":[
+            {
+                "text":"Very friendly.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gael_10",
+        "message":"No, I am not Gison!",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"gael_10_1"
+            }
+        ]
+    },
+    {
+        "id":"gael_10_1",
+        "message":"And no, I have no soup for anyone!",
+        "replies":[
+            {
+                "text":"But...",
+                "nextPhraseID":"gael_1"
+            }
+        ]
+    },
+    {
+        "id":"gael_soup",
+        "message":"I hate this smell!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_soup_1"
+            }
+        ]
+    },
+    {
+        "id":"gael_soup_1",
+        "message":"You have some of this disgusting soup in your bag! I smell it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_soup_2"
+            }
+        ]
+    },
+    {
+        "id":"gael_soup_2",
+        "message":"Out with you!"
+    },
+    {
+        "id":"gael_bottle",
+        "message":"I hear these soup bottles clinging in your bag.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_bottle_1"
+            }
+        ]
+    },
+    {
+        "id":"gael_bottle_1",
+        "message":"Even though they are empty - I hate this sound!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_soup_2"
+            }
+        ]
+    },
+    {
+        "id":"gael_20",
+        "message":"Hi kid. I am Gael, son of those people in the house over there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_20_1"
+            }
+        ]
+    },
+    {
+        "id":"gael_20_1",
+        "message":"I moved to here, because I couldn't stand the eternal smell of mushroom soup anymore.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_20_2"
+            }
+        ]
+    },
+    {
+        "id":"gael_20_2",
+        "message":"I only live of meat. Wolve's meat, boars, dogs, puppies.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_20_3"
+            }
+        ]
+    },
+    {
+        "id":"gael_20_3",
+        "message":"And snakes of course. They give the finest meat of all.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_20_4"
+            }
+        ]
+    },
+    {
+        "id":"gael_20_4",
+        "message":"Cooked, griled, baken, fried, as stew... Snake meat - nothing compares to it!",
+        "replies":[
+            {
+                "text":"Yes, I love it too!",
+                "nextPhraseID":"gael_20_5"
+            },
+            {
+                "text":"Everyone to his own liking.",
+                "nextPhraseID":"gael_20_5"
+            }
+        ]
+    },
+    {
+        "id":"gael_20_5",
+        "message":"Now that I mention it: I am running out of meat. I'll have to go out, hunting again.",
+        "replies":[
+            {
+                "text":"Would you like some meat, that I have hunted lately?",
+                "nextPhraseID":"gael_20_6"
+            },
+            {
+                "text":"Good luck! I am leaving then.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gael_20_6",
+        "message":"Really?",
+        "replies":[
+            {
+                "text":"Oh, I just notice that I don't have any meat with me. I will be back soon with 10 peaces of meat, just you wait.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here I have 10 nice peaces of meat. I connot promise that it is all snake though.",
+                "nextPhraseID":"gael_20_7",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gael_20_7",
+        "message":"In return I give you this nice little purse, made of fine selected snake leather. Look here, isn't it beautiful?",
+        "replies":[
+            {
+                "text":"Wow, it is magnificient! Thank you!",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "Here I have 10 nice peaces of meat. I connot promise that it is all snake though.",
-        "nextPhraseID": "gael_20_7"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_7",
-    "message": "In return I give you this nice little purse, made of fine selected snake leather. Look here, isn't it beautiful?",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gael_purse",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Wow, it is magnificient! Thank you!",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gael_20_8",
-    "message": "May it serve you well."
-  },
-  {
-    "id": "gison_cavekey",
-    "message": "You look on a wall of stones. There's no way through.",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 20
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gael_purse",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gael_20_8",
+        "message":"May it serve you well."
+    },
+    {
+        "id":"gison_cavekey",
+        "message":"You look on a wall of stones. There's no way through.",
+        "replies":[
+            {
+                "text":"Examine more closely.",
+                "nextPhraseID":"gison_cavekey_unlock",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Leave",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_cavekey_unlock",
+        "message":"You examine the wall more closely and discover an entrance hidden beneath moss and leaves.",
+        "replies":[
+            {
+                "text":"The gap is big enough that you could squeeze through it.",
+                "nextPhraseID":"X"
+            }
         ],
-        "text": "Examine more closely.",
-        "nextPhraseID": "gison_cavekey_unlock"
-      },
-      {
-        "text": "Leave",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_cavekey_unlock",
-    "message": "You examine the wall more closely and discover an entrance hidden beneath moss and leaves.",
-    "replies": [
-      {
-        "text": "The gap is big enough that you could squeeze through it.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 30
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup",
-    "message": "Aaah. Welcome back my friend.",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID": "gison_catchsoup_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup_1",
-    "message": "Is there anything I can help you with?",
-    "replies": [
-      {
-        "text": "Please give me some more soup.",
-        "nextPhraseID": "gison_catchsoup_eva"
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup_eva",
-    "message": "I still have some of my delicious soup. How many bottles of soup do you want?",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "bottle_empty",
-            "value": 10
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "mushroom_bogsten",
-            "value": 20
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 500
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup",
+        "message":"Aaah. Welcome back my friend.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gison_catchsoup_1"
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup_1",
+        "message":"Is there anything I can help you with?",
+        "replies":[
+            {
+                "text":"Please give me some more soup.",
+                "nextPhraseID":"gison_catchsoup_eva"
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup_eva",
+        "message":"I still have some of my delicious soup. How many bottles of soup do you want?",
+        "replies":[
+            {
+                "text":"I need soup! At least ten bottles! Quick!!",
+                "nextPhraseID":"gison_catchsoup_10new",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bottle_empty",
+                        "value":10
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mushroom_bogsten",
+                        "value":20
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"Give me five bottles.",
+                "nextPhraseID":"gison_catchsoup_5new",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bottle_empty",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mushroom_bogsten",
+                        "value":10
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":250
+                    }
+                ]
+            },
+            {
+                "text":"Just one, please.",
+                "nextPhraseID":"gison_catchsoup_new",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bottle_empty",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mushroom_bogsten",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"I don't have an empty bottle.",
+                "nextPhraseID":"gison_catchsoup_nonew",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bottle_empty",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have to get more of Bogsten's mushrooms.",
+                "nextPhraseID":"gison_catchsoup_nonew",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mushroom_bogsten",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I just noticed that my gold fund is low.",
+                "nextPhraseID":"gison_catchsoup_nonew",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup_new",
+        "message":"You brought an empty bottle, Bogsten's mushrooms and the 50 gold. Here it is.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"gison_catchsoup_eva"
+            }
         ],
-        "nextPhraseID": "gison_catchsoup_10new",
-        "text": "I need soup! At least ten bottles! Quick!!"
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "bottle_empty",
-            "value": 5
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "mushroom_bogsten",
-            "value": 10
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 250
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup_nonew",
+        "message":"You don't have the items I need for that exchange. Bring me an empty bottle, two of Bogsten's mushrooms and 50 gold for each portion.",
+        "replies":[
+            {
+                "text":"I will be back with those.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup_5new",
+        "message":"You brought all ingredients needed for 5 portions. Here you go.",
+        "replies":[
+            {
+                "text":"Thanks a lot.",
+                "nextPhraseID":"gison_catchsoup_eva"
+            }
         ],
-        "nextPhraseID": "gison_catchsoup_5new",
-        "text": "Give me five bottles."
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "bottle_empty",
-            "value": 1
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "mushroom_bogsten",
-            "value": 2
-          },
-          {
-            "requireType": "inventoryRemove",
-            "requireID": "gold",
-            "value": 50
-          }
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"gison_catchsoup_10new",
+        "message":"Whoah. You are hungry, aren't you?\nHere you go.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gison_soup",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"gison_thief1",
+        "replies":[
+            {
+                "nextPhraseID":"gison_thief1_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":62
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_thief1_10"
+            }
+        ]
+    },
+    {
+        "id":"gison_thief1_10",
+        "message":"Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we had stolen. Go away!",
+        "replies":[
+            {
+                "text":"Hmm, maybe that is a good idea. I'll tell Gison that you have destroyed the book.",
+                "nextPhraseID":"gison_thief1_12"
+            },
+            {
+                "text":"No way! Attack!",
+                "nextPhraseID":"F"
+            }
         ],
-        "nextPhraseID": "gison_catchsoup_new",
-        "text": "Just one, please."
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "bottle_empty",
-            "value": 1,
-            "negate": true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_cookbook",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"gison_thief1_20",
+        "message":"We agreed that there was nothing to see here. So get out of here."
+    },
+    {
+        "id":"gison_thief1_12",
+        "message":"Do that. And now be gone!"
+    },
+    {
+        "id":"gison_thiefboss",
+        "message":"[muttering ominous words]",
+        "replies":[
+            {
+                "text":"Hi!",
+                "nextPhraseID":"gison_thiefboss_10"
+            }
+        ]
+    },
+    {
+        "id":"gison_thiefboss_10",
+        "message":"What ...? You again? How did you get in here?",
+        "replies":[
+            {
+                "text":"I have come to retrieve a book that does not belong to you.",
+                "nextPhraseID":"gison_thiefboss_20"
+            }
+        ]
+    },
+    {
+        "id":"gison_thiefboss_20",
+        "message":"Ha! You made a serious error coming here. I have just learned a new, dreadful spell.",
+        "replies":[
+            {
+                "text":"So?",
+                "nextPhraseID":"gison_thiefboss_30"
+            }
+        ]
+    },
+    {
+        "id":"gison_thiefboss_30",
+        "message":"And I will try this spell now - on you.",
+        "replies":[
+            {
+                "text":"Only if you will live to do so - attack!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Sorry for the disturbance - I will leave immediately.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mushroomcave_trap",
+        "message":"A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground.",
+        "replies":[
+            {
+                "text":"Ouch, that hurts.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_catchsoup_nonew",
-        "text": "I don't have an empty bottle."
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "mushroom_bogsten",
-            "value": 2,
-            "negate": true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mushroomcave_trap",
+                "value":10
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mushroomcave_pathblock",
+        "replies":[
+            {
+                "nextPhraseID":"mushroomcave_pathblock_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mushroomcave_pathblock",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mushroomcave_pathblock_1"
+            }
+        ]
+    },
+    {
+        "id":"mushroomcave_pathblock_1",
+        "message":"Suddenly the earth shakes, and a part of the wall falls in the corridor directly in front of you.",
+        "replies":[
+            {
+                "text":"That was close.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_catchsoup_nonew",
-        "text": "I have to get more of Bogsten's mushrooms."
-      },
-      {
-        "requires": [
-          {
-            "requireType": "inventoryKeep",
-            "requireID": "gold",
-            "value": 50,
-            "negate": true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mushroomcave_pathblock",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mushroomcave_pathblock_2",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_1",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_1_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_catchsoup_nonew",
-        "text": "I just noticed that my gold fund is low."
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup_new",
-    "message": "You brought an empty bottle, Bogsten's mushrooms and the 50 gold. Here it is.",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thank you.",
-        "nextPhraseID": "gison_catchsoup_eva"
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup_nonew",
-    "message": "You don't have the items I need for that exchange. Bring me an empty bottle, two of Bogsten's mushrooms and 50 gold for each portion.",
-    "replies": [
-      {
-        "text": "I will be back with those.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup_5new",
-    "message": "You brought all ingredients needed for 5 portions. Here you go.",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 5
-      }
-    ],
-    "replies": [
-      {
-        "text": "Thanks a lot.",
-        "nextPhraseID": "gison_catchsoup_eva"
-      }
-    ]
-  },
-  {
-    "id": "gison_catchsoup_10new",
-    "message": "Whoah. You are hungry, aren't you?\nHere you go.",
-    "rewards": [
-      {
-        "rewardType": "giveItem",
-        "rewardID": "gison_soup",
-        "value": 10
-      }
-    ]
-  },
-  {
-    "id": "gison_thief1",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_cookbook",
-            "value": 62
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_2",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_2_1",
+        "message":"You find a bottle.",
+        "replies":[
+            {
+                "text":"Oh, an empty bottle.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_thief1_20"
-      },
-      {
-        "nextPhraseID": "gison_thief1_10"
-      }
-    ]
-  },
-  {
-    "id": "gison_thief1_10",
-    "message": "Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we had stolen. Go away!",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_cookbook",
-        "value": 40
-      }
-    ],
-    "replies": [
-      {
-        "text": "Hmm, maybe that is a good idea. I'll tell Gison that you have destroyed the book.",
-        "nextPhraseID": "gison_thief1_12"
-      },
-      {
-        "text": "No way! Attack!",
-        "nextPhraseID": "F"
-      }
-    ]
-  },
-  {
-    "id": "gison_thief1_20",
-    "message": "We agreed that there was nothing to see here. So get out of here."
-  },
-  {
-    "id": "gison_thief1_12",
-    "message": "Do that. And now be gone!"
-  },
-  {
-    "id": "gison_thiefboss",
-    "message": "[muttering ominous words]",
-    "replies": [
-      {
-        "text": "Hi!",
-        "nextPhraseID": "gison_thiefboss_10"
-      }
-    ]
-  },
-  {
-    "id": "gison_thiefboss_10",
-    "message": "What ...? You again? How did you get in here?",
-    "replies": [
-      {
-        "text": "I have come to retrieve a book that does not belong to you.",
-        "nextPhraseID": "gison_thiefboss_20"
-      }
-    ]
-  },
-  {
-    "id": "gison_thiefboss_20",
-    "message": "Ha! You made a serious error coming here. I have just learned a new, dreadful spell.",
-    "replies": [
-      {
-        "text": "So?",
-        "nextPhraseID": "gison_thiefboss_30"
-      }
-    ]
-  },
-  {
-    "id": "gison_thiefboss_30",
-    "message": "And I will try this spell now - on you.",
-    "replies": [
-      {
-        "text": "Only if you will live to do so - attack!",
-        "nextPhraseID": "F"
-      },
-      {
-        "text": "Sorry for the disturbance - I will leave immediately.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "mushroomcave_trap",
-    "message": "A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "mushroomcave_trap",
-        "value": 10
-      },
-      {
-        "rewardType": "actorCondition",
-        "rewardID": "bleeding_wound",
-        "value": 10
-      }
-    ],
-    "replies": [
-      {
-        "text": "Ouch, that hurts.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "mushroomcave_pathblock",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "mushroomcave_pathblock",
-            "value": 10
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":2
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_3",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":3,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_3_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "mushroomcave_pathblock_2"
-      },
-      {
-        "nextPhraseID": "mushroomcave_pathblock_1"
-      }
-    ]
-  },
-  {
-    "id": "mushroomcave_pathblock_1",
-    "message": "Suddenly the earth shakes, and a part of the wall falls in the corridor directly in front of you.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "mushroomcave_pathblock",
-        "value": 10
-      }
-    ],
-    "replies": [
-      {
-        "text": "That was close.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "mushroomcave_pathblock_2",
-    "replies": [
-      {
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_1",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 1,
-            "negate":true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_4",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_4_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_4_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_bottle_1_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_1_1",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 1
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Great.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "You find an empty bottle."
-  },
-  {
-    "id": "gison_bottle_2",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 2,
-            "negate":true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":4
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_5",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_5_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_5_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_bottle_2_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_2_1",
-    "message": "You find a bottle.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 2
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Oh, an empty bottle.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_3",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 3,
-            "negate":true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":5
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_6",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_6_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":6,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_6_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_bottle_3_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_3_1",
-    "message": "You find an empty bottle.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 3
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Great.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_4",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 4,
-            "negate":true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":6
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_7",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_7_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":7,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_7_1",
+        "message":"You find three empty bottles.",
+        "replies":[
+            {
+                "text":"Wow - three bottles at once!",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID": "gison_bottle_4_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_4_1",
-    "message": "You find an empty bottle.",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 4
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Great.",
-        "nextPhraseID": "X"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_5",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 5,
-            "negate":true
-          }
-        ],
-        "nextPhraseID": "gison_bottle_5_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_5_1",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 5
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Great.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "You find an empty bottle."
-  },
-  {
-    "id": "gison_bottle_6",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 6,
-            "negate":true
-          }
-        ],
-        "nextPhraseID": "gison_bottle_6_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_6_1",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 6
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 1
-      }
-    ],
-    "replies": [
-      {
-        "text": "Great.",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "You find an empty bottle."
-  },
-  {
-    "id": "gison_bottle_7",
-    "replies": [
-      {
-        "requires": [
-          {
-            "requireType": "questProgress",
-            "requireID": "gison_bottle",
-            "value": 7,
-            "negate":true
-          }
-        ],
-        "nextPhraseID": "gison_bottle_7_1"
-      }
-    ]
-  },
-  {
-    "id": "gison_bottle_7_1",
-    "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "gison_bottle",
-        "value": 7
-      },
-      {
-        "rewardType": "giveItem",
-        "rewardID": "bottle_empty",
-        "value": 3
-      }
-    ],
-    "replies": [
-      {
-        "text": "Wow - three bottles at once!",
-        "nextPhraseID": "X"
-      }
-    ],
-    "message": "You find three empty bottles."
-  },
-  {
-    "id": "mywildcave_trap21",
-    "rewards": [
-      {
-        "rewardType": "spawnAll",
-        "rewardID": "stoneworm21",
-        "mapName": "mywildcave2"
-      }
-    ],
-    "message": "What might be inside here?"
-  },
-  {
-    "id": "mywildcave_trap31",
-    "rewards": [
-      {
-        "rewardType": "spawnAll",
-        "rewardID": "stoneworm31",
-        "mapName": "mywildcave3"
-      }
-    ],
-    "message": "Oh, what's this?"
-  },
-  {
-    "id": "mywildcave_trap31",
-    "rewards": [
-      {
-        "rewardType": "spawnAll",
-        "rewardID": "stoneworm31",
-        "mapName": "mywildcave3"
-      }
-    ],
-    "message": "Oh, what's this?"
-  },
-  {
-    "id": "mywildcave_trap32",
-    "rewards": [
-      {
-        "rewardType": "spawnAll",
-        "rewardID": "stoneworm32",
-        "mapName": "mywildcave3"
-      }
-    ],
-    "message": "Oops, there was something sleeping inside."
-  }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":7
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"mywildcave_trap21",
+        "message":"What might be inside here?",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stoneworm21",
+                "mapName":"mywildcave2"
+            }
+        ]
+    },
+    {
+        "id":"mywildcave_trap31",
+        "message":"Oh, what's this?",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stoneworm31",
+                "mapName":"mywildcave3"
+            }
+        ]
+    },
+    {
+        "id":"mywildcave_trap32",
+        "message":"Oops, there was something sleeping inside.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stoneworm32",
+                "mapName":"mywildcave3"
+            }
+        ]
+    }
 ]
