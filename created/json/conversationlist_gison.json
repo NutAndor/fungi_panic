@@ -222,7 +222,7 @@
                 "nextPhraseID":"gison_talk"
             },
             {
-                "text":"Alaun send me to bring him some of your delicious soup.",
+                "text":"Alaun sent me to bring him some of your delicious soup.",
                 "nextPhraseID":"gison_p1_10_1",
                 "requires":[
                     {
@@ -1306,7 +1306,7 @@
     },
     {
         "id":"nimael_busy",
-        "message":"I'm busy at the moment. Please talk to Gison. He's next door.",
+        "message":"I'm busy at the moment. Please talk to Gison. He's over there.",
         "replies":[
             {
                 "text":"Okay. Bye.",
@@ -1418,7 +1418,7 @@
     },
     {
         "id":"gael_soup_1",
-        "message":"You have some of this disgusting soup in your bag! I smell it.",
+        "message":"You have some of that disgusting soup in your bag! I can smell it.",
         "replies":[
             {
                 "text":"N",
@@ -1432,7 +1432,7 @@
     },
     {
         "id":"gael_bottle",
-        "message":"I hear these soup bottles clinging in your bag.",
+        "message":"I hear those soup bottles clinking in your bag.",
         "replies":[
             {
                 "text":"N",
@@ -1442,7 +1442,7 @@
     },
     {
         "id":"gael_bottle_1",
-        "message":"Even though they are empty - I hate this sound!",
+        "message":"Even though they are empty, I hate that sound!",
         "replies":[
             {
                 "text":"N",
@@ -1462,7 +1462,7 @@
     },
     {
         "id":"gael_20_1",
-        "message":"I moved to here, because I couldn't stand the eternal smell of mushroom soup anymore.",
+        "message":"I moved out here because I couldn't stand the suffocating smell of mushroom soup anymore.",
         "replies":[
             {
                 "text":"N",
@@ -1472,7 +1472,7 @@
     },
     {
         "id":"gael_20_2",
-        "message":"I only live of meat. Wolve's meat, boars, dogs, puppies.",
+        "message":"I like meat. Wolves, boars, dogs, puppies. Any kind, really.",
         "replies":[
             {
                 "text":"N",
@@ -1482,7 +1482,7 @@
     },
     {
         "id":"gael_20_3",
-        "message":"And snakes of course. They give the finest meat of all.",
+        "message":"And snakes, of course. They give the finest meat of all.",
         "replies":[
             {
                 "text":"N",
@@ -1492,24 +1492,24 @@
     },
     {
         "id":"gael_20_4",
-        "message":"Cooked, griled, baken, fried, as stew... Snake meat - nothing compares to it!",
+        "message":"Cooked, grilled, baked, fried, stewed...ahh, snake meat - nothing compares to it!",
         "replies":[
             {
                 "text":"Yes, I love it too!",
                 "nextPhraseID":"gael_20_5"
             },
             {
-                "text":"Everyone to his own liking.",
+                "text":"To each his own, I guess.",
                 "nextPhraseID":"gael_20_5"
             }
         ]
     },
     {
         "id":"gael_20_5",
-        "message":"Now that I mention it: I am running out of meat. I'll have to go out, hunting again.",
+        "message":"Now that I mention it: I am running out of meat. I'll have to go out hunting again.",
         "replies":[
             {
-                "text":"Would you like some meat, that I have hunted lately?",
+                "text":"Would you like me to find some meat for you?",
                 "nextPhraseID":"gael_20_6"
             },
             {
@@ -1523,7 +1523,7 @@
         "message":"Really?",
         "replies":[
             {
-                "text":"Oh, I just notice that I don't have any meat with me. I will be back soon with 10 peaces of meat, just you wait.",
+                "text":"Oh, I just noticed that I don't have enough meat with me. I will be back soon with 10 pieces of meat, just you wait.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1535,7 +1535,7 @@
                 ]
             },
             {
-                "text":"Here I have 10 nice peaces of meat. I connot promise that it is all snake though.",
+                "text":"Here, I have 10 nice pieces of meat for you. I cannot promise that it is all from snakes, though.",
                 "nextPhraseID":"gael_20_7",
                 "requires":[
                     {
@@ -1549,10 +1549,10 @@
     },
     {
         "id":"gael_20_7",
-        "message":"In return I give you this nice little purse, made of fine selected snake leather. Look here, isn't it beautiful?",
+        "message":"Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?",
         "replies":[
             {
-                "text":"Wow, it is magnificient! Thank you!",
+                "text":"Wow, it is magnificent! Thank you!",
                 "nextPhraseID":"X"
             }
         ],
