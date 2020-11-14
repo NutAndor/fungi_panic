@@ -3,34 +3,34 @@
         "id":"bela_gsnake",
         "replies":[
             {
-				"requires": [
-					{
-						"requireType": "questProgress",
-						"requireID": "bela_gsnake",
-						"value": 90
-					}
-				],
-                "nextPhraseID":"bela"
+                "nextPhraseID":"bela",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bela_gsnake",
+                        "value":90
+                    }
+                ]
             },
             {
-				"requires": [
-					{
-						"requireType": "killedMonster",
-						"requireID": "giant_snake",
-						"value": 1
-					}
-				],
-                "nextPhraseID":"bela_gsnake_20"
+                "nextPhraseID":"bela_gsnake_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"giant_snake",
+                        "value":1
+                    }
+                ]
             },
             {
-				"requires": [
-					{
-						"requireType": "questProgress",
-						"requireID": "remgard",
-						"value": 10
-					}
-				],
-                "nextPhraseID":"bela_gsnake_1"
+                "nextPhraseID":"bela_gsnake_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard",
+                        "value":10
+                    }
+                ]
             },
             {
                 "nextPhraseID":"bela"
@@ -46,28 +46,28 @@
                 "nextPhraseID":"bela"
             },
             {
-                "text":"Why? Anything happened?",
+                "text":"Why? Has something happened?",
                 "nextPhraseID":"bela_gsnake_2"
             }
         ]
     },
     {
         "id":"bela_gsnake_2",
-        "message":"Did you not hear of the most dangerous snake ever? It has been seen on Fallhaven's southern border.",
+        "message":"Did you not hear of the most dangerous snake ever seen? It has been spotted on Fallhaven's southern border.",
         "replies":[
             {
                 "text":"A snake?",
                 "nextPhraseID":"bela_gsnake_3"
             },
             {
-                "text":"No I didn't hear, and also I don't want to.\nPlease give me something to drink.",
+                "text":"No, I didn't hear, and I also don't want to.\nPlease give me something to drink.",
                 "nextPhraseID":"S"
             }
         ]
     },
     {
         "id":"bela_gsnake_3",
-        "message":"No normal snake. Huge as a house! Making noise like a hundred galopping horses!",
+        "message":"No normal snake. Huge as a house! Making noise like a hundred galloping horses!",
         "replies":[
             {
                 "text":"N",
@@ -77,14 +77,14 @@
     },
     {
         "id":"bela_gsnake_4",
-        "message":"No one dares to walk outside of the city nowadays.",
+        "message":"Few people dare to walk outside of the city nowadays.",
         "replies":[
             {
                 "text":"Sounds interesting.",
                 "nextPhraseID":"bela_gsnake_10"
             },
             {
-                "text":"Thanks for the warning. So I will better avoid that area.",
+                "text":"Thanks for the warning. I'll avoid that area.",
                 "nextPhraseID":"bela_gsnake_5"
             }
         ]
@@ -105,7 +105,7 @@
     },
     {
         "id":"bela_gsnake_10",
-        "message":"Oh no - what have I done? I shouldn't have talked of the giant snake. Promise me, you won't go there!",
+        "message":"Oh no - what have I done? I shouldn't have talked of the giant snake. Promise me you won't go there!",
         "replies":[
             {
                 "text":"Well, if it makes you happy.",
@@ -119,7 +119,7 @@
     },
     {
         "id":"bela_gsnake_11",
-        "message":"What a waste of such a young, promising life! Don't forget to pay, before you leave my tavern.",
+        "message":"What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern.",
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -145,7 +145,7 @@
     },
     {
         "id":"bela_gsnake_21",
-        "message":"Let's feast now! Everyone have a free drink!"
+        "message":"Incredible! Let's feast now! Everyone have a free drink!",
         "rewards":[
             {
                 "rewardType":"questProgress",
