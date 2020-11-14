@@ -56,7 +56,7 @@
         "blockChance":100,
         "damageResistance":2,
         "hitEffect":{
-            "conditionsSource":[
+            "conditionsTarget":[
                 {
                     "condition":"dazed",
                     "magnitude":1,
@@ -84,7 +84,7 @@
         "blockChance":110,
         "damageResistance":3,
         "hitEffect":{
-            "conditionsSource":[
+            "conditionsTarget":[
                 {
                     "condition":"dazed",
                     "magnitude":1,
@@ -112,7 +112,7 @@
         "blockChance":120,
         "damageResistance":4,
         "hitEffect":{
-            "conditionsSource":[
+            "conditionsTarget":[
                 {
                     "condition":"dazed",
                     "magnitude":1,
@@ -142,7 +142,7 @@
         "blockChance":100,
         "damageResistance":2,
         "hitEffect":{
-            "conditionsSource":[
+            "conditionsTarget":[
                 {
                     "condition":"dazed",
                     "magnitude":1,
