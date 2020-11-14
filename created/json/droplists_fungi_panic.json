@@ -25,6 +25,14 @@
                     "min":100,
                     "max":200
                 }
+            },
+            {
+                "itemID":"fungi_panic_bag",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },
@@ -239,14 +247,41 @@
     },
     {
         "id":"grownfood01",
-        "items":[{ "itemID":"mushroom", "chance":"100", "quantity":{ "min":1, "max":4 } }]
+        "items":[
+            {
+                "itemID":"mushroom",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":4
+                }
+            }
+        ]
     },
     {
         "id":"grownfood02",
-        "items":[{ "itemID":"mushroom", "chance":"100", "quantity":{ "min":1, "max":4 } }]
+        "items":[
+            {
+                "itemID":"mushroom",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":4
+                }
+            }
+        ]
     },
     {
         "id":"grownfood03",
-        "items":[{ "itemID":"mushroom", "chance":"100", "quantity":{ "min":1, "max":4 } }]
+        "items":[
+            {
+                "itemID":"mushroom",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":4
+                }
+            }
+        ]
     }
 ]

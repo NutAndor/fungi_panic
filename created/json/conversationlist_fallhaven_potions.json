@@ -1,4 +1,4 @@
-																																																										[
+[
     {
         "id":"fungi_panic_potioner_10",
         "message":"Bogsten? I didn't hear of the old boy for a long time now. I wondered already if he's still alive.",
@@ -332,10 +332,10 @@
     },
     {
         "id":"fungi_panic_potioner_100",
-        "message":"Thank you.",
+        "message":"Oh. Thank you.",
         "replies":[
             {
-                "text":"What? Bogsten told me you could give me something interesting for it!",
+                "text":"Hey! Aren't you going to give me something interesting for it?",
                 "nextPhraseID":"fungi_panic_potioner_110"
             }
         ]
@@ -346,14 +346,18 @@
         "replies":[
             {
                 "text":"That's robbery! I won't let you get away with it!",
-                "nextPhraseID":"fungi_panic_potioner_112"
+                "nextPhraseID":"fungi_panic_potioner_111"
             }
         ]
     },
     {
         "id":"fungi_panic_potioner_112",
-        "message":"You will. Now leave my shop, I have work to do.",
+        "message":"Now leave my shop, unless you have some other business. I have work to do.",
         "replies":[
+            {
+                "text":"Forget it, let's talk about something else.",
+                "nextPhraseID":"fallhaven_potions"
+            },
             {
                 "text":"You can't do that to me! I'll get the guards!",
                 "nextPhraseID":"fungi_panic_potioner_120"
