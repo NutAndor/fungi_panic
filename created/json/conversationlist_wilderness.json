@@ -5,7 +5,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"fct_bandit1",
+                "rewardID":"bandit1",
                 "mapName":"wild9"
             },
             {
