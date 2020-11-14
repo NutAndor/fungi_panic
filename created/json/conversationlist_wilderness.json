@@ -1,0 +1,18 @@
+[
+    {
+        "id":"fct_bandit1_10",
+		"message":"Now the area is clean of these nasty highwaymen at last.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fct_bandit1",
+                "mapName":"wild9"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":20
+            }
+        ]
+    }
+]

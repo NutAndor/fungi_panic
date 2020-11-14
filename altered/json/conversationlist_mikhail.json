@@ -163,6 +163,16 @@
                         "requireID":"achievements",
                         "value":1,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_bread",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_rats",
+                        "value":100
                     }
                 ]
             }

@@ -141,12 +141,17 @@
             },
             {
                 "progress":10,
-                "logText":"My first glance on the great Duleian Road!",
+                "logText":"On the road: My first glance on the great Duleian Road!",
+                "rewardExperience":100
+            },
+            {
+                "progress":20,
+                "logText":"Keep your surroundings clean: I killed 20 highwaymen",
                 "rewardExperience":100
             },
             {
                 "progress":100,
-                "logText":"Swimming along a raging river - done",
+                "logText":"Swimming: Got along a raging river - alive",
                 "rewardExperience":1000
             }
         ]

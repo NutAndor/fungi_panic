@@ -1,0 +1,29 @@
+[
+    {
+        "id":"fct_bandit1",
+        "replies":[
+            {
+                "nextPhraseID":"fct_bandit1_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"highwayman",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_bandit1",
+                "value":0
+            }
+        ]
+    }
+]
