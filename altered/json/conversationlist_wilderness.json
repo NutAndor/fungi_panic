@@ -14,6 +14,12 @@
                         "requireType":"questProgress",
                         "requireID":"achievements",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":20,
+						"negate":true
                     }
                 ]
             }
