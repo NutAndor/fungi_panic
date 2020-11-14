@@ -121,7 +121,7 @@
     },
     {
         "id":"weak_fungi",
-        "name":"Weak Fungi",
+        "name":"Weak fungi",
         "iconID":"monsters_gisons:3",
         "maxHP":20,
         "maxAP":10,
@@ -167,7 +167,7 @@
     },
     {
         "id":"dangerous_fungi",
-        "name":"Dangerous Fungi",
+        "name":"Dangerous fungi",
         "iconID":"monsters_gisons:5",
         "maxHP":55,
         "maxAP":10,
@@ -206,13 +206,14 @@
             "min":3,
             "max":6
         },
-		"spawnGroup":"boss_fungi",
-		"droplistID":"boss_fungi",
+        "spawnGroup":"boss_fungi",
+        "droplistID":"boss_fungi",
         "attackCost":5,
-		"attackChance":120,
-		"criticalSkill":20,
-		"criticalMultiplier":2.0,
-		"blockChance":60,
+        "attackChance":120,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":60,
+        "damageResistance":1,
         "hitEffect":{
             "conditionsTarget":[
                 {
@@ -222,12 +223,11 @@
                     "chance":"20"
                 }
             ]
-        },
-		"damageResistance":1
+        }
     },
     {
         "id":"worm_ball",
-        "name":"Worm Ball",
+        "name":"Worm ball",
         "iconID":"monsters_rltiles1:138",
         "maxHP":30,
         "maxAP":10,
@@ -244,7 +244,7 @@
     },
     {
         "id":"worm_beast",
-        "name":"Worm Beast",
+        "name":"Worm beast",
         "iconID":"monsters_rltiles1:57",
         "maxHP":30,
         "maxAP":10,
@@ -261,7 +261,7 @@
     },
     {
         "id":"lombric_ball",
-        "name":"Lombric Ball",
+        "name":"Lombric ball",
         "iconID":"monsters_rltiles1:138",
         "maxHP":30,
         "maxAP":10,
@@ -278,7 +278,7 @@
     },
     {
         "id":"lombric_ball2",
-        "name":"Lombric Ball",
+        "name":"Lombric ball",
         "iconID":"monsters_rltiles1:139",
         "maxHP":50,
         "maxAP":10,
@@ -295,7 +295,7 @@
     },
     {
         "id":"lombric_ball3",
-        "name":"Lombric Ball",
+        "name":"Lombric ball",
         "iconID":"monsters_rltiles2:167",
         "maxHP":30,
         "maxAP":10,
@@ -312,7 +312,7 @@
     },
     {
         "id":"lombric_beast",
-        "name":"Lombric Beast",
+        "name":"Lombric beast",
         "iconID":"monsters_rltiles1:57",
         "maxHP":30,
         "maxAP":10,
@@ -333,8 +333,8 @@
         "iconID":"monsters_tometik3:44",
         "moveCost":5,
         "monsterClass":"animal",
-        "phraseID":"zuul_khan1_blocker",
-        "spawnGroup":"zuul_khan1_blocker"
+        "spawnGroup":"zuul_khan1_blocker",
+        "phraseID":"zuul_khan1_blocker"
     },
     {
         "id":"zuul_khan2_blocker",
@@ -342,8 +342,8 @@
         "iconID":"monsters_tometik3:44",
         "moveCost":5,
         "monsterClass":"animal",
-        "phraseID":"zuul_khan2_blocker",
-        "spawnGroup":"zuul_khan2_blocker"
+        "spawnGroup":"zuul_khan2_blocker",
+        "phraseID":"zuul_khan2_blocker"
     },
     {
         "id":"zuul_khan3_blocker",
@@ -351,8 +351,8 @@
         "iconID":"monsters_tometik3:44",
         "moveCost":5,
         "monsterClass":"animal",
-        "phraseID":"zuul_khan3_blocker",
-        "spawnGroup":"zuul_khan3_blocker"
+        "spawnGroup":"zuul_khan3_blocker",
+        "phraseID":"zuul_khan3_blocker"
     },
     {
         "id":"zuul_khan4_blocker",
@@ -360,8 +360,8 @@
         "iconID":"monsters_tometik3:44",
         "moveCost":5,
         "monsterClass":"animal",
-        "phraseID":"zuul_khan4_blocker",
-        "spawnGroup":"zuul_khan4_blocker"
+        "spawnGroup":"zuul_khan4_blocker",
+        "phraseID":"zuul_khan4_blocker"
     },
     {
         "id":"zuul_khan9_blocker",
@@ -369,8 +369,8 @@
         "iconID":"monsters_tometik3:44",
         "moveCost":5,
         "monsterClass":"animal",
-        "phraseID":"zuul_khan9_blocker",
-        "spawnGroup":"zuul_khan9_blocker"
+        "spawnGroup":"zuul_khan9_blocker",
+        "phraseID":"zuul_khan9_blocker"
     },
     {
         "id":"giant_snake",
