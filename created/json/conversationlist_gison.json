@@ -1074,8 +1074,8 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"gison_cookbook",
-                        "value":2
+                        "requireID":"gison_cookbook_2",
+                        "value":1
                     }
                 ]
             },
@@ -1127,7 +1127,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
-                        "requireID":"gison_cookbook",
+                        "requireID":"gison_cookbook_2",
                         "value":1
                     }
                 ]

@@ -434,7 +434,6 @@
         },
 		"spawnGroup":"gison_thiefboss",
 		"phraseID":"gison_thiefboss",
-		"droplistID":"drp_gison_cookbook",
         "attackCost":5,
 		"attackChance":120,
 		"criticalSkill":20,
