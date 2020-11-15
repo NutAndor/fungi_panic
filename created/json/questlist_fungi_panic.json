@@ -1,7 +1,7 @@
 [
     {
         "id":"fungi_panic",
-        "name":"Fungi Panic",
+        "name":"Fungi panic",
         "showInLog":1,
         "stages":[
             {
