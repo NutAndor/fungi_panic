@@ -30,11 +30,11 @@
             },
             {
                 "progress":52,
-                "logText":"Bogsten got cured."
+                "logText":"Bogsten was cured."
             },
             {
                 "progress":60,
-                "logText":"But he said the evil forces in his cave was preventing him from working. He asked me to check his cave and gave me his necklace."
+                "logText":"Bogsten said evil forces in his cave was preventing him from working. He asked me to check his cave and gave me his necklace."
             },
             {
                 "progress":70,
@@ -50,13 +50,13 @@
             },
             {
                 "progress":100,
-                "logText":"Bogsten then remembered the petrifying spell. This time he would make sure that Zuul'khan cannot come back. He gave me a bag of mushrooms and told me I should bring them to the potion merchant.",
+                "logText":"Bogsten then remembered the petrifying spell. This time he would make sure that Zuul'khan cannot come back. He gave me a bag of mushrooms and told me I should take them to the potion merchant.",
                 "rewardExperience":2000,
                 "finishesQuest":1
             },
             {
                 "progress":102,
-                "logText":"Zuul'khan seemed to have moved away from the Bogsten's caves to another hiding."
+                "logText":"Zuul'khan seems to have moved away from Bogsten's caves to another hiding place."
             },
             {
                 "progress":110,
@@ -124,7 +124,7 @@
             },
             {
                 "progress":90,
-                "logText":"Bela was happy that I freed Fallhaven of the threat of this monstrous snake.",
+                "logText":"Bela was happy that I freed Fallhaven from the threat of this monstrous snake.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             }
@@ -141,7 +141,7 @@
             },
             {
                 "progress":10,
-                "logText":"On the road: My first glance on the great Duleian Road!",
+                "logText":"On the road: My first glance of the great Duleian Road!",
                 "rewardExperience":100
             },
             {

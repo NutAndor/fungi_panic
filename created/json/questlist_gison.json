@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"In a hut southwest from Fallhaven I met Alaun.\nHe asked me to bring him some of the delicious soup made by Gison with forest mushrooms.\nGison's house lays to the south."
+                "logText":"In a hut southwest from Fallhaven I met Alaun.\nHe asked me to bring him some of the delicious soup made by Gison with forest mushrooms.\nGison's house lies to the south."
             },
             {
                 "progress":20,
@@ -30,7 +30,7 @@
             },
             {
                 "progress":30,
-                "logText":"Alaun received the soup.\nI shall bring the empty bottle back to Gison."
+                "logText":"Alaun received the soup.\nI shall take the empty bottle back to Gison."
             },
             {
                 "progress":40,
@@ -68,7 +68,7 @@
             },
             {
                 "progress":40,
-                "logText":"I found the thieves. One of them was doing some kind of ritual when I came into the cave."
+                "logText":"I found the thieves. One of them was performing some kind of ritual when I came into the cave."
             },
             {
                 "progress":50,
@@ -80,7 +80,7 @@
             },
             {
                 "progress":62,
-                "logText":"I told Gison that I found the thieves, but that they had destroyed the cooking book.",
+                "logText":"I told Gison that I found the thieves, but that they had destroyed the cookbook.",
                 "finishesQuest":1
             },
             {
@@ -92,7 +92,7 @@
     },
     {
         "id":"mushroomcave_pathblock",
-        "name":"mushroomcave_pahblock",
+        "name":"mushroomcave_pathblock",
         "stages":[
             {
                 "progress":10

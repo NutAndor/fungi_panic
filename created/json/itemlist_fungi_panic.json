@@ -33,7 +33,7 @@
     {
         "id":"fungi_panic_cure",
         "iconID":"items_consumables:62",
-        "name":"Cure potion against mushroom wounding",
+        "name":"Curative potion against mushroom wounding",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":150,
