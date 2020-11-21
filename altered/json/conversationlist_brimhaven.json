@@ -72,46 +72,5 @@
                 "nextPhraseID":"brv_guard_captain_and_rich_man_20"
             }
         ]
-    },
-    {
-        "id":"brv_patrol_check_stop_hero",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"99/100"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_patrol_stop_hero",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"bonemeal_potion",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"pot_bm_lodar",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_patrol_bonemeals_will_be_removed"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_nondisplay",
-                "value":142
-            }
-        ]
     }
 ]

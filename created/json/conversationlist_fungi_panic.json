@@ -1874,21 +1874,6 @@
         ]
     },
     {
-        "id":"brv_patrol_bonemeals_will_be_removed",
-        "replies":[
-            {
-                "nextPhraseID":"brv_patrol_remove_all_bonemeals"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"feygardOverallCount",
-                "value":-1
-            }
-        ]
-    },
-    {
         "id":"dummy_key"
     },
     {
@@ -2148,6 +2133,6 @@
                 "text":"N",
                 "nextPhraseID":"fungi_panic_potioner_112"
             }
-        ]
+        ]                
     }
 ]
