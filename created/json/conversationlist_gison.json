@@ -104,71 +104,6 @@
             },
             {
                 "nextPhraseID":"gison_firsttime"
-            },
-            {
-                "nextPhraseID":"gison_p1_20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gison_soup",
-                        "value":20
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gison_soup",
-                        "value":30,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gison_soup",
-                        "value":50,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"gison_firsttime",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gison_soup",
-                        "value":40,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gison_soup",
-                        "value":50,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"gison_firsttime",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":90,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"zuul_khan9",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":155,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"gison_p2_start"
             }
         ]
     },
@@ -573,7 +508,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Yum! more soup.",
+                "text":"Yum! More soup!",
                 "nextPhraseID":"X"
             }
         ],
@@ -624,7 +559,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Yum! more soup.",
+                "text":"Yum! More soup!",
                 "nextPhraseID":"X"
             }
         ],
@@ -675,7 +610,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Yum! more soup.",
+                "text":"Yum! More soup!",
                 "nextPhraseID":"X"
             }
         ],
@@ -726,7 +661,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Yum! more soup.",
+                "text":"Yum! More soup!",
                 "nextPhraseID":"X"
             }
         ],
@@ -1182,7 +1117,7 @@
     },
     {
         "id":"gison_p2_70",
-        "message":"Thank you for your help retrieving my precious cooking book. Would you like some soup as a small reward?",
+        "message":"Thank you for your help retrieving my precious cookbook. Would you like some soup as a small reward?",
         "replies":[
             {
                 "text":"Oh yes.",
