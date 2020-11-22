@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="32" tileheight="32" infinite="0" nextobjectid="11">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="32" tileheight="32" infinite="0" nextobjectid="22">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -179,27 +179,27 @@
  </tileset>
  <layer name="Ground" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJy1lTEOwyAQBK3QpaBMC/EPgp9A/IX8/yEpYhQjrVZ7Z2TJxRTOkeE4L3IO05Q3CvHceNz/JFFHMtH++yZm8nEdeQnfh0DfLOpIJSeeDXtCH9eZ5kzg5DrPj+vR6EH12HpfnOe0r1/DmK/SWn5Ozoy8GVpc4VMz5xyO+nqOvzfdGxKDfndxry+U5T5X9vHd4bx010pZxgxksSf+HvczFXAd5Zn37Hen0D6eC8+h1lVw8LmO7oe1l3LgrHr/oz6PaszgrM/q38q5yryal3c/osDKu5V19d0YpeWyZxPxvgtn8L4LZ/gBzyFTgg==
+   eJy1lTEOwyAQBK24S0GZFuIfBD+B+Av5/0NSxCggrVbLgZBcTOEcGY7zWoR1WcJJJJ4nj/sfL+pIIPJ/38RGPq4jL+H7EOjbRB1J5MSzYU/o4zqTnR6cXOf5cd01elA95t5349mX9cc65ku0lp+9MSNrhi2u8KmZcw5HfTXH35vuDXGrfneu1HfKcp0r+/jb4bxU10FZxgwEsSf+7sqZIrh6eeY967cTaR/LhedQ6xI4+Fw9X6s26hj1zXCFr5djfNc9n8ox0sp7K+vq3hgl57JmE7HuhRmse2GGHyFaUqQ=
   </data>
  </layer>
  <layer name="Objects" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBi64KUQ7cx+jcPsh0DxUGZM8cNiCDYvHvlXQgj5v0wIeWxmPsTihic09DM6CGcmzk6Q20FqYfEB478gw63PSdBDbJjjAiA9fGj6QHHylAg38AP1PRbCbTetQDiFdiHrJyWs8Zn1GIs5yOkZ2U5s6RxdDSw8+bGoRVb3DCm9octRq2wgJi2AgLQwhOZHS/foeQDkN360cMPmfmSALRxgZhGj7qUQZWmUH0vcjFQAAE4CIbo=
+   eJzVVG0KwjAMlY4hQ7QwQRHxNB5BZP/1BqI30Ct4BC/iSYbfegbBhLU0pGl1+GsPSrukeQnJ61qtZmCfVvsa9o05P/L6PAtV7QfgKGBtYe1S/94rwF2CfZ749uPAnbsR/zN3/rdyfomzFGo4C7aR8m3/IgPOIgnnpMDa8a6dh/2+k7hYjRnx3WrMNNRzm4v6JWBMD9aS5MeZXKCG6Zeeaog75X7uEGYC3zKSg9/vmO+C5cpqzp7G1+l1jOsk8FA905xc552+f+eXnIgr0Zv1jQ1f7N/wbbYUlwiPnR/OamjOmun+zuJRK1roG59jW7k6daA3XHdaeAOIh/nncE3xnCsl2y3vRMlaj+mY12IhvYcm4AN5TCqn
   </data>
  </layer>
  <layer name="Above" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJzFlMENgzAMRSNx7AEplbr/DozABjABVAXGQBGxZJkfvsOhvFsc+//EMYRw8IvhRP85x0pMph7VSmyLddpMr7T/D70137ttrvXQPmNU9Qvo2QjWEuvUe8gZbb1nPeRY75iPgaxZT2vecAXn0aQZu9Nz6zETH0HPP3unEigvxVifrSf6lrUWqmeeyMejxfK0nkeL5Xnulni9fV6M2v8Ow9sDwf53GRvIL83LFd8bNcg7UXuHJ9kBoKo+9A==
+   eJzdlMENgzAMRaN2ACQO7L9DR2ADmABQG8ZAFkRyP99xwoFKfVIOcewfxzaEsPNuw4m+O9ssJohnscm2tnXanp51fodePN7dPPN67NxjVPEfUrOR7JPtpfqRcsT4kv1w2PqC+RicvVfTmh5Gko9GZuxKzfGO2bknoee/e3wv7JMF80MtWVhXQdeOfctai8WLXedh9aIkF9TTc5TTs3yQnF+pxr+A/12Plfhb85JjuRDD7hZq3/BLNsQdNyQ=
   </data>
  </layer>
  <layer name="Top" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGASEAAAcwAAE=
+   eJxjYBgFo2AUUBNcFqOuWYepZB41zEL2GzXcRS2/jYJRQA8AAAf5Bwk=
   </data>
  </layer>
  <layer name="Walkable" width="20" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHhgFc8qTiwWQeOkA3Dx8g1j2E+IT8QIl52MwcaPehA0JxgguQkgaINQddDzXT30CZR0qYUNMsbOYRYw+++EUWx2cXIbegi5MDSHEzLr3Euo/UOCPGzZTEM6XmDHUMAAWn8DQ=
+   eJzbKMbAsBEHhgFc8qTiwWYeul5k8/ABYt1DiE/ID5SYh83MgXYfOsBlHiFAShog1hx86YLS9DdQ5pESJtQ0C5t5xNhDCNAiHVETkJLmSDGPlDgjxixK4plSc4Y6BgAB9uk1
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -215,11 +215,80 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object id="20" name="boss_fungi_killed" type="script" x="384" y="416" width="224" height="224">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object id="9" name="mushroom_m3_2_loot" type="container" x="96" y="96" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object id="10" name="boss_fungi" type="spawn" x="64" y="96" width="128" height="128">
+ <objectgroup name="Spawn">
+  <object id="10" name="boss_fungi" type="spawn" x="448" y="480" width="160" height="160">
    <properties>
     <property name="spawngroup" value="boss_fungi"/>
+   </properties>
+  </object>
+  <object id="12" name="lombric_ball_1" type="spawn" x="544" y="320" width="32" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object id="13" name="lombric_ball_2" type="spawn" x="256" y="512" width="32" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_ball"/>
+   </properties>
+  </object>
+  <object id="11" name="mid_fungi_1" type="spawn" x="320" y="384" width="288" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="mid_fungi_1"/>
+   </properties>
+  </object>
+  <object id="14" name="dangerous_fungi_1" type="spawn" x="320" y="384" width="288" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dangerous_fungi_1"/>
+   </properties>
+  </object>
+  <object id="15" name="weak_fungi_1" type="spawn" x="320" y="384" width="288" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="weak_fungi_1"/>
+   </properties>
+  </object>
+  <object id="16" name="dangerous_fungi_2" type="spawn" x="64" y="512" width="192" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dangerous_fungi"/>
+   </properties>
+  </object>
+  <object id="17" name="mid_fungi_2" type="spawn" x="480" y="160" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mid_fungi"/>
+   </properties>
+  </object>
+  <object id="18" name="weak_fungi_2" type="spawn" x="96" y="128" width="64" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="weak_fungi"/>
+   </properties>
+  </object>
+  <object id="19" name="lombric_beast_1" type="spawn" x="96" y="192" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lombric_beast"/>
+   </properties>
+  </object>
+  <object id="21" name="cavebat1" type="spawn" x="288" y="320" width="320" height="320">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavebat1"/>
    </properties>
   </object>
  </objectgroup>

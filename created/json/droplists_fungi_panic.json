@@ -246,6 +246,35 @@
         ]
     },
     {
+        "id":"mushroom_m3_2_loot",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":300
+                }
+            },
+            {
+                "itemID":"gem1",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            }
+        ]
+    },
+    {
         "id":"grownfood01",
         "items":[
             {

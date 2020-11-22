@@ -194,6 +194,86 @@
         }
     },
     {
+        "id":"weak_fungi_1",
+        "name":"Weak fungi",
+        "iconID":"monsters_gisons:3",
+        "maxHP":20,
+        "maxAP":10,
+        "unique":1,
+        "moveCost":7,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":1,
+            "max":2
+        },
+        "spawnGroup":"weak_fungi_1",
+        "droplistID":"weak_fungi",
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":10
+    },
+    {
+        "id":"mid_fungi_1",
+        "name":"Fungi",
+        "iconID":"monsters_gisons:4",
+        "maxHP":35,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"mid_fungi_1",
+        "droplistID":"mid_fungi",
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":20,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spore_poison",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"dangerous_fungi_1",
+        "name":"Dangerous fungi",
+        "iconID":"monsters_gisons:5",
+        "maxHP":55,
+        "maxAP":10,
+        "moveCost":7,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"dangerous_fungi_1",
+        "droplistID":"dangerous_fungi",
+        "attackCost":3,
+        "attackChance":110,
+        "blockChance":12,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spore_poison",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
         "id":"boss_fungi",
         "name":"Great fungi",
         "iconID":"monsters_bosses_2x2:0",

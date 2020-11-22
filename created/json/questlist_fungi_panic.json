@@ -110,6 +110,10 @@
             {
                 "progress":60,
                 "logText":"60=Cave wall open"
+            },
+            {
+                "progress":90,
+                "logText":"90=killed fungi"
             }
         ]
     },

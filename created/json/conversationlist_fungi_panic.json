@@ -1813,6 +1813,53 @@
         "message":"No. We are expecting you to say so. We are told not to leave."
     },
     {
+        "id":"boss_fungi_killed",
+        "replies":[
+            {
+                "nextPhraseID":"boss_fungi_killed_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"boss_fungi",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"boss_fungi_killed_10",
+        "message":"On your final blow the great mushroom exploded and splashed into little peaces!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":90
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dangerous_fungi_1",
+                "mapName":"mushroom_m3_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mid_fungi_1",
+                "mapName":"mushroom_m3_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"weak_fungi_1",
+                "mapName":"mushroom_m3_2"
+            }
+        ]
+    },
+    {
         "id":"buceth_story_7_1",
         "message":"The boy told me he had some business with a rich man in Brimhaven. Maybe he went there.",
         "replies":[
