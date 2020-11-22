@@ -195,7 +195,7 @@
     },
     {
         "id":"weak_fungi_1",
-        "name":"Weak fungi",
+        "name":"Angry weak fungi",
         "iconID":"monsters_gisons:3",
         "maxHP":20,
         "maxAP":10,
@@ -215,7 +215,7 @@
     },
     {
         "id":"mid_fungi_1",
-        "name":"Fungi",
+        "name":"Angry fungi",
         "iconID":"monsters_gisons:4",
         "maxHP":35,
         "maxAP":10,
@@ -245,7 +245,7 @@
     },
     {
         "id":"dangerous_fungi_1",
-        "name":"Dangerous fungi",
+        "name":"Angry dangerous fungi",
         "iconID":"monsters_gisons:5",
         "maxHP":55,
         "maxAP":10,

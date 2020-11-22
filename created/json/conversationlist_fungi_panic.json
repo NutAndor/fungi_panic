@@ -1835,7 +1835,7 @@
     },
     {
         "id":"boss_fungi_killed_10",
-        "message":"On your final blow the great mushroom exploded and splashed into little peaces!",
+        "message":"On your final blow the great mushroom exploded and splashed into little pieces!",
         "rewards":[
             {
                 "rewardType":"questProgress",
