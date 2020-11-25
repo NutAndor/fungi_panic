@@ -154,6 +154,11 @@
                 "rewardExperience":100
             },
             {
+                "progress":30,
+                "logText":"Prospector: I collected at least 100,000 gold",
+                "rewardExperience":100
+            },
+            {
                 "progress":100,
                 "logText":"Swimming: Got along a raging river - alive",
                 "rewardExperience":1000
