@@ -40,5 +40,21 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hand_axe",
+        "iconID":"items_weapons_3:35",
+        "name":"Hand Axe",
+        "displaytype":"quest",
+        "category":"axe",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":5,
+            "setNonWeaponDamageModifier":97
+        }
     }
 ]
