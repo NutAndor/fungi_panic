@@ -256,7 +256,7 @@
     },
     {
         "id":"bogsten_start_4",
-        "message":"You see, my son is studying across the country to become a Shadow priest, and he is currently in the Valanyr temple of Shadow. I had not seen him for so long, so I decided to visit him.",
+        "message":"You see, my son is studying across the country to become a Shadow priest, and he is currently in the Valanyr temple of the Shadow. I had not seen him for so long, so I decided to visit him.",
         "replies":[
             {
                 "text":"N",
@@ -284,7 +284,7 @@
     },
     {
         "id":"bogsten_start_6",
-        "message":"When I got to my mushrooms' cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've locked all access to my cave to prevent anyone from being hurt.",
+        "message":"When I got to my mushroom cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've locked all access to my cave to prevent anyone from being hurt.",
         "replies":[
             {
                 "text":"You really look bad. How can I help?",
@@ -346,7 +346,7 @@
     },
     {
         "id":"bogsten_20_10",
-        "message":"I'm sorry to have dragged you into this, kid. Take this key. It will open the way to my mushrooms cave. You will certainly find what you need.",
+        "message":"I'm sorry to have dragged you into this, kid. Take this key. It will open the way to my mushroom cave. You will certainly find what you need.",
         "replies":[
             {
                 "text":"I will have a look.",
@@ -447,10 +447,10 @@
     },
     {
         "id":"bogsten_50_20",
-        "message":"Finally!\n[He poured down the liquid greedily]",
+        "message":"Finally!\n[He pours down the liquid greedily]",
         "replies":[
             {
-                "text":"And here goes 150 coins again...",
+                "text":"And there goes 150 gold again...",
                 "nextPhraseID":"bogsten_52_10"
             }
         ],
@@ -471,7 +471,7 @@
                 "nextPhraseID":"bogsten_60_20"
             },
             {
-                "text":"I'd prefer to have my 150 gold coins back.",
+                "text":"I'd prefer to have my 150 gold back.",
                 "nextPhraseID":"bogsten_52_12"
             }
         ]
@@ -839,7 +839,7 @@
     },
     {
         "id":"mushroom_m3_1_chains_20",
-        "message":"The chains have slung around your arms. You can not move any more!",
+        "message":"The chains have wrapped around your arms. You can not move any more!",
         "replies":[
             {
                 "text":"Why have I touched these cursed chains!?",
@@ -1540,7 +1540,7 @@
         "message":"I grow weary of you.",
         "replies":[
             {
-                "text":"Why only?",
+                "text":"Why?",
                 "nextPhraseID":"zuul_khan4_10"
             }
         ]
@@ -1769,7 +1769,7 @@
                 ]
             },
             {
-                "text":"Your master is dead for ever now. Begone!",
+                "text":"Your master is dead forever now. Begone!",
                 "nextPhraseID":"zuul_khan9_blocker_10",
                 "requires":[
                     {
@@ -1810,7 +1810,7 @@
     },
     {
         "id":"zuul_khan9_blocker_20",
-        "message":"No. We are expecting you to say so. We are told not to leave."
+        "message":"No. We are expecting you to say so. We were told not to leave."
     },
     {
         "id":"boss_fungi_killed",
@@ -2180,6 +2180,6 @@
                 "text":"N",
                 "nextPhraseID":"fungi_panic_potioner_112"
             }
-        ]                
+        ]
     }
 ]

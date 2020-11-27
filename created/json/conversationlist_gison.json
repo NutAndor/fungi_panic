@@ -1234,7 +1234,7 @@
         "message":"If you want to help us, please talk to Gison.",
         "replies":[
             {
-                "text":"Okay. Get well.",
+                "text":"OK. Get well.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1505,10 +1505,10 @@
     },
     {
         "id":"gison_cavekey",
-        "message":"You look on a wall of stones. There's no way through.",
+        "message":"You look at a wall of stones. There's no way through.",
         "replies":[
             {
-                "text":"Examine more closely.",
+                "text":"Examine it more closely.",
                 "nextPhraseID":"gison_cavekey_unlock",
                 "requires":[
                     {

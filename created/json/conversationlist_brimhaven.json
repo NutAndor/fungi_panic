@@ -48,7 +48,7 @@
         "message":"You have made it!",
         "replies":[
             {
-                "text":"Phew, I thought this was my end.",
+                "text":"Phew, I thought that would be my end!",
                 "nextPhraseID":"X"
             }
         ],
