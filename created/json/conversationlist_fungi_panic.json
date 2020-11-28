@@ -1834,6 +1834,10 @@
         ]
     },
     {
+        "id":"boss_fungi_alive",
+        "message":"You can't examine the chest with the great mushroom on your heels."
+    },
+    {
         "id":"boss_fungi_killed_10",
         "message":"On your final blow the great mushroom exploded and splashed into little pieces!",
         "rewards":[

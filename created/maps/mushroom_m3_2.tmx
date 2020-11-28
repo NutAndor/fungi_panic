@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="32" tileheight="32" infinite="0" nextobjectid="22">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="32" tileheight="32" infinite="0" nextobjectid="23">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -179,12 +179,12 @@
  </tileset>
  <layer name="Ground" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJy1lTEOwyAQBK24S0GZFuIfBD+B+Av5/0NSxCggrVbLgZBcTOEcGY7zWoR1WcJJJJ4nj/sfL+pIIPJ/38RGPq4jL+H7EOjbRB1J5MSzYU/o4zqTnR6cXOf5cd01elA95t5349mX9cc65ku0lp+9MSNrhi2u8KmZcw5HfTXH35vuDXGrfneu1HfKcp0r+/jb4bxU10FZxgwEsSf+7sqZIrh6eeY967cTaR/LhedQ6xI4+Fw9X6s26hj1zXCFr5djfNc9n8ox0sp7K+vq3hgl57JmE7HuhRmse2GGHyFaUqQ=
+   eJy1lTEOgzAQBFHoUrhMa4cfBJ5A+EL+/5AUwQqWVqPz2UKimIKcMz4fi5zGYUg7M3juPO5/olFXEsj/fYMJPtaVl+H7APVNRl1Z4dSzaU/qY51kZxQn65wf66HSg9Vj7n1xnuOxfhv7fCvW8jk6M/JmWOMKnzVz5rDXV3L8vdm9KWG031046guyXOZKH78d5qW4NmRZM5CMPfX3cJxpFlcrz9yzfDsz9vFceg5r3SoOnqvlq9V6Hb2+M1zha+VY33XLZ+VYqeXd6827FzxyLks2Fe9eOIN3L5zhBy8fUrI=
   </data>
  </layer>
  <layer name="Objects" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJzVVG0KwjAMlY4hQ7QwQRHxNB5BZP/1BqI30Ct4BC/iSYbfegbBhLU0pGl1+GsPSrukeQnJ61qtZmCfVvsa9o05P/L6PAtV7QfgKGBtYe1S/94rwF2CfZ749uPAnbsR/zN3/rdyfomzFGo4C7aR8m3/IgPOIgnnpMDa8a6dh/2+k7hYjRnx3WrMNNRzm4v6JWBMD9aS5MeZXKCG6Zeeaog75X7uEGYC3zKSg9/vmO+C5cpqzp7G1+l1jOsk8FA905xc552+f+eXnIgr0Zv1jQ1f7N/wbbYUlwiPnR/OamjOmun+zuJRK1roG59jW7k6daA3XHdaeAOIh/nncE3xnCsl2y3vRMlaj+mY12IhvYcm4AN5TCqn
+   eJzVVG0KwjAMHR0iY2hlgiLiaTyCyP47vIDoDfQKHsGLeJIx5+cZBFNsWUjTzuGvPSjtkua9kGQNgnbg2PnuW9h3+vxImvOsxHc/AUcKaw/r0LHvvRzcOdiXoW0/j6pzz+N/JpX/LSo/x5kzOVwY20TYtn8RAWcaujUxVO7qrumH+b6jOF+OEfLdGvTUVXOjhf0cVEwfVob0VU9KyGFeU1MJcUVia7uwYPgyjwa9H+vvlGhFDXuP45vU2sdVMDx4nrEmnfN4aN/5RVPhiubN+Kaaz/c21PUWo/TwmP6pXo31WZK5v5N4NSuSqRvtY1dUeUpHbejcSeYfUHjoN4fOFNXcCN5ueGdgH8B5Td5L3xzTXAy4/6EN+ADknysU
   </data>
  </layer>
  <layer name="Above" width="20" height="23">
@@ -199,7 +199,7 @@
  </layer>
  <layer name="Walkable" width="20" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHhgFc8qTiwWYeul5k8/ABYt1DiE/ID5SYh83MgXYfOsBlHiFAShog1hx86YLS9DdQ5pESJtQ0C5t5xNhDCNAiHVETkJLmSDGPlDgjxixK4plSc4Y6BgAB9uk1
+   eJzbKMbAsBEHhgFc8qTiwWYeul5k8/ABYt1DiE/ID5SYh83MgXYfOsBlHiFAShog1hx86YLS9DdQ5pESJtQ0C5t5xNhDCNAiHVETkJLmSDGPlDgjxixK4pka6W8oYwA+Gehu
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -221,8 +221,9 @@
    </properties>
   </object>
   <object id="9" name="mushroom_m3_2_loot" type="container" x="96" y="96" width="32" height="32"/>
+  <object id="22" name="boss_fungi_chest" type="container" x="544" y="608" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="10" name="boss_fungi" type="spawn" x="448" y="480" width="160" height="160">
    <properties>
     <property name="spawngroup" value="boss_fungi"/>
@@ -292,6 +293,15 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object id="11" name="boss_fungi_alive" type="key" x="544" y="608" width="32" height="32">
+   <properties>
+    <property name="phrase" value="boss_fungi_alive"/>
+    <property name="requireId" value="boss_fungi"/>
+    <property name="requireType" value="killedMonster"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
 </map>

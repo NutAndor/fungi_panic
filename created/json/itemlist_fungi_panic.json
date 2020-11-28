@@ -90,6 +90,26 @@
         }
     },
     {
+        "id":"liquid_fungi",
+        "iconID":"items_consumables:62",
+        "name":"Fungi potion",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":500,
+        "category":"pot",
+        "description":"One sip will make you grow stronger.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":10,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
         "id":"widowmaker",
         "iconID":"items_misc_6:20",
         "name":"Widowmaker",

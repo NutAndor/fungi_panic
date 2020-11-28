@@ -208,10 +208,9 @@
             "max":2
         },
         "spawnGroup":"weak_fungi_1",
-        "droplistID":"weak_fungi",
         "attackCost":5,
-        "attackChance":110,
-        "blockChance":10
+        "attackChance":70,
+        "blockChance":8
     },
     {
         "id":"mid_fungi_1",
@@ -228,10 +227,10 @@
             "max":6
         },
         "spawnGroup":"mid_fungi_1",
-        "droplistID":"mid_fungi",
+        "droplistID":"mid_fungi_1",
         "attackCost":5,
-        "attackChance":110,
-        "blockChance":20,
+        "attackChance":80,
+        "blockChance":8,
         "hitEffect":{
             "conditionsTarget":[
                 {
@@ -247,7 +246,7 @@
         "id":"dangerous_fungi_1",
         "name":"Angry dangerous fungi",
         "iconID":"monsters_gisons:5",
-        "maxHP":55,
+        "maxHP":45,
         "maxAP":10,
         "moveCost":7,
         "unique":1,
@@ -258,10 +257,10 @@
             "max":6
         },
         "spawnGroup":"dangerous_fungi_1",
-        "droplistID":"dangerous_fungi",
-        "attackCost":3,
-        "attackChance":110,
-        "blockChance":12,
+        "droplistID":"dangerous_fungi_1",
+        "attackCost":5,
+        "attackChance":90,
+        "blockChance":10,
         "hitEffect":{
             "conditionsTarget":[
                 {
@@ -287,7 +286,6 @@
             "max":6
         },
         "spawnGroup":"boss_fungi",
-        "droplistID":"boss_fungi",
         "attackCost":5,
         "attackChance":120,
         "criticalSkill":20,
