@@ -360,7 +360,7 @@
         "iconID":"monsters_rltiles1:139",
         "maxHP":50,
         "maxAP":10,
-        "moveCost":7,
+        "moveCost":10,
         "monsterClass":"animal",
         "attackDamage":{
             "min":5,
