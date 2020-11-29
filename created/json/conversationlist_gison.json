@@ -415,7 +415,7 @@
     },
     {
         "id":"gison_p1_20_nosoup",
-        "message":"Ate it yourself, have you? Haha, I hope it tasted well.",
+        "message":"Ate it yourself, did you? Haha, I hope it tasted good.",
         "replies":[
             {
                 "text":"N",
@@ -654,7 +654,7 @@
     },
     {
         "id":"gison_p1_20_nosoup_5000go",
-        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Bring this one to Alaun now, hoggish lad!",
+        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Bring this one to Alaun now, greedy lad!",
         "replies":[
             {
                 "text":"Thanks. Good bye.",
