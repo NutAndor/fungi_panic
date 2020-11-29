@@ -2185,5 +2185,80 @@
                 "nextPhraseID":"fungi_panic_potioner_112"
             }
         ]
+    },
+    {
+        "id":"guynmart_s_clearing_achievement",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart_s_clearing_achievement_grant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart_nondisplay",
+                        "value":59
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guynmart_s_clearing_achievement_grant",
+        "message":"What a strange little place! You decide to record this in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"beetle_watching_achievement",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"beetle_watching_achievement_grant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"beetle_watching",
+                        "value":25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"beetle_watching_achievement_grant",
+        "message":"Stumbling across a group of people watching a beetle contest surely counts as one of the most unusual parts of your adventure. You decide to write some notes about this in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":50
+            }
+        ]
     }
 ]

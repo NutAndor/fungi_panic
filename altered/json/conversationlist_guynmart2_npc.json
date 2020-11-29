@@ -1,0 +1,72 @@
+[
+    {
+        "id":"guynmart_spectator1_10",
+        "message":"The left beetle will win.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guynmart_spectator1_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"beetle_watching",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"guynmart_spectator1_20",
+        "message":"No, the right beetle will win.",
+        "switchToNPC":"guynmart_spectator1b",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guynmart_spectator1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"beetle_watching",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"guynmart_spectator1_30",
+        "message":"Nonsense, the left beetle will win.",
+        "switchToNPC":"guynmart_spectator1a",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guynmart_spectator1_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"beetle_watching",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"guynmart_spectator1b_10",
+        "message":"The right beetle will win.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guynmart_spectator1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"beetle_watching",
+                "value":1
+            }
+        ]
+    }
+]
