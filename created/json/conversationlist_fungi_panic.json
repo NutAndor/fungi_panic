@@ -2278,6 +2278,11 @@
                         "requireID":"achievements",
                         "value":40,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":200
                     }
                 ]
             }
