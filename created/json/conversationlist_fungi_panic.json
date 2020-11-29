@@ -2293,5 +2293,48 @@
                 "value":40
             }
         ]
+    },
+    {
+        "id":"arulir_trap_achievement",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arulir_trap_achievement_grant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"arulirmountain_trap_rocks",
+                        "value":7
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"arulirmountain_trap_hole",
+                        "value":7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arulir_trap_achievement_grant",
+        "message":"You think back over the number of falling rocks and crumbling floors you've encountered in these treacherous mountains. At least the place is safer for the next adventurer - you fell for every trap! You decide to write about your experiences in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":80
+            }
+        ]
     }
 ]
