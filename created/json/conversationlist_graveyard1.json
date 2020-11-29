@@ -1,11 +1,10 @@
 [
     {
-        "id":"lookout_up_5",
-        "message":"The falcon soars back into the sky. It has something in its talons, but you can't make out what it is. What an amazing thing to witness!",
+        "id":"waterwaycavex_2",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"lookout_up_6",
+                "nextPhraseID":"waterwaycavex_3",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -15,10 +14,21 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"achievements",
-                        "value":40,
+                        "value":70,
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"waterwaycavex_3",
+        "message":"You decide to record this discovery in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":70
             }
         ]
     }

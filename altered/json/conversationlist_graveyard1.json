@@ -36,38 +36,5 @@
                 "nextPhraseID":"waterwaycavex_2"
             }
         ]
-    },
-    {
-        "id":"waterwaycavex_2",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"waterwaycavex_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"achievements",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"achievements",
-                        "value":70,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"waterwaycavex_3",
-        "message":"You decide to record this discovery in your father's book of achievements.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"achievements",
-                "value":70
-            }
-        ]
     }
 ]

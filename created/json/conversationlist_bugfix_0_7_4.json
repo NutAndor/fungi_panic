@@ -1,0 +1,13 @@
+[
+    {
+        "id":"lookout_up_6",
+        "message":"You decide to write about this wondrous sight in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":40
+            }
+        ]
+    }
+]
