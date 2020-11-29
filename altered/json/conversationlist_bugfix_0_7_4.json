@@ -1,0 +1,36 @@
+[
+    {
+        "id":"lookout_up_5",
+        "message":"The falcon soars back into the sky. It has something in its talons, but you can't make out what it is. What an amazing thing to witness!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_up_6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lookout_up_6",
+        "message":"You decide to write about this wondrous sight in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":40
+            }
+        ]
+    }
+]

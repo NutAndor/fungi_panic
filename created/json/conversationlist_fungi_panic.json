@@ -2260,5 +2260,38 @@
                 "value":50
             }
         ]
+    },
+    {
+        "id":"birdwatching_achievement",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"birdwatching_achievement_grant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"birdwatching_achievement_grant",
+        "message":"Looking up at the old watchtower, you think back to the time you witnessed a falcon swooping through the air to catch its prey. You decide to write your memories about it in your father's book of achievements.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":40
+            }
+        ]
     }
 ]
