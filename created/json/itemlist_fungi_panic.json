@@ -102,8 +102,8 @@
             "conditionsSource":[
                 {
                     "condition":"food",
-                    "magnitude":4,
-                    "duration":10,
+                    "magnitude":5,
+                    "duration":15,
                     "chance":"100"
                 }
             ]
