@@ -387,5 +387,15 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"release_mouse1",
+        "message":"This looks like a good place to release the mouse.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"release_mouse1a"
+            }
+        ]
     }
 ]

@@ -1,0 +1,23 @@
+[
+    {
+        "id":"release_mouse1a",
+        "message":"You look after as it disappears quickly.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"release_mouse2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"arlish_bottle"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":90
+            }
+        ]
+    }
+]
