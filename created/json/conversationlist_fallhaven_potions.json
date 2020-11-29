@@ -205,6 +205,16 @@
         ]
     },
     {
+        "id":"fungi_panic_potioner_50a",
+        "message":"A sample? This won't do. I'll need at least four samples for my work.",
+        "replies":[
+            {
+                "text":"I see. I'll be back with more in just a moment.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"fungi_panic_potioner_52",
         "message":"I'm glad that I have the right potion for it. You can have it for only 150 gold coins.",
         "replies":[
