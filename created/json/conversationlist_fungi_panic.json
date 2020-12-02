@@ -1450,7 +1450,7 @@
     },
     {
         "id":"zuul_khan_150",
-        "message":"Zuul'khan towered over you and started muttering strange words.",
+        "message":"Zuul'khan towers over you and starts muttering strange words.",
         "switchToNPC":"none",
         "replies":[
             {

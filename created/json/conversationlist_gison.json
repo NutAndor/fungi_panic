@@ -1741,7 +1741,7 @@
     },
     {
         "id":"gison_thief1_10",
-        "message":"Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we had stolen. Go away!",
+        "message":"Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we have stolen. Go away!",
         "replies":[
             {
                 "text":"Hmm, maybe that is a good idea. I'll tell Gison that you have destroyed the book.",
