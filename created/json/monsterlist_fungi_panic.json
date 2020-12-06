@@ -471,5 +471,23 @@
         "criticalMultiplier":3.0,
         "blockChance":30,
         "damageResistance":8
+    },
+    {
+        "id":"wild_berry1",
+        "name":"Wild berries",
+        "iconID":"items_japozero:488",
+        "moveCost":10,
+        "monsterClass":"animal",
+        "spawnGroup":"wild_berry1",
+        "phraseID":"chk_wild_berry1_10"
+    },
+    {
+        "id":"bogstens_granny",
+        "name":"Undina Bogsten",
+        "iconID":"monsters_ld1:144",
+        "moveCost":10,
+        "monsterClass":"humanoid",
+        "spawnGroup":"bogstens_granny",
+        "phraseID":"bogstens_granny"
     }
 ]

@@ -1989,6 +1989,157 @@
         ]
     },
     {
+        "id":"chk_wild_berry1",
+        "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry1_2",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry1_2",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry1"
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry1_10",
+        "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry1_20",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"chk_wild_berry1_12"
+
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry1_12",
+        "message":"Oops, you stumble over your own feet!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"R"
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry1_20",
+        "message":"You find some wild berries!",
+        "replies":[
+            {
+                "text":"Gather them.",
+                "nextPhraseID":"chk_wild_berry1_30"
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry1_30",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"wild_berry1",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"bogstens_granny",
+        "replies":[
+            {
+                "nextPhraseID":"bogstens_granny_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogstens_granny_10"
+            }
+        ]
+    },
+    {
+        "id":"bogstens_granny_10",
+        "message":"Bogsten, my dear great-grandchild! After all these years you come to visit me again!",
+        "replies":[
+            {
+                "text":"Sorry, I am not of your family. I am $playername from Crossglen.",
+				"nextPhraseID":"bogstens_granny_80"
+            }
+        ]
+    },
+    {
+        "id":"bogstens_granny_80",
+        "message":"Go ye into our family tomb. You may take some of our wealth.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":200
+            }
+        ]
+    },
+    {
+        "id":"bogstens_granny_90",
+        "message":"Farewell, kid!"
+    },
+    {
+        "id":"bogstens_tomb_key",
+        "message":"Here lie the members of the Bogsten family.\nMay they rest in peace.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"bogstens_granny"
+            }
+        ]
+    },
+    {
+        "id":"bogstens_tomb_grave1",
+        "message":"grave1"
+    },
+    {
+        "id":"bogstens_tomb_grave2",
+        "message":"grave2"
+    },
+    {
+        "id":"bogstens_tomb_grave3",
+        "message":"grave3"
+    },
+    {
+        "id":"bogstens_tomb_grave4",
+        "message":"grave4"
+    },
+    {
+        "id":"bogstens_tomb_grave5",
+        "message":"grave5"
+    },
+    {
         "id":"grownfood_init",
         "rewards":[
             {

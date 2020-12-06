@@ -87,6 +87,10 @@
                 "logText":"He rewarded me with permanent immunity to Spore Infection.",
                 "rewardExperience":2000,
                 "finishesQuest":1
+            },
+            {
+                "progress":200,
+                "logText":"Bogsten's grand grand grandmother invited me to their family tomp."
             }
         ]
     },
@@ -120,7 +124,7 @@
     {
         "id":"bela_gsnake",
         "name":"A giant snake",
-        "showInLog":1,
+        "9":1,
         "stages":[
             {
                 "progress":10,
