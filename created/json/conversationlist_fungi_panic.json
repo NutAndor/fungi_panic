@@ -2067,10 +2067,57 @@
         ]
     },
     {
-        "id":"bogstens_granny",
+        "id":"bogsten_granny_switch",
         "replies":[
             {
-                "nextPhraseID":"bogstens_granny_90",
+                "nextPhraseID":"bogsten_granny_switch_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":100,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_switch_10",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bogsten_granny",
+                "mapName":"mushroom_m2_4"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"bogsten_tomb_key",
+        "message":"Here lie the members of the Bogsten family.\nMay they rest in peace.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bogsten_granny",
+                "mapName":"mushroom_m2_4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"bogsten_granny1",
+                "mapName":"mushroom_m2_4"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_granny_90",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2080,63 +2127,63 @@
                 ]
             },
             {
-                "nextPhraseID":"bogstens_granny_10"
+                "nextPhraseID":"bogsten_granny_10"
             }
         ]
     },
     {
-        "id":"bogstens_granny_10",
+        "id":"bogsten_granny_10",
         "message":"Bogsten, my dear great-grandchild! After all these years you come to visit me again!",
         "replies":[
             {
                 "text":"Sorry, I am not of your family. I am $playername from Crossglen.",
-				"nextPhraseID":"bogstens_granny_80"
+				"nextPhraseID":"bogsten_granny_80"
             }
         ]
     },
     {
-        "id":"bogstens_granny_80",
+        "id":"bogsten_granny_80",
         "message":"Go ye into our family tomb. You may take some of our wealth.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":200
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bogsten_granny1",
+                "mapName":"mushroom_m2_4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"bogsten_granny",
+                "mapName":"mushroom_m2_4"
             }
         ]
     },
     {
-        "id":"bogstens_granny_90",
+        "id":"bogsten_granny_90",
         "message":"Farewell, kid!"
     },
     {
-        "id":"bogstens_tomb_key",
-        "message":"Here lie the members of the Bogsten family.\nMay they rest in peace.",
-        "rewards":[
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"bogstens_granny"
-            }
-        ]
-    },
-    {
-        "id":"bogstens_tomb_grave1",
+        "id":"bogsten_tomb_grave1",
         "message":"grave1"
     },
     {
-        "id":"bogstens_tomb_grave2",
+        "id":"bogsten_tomb_grave2",
         "message":"grave2"
     },
     {
-        "id":"bogstens_tomb_grave3",
+        "id":"bogsten_tomb_grave3",
         "message":"grave3"
     },
     {
-        "id":"bogstens_tomb_grave4",
+        "id":"bogsten_tomb_grave4",
         "message":"grave4"
     },
     {
-        "id":"bogstens_tomb_grave5",
+        "id":"bogsten_tomb_grave5",
         "message":"grave5"
     },
     {

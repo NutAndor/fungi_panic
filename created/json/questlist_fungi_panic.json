@@ -118,6 +118,10 @@
             {
                 "progress":90,
                 "logText":"90=killed fungi"
+            },
+            {
+                "progress":100,
+                "logText":"100=Granny despawn."
             }
         ]
     },

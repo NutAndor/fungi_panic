@@ -236,7 +236,7 @@
         ]
     },
     {
-        "id":"bogstens_tomb_loot1",
+        "id":"bogsten_tomb_loot1",
         "items":[
             {
                 "itemID":"gem2",
@@ -249,7 +249,7 @@
         ]
     },
     {
-        "id":"bogstens_tomb_loot2",
+        "id":"bogsten_tomb_loot2",
         "items":[
             {
                 "itemID":"gem1",
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "id":"bogstens_tomb_loot3",
+        "id":"bogsten_tomb_loot3",
         "items":[
             {
                 "itemID":"gold",
