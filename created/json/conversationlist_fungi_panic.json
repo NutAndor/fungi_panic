@@ -2168,20 +2168,22 @@
     },
     {
         "id":"bogsten_tomb_grave1",
-        "message":"grave1"
+        "message":"In death, I still help mushrooms to grow,"
     },
     {
         "id":"bogsten_tomb_grave2",
-        "message":"grave2"
+		"message":"Here lies Febalum Bogsten, founder of this mushroom farm."
     },
     {
         "id":"bogsten_tomb_grave3",
-        "message":"grave3"
+        "message":"Bogsten is my name, mushrooms are my game."
     },
     {
         "id":"bogsten_tomb_grave4",
-        "replies":[
+        "message":"Here lies Undina Bogsten, a master of fungiculture.",
+		"replies":[
             {
+				"text":"N",
 				"nextPhraseID":"bogsten_tomb_pw",
                 "requires":[
                     {
@@ -2196,7 +2198,7 @@
     },
     {
         "id":"bogsten_tomb_grave5",
-        "message":"grave5"
+        "message":"I've been planted in the soil, and it's dark. I feel like a mushroom."
     },
     {
         "id":"grownfood_init",
