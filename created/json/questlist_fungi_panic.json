@@ -90,7 +90,11 @@
             },
             {
                 "progress":200,
-                "logText":"Bogsten's grand grand grandmother invited me to their family tomp."
+                "logText":"Bogsten's grand grand grandmother invited me to their family tomb."
+            },
+            {
+                "progress":210,
+                "logText":"You found a hidden way downstairs."
             }
         ]
     },
