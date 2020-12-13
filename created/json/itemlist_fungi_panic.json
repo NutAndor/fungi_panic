@@ -110,33 +110,6 @@
         }
     },
     {
-        "id":"widowmaker",
-        "iconID":"items_misc_6:20",
-        "name":"Widowmaker",
-        "displaytype":"extraordinary",
-        "category":"rapier",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":6
-            },
-            "increaseAttackCost":5,
-            "increaseAttackChance":20,
-            "increaseBlockChance":4,
-            "setNonWeaponDamageModifier":120
-        },
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"infected_wound",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"7"
-                }
-            ]
-        }
-    },
-    {
         "id":"gardener_gloves",
         "iconID":"items_japozero:224",
         "description":"Wear these and you'll never starve in the wild",

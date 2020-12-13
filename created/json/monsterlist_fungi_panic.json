@@ -304,23 +304,6 @@
         }
     },
     {
-        "id":"worm_ball",
-        "name":"Worm ball",
-        "iconID":"monsters_rltiles1:138",
-        "maxHP":30,
-        "maxAP":10,
-        "moveCost":7,
-        "monsterClass":"animal",
-        "attackDamage":{
-            "min":1,
-            "max":15
-        },
-        "spawnGroup":"worm_ball",
-        "attackCost":10,
-        "attackChance":50,
-        "blockChance":60
-    },
-    {
         "id":"worm_beast",
         "name":"Worm beast",
         "iconID":"monsters_rltiles1:57",

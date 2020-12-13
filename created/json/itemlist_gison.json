@@ -49,14 +49,6 @@
         "description":"Brittle scales from the Stoneworm."
     },
     {
-        "id":"elixir_unknown",
-        "iconID":"items_misc_3:98",
-        "name":"Strange elixir",
-        "displaytype":"quest",
-        "category":"pot",
-        "description":"A bottle of some unknown liquid from the caves south of Fallhaven."
-    },
-    {
         "id":"gison_cookbook",
         "iconID":"items_books:0",
         "name":"Fabulous cookings",
