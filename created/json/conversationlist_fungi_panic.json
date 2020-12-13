@@ -2027,6 +2027,7 @@
             },
             {
                 "nextPhraseID":"chk_wild_berry1_12"
+
             }
         ]
     },
@@ -2075,7 +2076,7 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":100,
-                        "negate":true
+						"negate":true
                     }
                 ]
             }
@@ -2136,7 +2137,7 @@
         "replies":[
             {
                 "text":"Sorry, I am not of your family. I am $playername from Crossglen.",
-                "nextPhraseID":"bogsten_granny_80"
+				"nextPhraseID":"bogsten_granny_80"
             }
         ]
     },
@@ -2538,17 +2539,5 @@
                 "value":80
             }
         ]
-    },
-    {
-        "id":"bogsten_grave_1",
-        "message":"In death, I still help mushrooms to grow,"
-    },
-    {
-        "id":"bogsten_grave_3",
-        "message":"Bogsten is my name, mushrooms are my game."
-    },
-    {
-        "id":"bogsten_grave_5",
-        "message":"I've been planted in the soil, and it's dark. I feel like a mushroom."
     }
 ]

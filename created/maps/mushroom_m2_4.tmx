@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="21" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="24">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="22">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,47 +180,47 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="15" height="21">
+ <layer name="Ground" width="15" height="21">
   <data encoding="base64" compression="zlib">
-   eAGNk0lKBTEUReP/KIh+wW6iA7sV6BZ0DW7UoUtx6tCJLYgI3gM58AhRHFxuVSUnr8mrxaq19+3W9uNP8bX4IlpGW9H5srXbifjuvudwL9HGhP3cbG2U7Hr2y3CWeRh35HiXZe9HhO+FJf+7rP+HNe5hmIvOyV6mrhp3J+/otNdLntYN8534R/l2HF1nz00EjyO439hVmK/wnIPGPstSn7JO85UdXdbv3K3P+BibbzI6dzrqtZ9TefdXt0/VmSlz4J7odWV8tlade+bOyIX4sPT6ZMLf9/we48xlnS9nmhxm7ENn6iyTv3NpzeR9NcQeGesm5lvPybyZi1q7dVanZtiDiHxhcWaE2uXtZ/Xd7HVOmE9ms67bO9YQ813XfTam7zq985/gzs4677/g/+D+6rO+sz7G8nzPZo/zMfpf53sOzA+k/4HN
+   eJyVk01uAjEMhcNEjIRwRqK0G1jwdwK4ApyhF+2yR+mWJZvyJyGEhK3J03g8CWoXTw5MvtjPcYrg3IWcG3M8cOxxLFieNWQtvXOfCcn/2PfL3JFVJtjboCuw/dAwharjL6zsvVId30LNfQ3+l/eDtYoc2LVhK19r7ps64VGYB+ef8HrK2vKeXeR3cT1/wQaOd2ry2x6DFX/Q2NSLtRVY/D5Q+7vNrRnoSF2dqMtbzvq1vnWvU6z2K5J7ljtD/mHs9SzBfsea9lTPZWnyo2cp9oe6s6znEp6l7k2iV2XG85kaz5iR9Qu/8Czse2jftczFVvGpux+pOZH5nJo5Qe/km6jKnJObr5l6E6KFb78FvIcca/ueylWZs3NzZntgz9d1PgGk/4HN
   </data>
  </layer>
- <layer id="2" name="Objects" width="15" height="21" visible="0">
+ <layer name="Objects" width="15" height="21">
   <data encoding="base64" compression="zlib">
-   eAFjYKAusBCkrnm0NI1NAmL6JjQ3HxaDiP9mwm47tf2oL8TAEMoMsUsbzS3YXcDAcANNnaQkA8NtoH+kgDQuALIHF+CF2o9LHll8ISuCB9P3EovZ2MIJOazR/YAwFcIyRvMjTP4T0C4xHHEDUnMQqM8Zh16QPCysQWxaAmz+D8bjbkJuIeTuzXj8DDMb2QwRYHqBxR8/lvjHFj/I+mFmgmhsakHi38QZGP5i8TNyegHlNwOk9ANzkyLQTa5Qd8HEQGaSCwDTlxZt
+   eJxjYKAusBCksoE0BGwSEHoTmpsPi0Ho30zY9VHbj/pCDAyhzBC2NpFm30BTJynJwHAb6B8pSfz24AK8zMTZCwILWTH1vcRiNrZwQg5rdD+gA2Mc8p+AdonhiBsQOAjU54zH7FAS/EoJwOb/YDzuJgQIuXszEWkH2QwRCUT88WMxG1v84HIDrrj8Js7A8BeLn5HTCyi/GSDxYW5SBNKuzKhilAAA05cWbQ==
   </data>
  </layer>
- <layer id="3" name="Objects2" width="15" height="21">
+ <layer name="Objects2" width="15" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYCAMlAQZGJSBGETD2IR1QVQEMxGrElNdOCtCzBlozjokPkIGO8sQqFYSqGc2P0SeFL2HxSB6fpPp9p+c2N2ETzSUGSJLjl585o7KjYbAaAhAQgAA9NgIiw==
+   eJxjYCAMlAQZGJQFITSMTSwIZiJeLToIZ0WwnYHmrGPFrRYdGALVSgL1zOaH8EnRe1gMQv8m0+0/OUnXE8pMvt5RMApGAWEAAPTYCIs=
   </data>
  </layer>
- <layer id="4" name="Above" width="15" height="21" visible="0">
+ <layer name="Above" width="15" height="21">
   <data encoding="base64" compression="zlib">
-   eAFjYBgF6CHwlwldhDi+hSADgxQQuzAzMMgAaRCfFKAFVa9Doj5S7BhVy8CgLzQ0Q2HTIE4Xl8WwhykvMC8QAvxEqMFnBrH6AdAQBMo=
+   eJxjYBgF6OAvE3n6LAQZGKSA2IWZgUFGEMInBWhB1euQqG8UkAb0hQbaBeSBTYM4XVwWwy7Oy0xYLz8RaqihHwDQEATK
   </data>
  </layer>
- <layer id="5" name="Above2" width="15" height="21">
+ <layer name="Above2" width="15" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYCAMDosRVoNLxVDU+5cJl2/wi1sIMjBIAfFlYHjJAGkQnxSgBVR/CahXh0R9pNgxqnY0BEZqCAAAC5oHlw==
+   eJxjYCAMDosRoWgY6f3LRJ4+C0EGBikgvgy0W0YQwicFaAHVXwLq1SFR3ygYBaOAMAAAC5oHlw==
   </data>
  </layer>
- <layer id="6" name="Top" width="15" height="21" visible="0">
+ <layer name="Top" width="15" height="21">
   <data encoding="base64" compression="zlib">
-   eAFjYMAP5JkZGBSwYEWgGCEwFPWC/GQE9BsyBvmfFCAtSIrqUbWjITAaAvQIAQAoKwT4
+   eJxjYMAP5JkZGBSwYEVmAhqHqF4QMGJGxQpE6oMBaUHS1I+CUTAKaA8AKCsE+A==
   </data>
  </layer>
- <layer id="7" name="Top2" width="15" height="21">
+ <layer name="Top2" width="15" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITD8QwAABOwAAQ==
+   eJxjYBgFo2AUjILhDwAE7AAB
   </data>
  </layer>
- <layer id="8" name="Walkable" width="15" height="21">
+ <layer name="Walkable" width="15" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eAGtjwEOwCAIA33F/v8Ff7gRc7FpxBiZiRYoB1t/WuvJbd8JL9OMc2ZMmO+Oq7BsYD45St0VPxRPY2quymm/xs6Q/8n6LN2/8lY1vutElT/p154Kq3Nu49hfYW95/vtm947FU2WH1ojxQuN4Pqr5q/0aZwQ9+OSu+KErz2uew3td8xeGsqWU
+   eJzbKMbAsBEHBgFccoQwTC82QCu96GqI1YtNDbHuHAx68YUTsYDUuCVHH6V6qYEpsZcSd9NKL6lxjy8siAGkpkli/Y/PDnz6SAlfAJrVp+k=
   </data>
  </layer>
- <objectgroup id="9" name="Mapevents" visible="0">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="224" y="0" width="32" height="32">
    <properties>
     <property name="map" value="mushroom_m2_5"/>
@@ -239,47 +239,47 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="4" name="bogsten_tomb_loot1" type="container" x="416" y="96" width="32" height="32"/>
-  <object id="5" name="bogsten_tomb_loot2" type="container" x="416" y="64" width="32" height="32"/>
-  <object id="6" name="bogsten_tomb_loot3" type="container" x="288" y="64" width="32" height="32"/>
-  <object id="7" name="bogsten_tomb_grave1" type="sign" x="288" y="32" width="32" height="32"/>
-  <object id="8" name="bogsten_tomb_grave2" type="sign" x="320" y="32" width="32" height="32"/>
-  <object id="9" name="bogsten_tomb_grave3" type="sign" x="352" y="32" width="32" height="32"/>
-  <object id="10" name="bogsten_tomb_grave4" type="sign" x="384" y="32" width="32" height="32"/>
-  <object id="11" name="bogsten_tomb_grave5" type="sign" x="416" y="32" width="32" height="32"/>
-  <object id="12" name="bogsten_granny_switch" type="script" x="224" y="192" width="32" height="160"/>
+  <object id="12" name="bogsten_tomb_loot1" type="container" x="416" y="96" width="32" height="32"/>
+  <object id="13" name="bogsten_tomb_loot2" type="container" x="416" y="64" width="32" height="32"/>
+  <object id="19" name="bogsten_tomb_loot3" type="container" x="288" y="64" width="32" height="32"/>
+  <object id="14" name="bogsten_tomb_grave1" type="sign" x="288" y="32" width="32" height="32"/>
+  <object id="15" name="bogsten_tomb_grave2" type="sign" x="320" y="32" width="32" height="32"/>
+  <object id="16" name="bogsten_tomb_grave3" type="sign" x="352" y="32" width="32" height="32"/>
+  <object id="17" name="bogsten_tomb_grave4" type="sign" x="384" y="32" width="32" height="32"/>
+  <object id="18" name="bogsten_tomb_grave5" type="sign" x="416" y="32" width="32" height="32"/>
+  <object id="22" name="bogsten_granny_switch" type="script" x="224" y="192" width="32" height="160"/>
  </objectgroup>
- <objectgroup id="10" name="Spawn" visible="0">
-  <object id="13" name="mid_fungi_1" type="spawn" x="64" y="512" width="32" height="32">
+ <objectgroup name="Spawn" visible="0">
+  <object id="4" name="mid_fungi_1" type="spawn" x="64" y="512" width="32" height="32">
    <properties>
     <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object id="14" name="mid_fungi_2" type="spawn" x="96" y="160" width="128" height="256">
+  <object id="5" name="mid_fungi_2" type="spawn" x="96" y="160" width="128" height="256">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="mid_fungi"/>
    </properties>
   </object>
-  <object id="15" name="weak_fungi_1" type="spawn" x="128" y="416" width="192" height="192">
+  <object id="6" name="weak_fungi_1" type="spawn" x="128" y="416" width="192" height="192">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
-  <object id="16" name="weak_fungi_2" type="spawn" x="128" y="64" width="128" height="128">
+  <object id="7" name="weak_fungi_2" type="spawn" x="128" y="64" width="128" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="weak_fungi"/>
    </properties>
   </object>
-  <object id="17" name="bogsten_granny" type="spawn" x="288" y="96" width="96" height="160">
+  <object id="8" name="bogsten_granny" type="spawn" x="288" y="96" width="96" height="160">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="bogsten_granny"/>
    </properties>
   </object>
-  <object id="18" name="bogsten_granny1" type="spawn" x="352" y="96" width="32" height="32">
+  <object id="21" name="bogsten_granny1" type="spawn" x="352" y="96" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
@@ -287,8 +287,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Keys">
-  <object id="19" name="bogsten_tomb_key" type="key" x="320" y="192" width="32" height="32">
+ <objectgroup name="Keys" visible="0">
+  <object id="9" name="bogsten_tomb_key" type="key" x="320" y="192" width="32" height="32">
    <properties>
     <property name="phrase" value="bogsten_tomb_key"/>
     <property name="requireId" value="fungi_panic"/>
@@ -296,33 +296,9 @@
     <property name="requireValue" value="200"/>
    </properties>
   </object>
-  <object id="20" name="bogsten_grave_1" type="key" x="288" y="0" width="32" height="32">
-   <properties>
-    <property name="phrase" value="bogsten_grave_1"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
-  <object id="21" name="bogsten_grave_3" type="key" x="352" y="0" width="32" height="32">
-   <properties>
-    <property name="phrase" value="bogsten_grave_3"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
-  <object id="22" name="bogsten_grave_5" type="key" x="416" y="0" width="32" height="32">
-   <properties>
-    <property name="phrase" value="bogsten_grave_5"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup id="12" name="Replace" visible="0">
-  <object id="23" name="bogstens_tomb_rpl1" type="replace" x="256" y="0" width="224" height="224">
+ <objectgroup name="Replace" visible="0">
+  <object id="10" name="bogstens_tomb_rpl1" type="replace" x="256" y="0" width="224" height="224">
    <properties>
     <property name="Above" value="Above2"/>
     <property name="Objects" value="Objects2"/>
