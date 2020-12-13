@@ -2180,7 +2180,19 @@
     },
     {
         "id":"bogsten_tomb_grave4",
-        "message":"grave4"
+        "replies":[
+            {
+				"nextPhraseID":"bogsten_tomb_pw",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"bogsten_tomb_grave5",
@@ -2203,6 +2215,305 @@
             }
         ]
     },
+    {
+        "id":"bogsten_tomb_pw",
+        "message":"You want to see the dead?",
+        "replies":[	
+			{ 
+				"text":"Yes.", 
+				"nextPhraseID":"bogsten_tomb_pw_1" 
+			},
+			{ 
+				"text":"Maybe better not.", 
+				"nextPhraseID":"X" 
+			}
+		]
+    },
+    {
+        "id":"bogsten_tomb_pw_1",
+        "message":"Then what's the magic word? Spell it!",
+        "replies":[	{ "text":"B...", "nextPhraseID":"bogsten_tomb_pw_1_1" },
+					{ "text":"A...", "nextPhraseID":"bogsten_tomb_pw_1_2" },
+					{ "text":"P...", "nextPhraseID":"bogsten_tomb_pw_1_3" },
+					{ "text":"F...", "nextPhraseID":"bogsten_tomb_pw_1_4" },
+					{ "text":"y...", "nextPhraseID":"bogsten_tomb_pw_1_0" },
+					{ "text":"z...", "nextPhraseID":"bogsten_tomb_pw_1_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_1_0",
+        "replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_1_1",
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":1 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_1_2", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":2 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_1_3", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":3 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_1_4", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":4 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_1_5", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":5 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_2",
+        "message":"",
+        "replies":[{ "text":". O", "nextPhraseID":"bogsten_tomb_pw_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
+				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
+				   { "text":". I", "nextPhraseID":"bogsten_tomb_pw_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". I", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". y", "nextPhraseID":"bogsten_tomb_pw_2_0" },
+				   { "text":". z", "nextPhraseID":"bogsten_tomb_pw_2_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_2_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_3" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_3",
+        "message":"",
+        "replies":[{ "text":". . G", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . G", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . D", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
+				   { "text":". . D", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
+				   { "text":". . Z", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . Z", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . U", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . U", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . y", "nextPhraseID":"bogsten_tomb_pw_3_0" },
+				   { "text":". . z", "nextPhraseID":"bogsten_tomb_pw_3_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_3_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_4" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_4",
+        "message":"",
+        "replies":[{ "text":". . . S", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . . S", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . . O", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
+				   { "text":". . . O", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
+				   { "text":". . . Z", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . Z", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . R", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . . R", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . . y", "nextPhraseID":"bogsten_tomb_pw_4_0" },
+				   { "text":". . . z", "nextPhraseID":"bogsten_tomb_pw_4_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_4_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_5" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_5",
+        "message":"",
+        "replies":[{ "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_6",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . . . R", "nextPhraseID":"bogsten_tomb_pw_x2",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
+				   { "text":". . . . R", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
+				   { "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_6",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_6",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . . . y", "nextPhraseID":"bogsten_tomb_pw_5_0" },
+				   { "text":". . . . z", "nextPhraseID":"bogsten_tomb_pw_5_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_5_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_6" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_6",
+        "message":"",
+        "replies":[{ "text":". . . . E", "nextPhraseID":"bogsten_tomb_pw_7",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . . . E", "nextPhraseID":"bogsten_tomb_pw_6_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . . . F", "nextPhraseID":"bogsten_tomb_pw_7",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . F", "nextPhraseID":"bogsten_tomb_pw_6_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . Y", "nextPhraseID":"bogsten_tomb_pw_7",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . . . Y", "nextPhraseID":"bogsten_tomb_pw_6_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . . . y", "nextPhraseID":"bogsten_tomb_pw_6_0" },
+				   { "text":". . . . z", "nextPhraseID":"bogsten_tomb_pw_6_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_6_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_7" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_7",
+        "message":"",
+        "replies":[{ "text":". . . . . N", "nextPhraseID":"bogsten_tomb_pw_x1",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . . . . N", "nextPhraseID":"bogsten_tomb_pw_7_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . . . . U", "nextPhraseID":"bogsten_tomb_pw_8",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . . U", "nextPhraseID":"bogsten_tomb_pw_7_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . . T", "nextPhraseID":"bogsten_tomb_pw_8",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . . . . T", "nextPhraseID":"bogsten_tomb_pw_7_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . . . . y", "nextPhraseID":"bogsten_tomb_pw_7_0" },
+				   { "text":". . . . . z", "nextPhraseID":"bogsten_tomb_pw_7_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_7_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_8" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_8",
+        "message":"",
+        "replies":[{ "text":". . . . . . N", "nextPhraseID":"bogsten_tomb_pw_9",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . . . N", "nextPhraseID":"bogsten_tomb_pw_8_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . . . W", "nextPhraseID":"bogsten_tomb_pw_9",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . . . . . W", "nextPhraseID":"bogsten_tomb_pw_8_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . . . . . y", "nextPhraseID":"bogsten_tomb_pw_8_0" },
+				   { "text":". . . . . . z", "nextPhraseID":"bogsten_tomb_pw_8_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_8_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_9" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_9",
+        "message":"",
+        "replies":[{ "text":". . . . . . . G", "nextPhraseID":"bogsten_tomb_pw_a",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . . . . G", "nextPhraseID":"bogsten_tomb_pw_9_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . . . . O", "nextPhraseID":"bogsten_tomb_pw_x4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
+				   { "text":". . . . . . . O", "nextPhraseID":"bogsten_tomb_pw_9_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
+				   { "text":". . . . . . . y", "nextPhraseID":"bogsten_tomb_pw_9_0" },
+				   { "text":". . . . . . . z", "nextPhraseID":"bogsten_tomb_pw_9_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_9_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_a" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_a",
+        "message":"",
+        "replies":[{ "text":". . . . . . . . I", "nextPhraseID":"bogsten_tomb_pw_x3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . . . . . I", "nextPhraseID":"bogsten_tomb_pw_a_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . . . . . y", "nextPhraseID":"bogsten_tomb_pw_a_0" },
+				   { "text":". . . . . . . . z", "nextPhraseID":"bogsten_tomb_pw_a_0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_a_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_b" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+    {
+        "id":"bogsten_tomb_pw_b",
+        "message":"",
+        "replies":[{ "text":". . . . . . . . . y", "nextPhraseID":"bogsten_tomb_pw_x0" },
+				   { "text":". . . . . . . . . z", "nextPhraseID":"bogsten_tomb_pw_x0" }]
+    },
+    {
+        "id":"bogsten_tomb_pw_b_0", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2x" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
+    },
+	{
+		"id":"bogsten_tomb_pw_x0",
+		"message":"That doesn't really make sense, don't you think?"
+	},
+    {
+        "id":"bogsten_tomb_pw_x1",
+        "message":"Silently the tombstone glided back into the wall.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":210
+            }
+        ]
+    },
+	{
+		"id":"bogsten_tomb_pw_x2",
+		"message":"Andor? Why should we have used the name of your brother here?"
+	},
+	{
+		"id":"bogsten_tomb_pw_x3",
+		"message":"I loved this too. But no."
+	},
+	{
+		"id":"bogsten_tomb_pw_x4",
+		"message":"That is the answer to almost any question, yes. But not to this one - try again."
+	},
     {
         "id":"grownfood01",
         "replies":[
