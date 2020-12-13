@@ -2167,6 +2167,10 @@
         "message":"Farewell, kid!"
     },
     {
+        "id":"bogsten_gambler",
+        "message":"18"
+    },
+    {
         "id":"bogsten_tomb_grave1",
         "message":"In death, I still help mushrooms to grow,"
     },

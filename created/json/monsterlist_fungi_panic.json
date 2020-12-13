@@ -482,5 +482,32 @@
         "movementAggressionType":"wholeMap",
         "spawnGroup":"bogsten_granny1",
         "phraseID":"bogsten_granny"
+    },
+    {
+        "id":"bogsten_gambler1",
+        "name":"Gambling ghost",
+        "iconID":"monsters_ld1:62",
+        "moveCost":10,
+        "monsterClass":"humanoid",
+        "spawnGroup":"bogsten_gambler1",
+        "phraseID":"bogsten_gambler"
+    },
+    {
+        "id":"bogsten_gambler2",
+        "name":"Gambling ghost",
+        "iconID":"monsters_ld1:122",
+        "moveCost":10,
+        "monsterClass":"humanoid",
+        "spawnGroup":"bogsten_gambler2",
+        "phraseID":"bogsten_gambler"
+    },
+    {
+        "id":"bogsten_gambler3",
+        "name":"Gambling ghost",
+        "iconID":"monsters_ld1:64",
+        "moveCost":10,
+        "monsterClass":"humanoid",
+        "spawnGroup":"bogsten_gambler3",
+        "phraseID":"bogsten_gambler"
     }
 ]

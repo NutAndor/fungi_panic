@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="24">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="26">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,12 +187,12 @@
  </layer>
  <layer name="Objects" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOMGRjYBBjwk9jAxaCDAyOUDX4aJA6dH3hzMS5LZQZVT+yPiWouLIgKl8JSX0oDntiePDT1AT8RPoVBn4zEdZvwgWhg5HUouvDBWB6cQEAtQMLGw==
+   eJxjYKAOMGRjYBBjwk9jAxaCDAyOUDX4aJA6dH3hzMS5LZQZVT+yPiWouLIgKl8JSX0oDntiePDT1AT8RPjVnQXB/s1EWL8JF0JfEwuERteHC8D04gIAGuQMLQ==
   </data>
  </layer>
  <layer name="Above" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAe+M8HZfBDKX5U/nAAO/gIq8Gl/gSJerGpn8PKwDAXiOexkmYWCKwB6lkLxOuw6HUGirmQYSYuAADjZgkP
+   eJxjYKAe+M8HZfBDKX5U/nAAO/gIq8Gl/gSJevGpn8dKmln0BgAM9gUl
   </data>
  </layer>
  <layer name="Top" width="15" height="10">
@@ -202,7 +202,7 @@
  </layer>
  <layer name="Walkable" width="15" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEIY2IAPn0wNi4aXT+6uYT04tNPqrsp0UusWaSEOz55AIcWSqE=
+   eJzbKMbAsHEIY2IAPn0wNi4aXT+6uYT04tNPqrsp0UvILGS3Exvu+OQBxTBLaA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -216,10 +216,22 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="8" name="bogsten_granny" type="spawn" x="32" y="64" width="160" height="192">
+  <object id="8" name="bogsten_gambler1" type="spawn" x="352" y="256" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
-    <property name="spawngroup" value="bogsten_granny"/>
+    <property name="spawngroup" value="bogsten_gambler1"/>
+   </properties>
+  </object>
+  <object id="24" name="bogsten_gambler2" type="spawn" x="320" y="224" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="bogsten_gambler2"/>
+   </properties>
+  </object>
+  <object id="25" name="bogsten_gambler3" type="spawn" x="288" y="256" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="bogsten_gambler3"/>
    </properties>
   </object>
  </objectgroup>
