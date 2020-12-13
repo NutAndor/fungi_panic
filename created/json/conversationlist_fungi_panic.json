@@ -2166,26 +2166,6 @@
         "message":"Farewell, kid!"
     },
     {
-        "id":"bogsten_tomb_grave1",
-        "message":"grave1"
-    },
-    {
-        "id":"bogsten_tomb_grave2",
-        "message":"grave2"
-    },
-    {
-        "id":"bogsten_tomb_grave3",
-        "message":"grave3"
-    },
-    {
-        "id":"bogsten_tomb_grave4",
-        "message":"grave4"
-    },
-    {
-        "id":"bogsten_tomb_grave5",
-        "message":"grave5"
-    },
-    {
         "id":"grownfood_init",
         "rewards":[
             {
