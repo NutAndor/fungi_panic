@@ -459,7 +459,7 @@
         "id":"wild_berry1",
         "name":"Wild berries",
         "iconID":"items_japozero:488",
-        "moveCost":999999,
+        "moveCost":1000,
         "monsterClass":"animal",
         "spawnGroup":"wild_berry1",
         "phraseID":"chk_wild_berry1_10"

@@ -2184,11 +2184,9 @@
     },
     {
         "id":"bogsten_tomb_grave4",
-        "message":"Here lies Undina Bogsten, a master of fungiculture.",
 		"replies":[
             {
-				"text":"N",
-				"nextPhraseID":"bogsten_tomb_pw",
+				"nextPhraseID":"bogsten_tomb_grave4_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2197,6 +2195,16 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"bogsten_tomb_grave4_10",
+        "message":"Here lies Undina Bogsten, a master of fungiculture.",
+		"replies":[
+            {
+				"text":"N",
+				"nextPhraseID":"bogsten_tomb_pw"
             }
         ]
     },
@@ -2237,13 +2245,17 @@
     },
     {
         "id":"bogsten_tomb_pw_1",
-        "message":"Then what's the magic word? Spell it!",
-        "replies":[	{ "text":"B...", "nextPhraseID":"bogsten_tomb_pw_1_1" },
-					{ "text":"A...", "nextPhraseID":"bogsten_tomb_pw_1_2" },
-					{ "text":"P...", "nextPhraseID":"bogsten_tomb_pw_1_3" },
+        "message":"Now what's the magic word? Spell it!",
+        "replies":[	{ "text":"A...", "nextPhraseID":"bogsten_tomb_pw_1_2" },
+					{ "text":"B...", "nextPhraseID":"bogsten_tomb_pw_1_1" },
 					{ "text":"F...", "nextPhraseID":"bogsten_tomb_pw_1_4" },
-					{ "text":"y...", "nextPhraseID":"bogsten_tomb_pw_1_0" },
-					{ "text":"z...", "nextPhraseID":"bogsten_tomb_pw_1_0" }]
+					{ "text":"N...", "nextPhraseID":"bogsten_tomb_pw_1_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+					{ "text":"P...", "nextPhraseID":"bogsten_tomb_pw_1_3" },
+					{ "text":"R...", "nextPhraseID":"bogsten_tomb_pw_1_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+					{ "text":"S...", "nextPhraseID":"bogsten_tomb_pw_1_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] }]
     },
     {
         "id":"bogsten_tomb_pw_1_0",
@@ -2271,31 +2283,31 @@
 		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":4 }]
     },
     {
-        "id":"bogsten_tomb_pw_1_5", 
-		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2" }],
-		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":5 }]
-    },
-    {
         "id":"bogsten_tomb_pw_2",
         "message":"",
-        "replies":[{ "text":". O", "nextPhraseID":"bogsten_tomb_pw_3",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
-				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_2_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
-				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_3",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
-				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_2_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
+        "replies":[{ "text":". D", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". I", "nextPhraseID":"bogsten_tomb_pw_3",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
 				   { "text":". I", "nextPhraseID":"bogsten_tomb_pw_2_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". L", "nextPhraseID":"bogsten_tomb_pw_2_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". L", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". M", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
+				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_2_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
+				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
 				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_3",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". O", "nextPhraseID":"bogsten_tomb_pw_2_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". y", "nextPhraseID":"bogsten_tomb_pw_2_0" },
-				   { "text":". z", "nextPhraseID":"bogsten_tomb_pw_2_0" }]
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true },
+								 { "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] }]
     },
     {
         "id":"bogsten_tomb_pw_2_0", 
@@ -2303,26 +2315,37 @@
 		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
     },
     {
+        "id":"bogsten_tomb_pw_2_5", 
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_3" }],
+		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":5 }]
+    },
+    {
         "id":"bogsten_tomb_pw_3",
         "message":"",
-        "replies":[{ "text":". . G", "nextPhraseID":"bogsten_tomb_pw_4",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
-				   { "text":". . G", "nextPhraseID":"bogsten_tomb_pw_3_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
-				   { "text":". . D", "nextPhraseID":"bogsten_tomb_pw_4",
+        "replies":[{ "text":". . D", "nextPhraseID":"bogsten_tomb_pw_4",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
 				   { "text":". . D", "nextPhraseID":"bogsten_tomb_pw_3_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
-				   { "text":". . Z", "nextPhraseID":"bogsten_tomb_pw_4",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
-				   { "text":". . Z", "nextPhraseID":"bogsten_tomb_pw_3_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . E", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5 }] },
+				   { "text":". . E", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5, "negate":true }] },
+				   { "text":". . G", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . G", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . K", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . O", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . U", "nextPhraseID":"bogsten_tomb_pw_4",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . U", "nextPhraseID":"bogsten_tomb_pw_3_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . y", "nextPhraseID":"bogsten_tomb_pw_3_0" },
-				   { "text":". . z", "nextPhraseID":"bogsten_tomb_pw_3_0" }]
+				   { "text":". . Z", "nextPhraseID":"bogsten_tomb_pw_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . Z", "nextPhraseID":"bogsten_tomb_pw_3_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] }]
     },
     {
         "id":"bogsten_tomb_pw_3_0", 
@@ -2332,24 +2355,30 @@
     {
         "id":"bogsten_tomb_pw_4",
         "message":"",
-        "replies":[{ "text":". . . S", "nextPhraseID":"bogsten_tomb_pw_5",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
-				   { "text":". . . S", "nextPhraseID":"bogsten_tomb_pw_4_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+        "replies":[{ "text":". . . A", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5 }] },
+				   { "text":". . . A", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5, "negate":true }] },
+				   { "text":". . . E", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . . L", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . . O", "nextPhraseID":"bogsten_tomb_pw_5",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
 				   { "text":". . . O", "nextPhraseID":"bogsten_tomb_pw_4_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
-				   { "text":". . . Z", "nextPhraseID":"bogsten_tomb_pw_5",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
-				   { "text":". . . Z", "nextPhraseID":"bogsten_tomb_pw_4_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
 				   { "text":". . . R", "nextPhraseID":"bogsten_tomb_pw_5",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . . R", "nextPhraseID":"bogsten_tomb_pw_4_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . . y", "nextPhraseID":"bogsten_tomb_pw_4_0" },
-				   { "text":". . . z", "nextPhraseID":"bogsten_tomb_pw_4_0" }]
+				   { "text":". . . S", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . . S", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+				   { "text":". . . Z", "nextPhraseID":"bogsten_tomb_pw_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . Z", "nextPhraseID":"bogsten_tomb_pw_4_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] }]
     },
     {
         "id":"bogsten_tomb_pw_4_0", 
@@ -2359,24 +2388,29 @@
     {
         "id":"bogsten_tomb_pw_5",
         "message":"",
-        "replies":[{ "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_6",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
-				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_5_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+        "replies":[{ "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_6",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
+				   { "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . C", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . . . F", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . . . R", "nextPhraseID":"bogsten_tomb_pw_x2",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2 }] },
 				   { "text":". . . . R", "nextPhraseID":"bogsten_tomb_pw_5_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":2, "negate":true }] },
-				   { "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_6",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
-				   { "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_5_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . S", "nextPhraseID":"bogsten_tomb_pw_6",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5 }] },
+				   { "text":". . . . S", "nextPhraseID":"bogsten_tomb_pw_5_0",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5, "negate":true }] },
+				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_6",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
 				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_6",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . . . T", "nextPhraseID":"bogsten_tomb_pw_5_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . . . y", "nextPhraseID":"bogsten_tomb_pw_5_0" },
-				   { "text":". . . . z", "nextPhraseID":"bogsten_tomb_pw_5_0" }]
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true },
+								 { "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] }]
     },
     {
         "id":"bogsten_tomb_pw_5_0", 
@@ -2386,20 +2420,25 @@
     {
         "id":"bogsten_tomb_pw_6",
         "message":"",
-        "replies":[{ "text":". . . . E", "nextPhraseID":"bogsten_tomb_pw_7",
+        "replies":[{ "text":". . . . A", "nextPhraseID":"bogsten_tomb_pw_6_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . . . E", "nextPhraseID":"bogsten_tomb_pw_7",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+				   { "text":". . . . E", "nextPhraseID":"bogsten_tomb_pw_7",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5 }] },
 				   { "text":". . . . E", "nextPhraseID":"bogsten_tomb_pw_6_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true },
+								 { "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5, "negate":true }] },
 				   { "text":". . . . F", "nextPhraseID":"bogsten_tomb_pw_7",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
 				   { "text":". . . . F", "nextPhraseID":"bogsten_tomb_pw_6_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . S", "nextPhraseID":"bogsten_tomb_pw_6_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . . . Y", "nextPhraseID":"bogsten_tomb_pw_7",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . . . Y", "nextPhraseID":"bogsten_tomb_pw_6_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . . . y", "nextPhraseID":"bogsten_tomb_pw_6_0" },
-				   { "text":". . . . z", "nextPhraseID":"bogsten_tomb_pw_6_0" }]
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] }]
     },
     {
         "id":"bogsten_tomb_pw_6_0", 
@@ -2409,7 +2448,11 @@
     {
         "id":"bogsten_tomb_pw_7",
         "message":"",
-        "replies":[{ "text":". . . . . N", "nextPhraseID":"bogsten_tomb_pw_x1",
+        "replies":[{ "text":". . . . . C", "nextPhraseID":"bogsten_tomb_pw_7_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . . . . H", "nextPhraseID":"bogsten_tomb_pw_7_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . . . . N", "nextPhraseID":"bogsten_tomb_pw_x1",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
 				   { "text":". . . . . N", "nextPhraseID":"bogsten_tomb_pw_7_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
@@ -2420,9 +2463,7 @@
 				   { "text":". . . . . T", "nextPhraseID":"bogsten_tomb_pw_8",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . . . . T", "nextPhraseID":"bogsten_tomb_pw_7_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . . . . y", "nextPhraseID":"bogsten_tomb_pw_7_0" },
-				   { "text":". . . . . z", "nextPhraseID":"bogsten_tomb_pw_7_0" }]
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] }]
     },
     {
         "id":"bogsten_tomb_pw_7_0", 
@@ -2436,12 +2477,14 @@
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
 				   { "text":". . . . . . N", "nextPhraseID":"bogsten_tomb_pw_8_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . . . P", "nextPhraseID":"bogsten_tomb_pw_8_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . . . . . W", "nextPhraseID":"bogsten_tomb_pw_9",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . . . . . W", "nextPhraseID":"bogsten_tomb_pw_8_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . . . . . y", "nextPhraseID":"bogsten_tomb_pw_8_0" },
-				   { "text":". . . . . . z", "nextPhraseID":"bogsten_tomb_pw_8_0" }]
+				   { "text":". . . . . . Z", "nextPhraseID":"bogsten_tomb_pw_8_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] }]
     },
     {
         "id":"bogsten_tomb_pw_8_0", 
@@ -2455,12 +2498,14 @@
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
 				   { "text":". . . . . . . G", "nextPhraseID":"bogsten_tomb_pw_9_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
+				   { "text":". . . . . . . I", "nextPhraseID":"bogsten_tomb_pw_9_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . . . . . . O", "nextPhraseID":"bogsten_tomb_pw_x4",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4 }] },
 				   { "text":". . . . . . . O", "nextPhraseID":"bogsten_tomb_pw_9_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":4, "negate":true }] },
-				   { "text":". . . . . . . y", "nextPhraseID":"bogsten_tomb_pw_9_0" },
-				   { "text":". . . . . . . z", "nextPhraseID":"bogsten_tomb_pw_9_0" }]
+				   { "text":". . . . . . . S", "nextPhraseID":"bogsten_tomb_pw_9_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] }]
     },
     {
         "id":"bogsten_tomb_pw_9_0", 
@@ -2470,12 +2515,14 @@
     {
         "id":"bogsten_tomb_pw_a",
         "message":"",
-        "replies":[{ "text":". . . . . . . . I", "nextPhraseID":"bogsten_tomb_pw_x3",
+        "replies":[{ "text":". . . . . . . . D", "nextPhraseID":"bogsten_tomb_pw_a_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] },
+				   { "text":". . . . . . . . I", "nextPhraseID":"bogsten_tomb_pw_x3",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
 				   { "text":". . . . . . . . I", "nextPhraseID":"bogsten_tomb_pw_a_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
-				   { "text":". . . . . . . . y", "nextPhraseID":"bogsten_tomb_pw_a_0" },
-				   { "text":". . . . . . . . z", "nextPhraseID":"bogsten_tomb_pw_a_0" }]
+				   { "text":". . . . . . . . K", "nextPhraseID":"bogsten_tomb_pw_a_0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] }]
     },
     {
         "id":"bogsten_tomb_pw_a_0", 
@@ -2485,17 +2532,20 @@
     {
         "id":"bogsten_tomb_pw_b",
         "message":"",
-        "replies":[{ "text":". . . . . . . . . y", "nextPhraseID":"bogsten_tomb_pw_x0" },
-				   { "text":". . . . . . . . . z", "nextPhraseID":"bogsten_tomb_pw_x0" }]
+        "replies":[{ "text":". . . . . . . . . J", "nextPhraseID":"bogsten_tomb_pw_x0" },
+				   { "text":". . . . . . . . . T", "nextPhraseID":"bogsten_tomb_pw_x0",
+					  "requires":[{ "requireType":"random", "requireID":"40" }] }]
     },
     {
         "id":"bogsten_tomb_pw_b_0", 
-		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_2x" }],
+		"replies":[{ "nextPhraseID":"bogsten_tomb_pw_x0" }],
 		"rewards":[{ "rewardType":"alignmentSet", "rewardID":"bogsten_tomb_pw", "value":0 }]
     },
 	{
 		"id":"bogsten_tomb_pw_x0",
-		"message":"That doesn't really make sense, don't you think?"
+		"message":"That doesn't really make sense, don't you think?", 
+		"replies":[{ "text":"Try again.", "nextPhraseID":"bogsten_tomb_pw_1" },
+				   { "text":"Sigh. I give up.", "nextPhraseID":"X" }]
 	},
     {
         "id":"bogsten_tomb_pw_x1",
@@ -2510,15 +2560,39 @@
     },
 	{
 		"id":"bogsten_tomb_pw_x2",
-		"message":"Andor? Why should we have used the name of your brother here?"
+		"message":"Andor? Why should we have used the name of your brother here?", 
+		"replies":[{ "text":"Try again.", "nextPhraseID":"bogsten_tomb_pw_1" },
+				   { "text":"Sigh. I give up.", "nextPhraseID":"X" }]
 	},
 	{
 		"id":"bogsten_tomb_pw_x3",
-		"message":"I loved this too. But no."
+		"message":"I used to love this too. But not now any more.", 
+		"replies":[{ "text":"Try again.", "nextPhraseID":"bogsten_tomb_pw_1" },
+				   { "text":"Sigh. I give up.", "nextPhraseID":"X" }]
 	},
 	{
 		"id":"bogsten_tomb_pw_x4",
-		"message":"That is the answer to almost any question, yes. But not to this one - try again."
+		"message":"Ah - the answer to almost any question, yes. But not to this one - try again.", 
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_tomb_pw_1" }]
+	},
+	{
+		"id":"bogsten_tomb_pw_x5",
+		"message":"No.", 
+		"replies":[{ "text":"Pleeease.", "nextPhraseID":"bogsten_tomb_pw_x5_1" },
+				   { "text":"Sigh. I give up.", "nextPhraseID":"X" }]
+	},
+	{
+		"id":"bogsten_tomb_pw_x5_1",
+		"message":"No.", 
+		"replies":[{ "text":"Do it for me, won't you?", "nextPhraseID":"bogsten_tomb_pw_x5_2" },
+				   { "text":"Try again.", "nextPhraseID":"bogsten_tomb_pw_1" },
+				   { "text":"Sigh. I give up.", "nextPhraseID":"X" }]
+	},
+	{
+		"id":"bogsten_tomb_pw_x5_2",
+		"message":"No.", 
+		"replies":[{ "text":"Try again.", "nextPhraseID":"bogsten_tomb_pw_1" },
+				   { "text":"Sigh. I give up.", "nextPhraseID":"X" }]
 	},
     {
         "id":"grownfood01",
