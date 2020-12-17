@@ -206,8 +206,8 @@
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
-  <object id="12" name="bogsten_tomb_loot5" type="container" x="416" y="160" width="32" height="32"/>
-  <object id="13" name="bogsten_tomb_loot4" type="container" x="32" y="160" width="32" height="32"/>
+  <object id="12" name="bogsten_tomb_loot2" type="container" x="416" y="160" width="32" height="32"/>
+  <object id="13" name="bogsten_tomb_loot1" type="container" x="32" y="160" width="32" height="32"/>
   <object id="23" name="up" type="mapchange" x="224" y="288" width="32" height="32">
    <properties>
     <property name="map" value="mushroom_m2_4"/>
