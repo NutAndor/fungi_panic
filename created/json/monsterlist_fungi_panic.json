@@ -459,7 +459,7 @@
         "id":"wild_berry1",
         "name":"Wild berries",
         "iconID":"items_japozero:488",
-        "moveCost":1000,
+        "moveCost":999,
         "monsterClass":"animal",
         "spawnGroup":"wild_berry1",
         "phraseID":"chk_wild_berry1_10"
@@ -467,7 +467,7 @@
     {
         "id":"bogsten_granny",
         "name":"Undina Bogsten",
-        "iconID":"monsters_ld1:144",
+        "iconID":"monsters_gisons:8",
         "moveCost":10,
         "monsterClass":"humanoid",
         "spawnGroup":"bogsten_granny",
