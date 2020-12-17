@@ -476,7 +476,7 @@
     {
         "id":"bogsten_granny1",
         "name":"Undina Bogsten",
-        "iconID":"monsters_ld1:144",
+        "iconID":"monsters_gisons:8",
         "moveCost":10,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
@@ -486,7 +486,7 @@
     {
         "id":"bogsten_gambler1",
         "name":"Gambling ghost",
-        "iconID":"monsters_ld1:62",
+        "iconID":"monsters_gisons:9",
         "moveCost":10,
         "monsterClass":"humanoid",
         "spawnGroup":"bogsten_gambler1",
@@ -495,7 +495,7 @@
     {
         "id":"bogsten_gambler2",
         "name":"Gambling ghost",
-        "iconID":"monsters_ld1:122",
+        "iconID":"monsters_gisons:10",
         "moveCost":10,
         "monsterClass":"humanoid",
         "spawnGroup":"bogsten_gambler2",
@@ -504,10 +504,19 @@
     {
         "id":"bogsten_gambler3",
         "name":"Gambling ghost",
-        "iconID":"monsters_ld1:64",
+        "iconID":"monsters_gisons:11",
         "moveCost":10,
         "monsterClass":"humanoid",
         "spawnGroup":"bogsten_gambler3",
         "phraseID":"bogsten_gambler"
+    },
+    {
+        "id":"bogsten_ghost5",
+        "name":"Confused ghost",
+        "iconID":"monsters_gisons:12",
+        "moveCost":8,
+        "monsterClass":"humanoid",
+        "spawnGroup":"bogsten_ghost5",
+        "phraseID":"bogsten_ghost5"
     }
 ]
