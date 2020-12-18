@@ -2137,13 +2137,140 @@
         "replies":[
             {
                 "text":"Sorry, I am not of your family. I am $playername from Crossglen.",
+				"nextPhraseID":"bogsten_granny_20"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_20",
+        "message":"Really? My eyes don't seem to be as clear as they used to be.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"bogsten_granny_30"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_30",
+        "message":"Where is this naughty boy? He should have come for cleaning every week.",
+        "replies":[
+            {
+                "text":"He is dead.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bogsten",
+                        "value":1
+                    }
+                ],
+				"nextPhraseID":"bogsten_granny_32"
+            },
+            {
+                "text":"I met him in the house upstairs. He was very ill.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"bogsten",
+                        "value":1,
+						"negate":true
+                    }
+                ],
+				"nextPhraseID":"bogsten_granny_34"
+            },
+            {
+                "text":"I don't know.",
+				"nextPhraseID":"bogsten_granny_40"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_32",
+        "message":"Death is not a reason to neglect one's duties!",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"bogsten_granny_40"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_34",
+        "message":"Ill? You mean lazy and sleepy!",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"bogsten_granny_40"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_40",
+        "message":"I never could stand this spoiled kid. He only ever comes to get new gold from the family treasure.",
+        "replies":[
+            {
+                "text":"How ungrateful!",
+				"nextPhraseID":"bogsten_granny_42"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_42",
+        "message":"Ingrateful indeed. I would rather give our gold to some random beggar than to see it squandered by him.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"bogsten_granny_50"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_50",
+        "message":"Tell me child, where are you going in the world?",
+        "replies":[
+            {
+                "text":"My father sent me to find my brother Andor. He had left some time ago and didn't come back yet.",
+				"nextPhraseID":"bogsten_granny_52"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_52",
+        "message":"It really is an honorable goal. I like you, my child. Truly.",
+        "replies":[
+            {
+                "text":"Did you see my brother? He looks a bit like me.",
+				"nextPhraseID":"bogsten_granny_54"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_54",
+        "message":"No, I haven't seen Andor. I hope that you will find him soon and that you can return to your father together.",
+        "replies":[
+            {
+                "text":"My father will be very glad.",
+				"nextPhraseID":"bogsten_granny_60"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_60",
+        "message":"How touching! I will give you something. You really deserve a little gold.",
+        "replies":[
+            {
+                "text":"Oh, you don't have to!",
+				"nextPhraseID":"bogsten_granny_80"
+            },
+            {
+                "text":"At last some gold.",
 				"nextPhraseID":"bogsten_granny_80"
             }
         ]
     },
     {
         "id":"bogsten_granny_80",
-        "message":"Go ye into our family tomb. You may take some of our wealth.",
+        "message":"Go ye into our family tomb. You may pick something from our treasures.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2177,76 +2304,144 @@
     {
         "id":"bogsten_gambler_18",
         "message":"18",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_20"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_18a" }]
+    },
+    {
+        "id":"bogsten_gambler_18a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"10" }] },
+					{ "nextPhraseID":"bogsten_gambler_20" }]
     },
     {
         "id":"bogsten_gambler_20",
         "message":"20",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_22"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_20a" }]
+    },
+    {
+        "id":"bogsten_gambler_20a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"10" }] },
+					{ "nextPhraseID":"bogsten_gambler_22" }]
     },
     {
         "id":"bogsten_gambler_22",
         "message":"2",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_23"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_22a" }]
+    },
+    {
+        "id":"bogsten_gambler_22a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"10" }] },
+					{ "nextPhraseID":"bogsten_gambler_23" }]
     },
     {
         "id":"bogsten_gambler_23",
         "message":"0",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_24"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_23a" }]
+    },
+    {
+        "id":"bogsten_gambler_23a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"10" }] },
+					{ "nextPhraseID":"bogsten_gambler_24" }]
     },
     {
         "id":"bogsten_gambler_24",
         "message":"4",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_27"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_24a" }]
+    },
+    {
+        "id":"bogsten_gambler_24a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_27" }]
     },
     {
         "id":"bogsten_gambler_27",
         "message":"7",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_30"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_27a" }]
+    },
+    {
+        "id":"bogsten_gambler_27a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_30" }]
     },
     {
         "id":"bogsten_gambler_30",
         "message":"30",
-		"replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"bogsten_gambler_33"
-            }
-        ]
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_30a" }]
+    },
+    {
+        "id":"bogsten_gambler_30a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_33" }]
     },
     {
         "id":"bogsten_gambler_33",
-        "message":"Your play."
+        "message":"33",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_33a" }]
+    },
+    {
+        "id":"bogsten_gambler_33a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_36" }]
+    },
+    {
+        "id":"bogsten_gambler_36",
+        "message":"36",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_36a" }]
+    },
+    {
+        "id":"bogsten_gambler_36a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_40" }]
+    },
+    {
+        "id":"bogsten_gambler_40",
+        "message":"40",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_40a" }]
+    },
+    {
+        "id":"bogsten_gambler_40a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_44" }]
+    },
+    {
+        "id":"bogsten_gambler_44",
+        "message":"44",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_44a" }]
+    },
+    {
+        "id":"bogsten_gambler_44a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_48" }]
+    },
+    {
+        "id":"bogsten_gambler_48",
+        "message":"48",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_48a" }]
+    },
+    {
+        "id":"bogsten_gambler_48a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_50" }]
+    },
+    {
+        "id":"bogsten_gambler_50",
+        "message":"50",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50a" }]
+    },
+    {
+        "id":"bogsten_gambler_50a",
+        "replies":[	{ "nextPhraseID":"bogsten_gambler_out", "requires":[{ "requireType":"random", "requireID":"20" }] },
+					{ "nextPhraseID":"bogsten_gambler_out2" }]
+    },
+    {
+        "id":"bogsten_gambler_out",
+        "message":"OK. It's your game."
+    },
+    {
+        "id":"bogsten_gambler_out2",
+        "message":"50 - yes?? You must be cheating!"
+    },
+    {
+        "id":"bogsten_gambler_out2b",
+        "message":"If you were not already dead, you would be now!"
     },
     {
         "id":"bogsten_ghost5",
@@ -2390,9 +2585,9 @@
 				   { "text":". I", "nextPhraseID":"bogsten_tomb_pw_2_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
 				   { "text":". L", "nextPhraseID":"bogsten_tomb_pw_2_5",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3 }] },
 				   { "text":". L", "nextPhraseID":"bogsten_tomb_pw_2_0",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true }] },
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":3, "negate":true }] },
 				   { "text":". M", "nextPhraseID":"bogsten_tomb_pw_2_0",
 					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". N", "nextPhraseID":"bogsten_tomb_pw_3",
@@ -2530,7 +2725,7 @@
 					  "requires":[{ "requireType":"random", "requireID":"40" }] },
 				   { "text":". . . . . E", "nextPhraseID":"bogsten_tomb_pw_7",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1 }] },
-				   { "text":". . . . . E", "nextPhraseID":"bogsten_tomb_pw_7",
+				   { "text":". . . . . E", "nextPhraseID":"bogsten_tomb_pw_x5",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":5 }] },
 				   { "text":". . . . . E", "nextPhraseID":"bogsten_tomb_pw_6_0",
 					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"bogsten_tomb_pw", "value":1, "negate":true },
