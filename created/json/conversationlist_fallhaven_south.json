@@ -19,7 +19,7 @@
     },
     {
         "id":"alaun_4",
-        "message":"Aah, you are here to earn some money, okay.",
+        "message":"Ahh, you are here to earn some money, okay.",
         "replies":[
             {
                 "text":"N",
@@ -29,7 +29,7 @@
     },
     {
         "id":"alaun_5",
-        "message":"I'll give you 10 gold coins if you do this little job for me: Bring me some of that delicious soup which Gison is cooking out of mushrooms and wild herbs.",
+        "message":"I'll give you 10 gold if you do this little job for me: Bring me some of that delicious soup which Gison cooks using mushrooms and wild herbs.",
         "replies":[
             {
                 "text":"Sounds easy, I'll do it!",
@@ -73,7 +73,7 @@
     },
     {
         "id":"alaun_more1",
-        "message":"15? Let me reckon...erm...\n\nOkay, I'll give you 15.",
+        "message":"15? Let me think...erm...\n\nOK, I'll give you 15.",
         "replies":[
             {
                 "text":"Sounds good. I will do it.",
@@ -87,7 +87,7 @@
     },
     {
         "id":"alaun_more2",
-        "message":"20? Let me reckon...erm...\n\nOkay I'll give you 20. But please, bring it hot or I won't pay you.",
+        "message":"20? Let me think...erm...\n\nOK. I'll give you 20. But please, bring it hot or I won't pay you.",
         "replies":[
             {
                 "text":"Sounds good. I will do it.",
@@ -145,7 +145,7 @@
     },
     {
         "id":"alaun_startquest_go",
-        "message":"You can find Gison and his wife Nimael south from here. Cross the way and head into the woods. You will find their house soon.",
+        "message":"You can find Gison and his wife Nimael south of here. Cross the way and head into the woods. You will find their house soon.",
         "replies":[
             {
                 "text":"Okay. See you later.",
@@ -233,7 +233,7 @@
     },
     {
         "id":"alaun_return10",
-        "message":"Here is the money I promised to you.\n\nAnd on top I will give you some of this bread.",
+        "message":"Here is the money I promised you.\n\nAnd on top I will give you some of this bread.",
         "replies":[
             {
                 "text":"N",
@@ -270,7 +270,7 @@
     },
     {
         "id":"alaun_return15",
-        "message":"Here is the money I promised to you.",
+        "message":"Here is the money I promised you.",
         "replies":[
             {
                 "text":"N",
@@ -302,7 +302,7 @@
     },
     {
         "id":"alaun_return20",
-        "message":"Here is the money I promised to you.",
+        "message":"Here is the money I promised you.",
         "replies":[
             {
                 "text":"N",
@@ -334,7 +334,7 @@
     },
     {
         "id":"alaun_return_end",
-        "message":"Thanks again. And remember to bring the bottle back to Gison. Now go please. I want to eat.",
+        "message":"Thanks again. And remember to take the bottle back to Gison. Now go please. I want to eat.",
         "replies":[
             {
                 "text":"Enjoy your meal.",
@@ -358,7 +358,7 @@
     },
     {
         "id":"alaun_return_nosoup_1",
-        "message":"What are you waiting for? Go on, bring my some soup. Hurry, I'm hungry!",
+        "message":"What are you waiting for? Go on, bring me some soup. Hurry, I'm hungry!",
         "replies":[
             {
                 "text":"Yes, I will return quickly.",
