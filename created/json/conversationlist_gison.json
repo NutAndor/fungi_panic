@@ -387,7 +387,7 @@
         "message":"Oh no, too bad. Please bring me an empty bottle once you've found one.",
         "replies":[
             {
-                "text":"I do. Bye",
+                "text":"I will do. Bye",
                 "nextPhraseID":"X"
             }
         ]
@@ -401,7 +401,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I won't do this whole stupid running again just for an empty bottle. Bye.",
+                "text":"I won't do this whole stupid running around again just for an empty bottle. Bye.",
                 "nextPhraseID":"X"
             }
         ],
