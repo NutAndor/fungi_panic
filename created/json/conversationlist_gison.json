@@ -187,7 +187,7 @@
     },
     {
         "id":"gison_talk_1",
-        "message":"Herbs, animals and above all: Mushrooms. \n If you like to know more about mushrooms, I suggest you go to Bogsten. He's growing the best mushrooms you ever ate! But well, I don't want to spoil any more secrets of my soup.",
+        "message":"Herbs, animals and above all: Mushrooms. \n If you like to know more about mushrooms, I suggest you go to Bogsten. He grows the best mushrooms you ever ate! But well, I don't want to give away any more secrets of my soup.",
         "replies":[
             {
                 "text":"N",
@@ -279,10 +279,10 @@
     },
     {
         "id":"gison_p1_20",
-        "message":"Hello you. Did your bring the soup to Alaun?",
+        "message":"Hello you. Did your take the soup to Alaun?",
         "replies":[
             {
-                "text":"Yes, he was not able to bear any longer.",
+                "text":"Yes, he was not able to bear it any longer.",
                 "nextPhraseID":"gison_p1_20_2",
                 "requires":[
                     {
@@ -654,7 +654,7 @@
     },
     {
         "id":"gison_p1_20_nosoup_5000go",
-        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Bring this one to Alaun now, greedy lad!",
+        "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Take this one to Alaun now, greedy lad!",
         "replies":[
             {
                 "text":"Thanks. Good bye.",
