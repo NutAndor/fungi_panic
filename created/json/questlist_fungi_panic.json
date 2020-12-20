@@ -101,7 +101,7 @@
     {
         "id":"fungi_panic_nondisplayed",
         "name":"Fungi Panic - non displayed",
-        "showInLog":0,
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
@@ -126,6 +126,10 @@
             {
                 "progress":100,
                 "logText":"100=Granny despawn."
+            },
+            {
+                "progress":110,
+                "logText":"110=Gardener gloves worn"
             }
         ]
     },

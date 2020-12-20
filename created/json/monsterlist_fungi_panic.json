@@ -456,6 +456,15 @@
         "damageResistance":8
     },
     {
+        "id":"wild_berry",
+        "name":"Wild berries",
+        "iconID":"items_japozero:488",
+        "moveCost":999,
+        "monsterClass":"animal",
+        "spawnGroup":"wild_berry",
+        "phraseID":"chk_wild_berry_50"
+    },
+    {
         "id":"wild_berry1",
         "name":"Wild berries",
         "iconID":"items_japozero:488",

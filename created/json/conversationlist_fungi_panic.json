@@ -1989,6 +1989,128 @@
         ]
     },
     {
+        "id":"chk_wild_berry",
+        "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry_10",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":110,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"chk_wild_berry_20",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry_10",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry",
+				"mapName":"wild9"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_8"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_11"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry_20",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry",
+				"mapName":"wild9"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_8"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_10"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry",
+				"mapName":"guynmart_wood_11"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fungi_panic_nondisplayed",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry_50",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"wild_berry1",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"chk_wild_berry1",
         "replies":[
             {
@@ -2657,7 +2779,8 @@
     },
     {
         "id":"bogsten_gambler_out2",
-        "message":"50 - yes?? You must be cheating!"
+        "message":"50 - yes?? You must be cheating!",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_out2b" }]
     },
     {
         "id":"bogsten_gambler_out2b",
