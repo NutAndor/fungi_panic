@@ -112,12 +112,12 @@
     {
         "id":"gardener_gloves",
         "iconID":"items_japozero:224",
-        "description":"Wear these and you'll never starve in the wild",
         "name":"Gardener gloves",
         "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":700,
-        "category":"hnd_cloth"
+        "category":"hnd_cloth",
+        "description":"Wear these and you'll never starve in the wild"
     },
     {
         "id":"wild_berry1",
@@ -130,6 +130,30 @@
             "conditionsSource":[
                 {
                     "condition":"food",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"nimael_soup",
+        "iconID":"items_tometik1:2",
+        "name":"Nimael's vegetable soup",
+        "displaytype":"rare",
+        "category":"food",
+        "description":"A delicious smelling soup.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":10,
+                    "chance":"100"
+                },
+                {
+                    "condition":"regen2",
                     "magnitude":1,
                     "duration":5,
                     "chance":"100"
