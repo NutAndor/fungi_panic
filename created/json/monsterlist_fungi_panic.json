@@ -474,6 +474,24 @@
         "phraseID":"chk_wild_berry1_10"
     },
     {
+        "id":"wild_berry2",
+        "name":"Ice berries",
+        "iconID":"items_japozero:483",
+        "moveCost":999,
+        "monsterClass":"animal",
+        "spawnGroup":"wild_berry2",
+        "phraseID":"chk_wild_berry2_50"
+    },
+    {
+        "id":"wild_berry3",
+        "name":"Ice berries",
+        "iconID":"items_japozero:484",
+        "moveCost":999,
+        "monsterClass":"animal",
+        "spawnGroup":"wild_berry3",
+        "phraseID":"chk_wild_berry3_50"
+    },
+    {
         "id":"bogsten_granny",
         "name":"Undina Bogsten",
         "iconID":"monsters_gisons:8",
