@@ -158,7 +158,7 @@
     {
         "id":"wild_berry3",
         "iconID":"items_japozero:484",
-        "name":"Ice berries",
+        "name":"Especially sweet berries",
         "hasManualPrice":1,
         "baseMarketCost":22,
         "category":"food",

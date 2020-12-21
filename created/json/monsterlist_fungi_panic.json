@@ -484,7 +484,7 @@
     },
     {
         "id":"wild_berry3",
-        "name":"Ice berries",
+        "name":"Especially sweet berries",
         "iconID":"items_japozero:484",
         "moveCost":999,
         "monsterClass":"animal",
