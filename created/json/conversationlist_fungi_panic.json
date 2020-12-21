@@ -2558,15 +2558,28 @@
         "message":"It was a pleasure to meet you. Farewell, kid!"
     },
     {
-        "id":"bogsten_gambler",
+        "id":"bogsten_gambler1",
+        "message":"Let's have another game - I bid.",
         "replies":[
             {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_18"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler2",
+        "message":"Let's have another Skat game - Bogal, you bid.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"bogsten_gambler_18"
             }
         ]
     },
     {
         "id":"bogsten_gambler_18",
+		"switchToNPC":"bogsten_gambler1",
         "message":"18",
         "replies":[
             {
@@ -2594,6 +2607,7 @@
     },
     {
         "id":"bogsten_gambler_20",
+		"switchToNPC":"bogsten_gambler1",
         "message":"20",
         "replies":[
             {
@@ -2621,6 +2635,7 @@
     },
     {
         "id":"bogsten_gambler_22",
+		"switchToNPC":"bogsten_gambler1",
         "message":"2",
         "replies":[
             {
@@ -2648,6 +2663,7 @@
     },
     {
         "id":"bogsten_gambler_23",
+		"switchToNPC":"bogsten_gambler1",
         "message":"0",
         "replies":[
             {
@@ -2675,6 +2691,7 @@
     },
     {
         "id":"bogsten_gambler_24",
+		"switchToNPC":"bogsten_gambler1",
         "message":"4",
         "replies":[
             {
@@ -2696,12 +2713,33 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_gambler_24b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_gambler_27"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_24b",
+		"switchToNPC":"bogsten_gambler3",
+        "message":"Ah, good. I already thought you wanted to play Null.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"bogsten_gambler_27"
             }
         ]
     },
     {
         "id":"bogsten_gambler_27",
+		"switchToNPC":"bogsten_gambler1",
         "message":"7",
         "replies":[
             {
@@ -2729,6 +2767,7 @@
     },
     {
         "id":"bogsten_gambler_30",
+		"switchToNPC":"bogsten_gambler1",
         "message":"30",
         "replies":[
             {
@@ -2756,6 +2795,7 @@
     },
     {
         "id":"bogsten_gambler_33",
+		"switchToNPC":"bogsten_gambler1",
         "message":"33",
         "replies":[
             {
@@ -2777,12 +2817,44 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_gambler_33b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_gambler_36"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_33b",
+		"switchToNPC":"bogsten_gambler3",
+        "message":"Hey, you have forgotten 30",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_33b_2"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_33b_2",
+		"switchToNPC":"bogsten_gambler1",
+        "message":"Nonsense. I play Skat for over 150 years now.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"bogsten_gambler_36"
             }
         ]
     },
     {
         "id":"bogsten_gambler_36",
+		"switchToNPC":"bogsten_gambler1",
         "message":"36",
         "replies":[
             {
@@ -2804,12 +2876,44 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_gambler_36b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_gambler_40"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_36b",
+		"switchToNPC":"bogsten_gambler2",
+        "message":"Dont you dare to play clubs!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_36b_2"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_36b_2",
+		"switchToNPC":"bogsten_gambler1",
+        "message":"I'm old enough to decide that on my own.  * giggle *",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"bogsten_gambler_40"
             }
         ]
     },
     {
         "id":"bogsten_gambler_40",
+		"switchToNPC":"bogsten_gambler1",
         "message":"40",
         "replies":[
             {
@@ -2831,12 +2935,66 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_gambler_40b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_gambler_44"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_40b",
+		"switchToNPC":"bogsten_gambler3",
+        "message":"You had already said 30.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_40b_2"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_40b_2",
+		"switchToNPC":"bogsten_gambler1",
+        "message":"I said FOURTY, you deaf idiot!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_40b_3"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_40b_3",
+		"switchToNPC":"bogsten_gambler3",
+        "message":"Who's an idiot??",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_40b_4"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_40b_4",
+		"switchToNPC":"bogsten_gambler2",
+        "message":"Both of you. Now go on, Bogal.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"bogsten_gambler_44"
             }
         ]
     },
     {
         "id":"bogsten_gambler_44",
+		"switchToNPC":"bogsten_gambler1",
         "message":"44",
         "replies":[
             {
@@ -2864,6 +3022,7 @@
     },
     {
         "id":"bogsten_gambler_48",
+		"switchToNPC":"bogsten_gambler1",
         "message":"48",
         "replies":[
             {
@@ -2885,12 +3044,61 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_gambler_48b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_gambler_50"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_48b",
+		"switchToNPC":"bogsten_gambler2",
+        "message":"Why is this kid staring at us?\Hey, you! Never seen a Skat game?",
+        "replies":[
+            {
+                "text":"Eh...",
+                "nextPhraseID":"bogsten_gambler_48b_2"
+            },
+            {
+                "text":"Sure. I'm a Skat pro myself.",
+                "nextPhraseID":"bogsten_gambler_48b_3"
+            },
+            {
+                "text":"No. My father always forbade me to gamble.",
+                "nextPhraseID":"bogsten_gambler_48b_2"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_48b_2",
+        "message":"O dear. Go on, Bogal. I don't want to rot here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_50"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_gambler_48b_3",
+        "message":"Well, whoever would believe that ...",
+        "replies":[
+            {
+                "text":"Hee!",
                 "nextPhraseID":"bogsten_gambler_50"
             }
         ]
     },
     {
         "id":"bogsten_gambler_50",
+		"switchToNPC":"bogsten_gambler1",
         "message":"50",
         "replies":[
             {
@@ -2912,22 +3120,43 @@
                 ]
             },
             {
-                "nextPhraseID":"bogsten_gambler_out2"
+                "nextPhraseID":"bogsten_gambler_50b"
             }
         ]
     },
     {
+        "id":"bogsten_gambler_50b",
+		"switchToNPC":"bogsten_gambler1",
+        "message":"50 - still yes?? You must be cheating!",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50b_2" }]
+    },
+    {
+        "id":"bogsten_gambler_50b_2",
+		"switchToNPC":"bogsten_gambler3",
+        "message":"Cheating - me? Dare to say that again!",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50b_3" }]
+    },
+    {
+        "id":"bogsten_gambler_50b_3",
+		"switchToNPC":"bogsten_gambler1",
+        "message":"We all know that you always do. Calm down.",
+		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50b_4" }]
+    },
+    {
+        "id":"bogsten_gambler_50b_4",
+		"switchToNPC":"bogsten_gambler3",
+        "message":"Oooh! If you were not already dead, you would be now!",
+		"replies":[{ "text":"But gentlemen! It's just a game!", "nextPhraseID":"bogsten_gambler_50b_5" }]
+    },
+    {
+        "id":"bogsten_gambler_50b_5",
+		"switchToNPC":"bogsten_gambler2",
+        "message":"Just a game? Get out! Away with you!"
+    },
+    {
         "id":"bogsten_gambler_out",
+		"switchToNPC":"bogsten_gambler1",
         "message":"OK. It's your game."
-    },
-    {
-        "id":"bogsten_gambler_out2",
-        "message":"50 - yes?? You must be cheating!",
-		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_out2b" }]
-    },
-    {
-        "id":"bogsten_gambler_out2b",
-        "message":"If you were not already dead, you would be now!"
     },
     {
         "id":"bogsten_ghost5",
@@ -2935,19 +3164,19 @@
     },
     {
         "id":"bogsten_tomb_grave11",
-        "message":"Grave1"
+        "message":"Here lies Bogal Bogsten, youngest son of Boriel."
     },
     {
         "id":"bogsten_tomb_grave12",
-        "message":"Grave2"
+        "message":"Here lies Botisto Bogsten, middle son of Boriel"
     },
     {
         "id":"bogsten_tomb_grave13",
-        "message":"Grave3"
+        "message":"Here lies Bollo Bogsten, oldest son of Boriel"
     },
     {
         "id":"bogsten_tomb_grave14",
-        "message":"Grave4"
+        "message":"Here lies Boriel Bogsten"
     },
     {
         "id":"bogsten_tomb_grave1",
