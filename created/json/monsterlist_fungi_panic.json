@@ -462,16 +462,7 @@
         "moveCost":999,
         "monsterClass":"animal",
         "spawnGroup":"wild_berry",
-        "phraseID":"chk_wild_berry_50"
-    },
-    {
-        "id":"wild_berry1",
-        "name":"Wild berries",
-        "iconID":"items_japozero:488",
-        "moveCost":999,
-        "monsterClass":"animal",
-        "spawnGroup":"wild_berry1",
-        "phraseID":"chk_wild_berry1_10"
+        "phraseID":"chk_wild_berry1"
     },
     {
         "id":"wild_berry2",
@@ -480,7 +471,7 @@
         "moveCost":999,
         "monsterClass":"animal",
         "spawnGroup":"wild_berry2",
-        "phraseID":"chk_wild_berry2_50"
+        "phraseID":"chk_wild_berry2"
     },
     {
         "id":"wild_berry3",
@@ -489,7 +480,7 @@
         "moveCost":999,
         "monsterClass":"animal",
         "spawnGroup":"wild_berry3",
-        "phraseID":"chk_wild_berry3_50"
+        "phraseID":"chk_wild_berry3"
     },
     {
         "id":"bogsten_granny",

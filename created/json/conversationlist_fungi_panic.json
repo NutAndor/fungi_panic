@@ -2285,8 +2285,25 @@
             }
         ]
     },
-    {
-        "id":"chk_wild_berry_50",
+	{
+        "id":"chk_wild_berry1",
+        "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry1_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"chk_wild_berry1_10"
+            }
+        ]
+	},
+	{
+        "id":"chk_wild_berry1_10",
         "replies":[
             {
                 "nextPhraseID":"R"
@@ -2300,8 +2317,40 @@
             }
         ]
     },
+	{
+        "id":"chk_wild_berry1_20",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"wild_berry1a",
+                "value":1
+            }
+        ]
+    },
+	{
+        "id":"chk_wild_berry2",
+        "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry2_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"chk_wild_berry2_10"
+            }
+        ]
+	},
     {
-        "id":"chk_wild_berry2_50",
+        "id":"chk_wild_berry2_10",
         "replies":[
             {
                 "nextPhraseID":"R"
@@ -2316,7 +2365,39 @@
         ]
     },
     {
-        "id":"chk_wild_berry3_50",
+        "id":"chk_wild_berry2_20",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"wild_berry2a",
+                "value":1
+            }
+        ]
+    },
+	{
+        "id":"chk_wild_berry3",
+        "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry3_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"chk_wild_berry3_10"
+            }
+        ]
+	},
+    {
+        "id":"chk_wild_berry3_10",
         "replies":[
             {
                 "nextPhraseID":"R"
@@ -2326,6 +2407,21 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"wild_berry3",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"chk_wild_berry3_20",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"wild_berry3a",
                 "value":1
             }
         ]
@@ -2704,7 +2800,7 @@
         "id":"bogsten_gambler_24a",
         "replies":[
             {
-                "nextPhraseID":"bogsten_gambler_out",
+                "nextPhraseID":"bogsten_gambler_24b",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2713,7 +2809,7 @@
                 ]
             },
             {
-                "nextPhraseID":"bogsten_gambler_24b",
+                "nextPhraseID":"bogsten_gambler_out",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2808,7 +2904,7 @@
         "id":"bogsten_gambler_33a",
         "replies":[
             {
-                "nextPhraseID":"bogsten_gambler_out",
+                "nextPhraseID":"bogsten_gambler_33b",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2817,7 +2913,7 @@
                 ]
             },
             {
-                "nextPhraseID":"bogsten_gambler_33b",
+                "nextPhraseID":"bogsten_gambler_out",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2867,7 +2963,7 @@
         "id":"bogsten_gambler_36a",
         "replies":[
             {
-                "nextPhraseID":"bogsten_gambler_out",
+                "nextPhraseID":"bogsten_gambler_36b",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2876,7 +2972,7 @@
                 ]
             },
             {
-                "nextPhraseID":"bogsten_gambler_36b",
+                "nextPhraseID":"bogsten_gambler_out",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2926,7 +3022,7 @@
         "id":"bogsten_gambler_40a",
         "replies":[
             {
-                "nextPhraseID":"bogsten_gambler_out",
+                "nextPhraseID":"bogsten_gambler_40b",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2935,7 +3031,7 @@
                 ]
             },
             {
-                "nextPhraseID":"bogsten_gambler_40b",
+                "nextPhraseID":"bogsten_gambler_out",
                 "requires":[
                     {
                         "requireType":"random",
@@ -3035,20 +3131,20 @@
         "id":"bogsten_gambler_48a",
         "replies":[
             {
-                "nextPhraseID":"bogsten_gambler_out",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"20"
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"bogsten_gambler_48b",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_gambler_out",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
                     }
                 ]
             },
