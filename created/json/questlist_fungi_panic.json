@@ -101,7 +101,7 @@
     {
         "id":"fungi_panic_nondisplayed",
         "name":"Fungi Panic - non displayed",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":10,
@@ -136,7 +136,7 @@
     {
         "id":"bela_gsnake",
         "name":"A giant snake",
-        "9":1,
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,

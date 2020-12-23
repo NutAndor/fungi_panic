@@ -10,7 +10,7 @@
                 "nextPhraseID":"fungi_panic_check_key_10",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"bogsten_key",
                         "value":1
                     }
@@ -2046,16 +2046,6 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"wild_berry",
 				"mapName":"guynmart_wood_8"
             },
             {
@@ -2176,16 +2166,6 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"wild_berry",
 				"mapName":"guynmart_wood_8"
             },
             {
@@ -2286,8 +2266,28 @@
         ]
     },
 	{
+        "id":"chk_wild_berry_50",
+        "message":"I should better wear my gloves again."
+    },
+	{
         "id":"chk_wild_berry1",
         "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry_50",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":110
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"chk_wild_berry1_20",
                 "requires":[
@@ -2336,6 +2336,22 @@
         "id":"chk_wild_berry2",
         "replies":[
             {
+                "nextPhraseID":"chk_wild_berry_50",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":110
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"chk_wild_berry2_20",
                 "requires":[
                     {
@@ -2382,6 +2398,22 @@
 	{
         "id":"chk_wild_berry3",
         "replies":[
+            {
+                "nextPhraseID":"chk_wild_berry_50",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"gardener_gloves",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":110
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"chk_wild_berry3_20",
                 "requires":[
@@ -3156,7 +3188,7 @@
     {
         "id":"bogsten_gambler_48b",
 		"switchToNPC":"bogsten_gambler2",
-        "message":"Why is this kid staring at us?\Hey, you! Never seen a Skat game?",
+        "message":"Why is this kid staring at us?\nHey, you! Never seen a Skat game?",
         "replies":[
             {
                 "text":"Eh...",

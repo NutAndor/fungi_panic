@@ -273,20 +273,6 @@
     <property name="spawngroup" value="forestbeetle"/>
    </properties>
   </object>
-  <object id="14" name="wild_berry" type="spawn" x="608" y="480" width="288" height="384">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="wild_berry"/>
-   </properties>
-  </object>
-  <object id="15" name="wild_berry2" type="spawn" x="64" y="128" width="224" height="224">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="wild_berry"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace" visible="0"/>

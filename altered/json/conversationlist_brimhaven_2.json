@@ -389,12 +389,35 @@
         ]
     },
     {
+        "id":"release_mouse0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"release_mouse1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"trapped_mouse",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"release_mouse1",
         "message":"This looks like a good place to release the mouse.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"release_mouse1a"
+                "text":"[Open the bottle]",
+                "nextPhraseID":"release_mouse1a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"trapped_mouse",
+                        "value":1
+                    }
+                ]
             }
         ]
     }
