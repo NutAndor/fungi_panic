@@ -78,6 +78,27 @@
                         "value":1
                     },
                     {
+                        "requireType":"killedMonster",
+                        "requireID":"bogsten",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_check_zuulkhan_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan",
+                        "value":1
+                    },
+                    {
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":90,
@@ -95,6 +116,22 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":90
+            }
+        ]
+    },
+    {
+        "id":"bogsten_check_zuulkhan_20",
+        "message":"You have the impression that Zuul'khan is not dead. He just disappeared into the ground.\nYou should tell Bogsten about this.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":90
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":92
             }
         ]
     },
@@ -1810,7 +1847,25 @@
     },
     {
         "id":"zuul_khan9_blocker_20",
-        "message":"No. We are expecting you to say so. We were told not to leave."
+        "message":"No. We are expecting you to say so. We were told not to leave.",
+        "replies":[
+            {
+                "text":"I need to know what's behind it. I best try to find another way.",
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Well, you are learning.",
+				"nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"boss_fungi_killed",
@@ -1827,6 +1882,32 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic_nondisplayed",
                         "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"boss_fungi_killed_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"dangerous_fungi_1",
+                        "value":3
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"mid_fungi_1",
+                        "value":4
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"weak_fungi_1",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":200,
                         "negate":true
                     }
                 ]
@@ -1860,6 +1941,27 @@
                 "rewardType":"spawnAll",
                 "rewardID":"weak_fungi_1",
                 "mapName":"mushroom_m3_2"
+            }
+        ]
+    },
+    {
+        "id":"boss_fungi_killed_20",
+        "message":"That was a tough fight.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"boss_fungi_killed_22"
+            }
+        ]
+    },
+    {
+        "id":"boss_fungi_killed_22",
+        "message":"The big mushroom was finally defeated.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":200
             }
         ]
     },
@@ -2466,7 +2568,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fungi_panic",
+                        "requireID":"fungi_panic_nondisplayed",
                         "value":100,
                         "negate":true
                     }
@@ -2484,7 +2586,7 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
+                "rewardID":"fungi_panic_nondisplayed",
                 "value":100
             }
         ]
@@ -2509,11 +2611,31 @@
         "id":"bogsten_granny",
         "replies":[
             {
+                "nextPhraseID":"bogsten_granny_94",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gardener_gloves",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_granny_92",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic_nondisplayed",
+                        "value":210
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"bogsten_granny_90",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fungi_panic",
+                        "requireID":"fungi_panic_nondisplayed",
                         "value":200
                     }
                 ]
@@ -2666,7 +2788,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
+                "rewardID":"fungi_panic_nondisplayed",
                 "value":200
             },
             {
@@ -2684,6 +2806,30 @@
     {
         "id":"bogsten_granny_90",
         "message":"It was a pleasure to meet you. Farewell, kid!"
+    },
+    {
+        "id":"bogsten_granny_92",
+        "message":"Ah, so you found your way downstairs. Smart child, it was a pleasure to meet you. Farewell!"
+    },
+    {
+        "id":"bogsten_granny_94",
+        "message":"So you've chosen my gardening gloves. A wise choice!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_granny_96"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_granny_96",
+        "message":"There used to be also a family-owned cookbook. Unfortunately that has been lost. It contained valuable recipes - the mushroom soup in particular was a dream!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_granny_90"
+            }
+        ]
     },
     {
         "id":"bogsten_gambler1",
@@ -3326,7 +3472,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fungi_panic",
+                        "requireID":"fungi_panic_nondisplayed",
                         "value":210,
                         "negate":true
                     }
@@ -4688,7 +4834,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
+                "rewardID":"fungi_panic_nondisplayed",
                 "value":210
             }
         ]

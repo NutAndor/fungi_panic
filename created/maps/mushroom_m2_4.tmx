@@ -300,7 +300,7 @@
   <object id="9" name="bogsten_tomb_key" type="key" x="320" y="192" width="32" height="32">
    <properties>
     <property name="phrase" value="bogsten_tomb_key"/>
-    <property name="requireId" value="fungi_panic"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="200"/>
    </properties>
@@ -312,7 +312,7 @@
     <property name="Above" value="Above2"/>
     <property name="Objects" value="Objects2"/>
     <property name="Top" value="Top2"/>
-    <property name="requireId" value="fungi_panic"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="200"/>
    </properties>
@@ -321,7 +321,7 @@
    <properties>
     <property name="Objects" value="Objects3"/>
     <property name="Walkable" value="Above"/>
-    <property name="requireId" value="fungi_panic"/>
+    <property name="requireId" value="fungi_panic_nondisplayed"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="210"/>
    </properties>

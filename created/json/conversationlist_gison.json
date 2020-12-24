@@ -1762,7 +1762,27 @@
     },
     {
         "id":"gison_thief1_20",
-        "message":"We agreed that there was nothing to see here. So get out of here."
+        "message":"We agreed that there was nothing to see here. So get out of here.",
+        "replies":[
+            {
+                "text":"Of course. Sorry, I forgot.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"So what? I have changed my mind. Move aside if you love your life!",
+                "nextPhraseID":"gison_thief1_22"
+            }
+        ]
+    },
+    {
+        "id":"gison_thief1_22",
+        "message":"Hahaha! You are funny. Hahahaha!",
+        "replies":[
+            {
+                "text":"Attack!",
+                "nextPhraseID":"F"
+            }
+        ]
     },
     {
         "id":"gison_thief1_12",

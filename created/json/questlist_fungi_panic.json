@@ -46,13 +46,16 @@
             },
             {
                 "progress":90,
-                "logText":"I defeated Zuul'khan, but he was not dead. He disappeared into the ground. I should tell Bogsten about what happened."
+                "logText":"I defeated Zuul'khan, but he was not dead. He disappeared into the ground."
+            },
+            {
+                "progress":92,
+                "logText":"I should tell Bogsten about what happened."
             },
             {
                 "progress":100,
                 "logText":"Bogsten remembered the petrifying spell. This time he would make sure that Zuul'khan cannot come back. He gave me a bag of mushrooms and told me I should take them to the potion merchant.",
-                "rewardExperience":2000,
-                "finishesQuest":1
+                "rewardExperience":2000
             },
             {
                 "progress":102,
@@ -60,8 +63,7 @@
             },
             {
                 "progress":110,
-                "logText":"The potion merchant said that these were very rare mushrooms. He prepared two \"Underground Fighter\" potions for me. He would sell me some more if I came back.",
-                "finishesQuest":1
+                "logText":"The potion merchant said that these were very rare mushrooms. He prepared two \"Underground Fighter\" potions for me. He would sell me some more if I came back."
             },
             {
                 "progress":115,
@@ -69,14 +71,12 @@
             },
             {
                 "progress":135,
-                "logText":"I decided to keep Bogsten's staff for myself, so I had to kill Zuul'khan.",
-                "finishesQuest":1
+                "logText":"I decided to keep Bogsten's staff for myself, so I had to kill Zuul'khan."
             },
             {
                 "progress":145,
                 "logText":"I defeated Zuul'khan, but he was not dead. He disappeared into the ground.",
-                "rewardExperience":2000,
-                "finishesQuest":1
+                "rewardExperience":2000
             },
             {
                 "progress":150,
@@ -85,16 +85,12 @@
             {
                 "progress":155,
                 "logText":"He rewarded me with permanent immunity to Spore Infection.",
-                "rewardExperience":2000,
-                "finishesQuest":1
+                "rewardExperience":2000
             },
             {
                 "progress":200,
-                "logText":"Bogsten's grand grand grandmother invited me to their family tomb."
-            },
-            {
-                "progress":210,
-                "logText":"You found a hidden way downstairs."
+                "logText":"The big mushroom was finally defeated.",
+                "finishesQuest":1
             }
         ]
     },
@@ -130,6 +126,14 @@
             {
                 "progress":110,
                 "logText":"110=Gardener gloves worn"
+            },
+            {
+                "progress":200,
+                "logText":"Bogsten's grand grand grandmother invited me to their family tomb."
+            },
+            {
+                "progress":210,
+                "logText":"You found a hidden way downstairs."
             }
         ]
     },
