@@ -362,7 +362,7 @@
         "message":"Where is it?",
         "replies":[
             {
-                "text":"Ooops, I forgot that there is a hole in my bag.",
+                "text":"Oops, I forgot that there is a hole in my bag.",
                 "nextPhraseID":"alaun_return_nosoup_1"
             },
             {

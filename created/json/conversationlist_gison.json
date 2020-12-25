@@ -1244,7 +1244,7 @@
         "message":"I'm busy at the moment. Please talk to Gison. He's over there.",
         "replies":[
             {
-                "text":"Okay. Bye.",
+                "text":"OK. Bye.",
                 "nextPhraseID":"X"
             }
         ]
