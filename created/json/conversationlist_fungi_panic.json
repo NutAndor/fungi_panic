@@ -1851,7 +1851,7 @@
         "replies":[
             {
                 "text":"I need to know what's behind it. I best try to find another way.",
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1863,7 +1863,7 @@
             },
             {
                 "text":"Well, you are learning.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2105,7 +2105,7 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic_nondisplayed",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2116,7 +2116,7 @@
                         "requireType":"wear",
                         "requireID":"gardener_gloves",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -2133,112 +2133,112 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"gapfiller2"
+                "mapName":"gapfiller2"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"wild9"
+                "mapName":"wild9"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"wild9"
+                "mapName":"wild9"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_8"
+                "mapName":"guynmart_wood_8"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_8"
+                "mapName":"guynmart_wood_8"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_10"
+                "mapName":"guynmart_wood_10"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_10"
+                "mapName":"guynmart_wood_10"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_11"
+                "mapName":"guynmart_wood_11"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_11"
+                "mapName":"guynmart_wood_11"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"blackwater_mountain32"
+                "mapName":"blackwater_mountain32"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"blackwater_mountain32"
+                "mapName":"blackwater_mountain32"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"waytolake10"
+                "mapName":"waytolake10"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"waytolake10"
+                "mapName":"waytolake10"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"waytolake11"
+                "mapName":"waytolake11"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry2",
-				"mapName":"waytolake11"
+                "mapName":"waytolake11"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"lodar19"
+                "mapName":"lodar19"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry3",
-				"mapName":"lodar19"
+                "mapName":"lodar19"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"lodar21"
+                "mapName":"lodar21"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry3",
-				"mapName":"lodar21"
+                "mapName":"lodar21"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"mountainlake7"
+                "mapName":"mountainlake7"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry3",
-				"mapName":"mountainlake7"
+                "mapName":"mountainlake7"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"wild_berry",
-				"mapName":"mountainlake8"
+                "mapName":"mountainlake8"
             },
             {
                 "rewardType":"questProgress",
@@ -2253,112 +2253,112 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"gapfiller2"
+                "mapName":"gapfiller2"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"wild9"
+                "mapName":"wild9"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"wild9"
+                "mapName":"wild9"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_8"
+                "mapName":"guynmart_wood_8"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_8"
+                "mapName":"guynmart_wood_8"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_10"
+                "mapName":"guynmart_wood_10"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_10"
+                "mapName":"guynmart_wood_10"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"guynmart_wood_11"
+                "mapName":"guynmart_wood_11"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"guynmart_wood_11"
+                "mapName":"guynmart_wood_11"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"blackwater_mountain32"
+                "mapName":"blackwater_mountain32"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"blackwater_mountain32"
+                "mapName":"blackwater_mountain32"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"waytolake10"
+                "mapName":"waytolake10"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"waytolake10"
+                "mapName":"waytolake10"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"waytolake11"
+                "mapName":"waytolake11"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry2",
-				"mapName":"waytolake11"
+                "mapName":"waytolake11"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"lodar19"
+                "mapName":"lodar19"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry3",
-				"mapName":"lodar19"
+                "mapName":"lodar19"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"lodar21"
+                "mapName":"lodar21"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry3",
-				"mapName":"lodar21"
+                "mapName":"lodar21"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"mountainlake7"
+                "mapName":"mountainlake7"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry3",
-				"mapName":"mountainlake7"
+                "mapName":"mountainlake7"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry",
-				"mapName":"mountainlake8"
+                "mapName":"mountainlake8"
             },
             {
                 "rewardType":"removeQuestProgress",
@@ -2367,11 +2367,11 @@
             }
         ]
     },
-	{
+    {
         "id":"chk_wild_berry_50",
         "message":"I should better wear my gloves again."
     },
-	{
+    {
         "id":"chk_wild_berry1",
         "replies":[
             {
@@ -2381,7 +2381,7 @@
                         "requireType":"wear",
                         "requireID":"gardener_gloves",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -2403,8 +2403,8 @@
                 "nextPhraseID":"chk_wild_berry1_10"
             }
         ]
-	},
-	{
+    },
+    {
         "id":"chk_wild_berry1_10",
         "replies":[
             {
@@ -2419,7 +2419,7 @@
             }
         ]
     },
-	{
+    {
         "id":"chk_wild_berry1_20",
         "replies":[
             {
@@ -2434,7 +2434,7 @@
             }
         ]
     },
-	{
+    {
         "id":"chk_wild_berry2",
         "replies":[
             {
@@ -2444,7 +2444,7 @@
                         "requireType":"wear",
                         "requireID":"gardener_gloves",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -2466,7 +2466,7 @@
                 "nextPhraseID":"chk_wild_berry2_10"
             }
         ]
-	},
+    },
     {
         "id":"chk_wild_berry2_10",
         "replies":[
@@ -2497,7 +2497,7 @@
             }
         ]
     },
-	{
+    {
         "id":"chk_wild_berry3",
         "replies":[
             {
@@ -2507,7 +2507,7 @@
                         "requireType":"wear",
                         "requireID":"gardener_gloves",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -2529,7 +2529,7 @@
                 "nextPhraseID":"chk_wild_berry3_10"
             }
         ]
-	},
+    },
     {
         "id":"chk_wild_berry3_10",
         "replies":[
@@ -2853,8 +2853,8 @@
     },
     {
         "id":"bogsten_gambler_18",
-		"switchToNPC":"bogsten_gambler1",
         "message":"18",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -2881,8 +2881,8 @@
     },
     {
         "id":"bogsten_gambler_20",
-		"switchToNPC":"bogsten_gambler1",
         "message":"20",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -2909,8 +2909,8 @@
     },
     {
         "id":"bogsten_gambler_22",
-		"switchToNPC":"bogsten_gambler1",
         "message":"2",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -2937,8 +2937,8 @@
     },
     {
         "id":"bogsten_gambler_23",
-		"switchToNPC":"bogsten_gambler1",
         "message":"0",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -2965,8 +2965,8 @@
     },
     {
         "id":"bogsten_gambler_24",
-		"switchToNPC":"bogsten_gambler1",
         "message":"4",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3002,8 +3002,8 @@
     },
     {
         "id":"bogsten_gambler_24b",
-		"switchToNPC":"bogsten_gambler3",
         "message":"Ah, good. I already thought you wanted to play Null.",
+        "switchToNPC":"bogsten_gambler3",
         "replies":[
             {
                 "text":"N",
@@ -3013,8 +3013,8 @@
     },
     {
         "id":"bogsten_gambler_27",
-		"switchToNPC":"bogsten_gambler1",
         "message":"7",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3041,8 +3041,8 @@
     },
     {
         "id":"bogsten_gambler_30",
-		"switchToNPC":"bogsten_gambler1",
         "message":"30",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3069,8 +3069,8 @@
     },
     {
         "id":"bogsten_gambler_33",
-		"switchToNPC":"bogsten_gambler1",
         "message":"33",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3106,8 +3106,8 @@
     },
     {
         "id":"bogsten_gambler_33b",
-		"switchToNPC":"bogsten_gambler3",
         "message":"Hey, you have forgotten 30",
+        "switchToNPC":"bogsten_gambler3",
         "replies":[
             {
                 "text":"N",
@@ -3117,8 +3117,8 @@
     },
     {
         "id":"bogsten_gambler_33b_2",
-		"switchToNPC":"bogsten_gambler1",
         "message":"Nonsense. I play Skat for over 150 years now.",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3128,8 +3128,8 @@
     },
     {
         "id":"bogsten_gambler_36",
-		"switchToNPC":"bogsten_gambler1",
         "message":"36",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3165,8 +3165,8 @@
     },
     {
         "id":"bogsten_gambler_36b",
-		"switchToNPC":"bogsten_gambler2",
         "message":"Dont you dare to play clubs!",
+        "switchToNPC":"bogsten_gambler2",
         "replies":[
             {
                 "text":"N",
@@ -3176,8 +3176,8 @@
     },
     {
         "id":"bogsten_gambler_36b_2",
-		"switchToNPC":"bogsten_gambler1",
         "message":"I'm old enough to decide that on my own.  * giggle *",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3187,8 +3187,8 @@
     },
     {
         "id":"bogsten_gambler_40",
-		"switchToNPC":"bogsten_gambler1",
         "message":"40",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3224,8 +3224,8 @@
     },
     {
         "id":"bogsten_gambler_40b",
-		"switchToNPC":"bogsten_gambler3",
         "message":"You had already said 30.",
+        "switchToNPC":"bogsten_gambler3",
         "replies":[
             {
                 "text":"N",
@@ -3235,8 +3235,8 @@
     },
     {
         "id":"bogsten_gambler_40b_2",
-		"switchToNPC":"bogsten_gambler1",
         "message":"I said FOURTY, you deaf idiot!",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3246,8 +3246,8 @@
     },
     {
         "id":"bogsten_gambler_40b_3",
-		"switchToNPC":"bogsten_gambler3",
         "message":"Who's an idiot??",
+        "switchToNPC":"bogsten_gambler3",
         "replies":[
             {
                 "text":"N",
@@ -3257,8 +3257,8 @@
     },
     {
         "id":"bogsten_gambler_40b_4",
-		"switchToNPC":"bogsten_gambler2",
         "message":"Both of you. Now go on, Bogal.",
+        "switchToNPC":"bogsten_gambler2",
         "replies":[
             {
                 "text":"N",
@@ -3268,8 +3268,8 @@
     },
     {
         "id":"bogsten_gambler_44",
-		"switchToNPC":"bogsten_gambler1",
         "message":"44",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3296,8 +3296,8 @@
     },
     {
         "id":"bogsten_gambler_48",
-		"switchToNPC":"bogsten_gambler1",
         "message":"48",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3333,8 +3333,8 @@
     },
     {
         "id":"bogsten_gambler_48b",
-		"switchToNPC":"bogsten_gambler2",
         "message":"Why is this kid staring at us?\nHey, you! Never seen a Skat game?",
+        "switchToNPC":"bogsten_gambler2",
         "replies":[
             {
                 "text":"Eh...",
@@ -3372,8 +3372,8 @@
     },
     {
         "id":"bogsten_gambler_50",
-		"switchToNPC":"bogsten_gambler1",
         "message":"50",
+        "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
                 "text":"N",
@@ -3400,37 +3400,57 @@
     },
     {
         "id":"bogsten_gambler_50b",
-		"switchToNPC":"bogsten_gambler1",
         "message":"50 - still yes?? You must be cheating!",
-		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50b_2" }]
+        "switchToNPC":"bogsten_gambler1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_50b_2"
+            }
+        ]
     },
     {
         "id":"bogsten_gambler_50b_2",
-		"switchToNPC":"bogsten_gambler3",
         "message":"Cheating - me? Dare to say that again!",
-		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50b_3" }]
+        "switchToNPC":"bogsten_gambler3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_50b_3"
+            }
+        ]
     },
     {
         "id":"bogsten_gambler_50b_3",
-		"switchToNPC":"bogsten_gambler1",
         "message":"We all know that you always do. Calm down.",
-		"replies":[{ "text":"N", "nextPhraseID":"bogsten_gambler_50b_4" }]
+        "switchToNPC":"bogsten_gambler1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bogsten_gambler_50b_4"
+            }
+        ]
     },
     {
         "id":"bogsten_gambler_50b_4",
-		"switchToNPC":"bogsten_gambler3",
         "message":"Oooh! If you were not already dead, you would be now!",
-		"replies":[{ "text":"But gentlemen! It's just a game!", "nextPhraseID":"bogsten_gambler_50b_5" }]
+        "switchToNPC":"bogsten_gambler3",
+        "replies":[
+            {
+                "text":"But gentlemen! It's just a game!",
+                "nextPhraseID":"bogsten_gambler_50b_5"
+            }
+        ]
     },
     {
         "id":"bogsten_gambler_50b_5",
-		"switchToNPC":"bogsten_gambler2",
-        "message":"Just a game? Get out! Away with you!"
+        "message":"Just a game? Get out! Away with you!",
+        "switchToNPC":"bogsten_gambler2"
     },
     {
         "id":"bogsten_gambler_out",
-		"switchToNPC":"bogsten_gambler1",
-        "message":"OK. It's your game."
+        "message":"OK. It's your game.",
+        "switchToNPC":"bogsten_gambler1"
     },
     {
         "id":"bogsten_ghost5",
@@ -5257,6 +5277,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"achievements",
                 "value":80
+            }
+        ]
+    },
+    {
+        "id":"alaun_return_nimael",
+        "message":"Yes. Nimael also makes very good soup. Vegetables with forest herbs. If I buy both I hope they will argue less about whose is better.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alaun_return_end"
             }
         ]
     }

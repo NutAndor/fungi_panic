@@ -123,7 +123,7 @@
     },
     {
         "id":"alaun_startquest20",
-        "message":"Okay, please bring it hot!",
+        "message":"OK, please bring it hot!",
         "replies":[
             {
                 "text":"N",
@@ -145,10 +145,10 @@
     },
     {
         "id":"alaun_startquest_go",
-        "message":"You can find Gison and his wife Nimael south of here. Cross the way and head into the woods. You will find their house soon.",
+        "message":"You can find Gison and his wife Nimael south of here. Cross the path and head into the woods. You will find their house soon.",
         "replies":[
             {
-                "text":"Okay. See you later.",
+                "text":"OK. See you later.",
                 "nextPhraseID":"X"
             }
         ]
@@ -233,11 +233,11 @@
     },
     {
         "id":"alaun_return10",
-        "message":"Here is the money I promised you.\n\nAnd on top I will give you some of this bread.",
+        "message":"Here is the money I promised you.\n\nAnd as a bonus I will give you some of this bread.\n\nNext time I will buy Nimael's soup.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"alaun_return_end"
+                "text":"Nimael's soup?",
+                "nextPhraseID":"alaun_return_nimael"
             }
         ],
         "rewards":[
@@ -265,16 +265,21 @@
                 "rewardType":"questProgress",
                 "rewardID":"alaun_soup_reward",
                 "value":11
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":35
             }
         ]
     },
     {
         "id":"alaun_return15",
-        "message":"Here is the money I promised you.",
+        "message":"Here is the money I promised you.\n\nNext time I will buy Nimael's soup.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"alaun_return_end"
+                "text":"Nimael's soup?",
+                "nextPhraseID":"alaun_return_nimael"
             }
         ],
         "rewards":[
@@ -297,16 +302,21 @@
                 "rewardType":"questProgress",
                 "rewardID":"alaun_soup_reward",
                 "value":16
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":35
             }
         ]
     },
     {
         "id":"alaun_return20",
-        "message":"Here is the money I promised you.",
+        "message":"Here is the money I promised you.\n\nNext time I will buy Nimael's soup.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"alaun_return_end"
+                "text":"Nimael's soup?",
+                "nextPhraseID":"alaun_return_nimael"
             }
         ],
         "rewards":[
@@ -329,6 +339,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"alaun_soup_reward",
                 "value":21
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":35
             }
         ]
     },
@@ -368,7 +383,7 @@
     },
     {
         "id":"alaun_return_blindstart",
-        "message":"Yes. I assigned you to bring me some of that delicious mushroom soup from Gison.",
+        "message":"Yes. I asked you to bring me some of that delicious mushroom soup from Gison.",
         "replies":[
             {
                 "text":"Can you explain the way again?",

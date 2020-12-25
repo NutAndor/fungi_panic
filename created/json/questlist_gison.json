@@ -30,7 +30,11 @@
             },
             {
                 "progress":30,
-                "logText":"Alaun received the soup.\nI shall take the empty bottle back to Gison."
+                "logText":"Alaun received the soup.\nI should take the empty bottle back to Gison."
+            },
+            {
+                "progress":35,
+                "logText":"Alaun told me that Nimael also makes soup."
             },
             {
                 "progress":40,
