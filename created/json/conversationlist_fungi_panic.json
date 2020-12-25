@@ -5351,5 +5351,72 @@
                 "value":100
             }
         ]
+    },
+    {
+        "id":"nimael_arg_10",
+        "message":"Yes. Vegetables with forest herbs. It is even better than my husband\u2019s mushroom soup.",
+        "replies":[
+            {
+                "text":"Your husband disagrees. ",
+                "nextPhraseID":"nimael_arg_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"nimael_arg_20",
+        "message":"Well, here is a small taste of mine, and a small taste of his. I am sure you will agree with me.",
+        "replies":[
+            {
+                "text":"I think they are both good. One is not better than the other, just different. Different people have different tastes, so perhaps it is better that you offer both, rather than arguing over which is better?",
+                "nextPhraseID":"nimael_arg_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"nimael_arg_30",
+        "message":"For a kid, that\u2019s a very insightful comment. I will talk to my husband about how we can better sell both soups to the townsfolk in Fallhaven. Here are a couple of bottles of my soup as thanks.",
+        "replies":[
+            {
+                "text":"Glad I could help.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":110
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"nimael_soup",
+                "value":2
+            }
+        ]
     }
 ]

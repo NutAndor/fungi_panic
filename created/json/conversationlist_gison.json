@@ -1282,7 +1282,34 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"gison_soup",
-                        "value":40
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":62,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"nimael_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110
                     },
                     {
                         "requireType":"questProgress",
@@ -1337,6 +1364,29 @@
         "id":"nimael_busy",
         "message":"I'm busy at the moment. Please talk to Gison. He's over there.",
         "replies":[
+            {
+                "text":"Alaun told me that you also make very good soup.",
+                "nextPhraseID":"nimael_arg_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "text":"OK. Bye.",
                 "nextPhraseID":"X"
