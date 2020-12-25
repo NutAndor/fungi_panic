@@ -73,7 +73,22 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"gison_soup",
-                        "value":40
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gison_p1_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110
                     },
                     {
                         "requireType":"questProgress",
@@ -775,12 +790,56 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"gison_soup",
-                        "value":40
+                        "value":100
                     },
                     {
                         "requireType":"killedMonster",
                         "requireID":"zuul_khan9",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I just want to say hello.",
+                "nextPhraseID":"gison_p1_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"zuul_khan9",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Alaun told me that your wife also makes very good soup.",
+                "nextPhraseID":"gison_arg_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":40
                     }
                 ]
             }
@@ -790,17 +849,6 @@
         "id":"gison_p1_30_1",
         "message":"Thank you.",
         "replies":[
-            {
-                "text":"You look worried. What's up with you?",
-                "nextPhraseID":"gison_p1_40",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"zuul_khan9",
-                        "value":1
-                    }
-                ]
-            },
             {
                 "text":"I have to go again. Bye.",
                 "nextPhraseID":"X"
@@ -859,7 +907,7 @@
     },
     {
         "id":"gison_p1_40_2",
-        "message":"Strangely they only took my old cookbook with them.\nPlease help me get back my book, otherwise Alaun has to give up his delicious soup.",
+        "message":"Strangely they only took my old cookbook with them.\nPlease help me get back my book, otherwise I cannot make my delicious mushroom soup.",
         "replies":[
             {
                 "text":"A raid for an old cookbook?",
@@ -962,7 +1010,7 @@
         "message":"I don't have that much money. As a simple token of gratitude I can offer to make some soup for you. I don't own very much more.",
         "replies":[
             {
-                "text":"I guess it's not worth the trouble. I go.",
+                "text":"I guess it's not worth the trouble. Time to go.",
                 "nextPhraseID":"X"
             },
             {
@@ -1047,7 +1095,7 @@
     },
     {
         "id":"gison_p2_50",
-        "message":"Did you find my precious cooking book?",
+        "message":"Did you find my precious cook book?",
         "replies":[
             {
                 "text":"Yes I have. Look here.",
