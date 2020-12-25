@@ -39,12 +39,39 @@
             {
                 "progress":40,
                 "logText":"Gison thanked me for bringing the empty bottle back to him.",
-                "rewardExperience":100,
-                "finishesQuest":1
+                "rewardExperience":50
             },
             {
                 "progress":50,
                 "logText":"I spent 5555 gold on buying mushroom soup! Am I crazy? \nThere is no soup left for Alaun now.",
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"Gison insisted his soup is better than Nimael's."
+            },
+            {
+                "progress":70,
+                "logText":"Nimael insisted her soup is better than Gison's."
+            },
+            {
+                "progress":80,
+                "logText":"Gison gave me a taste of both soups."
+            },
+            {
+                "progress":90,
+                "logText":"Nimael gave me a taste of both soups."
+            },
+            {
+                "progress":100,
+                "logText":"Gison said he would talk to Nimael about selling both soups in Fallhaven.",
+                "rewardExperience":100,
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"Nimael said she would talk to Gison about selling both soups in Fallhaven.",
+                "rewardExperience":100,
                 "finishesQuest":1
             }
         ]

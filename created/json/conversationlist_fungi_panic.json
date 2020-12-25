@@ -5289,5 +5289,67 @@
                 "nextPhraseID":"alaun_return_end"
             }
         ]
+    },
+    {
+        "id":"gison_arg_10",
+        "message":"Yes, but it is not as good as mine.",
+        "replies":[
+            {
+                "text":"Your wife disagrees.",
+                "nextPhraseID":"gison_arg_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"gison_arg_20",
+        "message":"Well, here is a small taste of mine, and a small taste of hers. I am sure you will agree with me.",
+        "replies":[
+            {
+                "text":"I think they are both good. One is not better than the other, just different. Different people have different tastes, so perhaps it is better that you offer both, rather than arguing over which is better?",
+                "nextPhraseID":"gison_arg_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"gison_arg_30",
+        "message":"For a kid, that\u2019s a very insightful comment. I will talk to my wife about how we can better sell both soups to the townsfolk in Fallhaven.",
+        "replies":[
+            {
+                "text":"Glad I could help.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_soup",
+                "value":100
+            }
+        ]
     }
 ]

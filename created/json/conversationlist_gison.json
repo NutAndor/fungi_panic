@@ -403,6 +403,29 @@
             {
                 "text":"I won't do this whole stupid running around again just for an empty bottle. Bye.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Alaun said that your wife also makes very good soup.",
+                "nextPhraseID":"gison_arg_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -781,6 +804,29 @@
             {
                 "text":"I have to go again. Bye.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Alaun said your wife also makes very good soup.",
+                "nextPhraseID":"gison_arg_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
