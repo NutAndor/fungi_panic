@@ -253,7 +253,7 @@
     },
     {
         "id":"gison_p1_10_3",
-        "message":"Here you go.\n[He gives you the pot with the soup.]",
+        "message":"Here you go.\n[He gives you a container with the soup.]",
         "switchToNPC":"gison",
         "replies":[
             {
