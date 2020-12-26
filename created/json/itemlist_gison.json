@@ -35,6 +35,7 @@
         "id":"bottle_empty",
         "iconID":"items_tometik1:12",
         "name":"Empty bottle",
+        "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":3,
         "category":"other"
