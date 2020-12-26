@@ -187,6 +187,14 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"gison_andor"
+            },
+            {
+                "text":"Nevermind. I guess I need to be going.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -195,14 +203,14 @@
         "message":"We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city.",
         "replies":[
             {
-                "text":"What's in the wood here?",
+                "text":"What's in the woods here?",
                 "nextPhraseID":"gison_talk_1"
             }
         ]
     },
     {
         "id":"gison_talk_1",
-        "message":"Herbs, animals and above all: Mushrooms. \n If you like to know more about mushrooms, I suggest you go to Bogsten. He grows the best mushrooms you ever ate! But well, I don't want to give away any more secrets of my soup.",
+        "message":"Herbs, animals and above all: Mushrooms. \n If you would like to know more about mushrooms, I suggest you go to Bogsten, east of here. He grows the best mushrooms you ever ate! But well, I don't want to give away any more secrets of my soup.",
         "replies":[
             {
                 "text":"N",
@@ -842,6 +850,10 @@
                         "value":40
                     }
                 ]
+            },
+            {
+                "text":"I wanted to ask you about something.",
+                "nextPhraseID":"gison_talk_3"
             }
         ]
     },

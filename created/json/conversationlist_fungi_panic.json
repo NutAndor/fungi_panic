@@ -5536,5 +5536,19 @@
                 "value":2
             }
         ]
+    },
+    {
+        "id":"gison_andor",
+        "message":"No, sorry. I have not seen anyone that looks like you. We get few visitors out here in the woods.",
+        "replies":[
+            {
+                "text":"OK. Thanks anyway. Let's talk about something else.",
+                "nextPhraseID":"gison_talk_3"
+            },
+            {
+                "text":"OK. I need to be going.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
