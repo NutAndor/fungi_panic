@@ -304,6 +304,18 @@
         }
     },
     {
+        "id":"fungi_rescued",
+        "name":"Lediofa",
+        "iconID":"monsters_ld1:20",
+        "maxAP":10,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"fungi_rescued",
+        "phraseID":"fungi_rescued"
+    },
+    {
         "id":"worm_beast",
         "name":"Worm beast",
         "iconID":"monsters_rltiles1:57",

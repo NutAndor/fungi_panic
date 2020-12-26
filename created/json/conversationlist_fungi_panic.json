@@ -1962,6 +1962,119 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":200
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fungi_rescued",
+                "mapName":"mushroom_m3_2"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued",
+        "message":"Thank you, thank you!",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"fungi_rescued_10"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_10",
+        "message":"My name is Lediofa. I was travelling with my family to Vilegard. We wanted to visit my uncle.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued_20"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_20",
+        "message":"We were attacked by robbers in the forest. I don't know what happened to my family. It was terrible.",
+        "replies":[
+            {
+                "text":"Poor child.",
+                "nextPhraseID":"fungi_rescued_30"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_30",
+        "message":"I was dragged into this cave.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued_40"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_40",
+        "message":"The only thing I saw was a figure clad in black who kept muttering mean sounding words.",
+        "replies":[
+            {
+                "text":"Zuul'khan",
+                "nextPhraseID":"fungi_rescued_50"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_50",
+        "message":"Yes, that was his name. I hope you don't belong to him? Please not!",
+        "replies":[
+            {
+                "text":"Don't panic. I am $playername from Crossglen. Zuul'khan received his just punishment. He can't do anything to you anymore.",
+                "nextPhraseID":"fungi_rescued_60"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_60",
+        "message":"Oh, how relieved I am to hear that! Thank you again!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued_70"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_70",
+        "message":"This black-clad man wanted to feed me to this awful big mushroom. He said, the mushroom still has to grow a lot, before it could help him to invade the land.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued_80"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_80",
+        "message":"I'm glad this nightmare is over now. Thanks to you, $playername.",
+        "replies":[
+            {
+                "text":"Oh, that was nothing.",
+                "nextPhraseID":"fungi_rescued_90"
+            },
+            {
+                "text":"I do things like that every other day.",
+                "nextPhraseID":"fungi_rescued_90"
+            },
+            {
+                "text":"It was a tough fight indeed.",
+                "nextPhraseID":"fungi_rescued_90"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_90",
+        "message":"I will now be on my way quickly and look for my parents. I'm sure they are worried. Goodbye!",
+        "replies":[
+            {
+                "text":"Good bye and good luck!",
+                "nextPhraseID":"R"
             }
         ]
     },
