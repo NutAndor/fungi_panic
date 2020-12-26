@@ -1103,7 +1103,7 @@
     },
     {
         "id":"zuul_khan_60",
-        "message":"Bogsten's cave? Oh how I hate this name!",
+        "message":"Bogsten's cave? Oh how I hate that name!",
         "replies":[
             {
                 "text":"N",
@@ -1113,7 +1113,7 @@
     },
     {
         "id":"zuul_khan_62",
-        "message":"It was the Bogstens who had imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, except ... Well, I did almost nothing evil to them.",
+        "message":"It was the Bogstens who imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, except ... Well, I did almost nothing evil to them.",
         "replies":[
             {
                 "text":"N",
@@ -1133,7 +1133,7 @@
     },
     {
         "id":"zuul_khan_64",
-        "message":"I choose this place to practice my arts and prepare an army of Fungis.",
+        "message":"I chose this place to practice my arts and prepare an army of Fungis.",
         "replies":[
             {
                 "text":"N",
@@ -1153,7 +1153,7 @@
     },
     {
         "id":"zuul_khan_66",
-        "message":"Lotho Bogsten sneaked down here and caught me unaware.",
+        "message":"Lotho Bogsten sneaked down here and caught me unawares.",
         "replies":[
             {
                 "text":"N",
@@ -1193,7 +1193,7 @@
     },
     {
         "id":"zuul_khan_72",
-        "message":"Indeed he had a son. But that lazy bones didn't come as regularly as needed. The spell wore off, and I could move again.",
+        "message":"Indeed he had a son. But that lazybones didn't come as regularly as needed. The spell wore off, and I could move again.",
         "replies":[
             {
                 "text":"N",
@@ -2833,7 +2833,7 @@
     },
     {
         "id":"bogsten_granny_40",
-        "message":"I never could stand this spoiled kid. He only ever comes to get new gold from the family treasure.",
+        "message":"I never could stand that spoiled kid. He only ever comes to get new gold from the family treasure.",
         "replies":[
             {
                 "text":"How ungrateful!",
@@ -3587,7 +3587,7 @@
     },
     {
         "id":"bogsten_tomb_grave1",
-        "message":"In death, I still help mushrooms to grow,"
+        "message":"In death, I still help mushrooms to grow."
     },
     {
         "id":"bogsten_tomb_grave2",
