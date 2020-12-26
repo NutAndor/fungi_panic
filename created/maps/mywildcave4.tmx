@@ -212,7 +212,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object id="2" name="gison_thiefboss" type="spawn" x="128" y="384" width="32" height="32">
    <properties>
     <property name="quantity" value="1"/>
@@ -225,7 +225,7 @@
     <property name="spawngroup" value="gison_thief1"/>
    </properties>
   </object>
-  <object id="4" name="gison_thief2" type="spawn" x="320" y="160" width="192" height="320">
+  <object id="4" name="gison_thief2" type="spawn" x="320" y="160" width="160" height="320">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="gison_thief2"/>
