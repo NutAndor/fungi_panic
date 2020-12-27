@@ -1847,10 +1847,10 @@
     },
     {
         "id":"zuul_khan9_blocker_20",
-        "message":"No. We are expecting you to say so. We were told not to leave.",
+        "message":"No. We were expecting you to say so. We were told not to leave.",
         "replies":[
             {
-                "text":"I need to know what's behind it. I best try to find another way.",
+                "text":"I need to know what's behind this. I had best try to find another way.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
