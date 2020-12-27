@@ -127,11 +127,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":90
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":92
             }
         ]
     },
@@ -155,16 +150,6 @@
                         "requireType":"questProgress",
                         "requireID":"fungi_panic",
                         "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"bogsten_90_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":90
                     }
                 ]
             },
@@ -688,12 +673,46 @@
         "message":"It took you a long time to get back here. What has happened down there?",
         "replies":[
             {
-                "text":"I don't know yet.",
+                "text":"I met an old sorcerer named Zuul'khan in the cave.",
+                "nextPhraseID":"bogsten_70_20"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_70_20",
+        "message":"Zuul'khan? Hmm, I think I have heard this name already.",
+        "replies":[
+            {
+                "text":"He told me that your family imprisoned him using an ancient petrifying spell.",
+                "nextPhraseID":"bogsten_70_30"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_70_30",
+        "message":"A petrifying spell? But this has to be renewed every week.",
+        "replies":[
+            {
+                "text":"Exactly. Thanks to your laxity, Zuul'khan got free.",
+                "nextPhraseID":"bogsten_70_40"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_70_40",
+        "message":"And why is this Zuul'khan still running around? What did you do the whole time down there? Go and finish your work!",
+        "replies":[
+            {
+                "text":"What? Do it yourself!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I defeated Zuul'khan, but he is not dead. He just disappeared into the ground.",
-                "nextPhraseID":"bogsten_70_20",
+                "text":"Do you actually do anything with your own hands?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I already defeated Zuul'khan.",
+                "nextPhraseID":"bogsten_90_20",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -705,25 +724,8 @@
         ]
     },
     {
-        "id":"bogsten_70_20",
-        "message":"Did he? Why was he still alive, I wonder?",
-        "replies":[
-            {
-                "text":"Your father seemed to have petrified him. But this spell has to be renewed every week.",
-                "nextPhraseID":"bogsten_90_30"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":90
-            }
-        ]
-    },
-    {
-        "id":"bogsten_90_10",
-        "message":"Zuul'khan is dead?",
+        "id":"bogsten_90_20",
+        "message":"So Zuul'khan is dead?",
         "replies":[
             {
                 "text":"I don't think so. He just disappeared into the ground.\nYour father seemed to have petrified him. But this spell has to be renewed every week.",
@@ -733,7 +735,7 @@
     },
     {
         "id":"bogsten_90_30",
-        "message":"Every week? Yes, right. My father said something like that. I'll see to it now.\nPlease take this bag of mushrooms to the potion merchant. He shall produce something good for you.",
+        "message":"Every week? Yes, right. My father said something like that. Fine.\nPlease take this bag of mushrooms to the potion merchant. He shall produce something good for you.",
         "replies":[
             {
                 "text":"N",
@@ -765,48 +767,20 @@
     },
     {
         "id":"bogsten_90_40",
-        "replies":[
-            {
-                "nextPhraseID":"bogsten_90_50",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"zuul_khan9",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"bogsten_90_42"
-            }
-        ]
-    },
-    {
-        "id":"bogsten_90_42",
         "message":"Anyway. The evil force is not gone, so you'll have to go down again.",
         "replies":[
             {
-                "text":"Honestly now?",
-                "nextPhraseID":"X"
+                "text":"What??",
+                "nextPhraseID":"bogsten_90_50"
             }
         ]
     },
     {
         "id":"bogsten_90_50",
-        "message":"Ah, I feel much better now. The evil force must have gone away.",
-        "replies":[
-            {
-                "text":"Good.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"bogsten_90_52",
         "message":"It has moved probably to another place. But that is someone else's problem.",
         "replies":[
             {
-                "text":"What??",
+                "text":"Honestly now?",
                 "nextPhraseID":"bogsten_90_54"
             }
         ],
@@ -955,7 +929,7 @@
                 ]
             },
             {
-                "nextPhraseID":"zuul_khan_70_10",
+                "nextPhraseID":"zuul_khan_70",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1107,113 +1081,120 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_62"
+                "nextPhraseID":"zuul_khan_60_20"
             }
         ]
     },
     {
-        "id":"zuul_khan_62",
+        "id":"zuul_khan_60_20",
         "message":"It was the Bogstens who imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, except ... Well, I did almost nothing evil to them.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_63"
+                "nextPhraseID":"zuul_khan_60_30"
             }
         ]
     },
     {
-        "id":"zuul_khan_63",
+        "id":"zuul_khan_60_30",
         "message":"More than a century ago, I found the way to command the crawling species of the underground and to bend the fungi to my will.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_64"
+                "nextPhraseID":"zuul_khan_60_40"
             }
         ]
     },
     {
-        "id":"zuul_khan_64",
+        "id":"zuul_khan_60_40",
         "message":"I chose this place to practice my arts and prepare an army of Fungis.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_65"
+                "nextPhraseID":"zuul_khan_60_50"
             }
         ]
     },
     {
-        "id":"zuul_khan_65",
+        "id":"zuul_khan_60_50",
         "message":"The Bogstens must have heard about my activities in the caves under their house and became suspicious.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_66"
+                "nextPhraseID":"zuul_khan_60_60"
             }
         ]
     },
     {
-        "id":"zuul_khan_66",
+        "id":"zuul_khan_60_60",
         "message":"Lotho Bogsten sneaked down here and caught me unawares.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_67"
+                "nextPhraseID":"zuul_khan_60_70"
             }
         ]
     },
     {
-        "id":"zuul_khan_67",
+        "id":"zuul_khan_60_70",
         "message":"I didn't expect petrifying. Who would use such a weak spell that has to be renewed every few weeks?",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"zuul_khan_68"
+                "nextPhraseID":"zuul_khan_60_80"
             }
         ]
     },
     {
-        "id":"zuul_khan_68",
+        "id":"zuul_khan_60_80",
         "message":"I could not move but I noticed everything that was happening around me. Lotho Bogsten visited me regularly and renewed the spell.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_60_100"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_60_100",
+        "message":"Finally, after long, long years, Lotho Bogsten must have died.",
+        "replies":[
+            {
+                "text":"He had children?",
+                "nextPhraseID":"zuul_khan_60_120"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_60_120",
+        "message":"Indeed he had a son. But that lazybones didn't come as regularly as needed. The spell wore off, and I could move again.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan_60_140"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan_60_140",
+        "message":"AHAHAHAHA!",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"zuul_khan_70"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":70
+            }
         ]
     },
     {
         "id":"zuul_khan_70",
-        "message":"Finally, after long, long years, Lotho Bogsten must have died.",
-        "replies":[
-            {
-                "text":"He had children?",
-                "nextPhraseID":"zuul_khan_72"
-            }
-        ]
-    },
-    {
-        "id":"zuul_khan_72",
-        "message":"Indeed he had a son. But that lazybones didn't come as regularly as needed. The spell wore off, and I could move again.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"zuul_khan_74"
-            }
-        ]
-    },
-    {
-        "id":"zuul_khan_74",
-        "message":"AHAHAHAHA!",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"zuul_khan_80"
-            }
-        ]
-    },
-    {
-        "id":"zuul_khan_80",
-        "message":"And you have their family necklace. So you must die now.",
+        "message":"I see that you have their family necklace. So you must die now.",
         "replies":[
             {
                 "text":"I'll have to thank Bogsten: This sounds like a fun fight.",
@@ -1221,20 +1202,20 @@
             },
             {
                 "text":"You shouldn't kill me. I could be of use.",
-                "nextPhraseID":"zuul_khan_90"
+                "nextPhraseID":"zuul_khan_70_84"
             },
             {
                 "text":"Please. I will crawl before you. Don't hurt me.",
-                "nextPhraseID":"zuul_khan_82"
+                "nextPhraseID":"zuul_khan_70_82"
             }
         ]
     },
     {
-        "id":"zuul_khan_82",
+        "id":"zuul_khan_70_82",
         "message":"Disgusting. Away with you!"
     },
     {
-        "id":"zuul_khan_90",
+        "id":"zuul_khan_70_84",
         "message":"Hmm. Maybe.",
         "replies":[
             {
@@ -1253,7 +1234,7 @@
             },
             {
                 "text":"Let's talk again.",
-                "nextPhraseID":"zuul_khan_74"
+                "nextPhraseID":"zuul_khan_60_140"
             }
         ]
     },
@@ -1284,7 +1265,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
-                "value":70
+                "value":72
             }
         ]
     },

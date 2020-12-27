@@ -1121,14 +1121,14 @@
                 ]
             },
             {
-                "text":"I found the robbers, but they had destroyed the book.",
+                "text":"[Lie] I found the robbers, but they had destroyed the book.",
                 "nextPhraseID":"gison_p2_50_5",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"gison_thief1",
+                        "requireID":"gison_thiefboss",
                         "value":1,
-                        "negate":true
+						"negate":true
                     }
                 ]
             },
@@ -1196,6 +1196,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"gison_cookbook",
                 "value":62
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Mapevents2",
+                "mapName":"mywildcave4"
             }
         ]
     },

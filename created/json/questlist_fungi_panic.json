@@ -38,7 +38,11 @@
             },
             {
                 "progress":70,
-                "logText":"I met an old sorcerer named Zuul'khan in the cave. He told me Bogsten's family imprisoned him using an ancient petrifying spell, but thanks to Bogsten's laxity, he was now free. He wanted me to kill Bogsten and bring him Bogsten's staff."
+                "logText":"I met an old sorcerer named Zuul'khan in the cave. He told me Bogsten's family imprisoned him using an ancient petrifying spell, but thanks to Bogsten's laxity, he was now free."
+            },
+            {
+                "progress":72,
+                "logText":"He wanted me to kill Bogsten and bring him Bogsten's staff."
             },
             {
                 "progress":80,
@@ -50,7 +54,7 @@
             },
             {
                 "progress":92,
-                "logText":"I should tell Bogsten about what happened."
+                "logText":"I told Bogsten about what happened."
             },
             {
                 "progress":100,
