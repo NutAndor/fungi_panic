@@ -211,7 +211,6 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="8" name="drp_gison_cookbook" type="container" x="64" y="384" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="2" name="gison_thiefboss" type="spawn" x="128" y="384" width="32" height="32">
