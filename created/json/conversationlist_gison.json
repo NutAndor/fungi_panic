@@ -1128,7 +1128,7 @@
                         "requireType":"killedMonster",
                         "requireID":"gison_thiefboss",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1438,6 +1438,16 @@
                 ]
             },
             {
+                "nextPhraseID":"gael_soup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"nimael_soup",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"gael_20",
                 "requires":[
                     {
@@ -1558,7 +1568,7 @@
     },
     {
         "id":"gael_20_1",
-        "message":"I moved out here because I couldn't stand the suffocating smell of mushroom soup anymore.",
+        "message":"I moved out here because I couldn't stand the suffocating smell of mushroom soup anymore. Or vegetable soup, for that matter.",
         "replies":[
             {
                 "text":"N",
