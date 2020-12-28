@@ -1997,6 +1997,10 @@
         ]
     },
     {
+        "id":"gison_cookbook_n62",
+        "message":"Unfortunately the case is locked."
+    },
+    {
         "id":"mushroomcave_trap",
         "message":"A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground.",
         "replies":[
