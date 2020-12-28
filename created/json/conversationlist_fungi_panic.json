@@ -728,18 +728,18 @@
         "message":"So Zuul'khan is dead?",
         "replies":[
             {
-                "text":"I don't think so. He just disappeared into the ground.\nYour father seemed to have petrified him. But this spell has to be renewed every week.",
+                "text":"I don't think so. He just disappeared into the ground.",
                 "nextPhraseID":"bogsten_90_30"
             }
         ]
     },
     {
         "id":"bogsten_90_30",
-        "message":"Every week? Yes, right. My father said something like that. Fine.\nPlease take this bag of mushrooms to the potion merchant. He shall produce something good for you.",
+        "message":"Disappeared! I hope he doesn't appear here next.\nWell, please take this bag of mushrooms to the potion merchant in Fallhaven. I'm sure he'll prepare something good for you.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"bogsten_90_32"
+                "nextPhraseID":"bogsten_90_40"
             }
         ],
         "rewards":[
@@ -756,18 +756,8 @@
         ]
     },
     {
-        "id":"bogsten_90_32",
-        "message":"I thought that spell wasn't important.",
-        "replies":[
-            {
-                "text":"What???",
-                "nextPhraseID":"bogsten_90_40"
-            }
-        ]
-    },
-    {
         "id":"bogsten_90_40",
-        "message":"Anyway. The evil force is not gone, so you'll have to go down again.",
+        "message":"Anyway. The evil force is not gone, so you'll have to go down there again.",
         "replies":[
             {
                 "text":"What??",
