@@ -954,7 +954,7 @@
     },
     {
         "id":"gison_p2_10_3",
-        "message":"Yes, I don't know why they only took the book. Maybe it's because of the one chapter... *brooding*",
+        "message":"I don't know why they only took the book. Maybe it's because of the one chapter... *brooding*",
         "replies":[
             {
                 "text":"What about that chapter?",
@@ -983,13 +983,6 @@
             {
                 "text":"What's written in that chapter?",
                 "nextPhraseID":"gison_p2_10_6"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"gison_cookbook",
-                "value":10
             }
         ]
     },
@@ -1027,7 +1020,7 @@
             },
             {
                 "text":"Sounds fair.",
-                "nextPhraseID":"gison_p2_10_11"
+                "nextPhraseID":"gison_p2_10_3"
             }
         ]
     },
@@ -1051,7 +1044,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"gison_p2_10_9"
+                "nextPhraseID":"gison_p2_10_3"
             }
         ]
     },
