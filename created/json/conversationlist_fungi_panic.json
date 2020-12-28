@@ -1515,10 +1515,20 @@
     },
     {
         "id":"zuul_khan2_10",
-        "message":"Well, no need to talk any more.",
+        "message":"Do not disturb me. I have to concentrate.",
         "replies":[
             {
-                "text":"Obviously not...",
+                "text":"You are reading a book? Is reading so exhausting for you?",
+                "nextPhraseID":"zuul_khan2_20"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan2_20",
+        "message":"That did it. Silence now, or ...",
+        "replies":[
+            {
+                "text":"Attack?",
                 "nextPhraseID":"F"
             }
         ]
@@ -1528,7 +1538,7 @@
         "message":"You again!",
         "replies":[
             {
-                "text":"Coocoo!",
+                "text":"Coocoo! Trying to read again?",
                 "nextPhraseID":"zuul_khan3_10"
             }
         ]
@@ -1558,7 +1568,7 @@
         "message":"I have been kind to you, but now you will die!",
         "replies":[
             {
-                "text":"Oh - no, I don't think so.",
+                "text":"Eh - no, I don't think so.",
                 "nextPhraseID":"F"
             }
         ]
@@ -1578,7 +1588,57 @@
         "message":"May I finally practice my black magic in peace?",
         "replies":[
             {
-                "text":"No, not if I can help it.",
+                "text":"No, not if I can help it. By the way - your book looks strange.",
+                "nextPhraseID":"zuul_khan9_20"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan9_20",
+        "message":"What do you mean?",
+        "replies":[
+            {
+                "text":"It is a cookbook. I see lots of delicious recipes.",
+                "nextPhraseID":"zuul_khan9_30"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan9_30",
+        "message":"Oh that. That's a good cover. I got the book from a 'friend'. In between there are recipes of a completely different kind.",
+        "replies":[
+            {
+                "text":"You mean these queer letters next to the receipt of the Delicious Mushroom Soup?",
+                "nextPhraseID":"zuul_khan9_40"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan9_40",
+        "message":"Be glad that you can't decipher these letters. They are dangerous.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zuul_khan9_42"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan9_42",
+        "message":"It takes great power to tame these spells.",
+        "replies":[
+            {
+                "text":"At school I was good at spelling: A B C ...",
+                "nextPhraseID":"zuul_khan9_90"
+            }
+        ]
+    },
+    {
+        "id":"zuul_khan9_90",
+        "message":"I've had enough of your cheekiness now. These were your last words!",
+        "replies":[
+            {
+                "text":"We'll see...",
                 "nextPhraseID":"F"
             }
         ]
