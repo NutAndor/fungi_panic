@@ -735,7 +735,7 @@
     },
     {
         "id":"bogsten_90_30",
-        "message":"Disappeared! I hope he doesn't appear here next.\nWell, please take this bag of mushrooms to the potion merchant in Fallhaven. I'm sure he'll prepare something good for you.",
+        "message":"Disappeared! I hope he doesn't appear here next.\nWell, as a reward for your efforts, please take this bag of mushrooms to the potion merchant in Fallhaven. I'm sure he'll prepare something good for you.",
         "replies":[
             {
                 "text":"N",

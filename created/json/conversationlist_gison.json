@@ -1608,7 +1608,7 @@
         "message":"Now that I mention it: I am running out of meat. I'll have to go out hunting again.",
         "replies":[
             {
-                "text":"Would you like me to find some meat for you?",
+                "text":"Would you like me to give you some meat?",
                 "nextPhraseID":"gael_20_6"
             },
             {
