@@ -5581,5 +5581,43 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"gison_bottle_8",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_8_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":8,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_8_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Nice.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":8
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
+            }
+        ]
     }
 ]

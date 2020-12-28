@@ -200,6 +200,10 @@
             {
                 "progress":7,
                 "logText":"7. Bottle"
+            },
+            {
+                "progress":8,
+                "logText":"8. Bottle"
             }
         ]
     }

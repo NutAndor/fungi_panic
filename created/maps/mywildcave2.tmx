@@ -216,6 +216,7 @@
   <object id="3" name="gison_bottle_1" type="script" x="352" y="608" width="32" height="32"/>
   <object id="4" name="gison_bottle_2" type="script" x="352" y="384" width="32" height="32"/>
   <object id="5" name="gison_bottle_3" type="script" x="416" y="224" width="32" height="32"/>
+  <object id="13" name="gison_bottle_8" type="script" x="64" y="672" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
   <object id="6" name="stoneworm1" type="spawn" x="32" y="416" width="32" height="32">
