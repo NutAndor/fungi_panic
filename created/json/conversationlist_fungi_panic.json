@@ -1741,11 +1741,6 @@
                 "mapName":"mushroom_m2_3"
             },
             {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"fungi_panic",
-                "value":161
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"fungi_panic",
                 "value":162
@@ -1837,11 +1832,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan4_blocker",
                 "mapName":"mushroom_m2_8"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"fungi_panic",
-                "value":163
             },
             {
                 "rewardType":"questProgress",
