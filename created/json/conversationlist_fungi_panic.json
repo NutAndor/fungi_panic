@@ -1695,6 +1695,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan",
                 "mapName":"bogsten4"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":161
             }
         ]
     },
@@ -1734,6 +1739,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan2_blocker",
                 "mapName":"mushroom_m2_3"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":162
             }
         ]
     },
@@ -1773,6 +1783,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan3_blocker",
                 "mapName":"mushroom_m2_6"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fungi_panic",
+                "value":162
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":163
             }
         ]
     },
@@ -1812,6 +1832,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan4_blocker",
                 "mapName":"mushroom_m2_8"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":164
             }
         ]
     },
@@ -1873,6 +1898,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan9_blocker",
                 "mapName":"mushroom_m3_1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":170
             }
         ]
     },
@@ -1881,7 +1911,7 @@
         "message":"No. We were expecting you to say so. We were told not to leave.",
         "replies":[
             {
-                "text":"I need to know what's behind this. I had best try to find another way.",
+                "text":"I need to know what's behind this, but obviously I can't get past that way. I had best try to find another way.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1895,6 +1925,13 @@
             {
                 "text":"Well, you are learning.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":169
             }
         ]
     },
@@ -5587,6 +5624,44 @@
             {
                 "text":"OK. I need to be going.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_8",
+        "replies":[
+            {
+                "nextPhraseID":"gison_bottle_8_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_bottle",
+                        "value":8,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gison_bottle_8_1",
+        "message":"You find an empty bottle.",
+        "replies":[
+            {
+                "text":"Nice.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"gison_bottle",
+                "value":8
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bottle_empty",
+                "value":1
             }
         ]
     },
