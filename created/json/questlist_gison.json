@@ -73,6 +73,10 @@
                 "logText":"Nimael said she would talk to Gison about selling both soups in Fallhaven.",
                 "rewardExperience":100,
                 "finishesQuest":1
+            },
+            {
+                "progress":120,
+                "logText":"Nimael and Gison have been successful in selling more soup in Fallhaven by cooperating and creating more recipies."
             }
         ]
     },
@@ -200,10 +204,6 @@
             {
                 "progress":7,
                 "logText":"7. Bottle"
-            },
-            {
-                "progress":8,
-                "logText":"8. Bottle"
             }
         ]
     }

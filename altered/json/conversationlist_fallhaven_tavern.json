@@ -1,0 +1,16 @@
+[
+    {
+        "id":"bela",
+        "message":"Welcome to Fallhaven Tavern. Have a seat anywhere.",
+        "replies":[
+            {
+                "text":"Let me see what food and drinks you have available.",
+                "nextPhraseID":"bela_select"
+            },
+            {
+                "text":"Are there any rooms available?",
+                "nextPhraseID":"bela_room_select"
+            }
+        ]
+    }
+]

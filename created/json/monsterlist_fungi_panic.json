@@ -548,5 +548,14 @@
         "monsterClass":"humanoid",
         "spawnGroup":"bogsten_ghost5",
         "phraseID":"bogsten_ghost5"
+    },
+	{
+        "id":"bela_2",
+        "name":"Bela",
+        "iconID":"monsters_men:7",
+        "monsterClass":"humanoid",
+        "spawnGroup":"bela",
+        "phraseID":"bela",
+        "droplistID":"shop_bela_2"
     }
 ]

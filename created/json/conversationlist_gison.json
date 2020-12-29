@@ -1336,6 +1336,16 @@
                 ]
             },
             {
+                "nextPhraseID":"nimael_b1",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"del_soup",
+                        "value":500
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"nimael_busy"
             }
         ]

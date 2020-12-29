@@ -250,5 +250,29 @@
                 }
             ]
         }
+    },
+    {
+        "id":"soup_forest",
+        "iconID":"items_tometik1:21",
+        "name":"Gison and Nimael's soup of the forest",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":54,
+        "category":"food",
+        "description":"A dekicious soup.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":3
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":7,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

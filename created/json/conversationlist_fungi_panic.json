@@ -1695,11 +1695,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan",
                 "mapName":"bogsten4"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":161
             }
         ]
     },
@@ -1739,11 +1734,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan2_blocker",
                 "mapName":"mushroom_m2_3"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":162
             }
         ]
     },
@@ -1783,16 +1773,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan3_blocker",
                 "mapName":"mushroom_m2_6"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"fungi_panic",
-                "value":162
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":163
             }
         ]
     },
@@ -1832,11 +1812,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan4_blocker",
                 "mapName":"mushroom_m2_8"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":164
             }
         ]
     },
@@ -1898,11 +1873,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan9_blocker",
                 "mapName":"mushroom_m3_1"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":170
             }
         ]
     },
@@ -1911,7 +1881,7 @@
         "message":"No. We were expecting you to say so. We were told not to leave.",
         "replies":[
             {
-                "text":"I need to know what's behind this, but obviously I can't get past that way. I had best try to find another way.",
+                "text":"I need to know what's behind this. I had best try to find another way.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1925,13 +1895,6 @@
             {
                 "text":"Well, you are learning.",
                 "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fungi_panic",
-                "value":169
             }
         ]
     },
@@ -5535,6 +5498,10 @@
                 "rewardType":"giveItem",
                 "rewardID":"gison_soup",
                 "value":2
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"del_soup"
             }
         ]
     },
@@ -5602,6 +5569,10 @@
                 "rewardType":"giveItem",
                 "rewardID":"nimael_soup",
                 "value":2
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"del_soup"
             }
         ]
     },
@@ -5620,40 +5591,59 @@
         ]
     },
     {
-        "id":"gison_bottle_8",
+        "id":"nimael_b1",
+        "message":"Hello. Nice to see you again. ",
         "replies":[
             {
-                "nextPhraseID":"gison_bottle_8_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gison_bottle",
-                        "value":8,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"nimael_b2"
             }
         ]
     },
     {
-        "id":"gison_bottle_8_1",
-        "message":"You find an empty bottle.",
-        "replies":[
-            {
-                "text":"Nice.",
-                "nextPhraseID":"X"
-            }
-        ],
+        "id":"nimael_b2",
+        "message":"Thanks to your advice, we have been successful selling more soup to the townsfolk in Fallhaven.\nWe have even cooperated to craft new recipies.\nWe also give free samples of our latest soups to those that buy from us, so they know what is on offer.",
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"gison_bottle",
-                "value":8
+                "rewardID":"gison_soup",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"bela_select",
+        "replies":[
+            {
+                "nextPhraseID":"bela_trade_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":120
+                    }
+                ]
             },
             {
-                "rewardType":"giveItem",
-                "rewardID":"bottle_empty",
-                "value":1
+                "nextPhraseID":"bela_trade_2"
+            }
+        ]
+    },
+    {
+        "id":"bela_trade_2",
+        "message":"OK. Here's what I have.",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"bela_trade_1",
+        "message":"OK. I have some new soup now, from Gison and Nimael. It's expensive, but worth the money.",
+        "switchToNPC":"bela_2",
+        "replies":[
+            {
+                "nextPhraseID":"S"
             }
         ]
     }
