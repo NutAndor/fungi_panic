@@ -92,6 +92,30 @@
                 "rewardExperience":2000
             },
             {
+                "progress":161,
+                "logText":"I got through the black fog."
+            },
+            {
+                "progress":162,
+                "logText":"I got through the black fog again after a fight with Zuul'khan."
+            },
+            {
+                "progress":163,
+                "logText":"I got through the black fog a third time after another fight with Zuul'khan."
+            },
+            {
+                "progress":164,
+                "logText":"After another fight with Zuul'khan I got through the black fog a fourth time."
+            },
+            {
+                "progress":169,
+                "logText":"I overpowered Zuul'khan one more time, but this time the black fog wouldn't go away. Obviously I can't get past the fog that way."
+            },
+            {
+                "progress":170,
+                "logText":"I defeated Zuul'khan one last time and the black fog was gone for good."
+            },
+            {
                 "progress":200,
                 "logText":"The big mushroom was finally defeated.",
                 "finishesQuest":1
