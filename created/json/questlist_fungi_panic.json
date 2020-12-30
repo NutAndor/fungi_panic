@@ -117,8 +117,17 @@
             },
             {
                 "progress":200,
-                "logText":"The big mushroom was finally defeated.",
+                "logText":"I defeated the giant mushroom.",
                 "finishesQuest":1
+            },
+            {
+                "progress":210,
+                "logText":"A young girl named Lediofa emerged after my battle with the mushroom. She told me how Zuul'khan captured her as food for the mushroom. She seemed to have been poisoned just like Bogsten, so I directed her to see the Fallhaven potioner."
+            },
+            {
+                "progress":220,
+                "logText":"I met Lediofa at the potions shop in Fallhaven. She couldn't afford to pay the potioner for a mushroom poison cure, so I gave her the gold she needed. In return, she offered her family's hospitality if I ever come to visit in Nor City.",
+                "rewardExperience":1000
             }
         ]
     },

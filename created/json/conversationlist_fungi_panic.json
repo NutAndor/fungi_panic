@@ -1988,7 +1988,7 @@
     },
     {
         "id":"boss_fungi_killed_10",
-        "message":"On your final blow the great mushroom exploded and splashed into little pieces!",
+        "message":"On your final blow, the great mushroom explodes. Suddenly, the mushroom pieces spring back to life!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2014,7 +2014,7 @@
     },
     {
         "id":"boss_fungi_killed_20",
-        "message":"That was a tough fight.",
+        "message":"The room is quiet at last.",
         "replies":[
             {
                 "text":"N",
@@ -2024,7 +2024,7 @@
     },
     {
         "id":"boss_fungi_killed_22",
-        "message":"The big mushroom was finally defeated.",
+        "message":"The giant mushroom is finally destroyed.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2083,14 +2083,14 @@
         "message":"The only thing I saw was a figure clad in black who kept muttering mean sounding words.",
         "replies":[
             {
-                "text":"Zuul'khan",
+                "text":"That must have been Zuul'khan.",
                 "nextPhraseID":"fungi_rescued_50"
             }
         ]
     },
     {
         "id":"fungi_rescued_50",
-        "message":"Yes, that was his name. I hope you don't belong to him? Please not!",
+        "message":"Yes, it was him. I hope you're not one of his friends? Please no!",
         "replies":[
             {
                 "text":"Don't panic. I am $playername from Crossglen. Zuul'khan received his just punishment. He can't do anything to you anymore.",
@@ -2110,7 +2110,7 @@
     },
     {
         "id":"fungi_rescued_70",
-        "message":"This black-clad man wanted to feed me to this awful big mushroom. He said, the mushroom still has to grow a lot, before it could help him to invade the land.",
+        "message":"This black-clad man wanted to feed me to this awful big mushroom. He told me the mushroom still needed to grow much larger, and then it could help him invade the land.",
         "replies":[
             {
                 "text":"N",
@@ -2138,11 +2138,11 @@
     },
     {
         "id":"fungi_rescued_90",
-        "message":"I will now be on my way quickly and look for my parents. I'm sure they are worried. Goodbye!",
+        "message":"I should go look for my parents - I'm sure they are very worried. Although...",
         "replies":[
             {
-                "text":"Good bye and good luck!",
-                "nextPhraseID":"R"
+                "text":"What is it?",
+                "nextPhraseID":"fungi_rescued_100"
             }
         ]
     },
@@ -5725,6 +5725,135 @@
         "replies":[
             {
                 "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_100",
+        "message":"I feel a bit ill. Maybe I should rest a bit before I leave.",
+        "replies":[
+            {
+                "text":"That might be the giant mushroom's poison. The potioner in Fallhaven knows the cure.",
+                "nextPhraseID":"fungi_rescued_110"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued_110",
+        "message":"[Lediofa's eyes widen.] I've been poisoned...? Oh no! I'll seek the potioner right away. Thank you for telling me. I hope we meet again, $playername.",
+        "replies":[
+            {
+                "text":"Good luck!",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":210
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fungi_rescued2",
+                "mapName":"fallhaven_potions"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued2",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued2_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":220
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued2_10",
+        "message":"I'm sorry that you're ill, girl, but I can't work for free. The price is 150 gold, no less.",
+        "switchToNPC":"potion_merchant",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued2_20"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued2_20",
+        "message":"You greedy swine...Oh! It's $playername! I came here to cure the mushroom poison, but that lousy merchant won't help me until he receives payment. And I have no gold...",
+        "switchToNPC":"fungi_rescued2",
+        "replies":[
+            {
+                "text":"That's no trouble. I can spare 150 gold to help.",
+                "nextPhraseID":"fungi_rescued2_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":150
+                    }
+                ]
+            },
+            {
+                "text":"I'm sorry to hear that, but I can't spare the gold to help you right now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"The potioner is right, you know. Nobody works for free.",
+                "nextPhraseID":"fungi_rescued2_20_2"
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued2_30",
+        "message":"You've saved me again, $playername. You truly are a hero. If you ever find yourself in Nor City, I'm sure my family would love to meet you. Thank you!",
+        "replies":[
+            {
+                "text":"Take care!",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fungi_panic",
+                "value":220
+            }
+        ]
+    },
+    {
+        "id":"fungi_rescued2_20_2",
+        "message":"But what can I do? I don't feel well..."
+    },
+    {
+        "id":"fungi_rescued2_1",
+        "message":"Outrageous! I told you already, I don't have 150 gold!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fungi_rescued2_10"
             }
         ]
     }

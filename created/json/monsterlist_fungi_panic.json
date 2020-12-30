@@ -532,7 +532,7 @@
         "spawnGroup":"bogsten_ghost5",
         "phraseID":"bogsten_ghost5"
     },
-	{
+    {
         "id":"bela_2",
         "name":"Bela",
         "iconID":"monsters_men:7",
@@ -540,5 +540,14 @@
         "spawnGroup":"bela",
         "phraseID":"bela",
         "droplistID":"shop_bela_2"
+    },
+    {
+        "id":"fungi_rescued2",
+        "name":"Lediofa",
+        "iconID":"monsters_ld1:20",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"fungi_rescued2",
+        "phraseID":"fungi_rescued2"
     }
 ]
