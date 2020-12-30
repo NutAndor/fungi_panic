@@ -1608,7 +1608,7 @@
         "message":"Oh that. That's a good cover. I got the book from a 'friend'. In between there are recipes of a completely different kind.",
         "replies":[
             {
-                "text":"You mean these queer letters next to the receipt of the Delicious Mushroom Soup?",
+                "text":"You mean these strange letters next to the receipt of the Delicious Mushroom Soup?",
                 "nextPhraseID":"zuul_khan9_40"
             }
         ]
@@ -3298,7 +3298,7 @@
     },
     {
         "id":"bogsten_gambler_33b_2",
-        "message":"Nonsense. I play Skat for over 150 years now.",
+        "message":"Nonsense. I have played Skat for over 150 years now.",
         "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
