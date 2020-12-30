@@ -316,23 +316,6 @@
         "phraseID":"fungi_rescued"
     },
     {
-        "id":"worm_beast",
-        "name":"Worm beast",
-        "iconID":"monsters_rltiles1:57",
-        "maxHP":30,
-        "maxAP":10,
-        "moveCost":5,
-        "monsterClass":"animal",
-        "attackDamage":{
-            "min":3,
-            "max":10
-        },
-        "spawnGroup":"worm_beast",
-        "attackCost":5,
-        "attackChance":70,
-        "blockChance":30
-    },
-    {
         "id":"lombric_ball",
         "name":"Lombric ball",
         "iconID":"monsters_rltiles1:138",
