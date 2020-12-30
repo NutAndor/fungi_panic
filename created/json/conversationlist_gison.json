@@ -1342,6 +1342,12 @@
                         "requireType":"timerElapsed",
                         "requireID":"del_soup",
                         "value":500
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":120,
+                        "negate":true
                     }
                 ]
             },
