@@ -228,15 +228,21 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fungi_panic",
-                        "value":100,
-						"negate":true
+                        "requireID":"gison_soup",
+                        "value":50,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"fungi_panic",
+                        "requireID":"gison_soup",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
