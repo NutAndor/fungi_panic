@@ -1,0 +1,12 @@
+[
+    {
+        "id":"aulowenn2",
+        "message":"I am Aulowenn of Feygard.",
+        "replies":[
+            {
+                "text":"What are you doing out here?",
+                "nextPhraseID":"aulowenn3"
+            }
+        ]
+    }
+]

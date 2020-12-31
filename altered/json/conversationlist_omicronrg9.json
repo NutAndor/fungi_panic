@@ -131,5 +131,63 @@
                 "nextPhraseID":"feygard_scout_2"
             }
         ]
+    },
+    {
+        "id":"ambelie_guild02_4b",
+        "message":"(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)",
+        "replies":[
+            {
+                "text":"Fine ...",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves02",
+                "value":20
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ambelie",
+                "mapName":"foaming_flask"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"Feygard_BG",
+                "mapName":"road1"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"carrying_ambelie",
+                "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_16",
+        "message":"(You put Ambelie, who is still unconscious, in a chair next to you)\n\nOh! How did you get here so fast? I've heard reports of a barricade blocking the way from the Duleian road to Fallhaven.",
+        "replies":[
+            {
+                "text":"Barricades, guards ... no big thing for me.",
+                "nextPhraseID":"umar_guild02_17"
+            },
+            {
+                "text":"I found a shortcut.",
+                "nextPhraseID":"umar_guild02_17"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves02",
+                "value":30
+            }
+        ]
     }
 ]
