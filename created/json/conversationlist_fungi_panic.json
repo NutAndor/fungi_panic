@@ -5762,10 +5762,8 @@
     },
     {
         "id":"fungi_rescued2",
-        "message":"",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"fungi_rescued2_1",
                 "requires":[
                     {
@@ -5777,7 +5775,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"fungi_rescued2_30",
                 "requires":[
                     {
