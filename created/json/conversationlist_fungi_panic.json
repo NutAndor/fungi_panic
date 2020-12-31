@@ -5670,6 +5670,7 @@
         "message":"Hello. Nice to see you again. ",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"nimael_b2"
             }
         ]
@@ -5711,19 +5712,21 @@
     },
     {
         "id":"bela_trade_2",
-        "message":"OK. Here's what I have.",
+        "message":"I have a variety of food and drinks.",
         "replies":[
             {
+                "text":"OK. Please show me.",
                 "nextPhraseID":"S"
             }
         ]
     },
     {
         "id":"bela_trade_1",
-        "message":"OK. I have some new soup now, from Gison and Nimael. It's expensive, but worth the money.",
+        "message":"I have some new soup now, from Gison and Nimael. It's expensive, but worth the money.",
         "switchToNPC":"bela_2",
         "replies":[
             {
+                "text":"Sounds interesting.",
                 "nextPhraseID":"S"
             }
         ]
