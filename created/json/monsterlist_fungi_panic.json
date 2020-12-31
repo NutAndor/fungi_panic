@@ -537,7 +537,7 @@
         "name":"Bela",
         "iconID":"monsters_men:7",
         "monsterClass":"humanoid",
-        "spawnGroup":"bela",
+        "spawnGroup":"bela_2",
         "phraseID":"bela",
         "droplistID":"shop_bela_2"
     },

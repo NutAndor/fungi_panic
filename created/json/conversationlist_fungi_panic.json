@@ -224,7 +224,138 @@
                 ]
             },
             {
+                "nextPhraseID":"bogsten_waitforsoup",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":100,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":110,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"bogsten_start_0"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup",
+        "message":"Hmm ... hmm ...",
+        "replies":[
+            {
+                "text":"Hello, I am ...",
+                "nextPhraseID":"bogsten_waitforsoup_1"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_1",
+        "replies":[
+            {
+                "nextPhraseID":"bogsten_waitforsoup_50",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_waitforsoup_40",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_waitforsoup_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_waitforsoup_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bogsten_waitforsoup_10"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_10",
+        "message":"Wise men speak because they have something to say; fools because they have to say something.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"bogsten_waitforsoup_90"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_20",
+        "message":"An empty vessel makes the loudest sound. So they that have the least wit are the greatest babblers.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"bogsten_waitforsoup_90"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_30",
+        "message":"There are two things a person should never be angry at: What they can help, and what they cannot.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"bogsten_waitforsoup_90"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_40",
+        "message":"How could they see anything but the shadows if they were never allowed to move their heads?",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"bogsten_waitforsoup_90"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_50",
+        "message":"All is flux, nothing stays still.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"bogsten_waitforsoup_90"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_waitforsoup_90",
+        "message":"Leave me now, kid. I'm trying to think, don't confuse me with your presence.",
+        "replies":[
+            {
+                "text":"OK. I will come back when you have more time.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1783,11 +1914,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"zuul_khan3_blocker",
                 "mapName":"mushroom_m2_6"
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"fungi_panic",
-                "value":162
             },
             {
                 "rewardType":"questProgress",
@@ -5696,7 +5822,7 @@
         "id":"bela_select",
         "replies":[
             {
-                "nextPhraseID":"bela_trade_1",
+                "nextPhraseID":"bela_trade_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -5706,12 +5832,12 @@
                 ]
             },
             {
-                "nextPhraseID":"bela_trade_2"
+                "nextPhraseID":"bela_trade_1"
             }
         ]
     },
     {
-        "id":"bela_trade_2",
+        "id":"bela_trade_1",
         "message":"I have a variety of food and drinks.",
         "replies":[
             {
@@ -5721,7 +5847,7 @@
         ]
     },
     {
-        "id":"bela_trade_1",
+        "id":"bela_trade_2",
         "message":"I have some new soup now, from Gison and Nimael. It's expensive, but worth the money.",
         "switchToNPC":"bela_2",
         "replies":[
