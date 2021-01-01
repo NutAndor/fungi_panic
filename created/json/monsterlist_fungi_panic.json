@@ -432,7 +432,7 @@
         "id":"giant_snake",
         "name":"Giant snake",
         "iconID":"monsters_rltiles2:21",
-        "maxHP":140,
+        "maxHP":250,
         "maxAP":10,
         "moveCost":10,
         "unique":1,
@@ -443,12 +443,22 @@
         },
         "spawnGroup":"giant_snake",
         "droplistID":"giant_snake",
-        "attackCost":10,
-        "attackChance":80,
+        "attackCost":8,
+        "attackChance":150,
         "criticalSkill":40,
         "criticalMultiplier":3.0,
-        "blockChance":30,
-        "damageResistance":8
+        "blockChance":60,
+        "damageResistance":12,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"wild_berry",
