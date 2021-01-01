@@ -1341,7 +1341,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"del_soup",
-                        "value":500
+                        "value":1500
                     },
                     {
                         "requireType":"questProgress",
