@@ -113,11 +113,12 @@
             },
             {
                 "progress":170,
-                "logText":"I defeated Zuul'khan one last time and the black fog was gone for good."
+                "logText":"I defeated Zuul'khan one last time and the black fog was gone for good. I must find and destroy the fungi leader."
             },
             {
                 "progress":200,
-                "logText":"I defeated the giant mushroom.",
+                "logText":"I defeated the giant mushroom, Zuul'khan's fungi leader.",
+                "rewardExperience":500,
                 "finishesQuest":1
             },
             {

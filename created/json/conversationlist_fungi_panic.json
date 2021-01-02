@@ -1652,10 +1652,10 @@
     },
     {
         "id":"zuul_khan2_10",
-        "message":"Do not disturb me. I have to concentrate.",
+        "message":"Do not disturb me. I have to concentrate in building my fungi army.",
         "replies":[
             {
-                "text":"You are reading a book? Is reading so exhausting for you?",
+                "text":"By reading a book? Is reading a book the lazy way to create an army?",
                 "nextPhraseID":"zuul_khan2_20"
             }
         ]
@@ -1682,7 +1682,7 @@
     },
     {
         "id":"zuul_khan3_10",
-        "message":"I will teach you...",
+        "message":"Go away you annoying child! I must create the leader for my fungi army!",
         "replies":[
             {
                 "text":"We'll see.",
@@ -1702,7 +1702,7 @@
     },
     {
         "id":"zuul_khan4_10",
-        "message":"I have been kind to you, but now you will die!",
+        "message":"You interrupt my spells that will make my fungi leader invincible! Ha Ha! So now you must die!",
         "replies":[
             {
                 "text":"Eh - no, I don't think so.",
@@ -1762,7 +1762,7 @@
     },
     {
         "id":"zuul_khan9_42",
-        "message":"It takes great power to tame these spells.",
+        "message":"It takes great power to tame these spells. My fungi leader grows in strength every day!",
         "replies":[
             {
                 "text":"At school I was good at spelling: A B C ...",
@@ -5986,6 +5986,20 @@
             {
                 "text":"N",
                 "nextPhraseID":"fungi_rescued2_10"
+            }
+        ]
+    },
+    {
+        "id":"gison_thiefboss_40",
+        "message":"One thing it likes is annoying children, like you. Thank you for volunteering!",
+        "replies":[
+            {
+                "text":"Sorry, I don't think so. I will destroy you and your fungi leader!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Sorry for disturbing you. I will leave immediately.",
+                "nextPhraseID":"X"
             }
         ]
     }

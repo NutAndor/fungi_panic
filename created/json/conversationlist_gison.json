@@ -1990,25 +1990,21 @@
     },
     {
         "id":"gison_thiefboss_20",
-        "message":"Ha! You made a serious error coming here. I have just learned a new, dreadful spell.",
+        "message":"Ha! You made a serious error coming here. I have a use for you though.",
         "replies":[
             {
-                "text":"So?",
+                "text":"You want me to help you?",
                 "nextPhraseID":"gison_thiefboss_30"
             }
         ]
     },
     {
         "id":"gison_thiefboss_30",
-        "message":"And I will try this spell now - on you.",
+        "message":"Not exactly. My fungi leader is almost ready. It just needs to be fed some more to grow in strength.",
         "replies":[
             {
-                "text":"Only if you will live to do so - attack!",
-                "nextPhraseID":"F"
-            },
-            {
-                "text":"Sorry for the disturbance - I will leave immediately.",
-                "nextPhraseID":"X"
+                "text":"Fed? On what?",
+                "nextPhraseID":"gison_thiefboss_40"
             }
         ]
     },
