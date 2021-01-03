@@ -259,7 +259,7 @@
         "hasManualPrice":1,
         "baseMarketCost":54,
         "category":"food",
-        "description":"A dekicious soup.",
+        "description":"A delicious soup.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":3,
