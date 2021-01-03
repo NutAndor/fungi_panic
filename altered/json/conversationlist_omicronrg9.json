@@ -27,11 +27,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"thieves_hidden",
                 "value":110
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"thievesOverallCount",
-                "value":3
             }
         ]
     },
@@ -88,11 +83,6 @@
                 "rewardType":"spawnAll",
                 "rewardID":"fanamor",
                 "mapName":"fallhaven_derelict2"
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"thievesOverallCount",
-                "value":1
             }
         ]
     },
@@ -108,16 +98,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"thieves_hidden",
                 "value":80
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"thievesOverallCount",
-                "value":-1
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"shadowOverallCount",
-                "value":1
             }
         ]
     },
