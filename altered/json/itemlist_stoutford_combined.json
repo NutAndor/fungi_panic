@@ -1,0 +1,20 @@
+[
+    {
+        "id":"scythe",
+        "iconID":"items_weapons_3:3",
+        "name":"Scythe",
+        "displaytype":"ordinary",
+        "category":"pole",
+        "description":"This looks more suited to farming than fighting",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":6
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":11,
+            "increaseBlockChance":4,
+            "setNonWeaponDamageModifier":130
+        }
+    }
+]
