@@ -208,6 +208,7 @@
             "max":2
         },
         "spawnGroup":"weak_fungi_1",
+        "droplistID":"weak_fungi",
         "attackCost":5,
         "attackChance":70,
         "blockChance":8
@@ -286,6 +287,7 @@
             "max":6
         },
         "spawnGroup":"boss_fungi",
+        "droplistID":"dangerous_fungi_1",
         "attackCost":5,
         "attackChance":120,
         "criticalSkill":20,
@@ -328,6 +330,7 @@
             "max":15
         },
         "spawnGroup":"lombric_ball",
+        "droplistID":"lombric",
         "attackCost":10,
         "attackChance":50,
         "blockChance":60
@@ -345,6 +348,7 @@
             "max":20
         },
         "spawnGroup":"lombric_ball2",
+        "droplistID":"lombric",
         "attackCost":10,
         "attackChance":70,
         "blockChance":65
@@ -362,6 +366,7 @@
             "max":20
         },
         "spawnGroup":"lombric_ball3",
+        "droplistID":"lombric",
         "attackCost":5,
         "attackChance":60,
         "blockChance":65
@@ -379,6 +384,7 @@
             "max":10
         },
         "spawnGroup":"lombric_beast",
+        "droplistID":"lombric",
         "attackCost":5,
         "attackChance":70,
         "blockChance":30

@@ -502,5 +502,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"lombric",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"25",
+                "quantity":{
+                    "min":1,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"25",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
