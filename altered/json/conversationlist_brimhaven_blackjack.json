@@ -136,7 +136,7 @@
                 "nextPhraseID":"brv_zimsko_20_1",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":2
                     }
