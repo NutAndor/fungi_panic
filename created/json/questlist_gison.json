@@ -103,15 +103,11 @@
             },
             {
                 "progress":40,
-                "logText":"I found the thieves. One of them was performing some kind of ritual when I came into the cave."
-            },
-            {
-                "progress":50,
-                "logText":"I took the book from the leader's dead hands. After they noticed me, they wanted to see me dead."
+                "logText":"I found the thieves. Their leader was performing some kind of ritual when I came into the cave."
             },
             {
                 "progress":60,
-                "logText":"I brought the cookbook back to Gison. The thieves made a second copy of the book without the strange writing, which Gison gladly accepted. Gison can now cook his mushroom soup again."
+                "logText":"I brought the cookbook back to Gison. The thieves were working for Zuul'khan, the fungi sorceror. They made a second copy of the book without the strange writing, which Gison gladly accepted. Gison can now cook his mushroom soup again."
             },
             {
                 "progress":62,
