@@ -12,5 +12,15 @@
                 "nextPhraseID":"stn_colonel_86"
             }
         ]
+    },
+    {
+        "id":"cadoran_4b",
+        "message":"Head out of town to the north. There are two settlements there, Prim and Blackwater mountain Settlement. There has been a rockfall though, making it very difficult to get to them.",
+        "replies":[
+            {
+                "text":"Thanks for the information. What was it you said about the monsters?",
+                "nextPhraseID":"cadoren_4"
+            }
+        ]
     }
 ]
