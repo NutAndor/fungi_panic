@@ -68,5 +68,15 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"guynmart_wise_20",
+        "message":"It happened in the mines of Mount Galmore. Don't ask any more, I do not wish to recall the memories. It was horrible.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guynmart_wise_60"
+            }
+        ]
     }
 ]
