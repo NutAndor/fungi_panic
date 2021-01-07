@@ -1,0 +1,27 @@
+[
+    {
+        "id":"guynmart_wise",
+        "name":"Rare delicacies",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I met an old man living in seclusion on a hill top. He yearned for a meal of bread and cheese, together with wine."
+            },
+            {
+                "progress":20,
+                "logText":"I brought him bread, cheese and wine. He is very happy."
+            },
+            {
+                "progress":30,
+                "logText":"He would be even happier if the cheese was cheddar from Charwood.\nYou can only get the cheddar there if you explicitly ask for it."
+            },
+            {
+                "progress":90,
+                "logText":"I got bread, cheddar and wine for him. He started feasting happily.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
