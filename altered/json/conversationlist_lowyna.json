@@ -1,0 +1,23 @@
+[
+    {
+        "id":"lowyna_6",
+        "message":"I really shouldn't be discussing this with you. You look way too inexperienced for this.",
+        "replies":[
+            {
+                "text":"I can handle myself!",
+                "nextPhraseID":"lowyna_7"
+            },
+            {
+                "text":"Two-teeth sent me to get some rat poison.",
+                "nextPhraseID":"lowyna_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lowyna",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    }
+]
