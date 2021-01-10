@@ -302,7 +302,7 @@
     },
     {
         "id":"gison_p1_20",
-        "message":"Hello you. Did your take the soup to Alaun?",
+        "message":"Hello you. Did you take the soup to Alaun?",
         "replies":[
             {
                 "text":"Yes, he was not able to bear it any longer.",
@@ -420,7 +420,7 @@
         "message":"Oh good. Thanks.",
         "replies":[
             {
-                "text":"With pleasure. Good bye.",
+                "text":"With pleasure. Goodbye.",
                 "nextPhraseID":"X"
             },
             {
@@ -550,7 +550,7 @@
         "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.",
         "replies":[
             {
-                "text":"Thanks. Good bye.",
+                "text":"Thanks. Goodbye.",
                 "nextPhraseID":"X"
             },
             {
@@ -601,7 +601,7 @@
         "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.",
         "replies":[
             {
-                "text":"Thanks. Good bye.",
+                "text":"Thanks. Goodbye.",
                 "nextPhraseID":"X"
             },
             {
@@ -652,7 +652,7 @@
         "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.",
         "replies":[
             {
-                "text":"Thanks. Good bye.",
+                "text":"Thanks. Goodbye.",
                 "nextPhraseID":"X"
             },
             {
@@ -703,7 +703,7 @@
         "message":"[Gison gives you a new bottle with hot soup.]\nHere you go.\nI can't give you more. Take this one to Alaun now, greedy lad!",
         "replies":[
             {
-                "text":"Thanks. Good bye.",
+                "text":"Thanks. Goodbye.",
                 "nextPhraseID":"X"
             },
             {
@@ -961,7 +961,7 @@
                 "nextPhraseID":"gison_p2_10_4"
             },
             {
-                "text":"You'll do that. Good bye.",
+                "text":"You'll do that. Goodbye.",
                 "nextPhraseID":"X"
             }
         ]
