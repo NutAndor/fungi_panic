@@ -6033,5 +6033,9 @@
     {
         "id":"bogsten_200_20",
         "message":"When you get to my age, maybe you'll understand that you don't need to rush through life. Now leave me to my rest."
+    },
+    {
+        "id":"gison_p1_fail",
+        "message":"Oh, it's you. Alaun still hasn't come by for his soup. It's a pity that you couldn't help him."
     }
 ]

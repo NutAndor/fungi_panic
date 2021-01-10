@@ -108,6 +108,16 @@
                 ]
             },
             {
+                "nextPhraseID":"gison_p1_fail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"gison_p1_20",
                 "requires":[
                     {
@@ -1136,7 +1146,7 @@
         "message":"Is it really true? I can't believe it!",
         "replies":[
             {
-                "text":"Someone was reciting dark words from it. You were right, the robbers wanted these strange written lines.",
+                "text":"A sorcerer named Zuul'khan was reciting dark words from it. You were right, the robbers wanted these strange written lines.",
                 "nextPhraseID":"gison_p2_50_2"
             }
         ]
