@@ -6037,5 +6037,68 @@
     {
         "id":"gison_p1_fail",
         "message":"Oh, it's you. Alaun still hasn't come by for his soup. It's a pity that you couldn't help him."
+    },
+    {
+        "id":"alaun_start",
+        "replies":[
+            {
+                "nextPhraseID":"alaun_bela_soup",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"alaun_fail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"alaun_soup_reward",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"alaun_complete",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"alaun"
+            }
+        ]
+    },
+    {
+        "id":"alaun_complete",
+        "message":"Ah, my hero returns. Thank you for the soup, it was incredible. What can I help you with today?",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor? He looks similar to me.",
+                "nextPhraseID":"alaun_2"
+            }
+        ]
+    },
+    {
+        "id":"alaun_fail",
+        "message":"You dare show your face in my home again? Out! Now!\n\n[Alaun starts throwing things at you again]",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"alaun_bela_soup",
+        "message":"Ah, my friend! Have you heard the great news? Gison and Nimael have started supplying the tavern here in Fallhaven with their newest soup. It's marvelous!"
     }
 ]

@@ -76,7 +76,7 @@
             },
             {
                 "progress":120,
-                "logText":"Nimael and Gison have been successful in selling more soup in Fallhaven by cooperating and creating more recipies."
+                "logText":"Nimael and Gison have been successful in selling more soup in Fallhaven by cooperating and creating more recipes."
             }
         ]
     },
@@ -166,6 +166,10 @@
             {
                 "progress":21,
                 "rewardExperience":400
+            },
+            {
+                "progress":30,
+                "logText":"Failure"
             }
         ]
     },

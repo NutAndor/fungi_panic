@@ -7,5 +7,13 @@
         "spawnGroup":"bela",
         "phraseID":"bela_gsnake",
         "droplistID":"shop_bela"
+    },
+    {
+        "id":"alaun",
+        "name":"Alaun",
+        "iconID":"monsters_mage2:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"alaun",
+        "phraseID":"alaun_start"
     }
 ]

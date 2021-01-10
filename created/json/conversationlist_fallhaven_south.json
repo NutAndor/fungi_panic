@@ -438,6 +438,11 @@
                 "rewardType":"actorCondition",
                 "rewardID":"fear",
                 "value":15
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"alaun_soup_reward",
+                "value":30
             }
         ]
     }
