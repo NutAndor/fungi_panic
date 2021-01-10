@@ -925,7 +925,20 @@
     },
     {
         "id":"bogsten_100_10",
-        "message":"Hi kid. Nice to meet you again."
+        "message":"Hi kid. Nice to meet you again.",
+        "replies":[
+            {
+                "text":"I've finally defeated Zuul'khan and his giant mushroom. You won't have to worry about them anymore.",
+                "nextPhraseID":"bogsten_200_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fungi_panic",
+                        "value":200
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"bogsten_115_10",
@@ -6002,5 +6015,23 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"bogsten_200_10",
+        "message":"Oh, that's great news! I suppose I can get back to work with the mushrooms, then. Maybe tomorrow, after I've had time to rest.",
+        "replies":[
+            {
+                "text":"Goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How can you be so lazy?",
+                "nextPhraseID":"bogsten_200_20"
+            }
+        ]
+    },
+    {
+        "id":"bogsten_200_20",
+        "message":"When you get to my age, maybe you'll understand that you don't need to rush through life. Now leave me to my rest."
     }
 ]
