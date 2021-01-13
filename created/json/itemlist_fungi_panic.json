@@ -64,7 +64,7 @@
         "id":"fungi_panic_spores",
         "iconID":"items_misc_5:26",
         "name":"Spores of the giant mushroom",
-        "displaytype":"quest",
+        "displaytype":"ordinary",
         "category":"other"
     },
     {
