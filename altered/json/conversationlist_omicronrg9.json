@@ -169,5 +169,33 @@
                 "value":30
             }
         ]
+    },
+    {
+        "id":"umar_guild03_31a",
+        "message":"And last but not least, I have some useful information for you. The way from here to the southeast has finally been opened, once Crackshot's hideout was discovered.",
+        "replies":[
+            {
+                "text":"Good, I'm not going to have to take that detour.",
+                "nextPhraseID":"umar_guild03_32"
+            },
+            {
+                "text":"Thank you for the information. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild03_32",
+        "message":"However, the Feygard presence is still significant. Be cautious with what you do.",
+        "replies":[
+            {
+                "text":"I will, thank you for the advice.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"All is under control. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
