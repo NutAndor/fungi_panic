@@ -1247,7 +1247,7 @@
     },
     {
         "id":"zuul_khan_60_40",
-        "message":"I chose this place to practice my arts and prepare an army of Fungis.",
+        "message":"I chose this place to practice my arts and prepare an army of Fungi.",
         "replies":[
             {
                 "text":"N",
@@ -3432,7 +3432,7 @@
     },
     {
         "id":"bogsten_gambler_33b",
-        "message":"Hey, you have forgotten 30",
+        "message":"Hey, you've forgotten 30!",
         "switchToNPC":"bogsten_gambler3",
         "replies":[
             {
@@ -3443,7 +3443,7 @@
     },
     {
         "id":"bogsten_gambler_33b_2",
-        "message":"Nonsense. I have played Skat for over 150 years now.",
+        "message":"Nonsense. I've been playing Skat for over 150 years now. I wouldn't make such a silly mistake.",
         "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
@@ -3491,7 +3491,7 @@
     },
     {
         "id":"bogsten_gambler_36b",
-        "message":"Dont you dare to play clubs!",
+        "message":"Don't you dare play clubs!",
         "switchToNPC":"bogsten_gambler2",
         "replies":[
             {
@@ -3550,7 +3550,7 @@
     },
     {
         "id":"bogsten_gambler_40b",
-        "message":"You had already said 30.",
+        "message":"You already said 30.",
         "switchToNPC":"bogsten_gambler3",
         "replies":[
             {
@@ -3561,7 +3561,7 @@
     },
     {
         "id":"bogsten_gambler_40b_2",
-        "message":"I said FOURTY, you deaf idiot!",
+        "message":"I said FORTY, you deaf idiot!",
         "switchToNPC":"bogsten_gambler1",
         "replies":[
             {
@@ -3678,7 +3678,7 @@
     },
     {
         "id":"bogsten_gambler_48b_2",
-        "message":"O dear. Go on, Bogal. I don't want to rot here.",
+        "message":"Oh dear. Go on, Bogal. I don't want to rot here.",
         "replies":[
             {
                 "text":"N",
@@ -3784,7 +3784,7 @@
     },
     {
         "id":"bogsten_tomb_grave11",
-        "message":"Here lies Bogal Bogsten, youngest son of Boriel."
+        "message":"Here lies Bogal Bogsten, youngest son of Boriel"
     },
     {
         "id":"bogsten_tomb_grave12",
