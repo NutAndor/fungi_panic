@@ -1,0 +1,16 @@
+[
+    {
+        "id":"fallhaven_citizen3",
+        "message":"Hi. Can I help you?",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor? He looks a bit like me.",
+                "nextPhraseID":"fallhaven_andor_3"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_andor_3",
+        "message":"Hmm, I might have seen someone that looks a bit like you a few days ago. Can't remember where though."
+    }
+]
