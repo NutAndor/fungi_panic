@@ -2355,34 +2355,47 @@
     },
     {
         "id":"mywildcave_trap21",
-        "message":"What might be inside here?",
+        "message":"You feel a sudden sharp pain. What might be inside here?",
         "rewards":[
             {
                 "rewardType":"spawnAll",
                 "rewardID":"stoneworm21",
                 "mapName":"mywildcave2"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"sting_minor",
+                "value":10
             }
         ]
     },
     {
         "id":"mywildcave_trap31",
-        "message":"Oh, what's this?",
+        "message":"Oh, what's this? Ouch!",
         "rewards":[
             {
                 "rewardType":"spawnAll",
                 "rewardID":"stoneworm31",
                 "mapName":"mywildcave3"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"sting_minor",
+                "value":10
             }
         ]
     },
     {
         "id":"mywildcave_trap32",
-        "message":"Oops, there was something sleeping inside.",
-        "rewards":[
+        "message":"There is a small hole in the cave wall here.",
+        "replies":[
             {
-                "rewardType":"spawnAll",
-                "rewardID":"stoneworm32",
-                "mapName":"mywildcave3"
+                "text":"[Reach into the hole.]",
+                "nextPhraseID":"mywildcave_trap32a"
+            },
+            {
+                "text":"[Leave the hole alone.]",
+                "nextPhraseID":"X"
             }
         ]
     }

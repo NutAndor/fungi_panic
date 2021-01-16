@@ -6100,5 +6100,21 @@
     {
         "id":"alaun_bela_soup",
         "message":"Ah, my friend! Have you heard the great news? Gison and Nimael have started supplying the tavern here in Fallhaven with their newest soup. It's marvelous!"
+    },
+    {
+        "id":"mywildcave_trap32a",
+        "message":"Oops, there was something sleeping inside.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stoneworm32",
+                "mapName":"mywildcave3"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"sting_minor",
+                "value":10
+            }
+        ]
     }
 ]
