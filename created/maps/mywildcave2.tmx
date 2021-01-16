@@ -258,9 +258,9 @@
   <object id="12" name="trap21" type="key" x="224" y="384" width="32" height="32">
    <properties>
     <property name="phrase" value="mywildcave_trap21"/>
-    <property name="requireId" value="gison_cookbook"/>
+    <property name="requireId" value="base_nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="70"/>
+    <property name="requireValue" value="2"/>
    </properties>
   </object>
  </objectgroup>
